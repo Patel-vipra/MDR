@@ -23,39 +23,72 @@ def _tables_present() -> list[str]:
     return [t for t in schema.ROW_COUNTS if (common.TABLES_DIR / f"{t}.parquet").exists()]
 
 
+def _run_module(module: str, out_dir: str) -> str | None:
+    """Run `python -m module --out out_dir`; return an error string on failure, else None."""
+    proc = subprocess.run(
+        [sys.executable, "-m", module, "--out", out_dir],
+        cwd=common.REPO_ROOT, capture_output=True, text=True, timeout=900,
+    )
+    if proc.returncode != 0:
+        tail = "\n".join(proc.stderr.strip().splitlines()[-5:])
+        return f"{module} regeneration run failed:\n{tail}"
+    return None
+
+
 def check_seed_reproducibility(config: dict) -> CheckResult:
-    desired = "checksums match across 2 runs"
+    desired = ("checksums match across 2 runs, for tables (generate_tables.py), "
+               "ground truth (assemble_contexts.py), and queries.json (generate_queries.py)")
     if len(_tables_present()) < len(schema.ROW_COUNTS):
         return common.no_data(desired, f"tables missing in {common.TABLES_DIR}")
+    if not common.SIDECARS_DIR.exists() or not common.QUERIES_JSON.exists():
+        return common.no_data(desired, "ground truth / queries.json missing — run assemble_contexts "
+                                        "and generate_queries first")
 
+    mismatches: list[str] = []
+
+    # All three scripts regenerate into an isolated scratch dir via --out, so this
+    # check never risks corrupting the live tables/ground_truth if a bug ever made
+    # generation non-deterministic.
     with tempfile.TemporaryDirectory(prefix="foundry-repro-") as tmp:
-        proc = subprocess.run(
-            [sys.executable, "-m", "data_foundry.generate_tables", "--out", tmp],
-            cwd=common.REPO_ROOT,
-            capture_output=True,
-            text=True,
-            timeout=900,
-        )
-        if proc.returncode != 0:
-            tail = "\n".join(proc.stderr.strip().splitlines()[-5:])
-            return CheckResult("fail", desired, "regeneration run failed", details=tail)
+        tmp_path = Path(tmp)
 
-        mismatches = []
-        sample = ""
+        err = _run_module("data_foundry.generate_tables", tmp)
+        if err:
+            return CheckResult("fail", desired, "table regeneration failed", details=err)
         for table in schema.ROW_COUNTS:
             run1 = _sha256(common.TABLES_DIR / f"{table}.parquet")
-            run2 = _sha256(Path(tmp) / f"{table}.parquet")
+            run2 = _sha256(tmp_path / f"{table}.parquet")
             if run1 != run2:
                 mismatches.append(f"- {table}.parquet: run1={run1[:12]}… run2={run2[:12]}…")
-            elif not sample:
-                sample = f"run1={run1[:12]}… run2={run1[:12]}…"
+
+        err = _run_module("data_foundry.assemble_contexts", tmp)
+        if err:
+            return CheckResult("fail", desired, "assemble_contexts regeneration failed", details=err)
+        live_sidecars = sorted(common.SIDECARS_DIR.glob("*.json"))
+        for live_path in live_sidecars:
+            regenerated = tmp_path / "ground_truth" / "sidecars" / live_path.name
+            if not regenerated.exists() or _sha256(live_path) != _sha256(regenerated):
+                mismatches.append(f"- ground_truth/sidecars/{live_path.name}: differs")
+        regenerated_graph = tmp_path / "ground_truth" / "graph.json"
+        if not regenerated_graph.exists() or _sha256(common.GRAPH_JSON) != _sha256(regenerated_graph):
+            mismatches.append("- ground_truth/graph.json: differs")
+
+        err = _run_module("data_foundry.generate_queries", tmp)
+        if err:
+            return CheckResult("fail", desired, "generate_queries regeneration failed", details=err)
+        regenerated_queries = tmp_path / "ground_truth" / "queries.json"
+        if not regenerated_queries.exists() or _sha256(common.QUERIES_JSON) != _sha256(regenerated_queries):
+            mismatches.append("- ground_truth/queries.json: differs")
 
     if mismatches:
         return CheckResult(
-            "fail", desired, f"{len(mismatches)} table(s) differ between runs",
-            details="\n".join(mismatches),
+            "fail", desired, f"{len(mismatches)} artifact(s) differ between runs",
+            details="\n".join(mismatches[:10]),
         )
-    return CheckResult("pass", desired, f"12/12 tables byte-identical ({sample})")
+    return CheckResult(
+        "pass", desired,
+        f"12 tables + {len(live_sidecars)} sidecars + graph.json + queries.json all byte-identical",
+    )
 
 
 def check_row_counts(config: dict) -> CheckResult:
@@ -263,10 +296,13 @@ def check_spot_read_realism(config: dict) -> CheckResult:
     cfg = config["phase1"]
     min_words = cfg["spot_read_min_words"]
     min_entities = cfg["spot_read_entities_min"]
-    desired = f"5 random docs/domain: ≥{min_words} words each, ≥{min_entities} sidecar entity names present"
+    desired = (f"5 random docs/domain: ≥{min_words} words each, ≥{min_entities} sidecar entity "
+               f"names present, and a rendered PDF with a matching extractable text layer")
     docs = common.list_documents()
     if not docs:
         return common.no_data(desired, f"no documents in {common.DOCS_DIR}")
+
+    import pypdf  # local import: only needed by this check, keeps module import light
 
     by_domain: dict[str, list[Path]] = defaultdict(list)
     for doc in docs:
@@ -293,8 +329,22 @@ def check_spot_read_realism(config: dict) -> CheckResult:
             found = sum(1 for name in names if name.lower() in text.lower())
             if found < min_entities:
                 failures.append(f"- {doc.stem}: only {found} sidecar entity name(s) in text")
+                continue
 
-    current = f"{checked - len(failures)}/{checked} sampled docs pass"
+            pdf_path = common.CLEAN_PDF_DIR / f"{doc.stem}.pdf"
+            if not pdf_path.exists():
+                failures.append(f"- {doc.stem}: no rendered PDF at {pdf_path}")
+                continue
+            pdf_text = "\n".join(page.extract_text() or "" for page in pypdf.PdfReader(pdf_path).pages)
+            pdf_words = len(pdf_text.split())
+            if pdf_words < min_words:
+                failures.append(f"- {doc.stem}.pdf: only {pdf_words} extractable words (< {min_words})")
+                continue
+            pdf_found = sum(1 for name in names if name.lower() in pdf_text.lower())
+            if pdf_found < min_entities:
+                failures.append(f"- {doc.stem}.pdf: only {pdf_found} sidecar entity name(s) extractable")
+
+    current = f"{checked - len(failures)}/{checked} sampled docs (+ rendered PDFs) pass"
     if failures:
         return CheckResult("fail", desired, current, "\n".join(failures[:10]))
     return CheckResult("pass", desired, current)

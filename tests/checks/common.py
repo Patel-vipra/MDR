@@ -17,6 +17,7 @@ GROUND_TRUTH_DIR = REPO_ROOT / "data_foundry" / "ground_truth"
 SIDECARS_DIR = GROUND_TRUTH_DIR / "sidecars"
 GRAPH_JSON = GROUND_TRUTH_DIR / "graph.json"
 QUERIES_JSON = GROUND_TRUTH_DIR / "queries.json"
+CLEAN_PDF_DIR = REPO_ROOT / "corpus" / "clean"
 
 DOC_DOMAIN_PREFIXES = {"finance": "FIN", "engineering": "ENG", "hr": "HR", "legal": "LEG"}
 

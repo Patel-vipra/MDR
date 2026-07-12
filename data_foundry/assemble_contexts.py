@@ -11,11 +11,18 @@ the flagship multi-hop chain (incident -> system -> project -> budget ->
 approver) requires one. OWNED_BY is added here and must be added to the
 Phase 3 extraction ontology as well.
 
-Run: python -m data_foundry.assemble_contexts
+Run: python -m data_foundry.assemble_contexts [--out data_foundry]
+
+--out redirects contexts/ and ground_truth/ under the given directory instead
+of the real data_foundry/ tree (tables are always read from the real
+data_foundry/tables/, since this script never regenerates them). Used by the
+P1.01 reproducibility check to regenerate into a scratch directory without
+touching live ground truth.
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import random
 from pathlib import Path
@@ -26,9 +33,6 @@ import pandas as pd
 from data_foundry import schema
 
 ROOT = Path(__file__).resolve().parent
-CONTEXTS_DIR = ROOT / "contexts"
-GROUND_TRUTH_DIR = ROOT / "ground_truth"
-SIDECARS_DIR = GROUND_TRUTH_DIR / "sidecars"
 
 NODE_TYPES = {
     "employees": "Employee",
@@ -547,26 +551,35 @@ def aggregate_graph(sidecars: list[dict]) -> dict:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--out", default=str(ROOT),
+                        help="base dir for contexts/ and ground_truth/ output")
+    args = parser.parse_args()
+    out_root = Path(args.out)
+    contexts_dir = out_root / "contexts"
+    ground_truth_dir = out_root / "ground_truth"
+    sidecars_dir = ground_truth_dir / "sidecars"
+
     rng = random.Random(schema.SEED)
     tables = load_tables()
     plan = allocate_documents(tables, rng)
 
-    CONTEXTS_DIR.mkdir(exist_ok=True)
-    SIDECARS_DIR.mkdir(parents=True, exist_ok=True)
+    contexts_dir.mkdir(parents=True, exist_ok=True)
+    sidecars_dir.mkdir(parents=True, exist_ok=True)
 
     sidecars = []
     for doc in plan:
         builder = DocBuilder(tables, doc["doc_id"], doc["domain"], doc["doc_type"])
         doc["builder"](builder, *doc["args"], rng)
-        (CONTEXTS_DIR / f"{doc['doc_id']}.json").write_text(
+        (contexts_dir / f"{doc['doc_id']}.json").write_text(
             json.dumps(builder.context_json(), indent=2) + "\n")
         sidecar = builder.sidecar_json()
-        (SIDECARS_DIR / f"{doc['doc_id']}.json").write_text(
+        (sidecars_dir / f"{doc['doc_id']}.json").write_text(
             json.dumps(sidecar, indent=2) + "\n")
         sidecars.append(sidecar)
 
     graph = aggregate_graph(sidecars)
-    (GROUND_TRUTH_DIR / "graph.json").write_text(json.dumps(graph, indent=2) + "\n")
+    (ground_truth_dir / "graph.json").write_text(json.dumps(graph, indent=2) + "\n")
 
     by_domain: dict[str, int] = {}
     for doc in plan:

@@ -7,11 +7,17 @@ graph.json so every answer is verifiable against documents that exist:
 (plausible questions about facts absent from the corpus), 5 ABAC-denied
 (answer exists, persona lacks domain access).
 
-Run: python -m data_foundry.generate_queries
+Run: python -m data_foundry.generate_queries [--out data_foundry]
+
+--out reads ground_truth/ from and writes queries.json under the given
+directory instead of the real data_foundry/ tree. Used by the P1.01
+reproducibility check to regenerate into a scratch directory (paired with
+a scratch assemble_contexts.py run) without touching live ground truth.
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import random
 from collections import defaultdict
@@ -22,8 +28,6 @@ import pandas as pd
 from data_foundry import schema
 
 ROOT = Path(__file__).resolve().parent
-GROUND_TRUTH_DIR = ROOT / "ground_truth"
-SIDECARS_DIR = GROUND_TRUTH_DIR / "sidecars"
 
 # Persona -> allowed domains. Phase 4's pipeline/abac/policies.yaml must stay
 # consistent with this map.
@@ -38,9 +42,10 @@ DOMAIN_PERSONA = {"finance": "finance_analyst", "hr": "hr_manager",
                   "legal": "legal_counsel", "engineering": "engineer"}
 
 
-def load_ground_truth() -> tuple[list[dict], dict]:
-    sidecars = [json.loads(p.read_text()) for p in sorted(SIDECARS_DIR.glob("*.json"))]
-    graph = json.loads((GROUND_TRUTH_DIR / "graph.json").read_text())
+def load_ground_truth(ground_truth_dir: Path) -> tuple[list[dict], dict]:
+    sidecars = [json.loads(p.read_text())
+                for p in sorted((ground_truth_dir / "sidecars").glob("*.json"))]
+    graph = json.loads((ground_truth_dir / "graph.json").read_text())
     return sidecars, graph
 
 
@@ -305,8 +310,14 @@ def abac_denied_queries(sidecars: list[dict], rng: random.Random) -> list[dict]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--out", default=str(ROOT),
+                        help="base dir to read ground_truth/ from and write queries.json to")
+    args = parser.parse_args()
+    ground_truth_dir = Path(args.out) / "ground_truth"
+
     rng = random.Random(schema.SEED)
-    sidecars, graph = load_ground_truth()
+    sidecars, graph = load_ground_truth(ground_truth_dir)
     tables = load_tables()
 
     queries = (single_hop_queries(sidecars, rng)
@@ -316,7 +327,7 @@ def main() -> int:
     for i, query in enumerate(queries, start=1):
         query["id"] = f"Q-{i:03d}"
 
-    out = GROUND_TRUTH_DIR / "queries.json"
+    out = ground_truth_dir / "queries.json"
     out.write_text(json.dumps(queries, indent=2) + "\n")
     counts: dict[str, int] = defaultdict(int)
     for query in queries:
