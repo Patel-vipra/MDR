@@ -1,0 +1,46 @@
+phase1:
+  employees: 200
+  departments: 12
+  projects: 40
+  vendors: 30
+  docs_finance: 30
+  docs_engineering: 25
+  docs_hr: 25
+  docs_legal: 20
+  docs_total: 100
+  queries_total: 80
+  queries_single_hop: 50
+  queries_multi_hop: 15
+  queries_unanswerable: 10
+  queries_abac_denied: 5
+  cross_domain_entity_overlap_employees: 20
+  cross_domain_entity_overlap_projects: 10
+  spot_read_min_words: 200
+  spot_read_entities_min: 2
+
+phase2:
+  clean_count: 60
+  degraded_count: 40
+  entity_survival_threshold: 0.95
+  fuzzy_match_threshold: 90
+
+phase3:
+  chunk_count_min: 1300
+  chunk_count_max: 1600
+  embedding_dim: 1024
+  graph_node_coverage_min: 0.80
+
+phase4:
+  query_timeout_seconds: 120
+  abac_denied_count: 5
+  unanswerable_count: 10
+  min_abstention_rate: 0.70
+  max_crag_retries: 1
+
+phase5:
+  configs: ["A0", "A1", "A2", "A3", "A4", "A5"]
+  repetitions: 3
+  multi_hop_query_count: 15
+  crag_crosscheck_sample: 25
+
+seed: 42

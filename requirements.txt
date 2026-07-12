@@ -1,0 +1,21 @@
+# Ingestion/offline-plane dependencies (PLAN.md bootstrap list).
+dbldatagen
+pyspark
+faker
+pandas
+pyarrow
+pypdf
+pdfplumber
+reportlab
+weasyprint
+markdown
+jiwer
+rapidfuzz
+networkx
+rank-bm25
+ruff
+pytest
+pyyaml
+# dbldatagen 0.4.0 imports these but does not declare them:
+jmespath
+pyparsing
