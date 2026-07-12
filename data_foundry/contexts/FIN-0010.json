@@ -1,0 +1,96 @@
+{
+  "doc_id": "FIN-0010",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-03",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-039",
+      "project_id": "P-039",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 365743.0,
+      "spent_amount": 109722.9,
+      "approved_by": "E-033",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-039",
+      "project_name": "Project Lattice",
+      "owner_dept_id": "D-03",
+      "lead_employee_id": "E-033",
+      "budget_id": "B-039",
+      "start_date": "2024-03-29",
+      "status": "active",
+      "vendor_id": null
+    },
+    "approver": {
+      "employee_id": "E-033",
+      "full_name": "Tricia Valencia",
+      "role_title": "Sales Executive",
+      "department_id": "D-10",
+      "manager_id": "E-011",
+      "email": "tricia.valencia@orbitalcorp.com.au",
+      "hire_date": "2023-10-04",
+      "salary_band": "L4",
+      "location": "Singapore"
+    },
+    "project_lead": {
+      "employee_id": "E-033",
+      "full_name": "Tricia Valencia",
+      "role_title": "Sales Executive",
+      "department_id": "D-10",
+      "manager_id": "E-011",
+      "email": "tricia.valencia@orbitalcorp.com.au",
+      "hire_date": "2023-10-04",
+      "salary_band": "L4",
+      "location": "Singapore"
+    },
+    "owner_department": {
+      "department_id": "D-03",
+      "dept_name": "Legal",
+      "head_employee_id": "E-004",
+      "cost_center_code": "CC-103"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-293",
+        "employee_id": "E-196",
+        "project_id": "P-039",
+        "amount": 4888.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Allen Rosales"
+      },
+      {
+        "expense_id": "X-009",
+        "employee_id": "E-194",
+        "project_id": "P-039",
+        "amount": 4849.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Angelica Keith"
+      },
+      {
+        "expense_id": "X-292",
+        "employee_id": "E-195",
+        "project_id": "P-039",
+        "amount": 4868.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "John Bishop"
+      },
+      {
+        "expense_id": "X-184",
+        "employee_id": "E-195",
+        "project_id": "P-039",
+        "amount": 4865.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "John Bishop"
+      }
+    ]
+  }
+}

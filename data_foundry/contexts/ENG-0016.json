@@ -1,0 +1,69 @@
+{
+  "doc_id": "ENG-0016",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "doc_date": "2025-03-14",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "system": {
+      "system_id": "SYS-041",
+      "system_name": "identity-service",
+      "owner_project_id": "P-011",
+      "on_call_employee_id": "E-054",
+      "tech_stack": "Node.js/Express/MongoDB",
+      "criticality": "high"
+    },
+    "owning_project": {
+      "project_id": "P-011",
+      "project_name": "Project Juniper",
+      "owner_dept_id": "D-06",
+      "lead_employee_id": "E-090",
+      "budget_id": "B-011",
+      "start_date": "2024-09-02",
+      "status": "active",
+      "vendor_id": "V-024"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-054",
+      "full_name": "Mark Perez",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "mark.perez@orbitalcorp.com.au",
+      "hire_date": "2020-04-23",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "project_lead": {
+      "employee_id": "E-090",
+      "full_name": "Aimee Montoya",
+      "role_title": "HR Business Partner",
+      "department_id": "D-05",
+      "manager_id": "E-006",
+      "email": "aimee.montoya@orbitalcorp.com.au",
+      "hire_date": "2018-07-01",
+      "salary_band": "L2",
+      "location": "Brisbane"
+    },
+    "recent_incidents": [
+      {
+        "incident_id": "INC-030",
+        "system_id": "SYS-041",
+        "reported_by": "E-164",
+        "severity": "Sev4",
+        "root_cause_category": "human_error",
+        "resolution_time_hrs": 58.5
+      },
+      {
+        "incident_id": "INC-046",
+        "system_id": "SYS-041",
+        "reported_by": "E-163",
+        "severity": "Sev4",
+        "root_cause_category": "human_error",
+        "resolution_time_hrs": 58.5
+      }
+    ]
+  }
+}

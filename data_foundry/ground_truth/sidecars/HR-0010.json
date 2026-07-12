@@ -1,0 +1,121 @@
+{
+  "doc_id": "HR-0010",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-12"
+    ],
+    "employees": [
+      "E-013",
+      "E-001",
+      "E-048",
+      "E-161",
+      "E-184"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-12",
+      "type": "Department",
+      "name": "Facilities",
+      "mentions": [
+        "Facilities"
+      ]
+    },
+    {
+      "id": "E-001",
+      "type": "Employee",
+      "name": "Allison Hill",
+      "mentions": [
+        "Allison Hill"
+      ]
+    },
+    {
+      "id": "E-013",
+      "type": "Employee",
+      "name": "Lisa Hensley",
+      "mentions": [
+        "Lisa Hensley"
+      ]
+    },
+    {
+      "id": "E-048",
+      "type": "Employee",
+      "name": "Shane Henderson",
+      "mentions": [
+        "Shane Henderson"
+      ]
+    },
+    {
+      "id": "E-161",
+      "type": "Employee",
+      "name": "Paul Castaneda",
+      "mentions": [
+        "Paul Castaneda"
+      ]
+    },
+    {
+      "id": "E-184",
+      "type": "Employee",
+      "name": "Ashley Barton",
+      "mentions": [
+        "Ashley Barton"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-001",
+      "rel": "REVIEWED",
+      "dst": "E-013"
+    },
+    {
+      "src": "E-013",
+      "rel": "REVIEWED",
+      "dst": "E-048"
+    },
+    {
+      "src": "E-013",
+      "rel": "REVIEWED",
+      "dst": "E-161"
+    },
+    {
+      "src": "E-013",
+      "rel": "REVIEWED",
+      "dst": "E-184"
+    },
+    {
+      "src": "E-013",
+      "rel": "MANAGES",
+      "dst": "D-12"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Lisa Hensley receive in FY25-Q2?",
+      "answer": "3",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Lisa Hensley in FY25-Q2?",
+      "answer": "Allison Hill",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Shane Henderson receive in FY25-Q2?",
+      "answer": "5",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Shane Henderson in FY25-Q2?",
+      "answer": "Lisa Hensley",
+      "hops": 1
+    }
+  ]
+}

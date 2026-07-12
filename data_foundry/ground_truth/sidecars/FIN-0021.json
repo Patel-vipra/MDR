@@ -1,0 +1,147 @@
+{
+  "doc_id": "FIN-0021",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "sensitivity": "internal",
+  "source_rows": {
+    "departments": [
+      "D-02"
+    ],
+    "employees": [
+      "E-003",
+      "E-195",
+      "E-179",
+      "E-168",
+      "E-159"
+    ],
+    "projects": [
+      "P-039",
+      "P-036",
+      "P-034",
+      "P-032"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-02",
+      "type": "Department",
+      "name": "Human Resources",
+      "mentions": [
+        "Human Resources"
+      ]
+    },
+    {
+      "id": "E-003",
+      "type": "Employee",
+      "name": "Angie Henderson",
+      "mentions": [
+        "Angie Henderson"
+      ]
+    },
+    {
+      "id": "E-159",
+      "type": "Employee",
+      "name": "Melissa Gates",
+      "mentions": [
+        "Melissa Gates"
+      ]
+    },
+    {
+      "id": "E-168",
+      "type": "Employee",
+      "name": "Alyssa Day",
+      "mentions": [
+        "Alyssa Day"
+      ]
+    },
+    {
+      "id": "E-179",
+      "type": "Employee",
+      "name": "Lawrence Adkins",
+      "mentions": [
+        "Lawrence Adkins"
+      ]
+    },
+    {
+      "id": "E-195",
+      "type": "Employee",
+      "name": "John Bishop",
+      "mentions": [
+        "John Bishop"
+      ]
+    },
+    {
+      "id": "P-032",
+      "type": "Project",
+      "name": "Project Echo",
+      "mentions": [
+        "Project Echo"
+      ]
+    },
+    {
+      "id": "P-034",
+      "type": "Project",
+      "name": "Project Glacier",
+      "mentions": [
+        "Project Glacier"
+      ]
+    },
+    {
+      "id": "P-036",
+      "type": "Project",
+      "name": "Project Ironwood",
+      "mentions": [
+        "Project Ironwood"
+      ]
+    },
+    {
+      "id": "P-039",
+      "type": "Project",
+      "name": "Project Lattice",
+      "mentions": [
+        "Project Lattice"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-195",
+      "rel": "WORKS_ON",
+      "dst": "P-039"
+    },
+    {
+      "src": "E-179",
+      "rel": "WORKS_ON",
+      "dst": "P-036"
+    },
+    {
+      "src": "E-168",
+      "rel": "WORKS_ON",
+      "dst": "P-034"
+    },
+    {
+      "src": "E-159",
+      "rel": "WORKS_ON",
+      "dst": "P-032"
+    },
+    {
+      "src": "E-003",
+      "rel": "MANAGES",
+      "dst": "D-02"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who heads the {dept} department?",
+      "question": "Who heads the Human Resources department?",
+      "answer": "Angie Henderson",
+      "hops": 1
+    },
+    {
+      "q_template": "Who submitted the largest expense in the {dept} department?",
+      "question": "Who submitted the largest expense in the Human Resources department?",
+      "answer": "John Bishop",
+      "hops": 1
+    }
+  ]
+}

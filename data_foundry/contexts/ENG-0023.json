@@ -1,0 +1,61 @@
+{
+  "doc_id": "ENG-0023",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "doc_date": "2025-03-16",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "system": {
+      "system_id": "SYS-018",
+      "system_name": "payroll-gateway",
+      "owner_project_id": "P-026",
+      "on_call_employee_id": "E-127",
+      "tech_stack": "Python/Django/MySQL",
+      "criticality": "medium"
+    },
+    "owning_project": {
+      "project_id": "P-026",
+      "project_name": "Project Yukon",
+      "owner_dept_id": "D-04",
+      "lead_employee_id": "E-063",
+      "budget_id": "B-026",
+      "start_date": "2024-06-18",
+      "status": "active",
+      "vendor_id": "V-017"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-127",
+      "full_name": "Michelle Evans",
+      "role_title": "QA Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "michelle.evans@orbitalcorp.com.au",
+      "hire_date": "2021-10-07",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "project_lead": {
+      "employee_id": "E-063",
+      "full_name": "Connor West",
+      "role_title": "Support Engineer",
+      "department_id": "D-11",
+      "manager_id": "E-012",
+      "email": "connor.west@orbitalcorp.com.au",
+      "hire_date": "2024-09-18",
+      "salary_band": "L5",
+      "location": "Singapore"
+    },
+    "recent_incidents": [
+      {
+        "incident_id": "INC-100",
+        "system_id": "SYS-018",
+        "reported_by": "E-070",
+        "severity": "Sev3",
+        "root_cause_category": "hardware_failure",
+        "resolution_time_hrs": 25.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0017",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-07",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-030",
+      "project_id": "P-030",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 1644220.0,
+      "spent_amount": 493266.0,
+      "approved_by": "E-164",
+      "status": "closed"
+    },
+    "project": {
+      "project_id": "P-030",
+      "project_name": "Project Cobalt",
+      "owner_dept_id": "D-10",
+      "lead_employee_id": "E-164",
+      "budget_id": "B-030",
+      "start_date": "2025-03-22",
+      "status": "on_hold",
+      "vendor_id": "V-010"
+    },
+    "approver": {
+      "employee_id": "E-164",
+      "full_name": "Jeffrey Johnson",
+      "role_title": "Product Manager",
+      "department_id": "D-07",
+      "manager_id": "E-008",
+      "email": "jeffrey.johnson@orbitalcorp.com.au",
+      "hire_date": "2021-01-18",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "project_lead": {
+      "employee_id": "E-164",
+      "full_name": "Jeffrey Johnson",
+      "role_title": "Product Manager",
+      "department_id": "D-07",
+      "manager_id": "E-008",
+      "email": "jeffrey.johnson@orbitalcorp.com.au",
+      "hire_date": "2021-01-18",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "owner_department": {
+      "department_id": "D-10",
+      "dept_name": "Customer Support",
+      "head_employee_id": "E-011",
+      "cost_center_code": "CC-110"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-207",
+        "employee_id": "E-148",
+        "project_id": "P-030",
+        "amount": 3696.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Stephanie Salazar"
+      },
+      {
+        "expense_id": "X-025",
+        "employee_id": "E-148",
+        "project_id": "P-030",
+        "amount": 3697.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Stephanie Salazar"
+      },
+      {
+        "expense_id": "X-044",
+        "employee_id": "E-149",
+        "project_id": "P-030",
+        "amount": 3720.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Kathy Rivas"
+      },
+      {
+        "expense_id": "X-040",
+        "employee_id": "E-148",
+        "project_id": "P-030",
+        "amount": 3690.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Stephanie Salazar"
+      },
+      {
+        "expense_id": "X-124",
+        "employee_id": "E-150",
+        "project_id": "P-030",
+        "amount": 3750.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Stephanie Manning"
+      },
+      {
+        "expense_id": "X-031",
+        "employee_id": "E-151",
+        "project_id": "P-030",
+        "amount": 3784.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "David Wright"
+      }
+    ]
+  }
+}

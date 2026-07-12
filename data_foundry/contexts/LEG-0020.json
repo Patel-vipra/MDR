@@ -1,0 +1,53 @@
+{
+  "doc_id": "LEG-0020",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "doc_date": "2025-01-04",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "incident": {
+      "incident_id": "CI-013",
+      "department_id": "D-05",
+      "related_contract_id": "C-021",
+      "severity": "low",
+      "resolved_flag": true
+    },
+    "department": {
+      "department_id": "D-05",
+      "dept_name": "IT Operations",
+      "head_employee_id": "E-006",
+      "cost_center_code": "CC-105"
+    },
+    "department_head": {
+      "employee_id": "E-006",
+      "full_name": "Connie Lawrence",
+      "role_title": "Head of IT Operations",
+      "department_id": "D-05",
+      "manager_id": "E-001",
+      "email": "connie.lawrence@orbitalcorp.com.au",
+      "hire_date": "2020-08-31",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "related_contract": {
+      "contract_id": "C-021",
+      "vendor_id": "V-021",
+      "project_id": "P-020",
+      "contract_type": "MSA",
+      "value": 727187.0,
+      "start_date": "2024-06-02",
+      "end_date": "2026-02-12",
+      "signed_by": "E-097",
+      "renewal_status": "renegotiate"
+    },
+    "contract_vendor": {
+      "vendor_id": "V-021",
+      "vendor_name": "Guzman-Miller",
+      "service_category": "Recruitment Services",
+      "contract_id": "C-021",
+      "contact_email": "accounts@vendor21.com.au"
+    }
+  }
+}

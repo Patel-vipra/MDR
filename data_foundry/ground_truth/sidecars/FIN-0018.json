@@ -1,0 +1,147 @@
+{
+  "doc_id": "FIN-0018",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-038"
+    ],
+    "projects": [
+      "P-038"
+    ],
+    "employees": [
+      "E-092",
+      "E-188",
+      "E-189",
+      "E-190",
+      "E-192"
+    ],
+    "departments": [
+      "D-06"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-038",
+      "type": "Budget",
+      "name": "B-038",
+      "mentions": [
+        "B-038"
+      ]
+    },
+    {
+      "id": "D-06",
+      "type": "Department",
+      "name": "Marketing",
+      "mentions": [
+        "Marketing"
+      ]
+    },
+    {
+      "id": "E-092",
+      "type": "Employee",
+      "name": "Brian Rodriguez",
+      "mentions": [
+        "Brian Rodriguez"
+      ]
+    },
+    {
+      "id": "E-188",
+      "type": "Employee",
+      "name": "Samantha Garcia",
+      "mentions": [
+        "Samantha Garcia"
+      ]
+    },
+    {
+      "id": "E-189",
+      "type": "Employee",
+      "name": "Madison Poole",
+      "mentions": [
+        "Madison Poole"
+      ]
+    },
+    {
+      "id": "E-190",
+      "type": "Employee",
+      "name": "Jessica Gross",
+      "mentions": [
+        "Jessica Gross"
+      ]
+    },
+    {
+      "id": "E-192",
+      "type": "Employee",
+      "name": "Karen Graham",
+      "mentions": [
+        "Karen Graham"
+      ]
+    },
+    {
+      "id": "P-038",
+      "type": "Project",
+      "name": "Project Kestrel",
+      "mentions": [
+        "Project Kestrel"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-188",
+      "rel": "WORKS_ON",
+      "dst": "P-038"
+    },
+    {
+      "src": "E-189",
+      "rel": "WORKS_ON",
+      "dst": "P-038"
+    },
+    {
+      "src": "E-190",
+      "rel": "WORKS_ON",
+      "dst": "P-038"
+    },
+    {
+      "src": "E-192",
+      "rel": "WORKS_ON",
+      "dst": "P-038"
+    },
+    {
+      "src": "E-092",
+      "rel": "APPROVED",
+      "dst": "B-038"
+    },
+    {
+      "src": "P-038",
+      "rel": "FUNDED_BY",
+      "dst": "B-038"
+    },
+    {
+      "src": "E-092",
+      "rel": "WORKS_ON",
+      "dst": "P-038"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Kestrel?",
+      "answer": "Brian Rodriguez",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Kestrel in FY25-Q3?",
+      "answer": "937,281.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Kestrel?",
+      "answer": "Brian Rodriguez",
+      "hops": 1
+    }
+  ]
+}

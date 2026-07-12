@@ -1,0 +1,69 @@
+{
+  "doc_id": "ENG-0025",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "doc_date": "2025-03-07",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "system": {
+      "system_id": "SYS-005",
+      "system_name": "auth-pipeline",
+      "owner_project_id": "P-027",
+      "on_call_employee_id": "E-134",
+      "tech_stack": "Kotlin/Ktor/PostgreSQL",
+      "criticality": "medium"
+    },
+    "owning_project": {
+      "project_id": "P-027",
+      "project_name": "Project Zephyr",
+      "owner_dept_id": "D-03",
+      "lead_employee_id": "E-035",
+      "budget_id": "B-027",
+      "start_date": "2024-04-05",
+      "status": "active",
+      "vendor_id": null
+    },
+    "on_call_engineer": {
+      "employee_id": "E-134",
+      "full_name": "Daniel Kennedy",
+      "role_title": "Legal Counsel",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "daniel.kennedy@orbitalcorp.com.au",
+      "hire_date": "2019-08-30",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "project_lead": {
+      "employee_id": "E-035",
+      "full_name": "Debra Davidson",
+      "role_title": "Sales Executive",
+      "department_id": "D-10",
+      "manager_id": "E-011",
+      "email": "debra.davidson@orbitalcorp.com.au",
+      "hire_date": "2023-07-25",
+      "salary_band": "L4",
+      "location": "Singapore"
+    },
+    "recent_incidents": [
+      {
+        "incident_id": "INC-019",
+        "system_id": "SYS-005",
+        "reported_by": "E-016",
+        "severity": "Sev2",
+        "root_cause_category": "config_change",
+        "resolution_time_hrs": 5.5
+      },
+      {
+        "incident_id": "INC-051",
+        "system_id": "SYS-005",
+        "reported_by": "E-018",
+        "severity": "Sev2",
+        "root_cause_category": "deployment_error",
+        "resolution_time_hrs": 6.5
+      }
+    ]
+  }
+}

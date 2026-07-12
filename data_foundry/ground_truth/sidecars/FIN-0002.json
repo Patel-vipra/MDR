@@ -1,0 +1,161 @@
+{
+  "doc_id": "FIN-0002",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-002"
+    ],
+    "projects": [
+      "P-002"
+    ],
+    "employees": [
+      "E-102",
+      "E-008",
+      "E-004",
+      "E-006",
+      "E-007",
+      "E-005"
+    ],
+    "departments": [
+      "D-07"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-002",
+      "type": "Budget",
+      "name": "B-002",
+      "mentions": [
+        "B-002"
+      ]
+    },
+    {
+      "id": "D-07",
+      "type": "Department",
+      "name": "Sales",
+      "mentions": [
+        "Sales"
+      ]
+    },
+    {
+      "id": "E-004",
+      "type": "Employee",
+      "name": "Daniel Wagner",
+      "mentions": [
+        "Daniel Wagner"
+      ]
+    },
+    {
+      "id": "E-005",
+      "type": "Employee",
+      "name": "Cristian Santos",
+      "mentions": [
+        "Cristian Santos"
+      ]
+    },
+    {
+      "id": "E-006",
+      "type": "Employee",
+      "name": "Connie Lawrence",
+      "mentions": [
+        "Connie Lawrence"
+      ]
+    },
+    {
+      "id": "E-007",
+      "type": "Employee",
+      "name": "Abigail Shaffer",
+      "mentions": [
+        "Abigail Shaffer"
+      ]
+    },
+    {
+      "id": "E-008",
+      "type": "Employee",
+      "name": "Gina Moore",
+      "mentions": [
+        "Gina Moore"
+      ]
+    },
+    {
+      "id": "E-102",
+      "type": "Employee",
+      "name": "Cameron Parker",
+      "mentions": [
+        "Cameron Parker"
+      ]
+    },
+    {
+      "id": "P-002",
+      "type": "Project",
+      "name": "Project Atlas",
+      "mentions": [
+        "Project Atlas"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-008",
+      "rel": "WORKS_ON",
+      "dst": "P-002"
+    },
+    {
+      "src": "E-004",
+      "rel": "WORKS_ON",
+      "dst": "P-002"
+    },
+    {
+      "src": "E-006",
+      "rel": "WORKS_ON",
+      "dst": "P-002"
+    },
+    {
+      "src": "E-007",
+      "rel": "WORKS_ON",
+      "dst": "P-002"
+    },
+    {
+      "src": "E-005",
+      "rel": "WORKS_ON",
+      "dst": "P-002"
+    },
+    {
+      "src": "E-102",
+      "rel": "APPROVED",
+      "dst": "B-002"
+    },
+    {
+      "src": "P-002",
+      "rel": "FUNDED_BY",
+      "dst": "B-002"
+    },
+    {
+      "src": "E-102",
+      "rel": "WORKS_ON",
+      "dst": "P-002"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Atlas?",
+      "answer": "Cameron Parker",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Atlas in FY25-Q3?",
+      "answer": "1,043,724.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Atlas?",
+      "answer": "Cameron Parker",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "doc_id": "FIN-0005",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-055"
+    ],
+    "projects": [
+      "P-015"
+    ],
+    "employees": [
+      "E-056",
+      "E-150",
+      "E-071",
+      "E-073",
+      "E-072"
+    ],
+    "departments": [
+      "D-09"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-055",
+      "type": "Budget",
+      "name": "B-055",
+      "mentions": [
+        "B-055"
+      ]
+    },
+    {
+      "id": "D-09",
+      "type": "Department",
+      "name": "Research & Development",
+      "mentions": [
+        "Research & Development"
+      ]
+    },
+    {
+      "id": "E-056",
+      "type": "Employee",
+      "name": "Michael Lewis",
+      "mentions": [
+        "Michael Lewis"
+      ]
+    },
+    {
+      "id": "E-071",
+      "type": "Employee",
+      "name": "Jordan Henderson",
+      "mentions": [
+        "Jordan Henderson"
+      ]
+    },
+    {
+      "id": "E-072",
+      "type": "Employee",
+      "name": "Whitney Peters",
+      "mentions": [
+        "Whitney Peters"
+      ]
+    },
+    {
+      "id": "E-073",
+      "type": "Employee",
+      "name": "Brittney Phillips",
+      "mentions": [
+        "Brittney Phillips"
+      ]
+    },
+    {
+      "id": "E-150",
+      "type": "Employee",
+      "name": "Stephanie Manning",
+      "mentions": [
+        "Stephanie Manning"
+      ]
+    },
+    {
+      "id": "P-015",
+      "type": "Project",
+      "name": "Project Nimbus",
+      "mentions": [
+        "Project Nimbus"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-071",
+      "rel": "WORKS_ON",
+      "dst": "P-015"
+    },
+    {
+      "src": "E-073",
+      "rel": "WORKS_ON",
+      "dst": "P-015"
+    },
+    {
+      "src": "E-072",
+      "rel": "WORKS_ON",
+      "dst": "P-015"
+    },
+    {
+      "src": "E-056",
+      "rel": "APPROVED",
+      "dst": "B-055"
+    },
+    {
+      "src": "P-015",
+      "rel": "FUNDED_BY",
+      "dst": "B-055"
+    },
+    {
+      "src": "E-150",
+      "rel": "WORKS_ON",
+      "dst": "P-015"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q4 budget for Project Nimbus?",
+      "answer": "Michael Lewis",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Nimbus in FY25-Q4?",
+      "answer": "586,004.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Nimbus?",
+      "answer": "Stephanie Manning",
+      "hops": 1
+    }
+  ]
+}

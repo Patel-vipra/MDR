@@ -1,0 +1,106 @@
+{
+  "doc_id": "ENG-0011",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "sensitivity": "internal",
+  "source_rows": {
+    "incidents": [
+      "INC-039"
+    ],
+    "systems": [
+      "SYS-009"
+    ],
+    "projects": [
+      "P-039"
+    ],
+    "employees": [
+      "E-194",
+      "E-033"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-033",
+      "type": "Employee",
+      "name": "Tricia Valencia",
+      "mentions": [
+        "Tricia Valencia"
+      ]
+    },
+    {
+      "id": "E-194",
+      "type": "Employee",
+      "name": "Angelica Keith",
+      "mentions": [
+        "Angelica Keith"
+      ]
+    },
+    {
+      "id": "INC-039",
+      "type": "Incident",
+      "name": "INC-039",
+      "mentions": [
+        "INC-039"
+      ]
+    },
+    {
+      "id": "P-039",
+      "type": "Project",
+      "name": "Project Lattice",
+      "mentions": [
+        "Project Lattice"
+      ]
+    },
+    {
+      "id": "SYS-009",
+      "type": "System",
+      "name": "billing-worker",
+      "mentions": [
+        "billing-worker"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-039",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-009"
+    },
+    {
+      "src": "SYS-009",
+      "rel": "OWNED_BY",
+      "dst": "P-039"
+    },
+    {
+      "src": "E-194",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-009"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which system caused incident {incident}?",
+      "question": "Which system caused incident INC-039?",
+      "answer": "billing-worker",
+      "hops": 1
+    },
+    {
+      "q_template": "Who was on call for {system} during incident {incident}?",
+      "question": "Who was on call for billing-worker during incident INC-039?",
+      "answer": "Angelica Keith",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the root cause of incident {incident}?",
+      "question": "What was the root cause of incident INC-039?",
+      "answer": "deployment_error",
+      "hops": 1
+    },
+    {
+      "q_template": "When did incident {incident} occur?",
+      "question": "When did incident INC-039 occur?",
+      "answer": "2025-04-02",
+      "hops": 1
+    }
+  ]
+}

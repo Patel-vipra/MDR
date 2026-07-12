@@ -1,0 +1,107 @@
+{
+  "doc_id": "HR-0021",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-03"
+    ],
+    "employees": [
+      "E-004",
+      "E-102",
+      "E-175",
+      "E-173",
+      "E-136",
+      "E-039",
+      "E-081"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-03",
+      "type": "Department",
+      "name": "Legal",
+      "mentions": [
+        "Legal"
+      ]
+    },
+    {
+      "id": "E-004",
+      "type": "Employee",
+      "name": "Daniel Wagner",
+      "mentions": [
+        "Daniel Wagner"
+      ]
+    },
+    {
+      "id": "E-039",
+      "type": "Employee",
+      "name": "Elizabeth Fowler",
+      "mentions": [
+        "Elizabeth Fowler"
+      ]
+    },
+    {
+      "id": "E-081",
+      "type": "Employee",
+      "name": "Kelly Donovan",
+      "mentions": [
+        "Kelly Donovan"
+      ]
+    },
+    {
+      "id": "E-102",
+      "type": "Employee",
+      "name": "Cameron Parker",
+      "mentions": [
+        "Cameron Parker"
+      ]
+    },
+    {
+      "id": "E-136",
+      "type": "Employee",
+      "name": "Jose Schultz",
+      "mentions": [
+        "Jose Schultz"
+      ]
+    },
+    {
+      "id": "E-173",
+      "type": "Employee",
+      "name": "Joshua Cooke",
+      "mentions": [
+        "Joshua Cooke"
+      ]
+    },
+    {
+      "id": "E-175",
+      "type": "Employee",
+      "name": "Nicole Herring",
+      "mentions": [
+        "Nicole Herring"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-004",
+      "rel": "MANAGES",
+      "dst": "D-03"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Cameron Parker take starting 2025-03-13?",
+      "answer": "unpaid",
+      "hops": 1
+    },
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Nicole Herring take starting 2025-09-10?",
+      "answer": "carers",
+      "hops": 1
+    }
+  ]
+}

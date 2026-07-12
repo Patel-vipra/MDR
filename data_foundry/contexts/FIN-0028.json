@@ -1,0 +1,43 @@
+{
+  "doc_id": "FIN-0028",
+  "domain": "finance",
+  "doc_type": "vendor_spend_review",
+  "doc_date": "2025-06-15",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "vendor": {
+      "vendor_id": "V-002",
+      "vendor_name": "Wood-Hale",
+      "service_category": "Legal Services",
+      "contract_id": "C-002",
+      "contact_email": "accounts@vendor2.com.au"
+    },
+    "contracts": [
+      {
+        "contract_id": "C-002",
+        "vendor_id": "V-002",
+        "project_id": "P-021",
+        "contract_type": "MSA",
+        "value": 769307.0,
+        "start_date": "2024-06-22",
+        "end_date": "2026-03-30",
+        "signed_by": "E-102",
+        "renewal_status": "renegotiate"
+      },
+      {
+        "contract_id": "C-032",
+        "vendor_id": "V-002",
+        "project_id": "P-009",
+        "contract_type": "NDA",
+        "value": 316849.0,
+        "start_date": "2023-11-22",
+        "end_date": "2024-11-24",
+        "signed_by": "E-042",
+        "renewal_status": "auto_renew"
+      }
+    ],
+    "projects_supplied": []
+  }
+}

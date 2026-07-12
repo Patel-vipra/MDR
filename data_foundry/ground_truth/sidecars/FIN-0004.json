@@ -1,0 +1,147 @@
+{
+  "doc_id": "FIN-0004",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-016"
+    ],
+    "projects": [
+      "P-016"
+    ],
+    "employees": [
+      "E-145",
+      "E-075",
+      "E-076",
+      "E-080",
+      "E-079"
+    ],
+    "departments": [
+      "D-09"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-016",
+      "type": "Budget",
+      "name": "B-016",
+      "mentions": [
+        "B-016"
+      ]
+    },
+    {
+      "id": "D-09",
+      "type": "Department",
+      "name": "Research & Development",
+      "mentions": [
+        "Research & Development"
+      ]
+    },
+    {
+      "id": "E-075",
+      "type": "Employee",
+      "name": "Amy Silva",
+      "mentions": [
+        "Amy Silva"
+      ]
+    },
+    {
+      "id": "E-076",
+      "type": "Employee",
+      "name": "Sarah Moore",
+      "mentions": [
+        "Sarah Moore"
+      ]
+    },
+    {
+      "id": "E-079",
+      "type": "Employee",
+      "name": "Steve Sanchez",
+      "mentions": [
+        "Steve Sanchez"
+      ]
+    },
+    {
+      "id": "E-080",
+      "type": "Employee",
+      "name": "Lisa Barnes",
+      "mentions": [
+        "Lisa Barnes"
+      ]
+    },
+    {
+      "id": "E-145",
+      "type": "Employee",
+      "name": "Amber Wright",
+      "mentions": [
+        "Amber Wright"
+      ]
+    },
+    {
+      "id": "P-016",
+      "type": "Project",
+      "name": "Project Obsidian",
+      "mentions": [
+        "Project Obsidian"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-075",
+      "rel": "WORKS_ON",
+      "dst": "P-016"
+    },
+    {
+      "src": "E-076",
+      "rel": "WORKS_ON",
+      "dst": "P-016"
+    },
+    {
+      "src": "E-080",
+      "rel": "WORKS_ON",
+      "dst": "P-016"
+    },
+    {
+      "src": "E-079",
+      "rel": "WORKS_ON",
+      "dst": "P-016"
+    },
+    {
+      "src": "E-145",
+      "rel": "APPROVED",
+      "dst": "B-016"
+    },
+    {
+      "src": "P-016",
+      "rel": "FUNDED_BY",
+      "dst": "B-016"
+    },
+    {
+      "src": "E-145",
+      "rel": "WORKS_ON",
+      "dst": "P-016"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Obsidian?",
+      "answer": "Amber Wright",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Obsidian in FY25-Q3?",
+      "answer": "1,457,156.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Obsidian?",
+      "answer": "Amber Wright",
+      "hops": 1
+    }
+  ]
+}

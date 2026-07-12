@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0007",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2024-10-20",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-08",
+      "dept_name": "Procurement",
+      "head_employee_id": "E-009",
+      "cost_center_code": "CC-108"
+    },
+    "department_head": {
+      "employee_id": "E-009",
+      "full_name": "Gabrielle Davis",
+      "role_title": "Head of Procurement",
+      "department_id": "D-08",
+      "manager_id": "E-001",
+      "email": "gabrielle.davis@orbitalcorp.com.au",
+      "hire_date": "2025-08-14",
+      "salary_band": "L5",
+      "location": "Auckland"
+    },
+    "quarter": "FY25-Q2",
+    "reviews": [
+      {
+        "review_id": "R-053",
+        "employee_id": "E-053",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Crystal Robinson",
+        "reviewer_name": "Gabrielle Davis"
+      },
+      {
+        "review_id": "R-062",
+        "employee_id": "E-062",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Gerald Hensley",
+        "reviewer_name": "Gabrielle Davis"
+      },
+      {
+        "review_id": "R-092",
+        "employee_id": "E-092",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Brian Rodriguez",
+        "reviewer_name": "Gabrielle Davis"
+      },
+      {
+        "review_id": "R-093",
+        "employee_id": "E-093",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Denise Jacobs",
+        "reviewer_name": "Gabrielle Davis"
+      },
+      {
+        "review_id": "R-108",
+        "employee_id": "E-108",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Sierra Johnson",
+        "reviewer_name": "Gabrielle Davis"
+      },
+      {
+        "review_id": "R-185",
+        "employee_id": "E-185",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Lindsay Martinez",
+        "reviewer_name": "Gabrielle Davis"
+      },
+      {
+        "review_id": "R-188",
+        "employee_id": "E-188",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Samantha Garcia",
+        "reviewer_name": "Gabrielle Davis"
+      }
+    ]
+  }
+}

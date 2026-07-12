@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0015",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-19",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-017",
+      "project_id": "P-017",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 81300.0,
+      "spent_amount": 24390.0,
+      "approved_by": "E-004",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-017",
+      "project_name": "Project Pinnacle",
+      "owner_dept_id": "D-01",
+      "lead_employee_id": "E-004",
+      "budget_id": "B-017",
+      "start_date": "2024-01-10",
+      "status": "active",
+      "vendor_id": null
+    },
+    "approver": {
+      "employee_id": "E-004",
+      "full_name": "Daniel Wagner",
+      "role_title": "Head of Legal",
+      "department_id": "D-03",
+      "manager_id": "E-001",
+      "email": "daniel.wagner@orbitalcorp.com.au",
+      "hire_date": "2017-11-19",
+      "salary_band": "L5",
+      "location": "Melbourne"
+    },
+    "project_lead": {
+      "employee_id": "E-004",
+      "full_name": "Daniel Wagner",
+      "role_title": "Head of Legal",
+      "department_id": "D-03",
+      "manager_id": "E-001",
+      "email": "daniel.wagner@orbitalcorp.com.au",
+      "hire_date": "2017-11-19",
+      "salary_band": "L5",
+      "location": "Melbourne"
+    },
+    "owner_department": {
+      "department_id": "D-01",
+      "dept_name": "Finance",
+      "head_employee_id": "E-002",
+      "cost_center_code": "CC-101"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-116",
+        "employee_id": "E-083",
+        "project_id": "P-017",
+        "amount": 2066.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Michael Evans"
+      },
+      {
+        "expense_id": "X-087",
+        "employee_id": "E-083",
+        "project_id": "P-017",
+        "amount": 2084.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Michael Evans"
+      },
+      {
+        "expense_id": "X-218",
+        "employee_id": "E-083",
+        "project_id": "P-017",
+        "amount": 2068.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Michael Evans"
+      },
+      {
+        "expense_id": "X-201",
+        "employee_id": "E-081",
+        "project_id": "P-017",
+        "amount": 2025.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Kelly Donovan"
+      },
+      {
+        "expense_id": "X-166",
+        "employee_id": "E-082",
+        "project_id": "P-017",
+        "amount": 2043.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Mike Allen"
+      },
+      {
+        "expense_id": "X-156",
+        "employee_id": "E-081",
+        "project_id": "P-017",
+        "amount": 2034.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Kelly Donovan"
+      }
+    ]
+  }
+}

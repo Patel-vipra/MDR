@@ -1,0 +1,53 @@
+{
+  "doc_id": "LEG-0019",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "doc_date": "2025-05-09",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "incident": {
+      "incident_id": "CI-014",
+      "department_id": "D-10",
+      "related_contract_id": "C-031",
+      "severity": "high",
+      "resolved_flag": true
+    },
+    "department": {
+      "department_id": "D-10",
+      "dept_name": "Customer Support",
+      "head_employee_id": "E-011",
+      "cost_center_code": "CC-110"
+    },
+    "department_head": {
+      "employee_id": "E-011",
+      "full_name": "Monica Herrera",
+      "role_title": "Head of Customer Support",
+      "department_id": "D-10",
+      "manager_id": "E-001",
+      "email": "monica.herrera@orbitalcorp.com.au",
+      "hire_date": "2019-11-29",
+      "salary_band": "L5",
+      "location": "Brisbane"
+    },
+    "related_contract": {
+      "contract_id": "C-031",
+      "vendor_id": "V-001",
+      "project_id": "P-030",
+      "contract_type": "SOW",
+      "value": 1135749.0,
+      "start_date": "2024-12-11",
+      "end_date": "2027-05-01",
+      "signed_by": "E-151",
+      "renewal_status": "expiring"
+    },
+    "contract_vendor": {
+      "vendor_id": "V-001",
+      "vendor_name": "Mitchell and Sons",
+      "service_category": "Marketing Agency",
+      "contract_id": "C-001",
+      "contact_email": "accounts@mitchellsons.com.au"
+    }
+  }
+}

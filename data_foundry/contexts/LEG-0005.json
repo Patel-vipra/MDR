@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0005",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2023-10-25",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-037",
+      "vendor_id": "V-007",
+      "project_id": "P-007",
+      "contract_type": "NDA",
+      "value": 257887.0,
+      "start_date": "2023-10-25",
+      "end_date": "2024-09-21",
+      "signed_by": "E-034",
+      "renewal_status": "auto_renew"
+    },
+    "vendor": {
+      "vendor_id": "V-007",
+      "vendor_name": "Hernandez-Martin",
+      "service_category": "Security Services",
+      "contract_id": "C-007",
+      "contact_email": "accounts@vendor7.com.au"
+    },
+    "project": {
+      "project_id": "P-007",
+      "project_name": "Project Falcon",
+      "owner_dept_id": "D-12",
+      "lead_employee_id": "E-200",
+      "budget_id": "B-007",
+      "start_date": "2025-06-30",
+      "status": "planned",
+      "vendor_id": "V-030"
+    },
+    "signatory": {
+      "employee_id": "E-034",
+      "full_name": "Nathan Maldonado",
+      "role_title": "Project Manager",
+      "department_id": "D-07",
+      "manager_id": "E-008",
+      "email": "nathan.maldonado@orbitalcorp.com.au",
+      "hire_date": "2021-03-28",
+      "salary_band": "L3",
+      "location": "Perth"
+    }
+  }
+}

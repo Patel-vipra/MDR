@@ -1,0 +1,157 @@
+{
+  "doc_id": "HR-0025",
+  "domain": "hr",
+  "doc_type": "promotion_round_summary",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "employees": [
+      "E-097",
+      "E-005",
+      "E-111",
+      "E-124",
+      "E-010",
+      "E-136",
+      "E-004",
+      "E-142",
+      "E-003",
+      "E-169",
+      "E-012"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-003",
+      "type": "Employee",
+      "name": "Angie Henderson",
+      "mentions": [
+        "Angie Henderson"
+      ]
+    },
+    {
+      "id": "E-004",
+      "type": "Employee",
+      "name": "Daniel Wagner",
+      "mentions": [
+        "Daniel Wagner"
+      ]
+    },
+    {
+      "id": "E-005",
+      "type": "Employee",
+      "name": "Cristian Santos",
+      "mentions": [
+        "Cristian Santos"
+      ]
+    },
+    {
+      "id": "E-010",
+      "type": "Employee",
+      "name": "Ryan Munoz",
+      "mentions": [
+        "Ryan Munoz"
+      ]
+    },
+    {
+      "id": "E-012",
+      "type": "Employee",
+      "name": "Jamie Arnold",
+      "mentions": [
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "id": "E-097",
+      "type": "Employee",
+      "name": "Aaron Wise",
+      "mentions": [
+        "Aaron Wise"
+      ]
+    },
+    {
+      "id": "E-111",
+      "type": "Employee",
+      "name": "Richard Rodriguez",
+      "mentions": [
+        "Richard Rodriguez"
+      ]
+    },
+    {
+      "id": "E-124",
+      "type": "Employee",
+      "name": "Michelle Harmon",
+      "mentions": [
+        "Michelle Harmon"
+      ]
+    },
+    {
+      "id": "E-136",
+      "type": "Employee",
+      "name": "Jose Schultz",
+      "mentions": [
+        "Jose Schultz"
+      ]
+    },
+    {
+      "id": "E-142",
+      "type": "Employee",
+      "name": "David Douglas Jr.",
+      "mentions": [
+        "David Douglas Jr."
+      ]
+    },
+    {
+      "id": "E-169",
+      "type": "Employee",
+      "name": "Joel Williams",
+      "mentions": [
+        "Joel Williams"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-097"
+    },
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-111"
+    },
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-124"
+    },
+    {
+      "src": "E-004",
+      "rel": "REVIEWED",
+      "dst": "E-136"
+    },
+    {
+      "src": "E-003",
+      "rel": "REVIEWED",
+      "dst": "E-142"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-169"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Was {employee} recommended for promotion in {quarter}?",
+      "question": "Was Aaron Wise recommended for promotion in FY25-Q4?",
+      "answer": "Yes",
+      "hops": 1
+    },
+    {
+      "q_template": "Was {employee} recommended for promotion in {quarter}?",
+      "question": "Was Richard Rodriguez recommended for promotion in FY25-Q4?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

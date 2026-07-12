@@ -1,0 +1,170 @@
+{
+  "doc_id": "FIN-0029",
+  "domain": "finance",
+  "doc_type": "vendor_spend_review",
+  "sensitivity": "internal",
+  "source_rows": {
+    "vendors": [
+      "V-022"
+    ],
+    "contracts": [
+      "C-022"
+    ],
+    "projects": [
+      "P-018",
+      "P-025",
+      "P-029",
+      "P-033"
+    ],
+    "employees": [
+      "E-127",
+      "E-148",
+      "E-142",
+      "E-160"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-022",
+      "type": "Contract",
+      "name": "C-022",
+      "mentions": [
+        "C-022"
+      ]
+    },
+    {
+      "id": "E-127",
+      "type": "Employee",
+      "name": "Michelle Evans",
+      "mentions": [
+        "Michelle Evans"
+      ]
+    },
+    {
+      "id": "E-142",
+      "type": "Employee",
+      "name": "David Douglas Jr.",
+      "mentions": [
+        "David Douglas Jr."
+      ]
+    },
+    {
+      "id": "E-148",
+      "type": "Employee",
+      "name": "Stephanie Salazar",
+      "mentions": [
+        "Stephanie Salazar"
+      ]
+    },
+    {
+      "id": "E-160",
+      "type": "Employee",
+      "name": "Jamie Smith",
+      "mentions": [
+        "Jamie Smith"
+      ]
+    },
+    {
+      "id": "P-018",
+      "type": "Project",
+      "name": "Project Quasar",
+      "mentions": [
+        "Project Quasar"
+      ]
+    },
+    {
+      "id": "P-025",
+      "type": "Project",
+      "name": "Project Xenon",
+      "mentions": [
+        "Project Xenon"
+      ]
+    },
+    {
+      "id": "P-029",
+      "type": "Project",
+      "name": "Project Basalt",
+      "mentions": [
+        "Project Basalt"
+      ]
+    },
+    {
+      "id": "P-033",
+      "type": "Project",
+      "name": "Project Fathom",
+      "mentions": [
+        "Project Fathom"
+      ]
+    },
+    {
+      "id": "V-022",
+      "type": "Vendor",
+      "name": "Newman Ltd",
+      "mentions": [
+        "Newman Ltd"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "P-018",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-022"
+    },
+    {
+      "src": "E-127",
+      "rel": "WORKS_ON",
+      "dst": "P-018"
+    },
+    {
+      "src": "P-025",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-022"
+    },
+    {
+      "src": "E-148",
+      "rel": "WORKS_ON",
+      "dst": "P-025"
+    },
+    {
+      "src": "P-029",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-022"
+    },
+    {
+      "src": "E-142",
+      "rel": "WORKS_ON",
+      "dst": "P-029"
+    },
+    {
+      "src": "P-033",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-022"
+    },
+    {
+      "src": "E-160",
+      "rel": "WORKS_ON",
+      "dst": "P-033"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What service category does {vendor} provide?",
+      "question": "What service category does Newman Ltd provide?",
+      "answer": "Hardware Supply",
+      "hops": 1
+    },
+    {
+      "q_template": "Which vendor supplies {project}?",
+      "question": "Which vendor supplies Project Quasar?",
+      "answer": "Newman Ltd",
+      "hops": 1
+    },
+    {
+      "q_template": "Which vendor supplies {project}?",
+      "question": "Which vendor supplies Project Xenon?",
+      "answer": "Newman Ltd",
+      "hops": 1
+    }
+  ]
+}

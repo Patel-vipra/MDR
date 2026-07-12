@@ -1,0 +1,123 @@
+{
+  "doc_id": "FIN-0027",
+  "domain": "finance",
+  "doc_type": "vendor_spend_review",
+  "sensitivity": "internal",
+  "source_rows": {
+    "vendors": [
+      "V-003"
+    ],
+    "contracts": [
+      "C-003",
+      "C-033"
+    ],
+    "projects": [
+      "P-009",
+      "P-022"
+    ],
+    "employees": [
+      "E-194",
+      "E-146"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-003",
+      "type": "Contract",
+      "name": "C-003",
+      "mentions": [
+        "C-003"
+      ]
+    },
+    {
+      "id": "C-033",
+      "type": "Contract",
+      "name": "C-033",
+      "mentions": [
+        "C-033"
+      ]
+    },
+    {
+      "id": "E-146",
+      "type": "Employee",
+      "name": "Joyce Solis",
+      "mentions": [
+        "Joyce Solis"
+      ]
+    },
+    {
+      "id": "E-194",
+      "type": "Employee",
+      "name": "Angelica Keith",
+      "mentions": [
+        "Angelica Keith"
+      ]
+    },
+    {
+      "id": "P-009",
+      "type": "Project",
+      "name": "Project Horizon",
+      "mentions": [
+        "Project Horizon"
+      ]
+    },
+    {
+      "id": "P-022",
+      "type": "Project",
+      "name": "Project Umbra",
+      "mentions": [
+        "Project Umbra"
+      ]
+    },
+    {
+      "id": "V-003",
+      "type": "Vendor",
+      "name": "Chavez Group",
+      "mentions": [
+        "Chavez Group"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "P-009",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-003"
+    },
+    {
+      "src": "E-194",
+      "rel": "WORKS_ON",
+      "dst": "P-009"
+    },
+    {
+      "src": "P-022",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-003"
+    },
+    {
+      "src": "E-146",
+      "rel": "WORKS_ON",
+      "dst": "P-022"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What service category does {vendor} provide?",
+      "question": "What service category does Chavez Group provide?",
+      "answer": "Hardware Supply",
+      "hops": 1
+    },
+    {
+      "q_template": "Which vendor supplies {project}?",
+      "question": "Which vendor supplies Project Horizon?",
+      "answer": "Chavez Group",
+      "hops": 1
+    },
+    {
+      "q_template": "Which vendor supplies {project}?",
+      "question": "Which vendor supplies Project Umbra?",
+      "answer": "Chavez Group",
+      "hops": 1
+    }
+  ]
+}

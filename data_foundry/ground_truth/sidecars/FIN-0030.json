@@ -1,0 +1,89 @@
+{
+  "doc_id": "FIN-0030",
+  "domain": "finance",
+  "doc_type": "vendor_spend_review",
+  "sensitivity": "internal",
+  "source_rows": {
+    "vendors": [
+      "V-008"
+    ],
+    "contracts": [
+      "C-008",
+      "C-038"
+    ],
+    "projects": [
+      "P-032"
+    ],
+    "employees": [
+      "E-042"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-008",
+      "type": "Contract",
+      "name": "C-008",
+      "mentions": [
+        "C-008"
+      ]
+    },
+    {
+      "id": "C-038",
+      "type": "Contract",
+      "name": "C-038",
+      "mentions": [
+        "C-038"
+      ]
+    },
+    {
+      "id": "E-042",
+      "type": "Employee",
+      "name": "Fred Smith",
+      "mentions": [
+        "Fred Smith"
+      ]
+    },
+    {
+      "id": "P-032",
+      "type": "Project",
+      "name": "Project Echo",
+      "mentions": [
+        "Project Echo"
+      ]
+    },
+    {
+      "id": "V-008",
+      "type": "Vendor",
+      "name": "Anderson-Hughes",
+      "mentions": [
+        "Anderson-Hughes"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "P-032",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-008"
+    },
+    {
+      "src": "E-042",
+      "rel": "WORKS_ON",
+      "dst": "P-032"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What service category does {vendor} provide?",
+      "question": "What service category does Anderson-Hughes provide?",
+      "answer": "Software Licensing",
+      "hops": 1
+    },
+    {
+      "q_template": "Which vendor supplies {project}?",
+      "question": "Which vendor supplies Project Echo?",
+      "answer": "Anderson-Hughes",
+      "hops": 1
+    }
+  ]
+}

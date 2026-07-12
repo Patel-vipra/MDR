@@ -1,0 +1,53 @@
+{
+  "doc_id": "LEG-0017",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "doc_date": "2025-01-04",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "incident": {
+      "incident_id": "CI-009",
+      "department_id": "D-12",
+      "related_contract_id": "C-045",
+      "severity": "critical",
+      "resolved_flag": true
+    },
+    "department": {
+      "department_id": "D-12",
+      "dept_name": "Facilities",
+      "head_employee_id": "E-013",
+      "cost_center_code": "CC-112"
+    },
+    "department_head": {
+      "employee_id": "E-013",
+      "full_name": "Lisa Hensley",
+      "role_title": "Head of Facilities",
+      "department_id": "D-12",
+      "manager_id": "E-001",
+      "email": "lisa.hensley@orbitalcorp.com.au",
+      "hire_date": "2019-01-29",
+      "salary_band": "L5",
+      "location": "Brisbane"
+    },
+    "related_contract": {
+      "contract_id": "C-045",
+      "vendor_id": "V-015",
+      "project_id": "P-023",
+      "contract_type": "MSA",
+      "value": 858771.0,
+      "start_date": "2024-08-03",
+      "end_date": "2026-07-05",
+      "signed_by": "E-114",
+      "renewal_status": "renegotiate"
+    },
+    "contract_vendor": {
+      "vendor_id": "V-015",
+      "vendor_name": "Gonzales, Martinez and Miller",
+      "service_category": "Hardware Supply",
+      "contract_id": "C-015",
+      "contact_email": "accounts@martinezmiller.com.au"
+    }
+  }
+}

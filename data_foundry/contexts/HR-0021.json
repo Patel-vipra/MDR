@@ -1,0 +1,102 @@
+{
+  "doc_id": "HR-0021",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "doc_date": "2025-06-07",
+  "sensitivity": "confidential",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-03",
+      "dept_name": "Legal",
+      "head_employee_id": "E-004",
+      "cost_center_code": "CC-103"
+    },
+    "department_head": {
+      "employee_id": "E-004",
+      "full_name": "Daniel Wagner",
+      "role_title": "Head of Legal",
+      "department_id": "D-03",
+      "manager_id": "E-001",
+      "email": "daniel.wagner@orbitalcorp.com.au",
+      "hire_date": "2017-11-19",
+      "salary_band": "L5",
+      "location": "Melbourne"
+    },
+    "leave_records": [
+      {
+        "leave_id": "L-002",
+        "employee_id": "E-102",
+        "leave_type": "unpaid",
+        "start_date": "2025-03-13",
+        "end_date": "2025-03-21",
+        "approved_by": "E-004",
+        "employee_name": "Cameron Parker"
+      },
+      {
+        "leave_id": "L-047",
+        "employee_id": "E-175",
+        "leave_type": "carers",
+        "start_date": "2025-09-10",
+        "end_date": "2025-09-23",
+        "approved_by": "E-004",
+        "employee_name": "Nicole Herring"
+      },
+      {
+        "leave_id": "L-052",
+        "employee_id": "E-173",
+        "leave_type": "carers",
+        "start_date": "2025-09-07",
+        "end_date": "2025-09-20",
+        "approved_by": "E-004",
+        "employee_name": "Joshua Cooke"
+      },
+      {
+        "leave_id": "L-092",
+        "employee_id": "E-136",
+        "leave_type": "unpaid",
+        "start_date": "2025-06-06",
+        "end_date": "2025-06-17",
+        "approved_by": "E-004",
+        "employee_name": "Jose Schultz"
+      },
+      {
+        "leave_id": "L-121",
+        "employee_id": "E-102",
+        "leave_type": "unpaid",
+        "start_date": "2025-03-12",
+        "end_date": "2025-03-20",
+        "approved_by": "E-004",
+        "employee_name": "Cameron Parker"
+      },
+      {
+        "leave_id": "L-136",
+        "employee_id": "E-039",
+        "leave_type": "sick",
+        "start_date": "2024-10-05",
+        "end_date": "2024-10-09",
+        "approved_by": "E-004",
+        "employee_name": "Elizabeth Fowler"
+      },
+      {
+        "leave_id": "L-156",
+        "employee_id": "E-081",
+        "leave_type": "parental",
+        "start_date": "2025-01-19",
+        "end_date": "2025-01-26",
+        "approved_by": "E-004",
+        "employee_name": "Kelly Donovan"
+      },
+      {
+        "leave_id": "L-219",
+        "employee_id": "E-136",
+        "leave_type": "unpaid",
+        "start_date": "2025-06-06",
+        "end_date": "2025-06-17",
+        "approved_by": "E-004",
+        "employee_name": "Jose Schultz"
+      }
+    ]
+  }
+}

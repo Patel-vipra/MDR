@@ -1,0 +1,175 @@
+{
+  "doc_id": "FIN-0023",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "sensitivity": "internal",
+  "source_rows": {
+    "departments": [
+      "D-05"
+    ],
+    "employees": [
+      "E-006",
+      "E-196",
+      "E-181",
+      "E-178",
+      "E-166",
+      "E-156",
+      "E-155"
+    ],
+    "projects": [
+      "P-039",
+      "P-036",
+      "P-033",
+      "P-031"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-05",
+      "type": "Department",
+      "name": "IT Operations",
+      "mentions": [
+        "IT Operations"
+      ]
+    },
+    {
+      "id": "E-006",
+      "type": "Employee",
+      "name": "Connie Lawrence",
+      "mentions": [
+        "Connie Lawrence"
+      ]
+    },
+    {
+      "id": "E-155",
+      "type": "Employee",
+      "name": "Brenda Hall",
+      "mentions": [
+        "Brenda Hall"
+      ]
+    },
+    {
+      "id": "E-156",
+      "type": "Employee",
+      "name": "Michelle Brown",
+      "mentions": [
+        "Michelle Brown"
+      ]
+    },
+    {
+      "id": "E-166",
+      "type": "Employee",
+      "name": "John Anderson",
+      "mentions": [
+        "John Anderson"
+      ]
+    },
+    {
+      "id": "E-178",
+      "type": "Employee",
+      "name": "Michael Wang",
+      "mentions": [
+        "Michael Wang"
+      ]
+    },
+    {
+      "id": "E-181",
+      "type": "Employee",
+      "name": "Alexander Collins",
+      "mentions": [
+        "Alexander Collins"
+      ]
+    },
+    {
+      "id": "E-196",
+      "type": "Employee",
+      "name": "Allen Rosales",
+      "mentions": [
+        "Allen Rosales"
+      ]
+    },
+    {
+      "id": "P-031",
+      "type": "Project",
+      "name": "Project Drift",
+      "mentions": [
+        "Project Drift"
+      ]
+    },
+    {
+      "id": "P-033",
+      "type": "Project",
+      "name": "Project Fathom",
+      "mentions": [
+        "Project Fathom"
+      ]
+    },
+    {
+      "id": "P-036",
+      "type": "Project",
+      "name": "Project Ironwood",
+      "mentions": [
+        "Project Ironwood"
+      ]
+    },
+    {
+      "id": "P-039",
+      "type": "Project",
+      "name": "Project Lattice",
+      "mentions": [
+        "Project Lattice"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-196",
+      "rel": "WORKS_ON",
+      "dst": "P-039"
+    },
+    {
+      "src": "E-181",
+      "rel": "WORKS_ON",
+      "dst": "P-036"
+    },
+    {
+      "src": "E-178",
+      "rel": "WORKS_ON",
+      "dst": "P-036"
+    },
+    {
+      "src": "E-166",
+      "rel": "WORKS_ON",
+      "dst": "P-033"
+    },
+    {
+      "src": "E-156",
+      "rel": "WORKS_ON",
+      "dst": "P-031"
+    },
+    {
+      "src": "E-155",
+      "rel": "WORKS_ON",
+      "dst": "P-031"
+    },
+    {
+      "src": "E-006",
+      "rel": "MANAGES",
+      "dst": "D-05"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who heads the {dept} department?",
+      "question": "Who heads the IT Operations department?",
+      "answer": "Connie Lawrence",
+      "hops": 1
+    },
+    {
+      "q_template": "Who submitted the largest expense in the {dept} department?",
+      "question": "Who submitted the largest expense in the IT Operations department?",
+      "answer": "Allen Rosales",
+      "hops": 1
+    }
+  ]
+}

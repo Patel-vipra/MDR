@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0016",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "compliance_incidents": [
+      "CI-023"
+    ],
+    "departments": [
+      "D-07"
+    ],
+    "employees": [
+      "E-008"
+    ],
+    "contracts": [
+      "C-004"
+    ],
+    "vendors": [
+      "V-004"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-004",
+      "type": "Contract",
+      "name": "C-004",
+      "mentions": [
+        "C-004"
+      ]
+    },
+    {
+      "id": "CI-023",
+      "type": "Incident",
+      "name": "CI-023",
+      "mentions": [
+        "CI-023"
+      ]
+    },
+    {
+      "id": "D-07",
+      "type": "Department",
+      "name": "Sales",
+      "mentions": [
+        "Sales"
+      ]
+    },
+    {
+      "id": "E-008",
+      "type": "Employee",
+      "name": "Gina Moore",
+      "mentions": [
+        "Gina Moore"
+      ]
+    },
+    {
+      "id": "V-004",
+      "type": "Vendor",
+      "name": "Smith, Reynolds and Watson",
+      "mentions": [
+        "Smith, Reynolds and Watson"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-008",
+      "rel": "MANAGES",
+      "dst": "D-07"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What severity was compliance incident {incident}?",
+      "question": "What severity was compliance incident CI-023?",
+      "answer": "medium",
+      "hops": 1
+    },
+    {
+      "q_template": "Was compliance incident {incident} resolved?",
+      "question": "Was compliance incident CI-023 resolved?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

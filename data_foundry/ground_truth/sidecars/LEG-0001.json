@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0001",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-026"
+    ],
+    "vendors": [
+      "V-026"
+    ],
+    "projects": [
+      "P-013"
+    ],
+    "employees": [
+      "E-063"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-026",
+      "type": "Contract",
+      "name": "C-026",
+      "mentions": [
+        "C-026"
+      ]
+    },
+    {
+      "id": "E-063",
+      "type": "Employee",
+      "name": "Connor West",
+      "mentions": [
+        "Connor West"
+      ]
+    },
+    {
+      "id": "P-013",
+      "type": "Project",
+      "name": "Project Lumen",
+      "mentions": [
+        "Project Lumen"
+      ]
+    },
+    {
+      "id": "V-026",
+      "type": "Vendor",
+      "name": "Navarro LLC",
+      "mentions": [
+        "Navarro LLC"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-063",
+      "rel": "SIGNED",
+      "dst": "C-026"
+    },
+    {
+      "src": "P-013",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-026"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-026 with Navarro LLC?",
+      "answer": "Connor West",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-026?",
+      "answer": "471,612.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-026 end?",
+      "answer": "2025-05-11",
+      "hops": 1
+    }
+  ]
+}

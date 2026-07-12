@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0005",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-037"
+    ],
+    "vendors": [
+      "V-007"
+    ],
+    "projects": [
+      "P-007"
+    ],
+    "employees": [
+      "E-034"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-037",
+      "type": "Contract",
+      "name": "C-037",
+      "mentions": [
+        "C-037"
+      ]
+    },
+    {
+      "id": "E-034",
+      "type": "Employee",
+      "name": "Nathan Maldonado",
+      "mentions": [
+        "Nathan Maldonado"
+      ]
+    },
+    {
+      "id": "P-007",
+      "type": "Project",
+      "name": "Project Falcon",
+      "mentions": [
+        "Project Falcon"
+      ]
+    },
+    {
+      "id": "V-007",
+      "type": "Vendor",
+      "name": "Hernandez-Martin",
+      "mentions": [
+        "Hernandez-Martin"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-034",
+      "rel": "SIGNED",
+      "dst": "C-037"
+    },
+    {
+      "src": "P-007",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-007"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-037 with Hernandez-Martin?",
+      "answer": "Nathan Maldonado",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-037?",
+      "answer": "257,887.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-037 end?",
+      "answer": "2024-09-21",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "doc_id": "FIN-0022",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "doc_date": "2025-05-28",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "department": {
+      "department_id": "D-09",
+      "dept_name": "Research & Development",
+      "head_employee_id": "E-010",
+      "cost_center_code": "CC-109"
+    },
+    "department_head": {
+      "employee_id": "E-010",
+      "full_name": "Ryan Munoz",
+      "role_title": "Head of Research & Development",
+      "department_id": "D-09",
+      "manager_id": "E-001",
+      "email": "ryan.munoz@orbitalcorp.com.au",
+      "hire_date": "2023-09-19",
+      "salary_band": "L5",
+      "location": "Singapore"
+    },
+    "top_expenses": [
+      {
+        "expense_id": "X-033",
+        "employee_id": "E-160",
+        "project_id": "P-032",
+        "amount": 4004.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Jamie Smith",
+        "project_name": "Project Echo"
+      },
+      {
+        "expense_id": "X-126",
+        "employee_id": "E-160",
+        "project_id": "P-032",
+        "amount": 3988.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Jamie Smith",
+        "project_name": "Project Echo"
+      },
+      {
+        "expense_id": "X-031",
+        "employee_id": "E-151",
+        "project_id": "P-030",
+        "amount": 3784.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "David Wright",
+        "project_name": "Project Cobalt"
+      },
+      {
+        "expense_id": "X-217",
+        "employee_id": "E-141",
+        "project_id": "P-029",
+        "amount": 3537.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Cheyenne Horton",
+        "project_name": "Project Basalt"
+      },
+      {
+        "expense_id": "X-141",
+        "employee_id": "E-141",
+        "project_id": "P-028",
+        "amount": 3530.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Cheyenne Horton",
+        "project_name": "Project Aurora"
+      },
+      {
+        "expense_id": "X-295",
+        "employee_id": "E-141",
+        "project_id": "P-028",
+        "amount": 3524.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Cheyenne Horton",
+        "project_name": "Project Aurora"
+      },
+      {
+        "expense_id": "X-001",
+        "employee_id": "E-124",
+        "project_id": "P-025",
+        "amount": 3105.0,
+        "category": "training",
+        "approval_status": "approved",
+        "employee_name": "Michelle Harmon",
+        "project_name": "Project Xenon"
+      },
+      {
+        "expense_id": "X-127",
+        "employee_id": "E-124",
+        "project_id": "P-025",
+        "amount": 3099.0,
+        "category": "training",
+        "approval_status": "approved",
+        "employee_name": "Michelle Harmon",
+        "project_name": "Project Xenon"
+      }
+    ]
+  }
+}

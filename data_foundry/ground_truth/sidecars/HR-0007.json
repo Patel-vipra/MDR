@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0007",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-08"
+    ],
+    "employees": [
+      "E-009",
+      "E-053",
+      "E-062",
+      "E-092",
+      "E-093",
+      "E-108",
+      "E-185",
+      "E-188"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-08",
+      "type": "Department",
+      "name": "Procurement",
+      "mentions": [
+        "Procurement"
+      ]
+    },
+    {
+      "id": "E-009",
+      "type": "Employee",
+      "name": "Gabrielle Davis",
+      "mentions": [
+        "Gabrielle Davis"
+      ]
+    },
+    {
+      "id": "E-053",
+      "type": "Employee",
+      "name": "Crystal Robinson",
+      "mentions": [
+        "Crystal Robinson"
+      ]
+    },
+    {
+      "id": "E-062",
+      "type": "Employee",
+      "name": "Gerald Hensley",
+      "mentions": [
+        "Gerald Hensley"
+      ]
+    },
+    {
+      "id": "E-092",
+      "type": "Employee",
+      "name": "Brian Rodriguez",
+      "mentions": [
+        "Brian Rodriguez"
+      ]
+    },
+    {
+      "id": "E-093",
+      "type": "Employee",
+      "name": "Denise Jacobs",
+      "mentions": [
+        "Denise Jacobs"
+      ]
+    },
+    {
+      "id": "E-108",
+      "type": "Employee",
+      "name": "Sierra Johnson",
+      "mentions": [
+        "Sierra Johnson"
+      ]
+    },
+    {
+      "id": "E-185",
+      "type": "Employee",
+      "name": "Lindsay Martinez",
+      "mentions": [
+        "Lindsay Martinez"
+      ]
+    },
+    {
+      "id": "E-188",
+      "type": "Employee",
+      "name": "Samantha Garcia",
+      "mentions": [
+        "Samantha Garcia"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-053"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-062"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-092"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-093"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-108"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-185"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-188"
+    },
+    {
+      "src": "E-009",
+      "rel": "MANAGES",
+      "dst": "D-08"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Crystal Robinson receive in FY25-Q2?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Crystal Robinson in FY25-Q2?",
+      "answer": "Gabrielle Davis",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Gerald Hensley receive in FY25-Q2?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Gerald Hensley in FY25-Q2?",
+      "answer": "Gabrielle Davis",
+      "hops": 1
+    }
+  ]
+}

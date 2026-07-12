@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0012",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-017"
+    ],
+    "vendors": [
+      "V-017"
+    ],
+    "projects": [
+      "P-002"
+    ],
+    "employees": [
+      "E-004"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-017",
+      "type": "Contract",
+      "name": "C-017",
+      "mentions": [
+        "C-017"
+      ]
+    },
+    {
+      "id": "E-004",
+      "type": "Employee",
+      "name": "Daniel Wagner",
+      "mentions": [
+        "Daniel Wagner"
+      ]
+    },
+    {
+      "id": "P-002",
+      "type": "Project",
+      "name": "Project Atlas",
+      "mentions": [
+        "Project Atlas"
+      ]
+    },
+    {
+      "id": "V-017",
+      "type": "Vendor",
+      "name": "Chandler-Powers",
+      "mentions": [
+        "Chandler-Powers"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-004",
+      "rel": "SIGNED",
+      "dst": "C-017"
+    },
+    {
+      "src": "P-002",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-017"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-017 with Chandler-Powers?",
+      "answer": "Daniel Wagner",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-017?",
+      "answer": "33,916.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-017 end?",
+      "answer": "2024-01-23",
+      "hops": 1
+    }
+  ]
+}

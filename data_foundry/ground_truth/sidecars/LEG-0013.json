@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0013",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "compliance_incidents": [
+      "CI-005"
+    ],
+    "departments": [
+      "D-08"
+    ],
+    "employees": [
+      "E-009"
+    ],
+    "contracts": [
+      "C-013"
+    ],
+    "vendors": [
+      "V-013"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-013",
+      "type": "Contract",
+      "name": "C-013",
+      "mentions": [
+        "C-013"
+      ]
+    },
+    {
+      "id": "CI-005",
+      "type": "Incident",
+      "name": "CI-005",
+      "mentions": [
+        "CI-005"
+      ]
+    },
+    {
+      "id": "D-08",
+      "type": "Department",
+      "name": "Procurement",
+      "mentions": [
+        "Procurement"
+      ]
+    },
+    {
+      "id": "E-009",
+      "type": "Employee",
+      "name": "Gabrielle Davis",
+      "mentions": [
+        "Gabrielle Davis"
+      ]
+    },
+    {
+      "id": "V-013",
+      "type": "Vendor",
+      "name": "Shelton, Davis and Dean",
+      "mentions": [
+        "Shelton, Davis and Dean"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-009",
+      "rel": "MANAGES",
+      "dst": "D-08"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What severity was compliance incident {incident}?",
+      "question": "What severity was compliance incident CI-005?",
+      "answer": "medium",
+      "hops": 1
+    },
+    {
+      "q_template": "Was compliance incident {incident} resolved?",
+      "question": "Was compliance incident CI-005 resolved?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

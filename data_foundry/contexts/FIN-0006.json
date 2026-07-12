@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0006",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-07-01",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-049",
+      "project_id": "P-009",
+      "fiscal_quarter": "FY25-Q4",
+      "allocated_amount": 319101.0,
+      "spent_amount": 95730.3,
+      "approved_by": "E-028",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-009",
+      "project_name": "Project Horizon",
+      "owner_dept_id": "D-12",
+      "lead_employee_id": "E-194",
+      "budget_id": "B-009",
+      "start_date": "2025-06-13",
+      "status": "planned",
+      "vendor_id": "V-003"
+    },
+    "approver": {
+      "employee_id": "E-028",
+      "full_name": "Stephanie Ross",
+      "role_title": "Accountant",
+      "department_id": "D-04",
+      "manager_id": "E-005",
+      "email": "stephanie.ross@orbitalcorp.com.au",
+      "hire_date": "2017-08-11",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "project_lead": {
+      "employee_id": "E-194",
+      "full_name": "Angelica Keith",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "angelica.keith@orbitalcorp.com.au",
+      "hire_date": "2020-02-19",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "owner_department": {
+      "department_id": "D-12",
+      "dept_name": "Facilities",
+      "head_employee_id": "E-013",
+      "cost_center_code": "CC-112"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-271",
+        "employee_id": "E-044",
+        "project_id": "P-009",
+        "amount": 1100.0,
+        "category": "hardware",
+        "approval_status": "approved",
+        "employee_name": "Anthony Humphrey"
+      },
+      {
+        "expense_id": "X-136",
+        "employee_id": "E-039",
+        "project_id": "P-009",
+        "amount": 983.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Elizabeth Fowler"
+      },
+      {
+        "expense_id": "X-251",
+        "employee_id": "E-040",
+        "project_id": "P-009",
+        "amount": 1012.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Brittany Farmer"
+      },
+      {
+        "expense_id": "X-095",
+        "employee_id": "E-042",
+        "project_id": "P-009",
+        "amount": 1042.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Fred Smith"
+      },
+      {
+        "expense_id": "X-081",
+        "employee_id": "E-044",
+        "project_id": "P-009",
+        "amount": 1101.0,
+        "category": "hardware",
+        "approval_status": "approved",
+        "employee_name": "Anthony Humphrey"
+      },
+      {
+        "expense_id": "X-192",
+        "employee_id": "E-040",
+        "project_id": "P-009",
+        "amount": 1010.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Brittany Farmer"
+      }
+    ]
+  }
+}

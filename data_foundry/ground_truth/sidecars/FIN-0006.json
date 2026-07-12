@@ -1,0 +1,156 @@
+{
+  "doc_id": "FIN-0006",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-049"
+    ],
+    "projects": [
+      "P-009"
+    ],
+    "employees": [
+      "E-028",
+      "E-194",
+      "E-044",
+      "E-039",
+      "E-040",
+      "E-042"
+    ],
+    "departments": [
+      "D-12"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-049",
+      "type": "Budget",
+      "name": "B-049",
+      "mentions": [
+        "B-049"
+      ]
+    },
+    {
+      "id": "D-12",
+      "type": "Department",
+      "name": "Facilities",
+      "mentions": [
+        "Facilities"
+      ]
+    },
+    {
+      "id": "E-028",
+      "type": "Employee",
+      "name": "Stephanie Ross",
+      "mentions": [
+        "Stephanie Ross"
+      ]
+    },
+    {
+      "id": "E-039",
+      "type": "Employee",
+      "name": "Elizabeth Fowler",
+      "mentions": [
+        "Elizabeth Fowler"
+      ]
+    },
+    {
+      "id": "E-040",
+      "type": "Employee",
+      "name": "Brittany Farmer",
+      "mentions": [
+        "Brittany Farmer"
+      ]
+    },
+    {
+      "id": "E-042",
+      "type": "Employee",
+      "name": "Fred Smith",
+      "mentions": [
+        "Fred Smith"
+      ]
+    },
+    {
+      "id": "E-044",
+      "type": "Employee",
+      "name": "Anthony Humphrey",
+      "mentions": [
+        "Anthony Humphrey"
+      ]
+    },
+    {
+      "id": "E-194",
+      "type": "Employee",
+      "name": "Angelica Keith",
+      "mentions": [
+        "Angelica Keith"
+      ]
+    },
+    {
+      "id": "P-009",
+      "type": "Project",
+      "name": "Project Horizon",
+      "mentions": [
+        "Project Horizon"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-044",
+      "rel": "WORKS_ON",
+      "dst": "P-009"
+    },
+    {
+      "src": "E-039",
+      "rel": "WORKS_ON",
+      "dst": "P-009"
+    },
+    {
+      "src": "E-040",
+      "rel": "WORKS_ON",
+      "dst": "P-009"
+    },
+    {
+      "src": "E-042",
+      "rel": "WORKS_ON",
+      "dst": "P-009"
+    },
+    {
+      "src": "E-028",
+      "rel": "APPROVED",
+      "dst": "B-049"
+    },
+    {
+      "src": "P-009",
+      "rel": "FUNDED_BY",
+      "dst": "B-049"
+    },
+    {
+      "src": "E-194",
+      "rel": "WORKS_ON",
+      "dst": "P-009"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q4 budget for Project Horizon?",
+      "answer": "Stephanie Ross",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Horizon in FY25-Q4?",
+      "answer": "319,101.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Horizon?",
+      "answer": "Angelica Keith",
+      "hops": 1
+    }
+  ]
+}

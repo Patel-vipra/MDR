@@ -1,0 +1,98 @@
+{
+  "doc_id": "HR-0015",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-11"
+    ],
+    "employees": [
+      "E-012",
+      "E-056",
+      "E-118",
+      "E-052",
+      "E-063",
+      "E-130"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-11",
+      "type": "Department",
+      "name": "Data & Analytics",
+      "mentions": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "id": "E-012",
+      "type": "Employee",
+      "name": "Jamie Arnold",
+      "mentions": [
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "id": "E-052",
+      "type": "Employee",
+      "name": "Danny Morgan",
+      "mentions": [
+        "Danny Morgan"
+      ]
+    },
+    {
+      "id": "E-056",
+      "type": "Employee",
+      "name": "Michael Lewis",
+      "mentions": [
+        "Michael Lewis"
+      ]
+    },
+    {
+      "id": "E-063",
+      "type": "Employee",
+      "name": "Connor West",
+      "mentions": [
+        "Connor West"
+      ]
+    },
+    {
+      "id": "E-118",
+      "type": "Employee",
+      "name": "Ashley Waller",
+      "mentions": [
+        "Ashley Waller"
+      ]
+    },
+    {
+      "id": "E-130",
+      "type": "Employee",
+      "name": "Megan Orr",
+      "mentions": [
+        "Megan Orr"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-012",
+      "rel": "MANAGES",
+      "dst": "D-11"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Michael Lewis take starting 2024-11-15?",
+      "answer": "sick",
+      "hops": 1
+    },
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Jamie Arnold take starting 2024-07-29?",
+      "answer": "annual",
+      "hops": 1
+    }
+  ]
+}

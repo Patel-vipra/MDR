@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0012",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2025-07-07",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-06",
+      "dept_name": "Marketing",
+      "head_employee_id": "E-007",
+      "cost_center_code": "CC-106"
+    },
+    "department_head": {
+      "employee_id": "E-007",
+      "full_name": "Abigail Shaffer",
+      "role_title": "Head of Marketing",
+      "department_id": "D-06",
+      "manager_id": "E-001",
+      "email": "abigail.shaffer@orbitalcorp.com.au",
+      "hire_date": "2025-12-10",
+      "salary_band": "L5",
+      "location": "Auckland"
+    },
+    "quarter": "FY25-Q4",
+    "reviews": [
+      {
+        "review_id": "R-221",
+        "employee_id": "E-021",
+        "reviewer_id": "E-007",
+        "quarter": "FY25-Q4",
+        "rating": 2,
+        "promotion_flag": false,
+        "employee_name": "Margaret Hawkins DDS",
+        "reviewer_name": "Abigail Shaffer"
+      },
+      {
+        "review_id": "R-286",
+        "employee_id": "E-086",
+        "reviewer_id": "E-007",
+        "quarter": "FY25-Q4",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Daniel Baker",
+        "reviewer_name": "Abigail Shaffer"
+      },
+      {
+        "review_id": "R-334",
+        "employee_id": "E-134",
+        "reviewer_id": "E-007",
+        "quarter": "FY25-Q4",
+        "rating": 1,
+        "promotion_flag": false,
+        "employee_name": "Daniel Kennedy",
+        "reviewer_name": "Abigail Shaffer"
+      },
+      {
+        "review_id": "R-335",
+        "employee_id": "E-135",
+        "reviewer_id": "E-007",
+        "quarter": "FY25-Q4",
+        "rating": 2,
+        "promotion_flag": false,
+        "employee_name": "Rebecca Jackson",
+        "reviewer_name": "Abigail Shaffer"
+      },
+      {
+        "review_id": "R-371",
+        "employee_id": "E-171",
+        "reviewer_id": "E-007",
+        "quarter": "FY25-Q4",
+        "rating": 2,
+        "promotion_flag": false,
+        "employee_name": "Jamie Walton",
+        "reviewer_name": "Abigail Shaffer"
+      },
+      {
+        "review_id": "R-383",
+        "employee_id": "E-183",
+        "reviewer_id": "E-007",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": false,
+        "employee_name": "Angela Vaughn",
+        "reviewer_name": "Abigail Shaffer"
+      },
+      {
+        "review_id": "R-387",
+        "employee_id": "E-187",
+        "reviewer_id": "E-007",
+        "quarter": "FY25-Q4",
+        "rating": 1,
+        "promotion_flag": false,
+        "employee_name": "Jonathan Peterson",
+        "reviewer_name": "Abigail Shaffer"
+      }
+    ]
+  }
+}

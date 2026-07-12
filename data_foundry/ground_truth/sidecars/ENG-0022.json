@@ -1,0 +1,119 @@
+{
+  "doc_id": "ENG-0022",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-043"
+    ],
+    "projects": [
+      "P-031"
+    ],
+    "employees": [
+      "E-155",
+      "E-151"
+    ],
+    "incidents": [
+      "INC-036",
+      "INC-052"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-151",
+      "type": "Employee",
+      "name": "David Wright",
+      "mentions": [
+        "David Wright"
+      ]
+    },
+    {
+      "id": "E-155",
+      "type": "Employee",
+      "name": "Brenda Hall",
+      "mentions": [
+        "Brenda Hall"
+      ]
+    },
+    {
+      "id": "INC-036",
+      "type": "Incident",
+      "name": "INC-036",
+      "mentions": [
+        "INC-036"
+      ]
+    },
+    {
+      "id": "INC-052",
+      "type": "Incident",
+      "name": "INC-052",
+      "mentions": [
+        "INC-052"
+      ]
+    },
+    {
+      "id": "P-031",
+      "type": "Project",
+      "name": "Project Drift",
+      "mentions": [
+        "Project Drift"
+      ]
+    },
+    {
+      "id": "SYS-043",
+      "type": "System",
+      "name": "identity-gateway",
+      "mentions": [
+        "identity-gateway"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-036",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-043"
+    },
+    {
+      "src": "INC-052",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-043"
+    },
+    {
+      "src": "SYS-043",
+      "rel": "OWNED_BY",
+      "dst": "P-031"
+    },
+    {
+      "src": "E-155",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-043"
+    },
+    {
+      "src": "E-151",
+      "rel": "WORKS_ON",
+      "dst": "P-031"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns identity-gateway?",
+      "answer": "Project Drift",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of identity-gateway?",
+      "answer": "Kotlin/Ktor/PostgreSQL",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for identity-gateway?",
+      "answer": "Brenda Hall",
+      "hops": 1
+    }
+  ]
+}

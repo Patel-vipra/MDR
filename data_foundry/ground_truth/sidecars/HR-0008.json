@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0008",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-07"
+    ],
+    "employees": [
+      "E-008",
+      "E-034",
+      "E-060",
+      "E-079",
+      "E-103",
+      "E-133",
+      "E-167",
+      "E-191"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-07",
+      "type": "Department",
+      "name": "Sales",
+      "mentions": [
+        "Sales"
+      ]
+    },
+    {
+      "id": "E-008",
+      "type": "Employee",
+      "name": "Gina Moore",
+      "mentions": [
+        "Gina Moore"
+      ]
+    },
+    {
+      "id": "E-034",
+      "type": "Employee",
+      "name": "Nathan Maldonado",
+      "mentions": [
+        "Nathan Maldonado"
+      ]
+    },
+    {
+      "id": "E-060",
+      "type": "Employee",
+      "name": "John Daniel",
+      "mentions": [
+        "John Daniel"
+      ]
+    },
+    {
+      "id": "E-079",
+      "type": "Employee",
+      "name": "Steve Sanchez",
+      "mentions": [
+        "Steve Sanchez"
+      ]
+    },
+    {
+      "id": "E-103",
+      "type": "Employee",
+      "name": "Rebecca Valencia",
+      "mentions": [
+        "Rebecca Valencia"
+      ]
+    },
+    {
+      "id": "E-133",
+      "type": "Employee",
+      "name": "Mary Marshall",
+      "mentions": [
+        "Mary Marshall"
+      ]
+    },
+    {
+      "id": "E-167",
+      "type": "Employee",
+      "name": "Alyssa Long",
+      "mentions": [
+        "Alyssa Long"
+      ]
+    },
+    {
+      "id": "E-191",
+      "type": "Employee",
+      "name": "Debra Morton",
+      "mentions": [
+        "Debra Morton"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-008",
+      "rel": "REVIEWED",
+      "dst": "E-034"
+    },
+    {
+      "src": "E-008",
+      "rel": "REVIEWED",
+      "dst": "E-060"
+    },
+    {
+      "src": "E-008",
+      "rel": "REVIEWED",
+      "dst": "E-079"
+    },
+    {
+      "src": "E-008",
+      "rel": "REVIEWED",
+      "dst": "E-103"
+    },
+    {
+      "src": "E-008",
+      "rel": "REVIEWED",
+      "dst": "E-133"
+    },
+    {
+      "src": "E-008",
+      "rel": "REVIEWED",
+      "dst": "E-167"
+    },
+    {
+      "src": "E-008",
+      "rel": "REVIEWED",
+      "dst": "E-191"
+    },
+    {
+      "src": "E-008",
+      "rel": "MANAGES",
+      "dst": "D-07"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Nathan Maldonado receive in FY25-Q2?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Nathan Maldonado in FY25-Q2?",
+      "answer": "Gina Moore",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did John Daniel receive in FY25-Q2?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed John Daniel in FY25-Q2?",
+      "answer": "Gina Moore",
+      "hops": 1
+    }
+  ]
+}

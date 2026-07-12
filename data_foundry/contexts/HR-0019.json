@@ -1,0 +1,102 @@
+{
+  "doc_id": "HR-0019",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "doc_date": "2025-06-14",
+  "sensitivity": "confidential",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-07",
+      "dept_name": "Sales",
+      "head_employee_id": "E-008",
+      "cost_center_code": "CC-107"
+    },
+    "department_head": {
+      "employee_id": "E-008",
+      "full_name": "Gina Moore",
+      "role_title": "Head of Sales",
+      "department_id": "D-07",
+      "manager_id": "E-001",
+      "email": "gina.moore@orbitalcorp.com.au",
+      "hire_date": "2015-10-08",
+      "salary_band": "L5",
+      "location": "Sydney"
+    },
+    "leave_records": [
+      {
+        "leave_id": "L-003",
+        "employee_id": "E-167",
+        "leave_type": "carers",
+        "start_date": "2025-08-21",
+        "end_date": "2025-09-03",
+        "approved_by": "E-008",
+        "employee_name": "Alyssa Long"
+      },
+      {
+        "leave_id": "L-037",
+        "employee_id": "E-034",
+        "leave_type": "sick",
+        "start_date": "2024-09-22",
+        "end_date": "2024-09-25",
+        "approved_by": "E-008",
+        "employee_name": "Nathan Maldonado"
+      },
+      {
+        "leave_id": "L-078",
+        "employee_id": "E-182",
+        "leave_type": "long_service",
+        "start_date": "2025-09-30",
+        "end_date": "2025-10-14",
+        "approved_by": "E-008",
+        "employee_name": "Tina Sanders"
+      },
+      {
+        "leave_id": "L-085",
+        "employee_id": "E-060",
+        "leave_type": "sick",
+        "start_date": "2024-11-25",
+        "end_date": "2024-11-30",
+        "approved_by": "E-008",
+        "employee_name": "John Daniel"
+      },
+      {
+        "leave_id": "L-130",
+        "employee_id": "E-182",
+        "leave_type": "long_service",
+        "start_date": "2025-09-29",
+        "end_date": "2025-10-13",
+        "approved_by": "E-008",
+        "employee_name": "Tina Sanders"
+      },
+      {
+        "leave_id": "L-163",
+        "employee_id": "E-061",
+        "leave_type": "parental",
+        "start_date": "2024-11-30",
+        "end_date": "2024-12-05",
+        "approved_by": "E-008",
+        "employee_name": "Victoria Garcia"
+      },
+      {
+        "leave_id": "L-174",
+        "employee_id": "E-061",
+        "leave_type": "parental",
+        "start_date": "2024-11-29",
+        "end_date": "2024-12-04",
+        "approved_by": "E-008",
+        "employee_name": "Victoria Garcia"
+      },
+      {
+        "leave_id": "L-243",
+        "employee_id": "E-133",
+        "leave_type": "unpaid",
+        "start_date": "2025-05-29",
+        "end_date": "2025-06-08",
+        "approved_by": "E-008",
+        "employee_name": "Mary Marshall"
+      }
+    ]
+  }
+}

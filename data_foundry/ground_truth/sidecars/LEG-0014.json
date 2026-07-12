@@ -1,0 +1,64 @@
+{
+  "doc_id": "LEG-0014",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "compliance_incidents": [
+      "CI-008"
+    ],
+    "departments": [
+      "D-02"
+    ],
+    "employees": [
+      "E-003"
+    ]
+  },
+  "entities": [
+    {
+      "id": "CI-008",
+      "type": "Incident",
+      "name": "CI-008",
+      "mentions": [
+        "CI-008"
+      ]
+    },
+    {
+      "id": "D-02",
+      "type": "Department",
+      "name": "Human Resources",
+      "mentions": [
+        "Human Resources"
+      ]
+    },
+    {
+      "id": "E-003",
+      "type": "Employee",
+      "name": "Angie Henderson",
+      "mentions": [
+        "Angie Henderson"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-003",
+      "rel": "MANAGES",
+      "dst": "D-02"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What severity was compliance incident {incident}?",
+      "question": "What severity was compliance incident CI-008?",
+      "answer": "low",
+      "hops": 1
+    },
+    {
+      "q_template": "Was compliance incident {incident} resolved?",
+      "question": "Was compliance incident CI-008 resolved?",
+      "answer": "No",
+      "hops": 1
+    }
+  ]
+}

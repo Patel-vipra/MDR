@@ -1,0 +1,125 @@
+{
+  "doc_id": "HR-0020",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-09"
+    ],
+    "employees": [
+      "E-010",
+      "E-015",
+      "E-151",
+      "E-094",
+      "E-065",
+      "E-016",
+      "E-029",
+      "E-141",
+      "E-040"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-09",
+      "type": "Department",
+      "name": "Research & Development",
+      "mentions": [
+        "Research & Development"
+      ]
+    },
+    {
+      "id": "E-010",
+      "type": "Employee",
+      "name": "Ryan Munoz",
+      "mentions": [
+        "Ryan Munoz"
+      ]
+    },
+    {
+      "id": "E-015",
+      "type": "Employee",
+      "name": "Dylan Miller",
+      "mentions": [
+        "Dylan Miller"
+      ]
+    },
+    {
+      "id": "E-016",
+      "type": "Employee",
+      "name": "Brian Ramirez",
+      "mentions": [
+        "Brian Ramirez"
+      ]
+    },
+    {
+      "id": "E-029",
+      "type": "Employee",
+      "name": "Zachary Hicks",
+      "mentions": [
+        "Zachary Hicks"
+      ]
+    },
+    {
+      "id": "E-040",
+      "type": "Employee",
+      "name": "Brittany Farmer",
+      "mentions": [
+        "Brittany Farmer"
+      ]
+    },
+    {
+      "id": "E-065",
+      "type": "Employee",
+      "name": "Jessica Callahan",
+      "mentions": [
+        "Jessica Callahan"
+      ]
+    },
+    {
+      "id": "E-094",
+      "type": "Employee",
+      "name": "Christina Walters",
+      "mentions": [
+        "Christina Walters"
+      ]
+    },
+    {
+      "id": "E-141",
+      "type": "Employee",
+      "name": "Cheyenne Horton",
+      "mentions": [
+        "Cheyenne Horton"
+      ]
+    },
+    {
+      "id": "E-151",
+      "type": "Employee",
+      "name": "David Wright",
+      "mentions": [
+        "David Wright"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-010",
+      "rel": "MANAGES",
+      "dst": "D-09"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Dylan Miller take starting 2024-08-05?",
+      "answer": "annual",
+      "hops": 1
+    },
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did David Wright take starting 2025-07-14?",
+      "answer": "carers",
+      "hops": 1
+    }
+  ]
+}

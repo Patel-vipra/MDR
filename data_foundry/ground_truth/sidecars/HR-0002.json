@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0002",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-11"
+    ],
+    "employees": [
+      "E-012",
+      "E-001",
+      "E-024",
+      "E-047",
+      "E-056",
+      "E-078",
+      "E-130",
+      "E-169"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-11",
+      "type": "Department",
+      "name": "Data & Analytics",
+      "mentions": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "id": "E-001",
+      "type": "Employee",
+      "name": "Allison Hill",
+      "mentions": [
+        "Allison Hill"
+      ]
+    },
+    {
+      "id": "E-012",
+      "type": "Employee",
+      "name": "Jamie Arnold",
+      "mentions": [
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "id": "E-024",
+      "type": "Employee",
+      "name": "Tommy Walter",
+      "mentions": [
+        "Tommy Walter"
+      ]
+    },
+    {
+      "id": "E-047",
+      "type": "Employee",
+      "name": "John Pierce",
+      "mentions": [
+        "John Pierce"
+      ]
+    },
+    {
+      "id": "E-056",
+      "type": "Employee",
+      "name": "Michael Lewis",
+      "mentions": [
+        "Michael Lewis"
+      ]
+    },
+    {
+      "id": "E-078",
+      "type": "Employee",
+      "name": "Megan Young",
+      "mentions": [
+        "Megan Young"
+      ]
+    },
+    {
+      "id": "E-130",
+      "type": "Employee",
+      "name": "Megan Orr",
+      "mentions": [
+        "Megan Orr"
+      ]
+    },
+    {
+      "id": "E-169",
+      "type": "Employee",
+      "name": "Joel Williams",
+      "mentions": [
+        "Joel Williams"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-001",
+      "rel": "REVIEWED",
+      "dst": "E-012"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-024"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-047"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-056"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-078"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-130"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-169"
+    },
+    {
+      "src": "E-012",
+      "rel": "MANAGES",
+      "dst": "D-11"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Jamie Arnold receive in FY25-Q2?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Jamie Arnold in FY25-Q2?",
+      "answer": "Allison Hill",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Tommy Walter receive in FY25-Q2?",
+      "answer": "5",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Tommy Walter in FY25-Q2?",
+      "answer": "Jamie Arnold",
+      "hops": 1
+    }
+  ]
+}

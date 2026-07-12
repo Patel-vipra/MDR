@@ -1,0 +1,60 @@
+{
+  "doc_id": "ENG-0011",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "doc_date": "2025-04-02",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "incident": {
+      "incident_id": "INC-039",
+      "system_id": "SYS-009",
+      "reported_by": "E-033",
+      "severity": "Sev2",
+      "root_cause_category": "deployment_error",
+      "resolution_time_hrs": 11.5,
+      "incident_date": "2025-04-02"
+    },
+    "system": {
+      "system_id": "SYS-009",
+      "system_name": "billing-worker",
+      "owner_project_id": "P-039",
+      "on_call_employee_id": "E-194",
+      "tech_stack": "Scala/Akka/Kafka",
+      "criticality": "low"
+    },
+    "owning_project": {
+      "project_id": "P-039",
+      "project_name": "Project Lattice",
+      "owner_dept_id": "D-03",
+      "lead_employee_id": "E-033",
+      "budget_id": "B-039",
+      "start_date": "2024-03-29",
+      "status": "active",
+      "vendor_id": null
+    },
+    "on_call_engineer": {
+      "employee_id": "E-194",
+      "full_name": "Angelica Keith",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "angelica.keith@orbitalcorp.com.au",
+      "hire_date": "2020-02-19",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "reported_by": {
+      "employee_id": "E-033",
+      "full_name": "Tricia Valencia",
+      "role_title": "Sales Executive",
+      "department_id": "D-10",
+      "manager_id": "E-011",
+      "email": "tricia.valencia@orbitalcorp.com.au",
+      "hire_date": "2023-10-04",
+      "salary_band": "L4",
+      "location": "Singapore"
+    }
+  }
+}

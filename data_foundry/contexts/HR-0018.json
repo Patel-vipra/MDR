@@ -1,0 +1,48 @@
+{
+  "doc_id": "HR-0018",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "doc_date": "2025-06-08",
+  "sensitivity": "confidential",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-12",
+      "dept_name": "Facilities",
+      "head_employee_id": "E-013",
+      "cost_center_code": "CC-112"
+    },
+    "department_head": {
+      "employee_id": "E-013",
+      "full_name": "Lisa Hensley",
+      "role_title": "Head of Facilities",
+      "department_id": "D-12",
+      "manager_id": "E-001",
+      "email": "lisa.hensley@orbitalcorp.com.au",
+      "hire_date": "2019-01-29",
+      "salary_band": "L5",
+      "location": "Brisbane"
+    },
+    "leave_records": [
+      {
+        "leave_id": "L-028",
+        "employee_id": "E-048",
+        "leave_type": "sick",
+        "start_date": "2024-10-28",
+        "end_date": "2024-11-01",
+        "approved_by": "E-013",
+        "employee_name": "Shane Henderson"
+      },
+      {
+        "leave_id": "L-067",
+        "employee_id": "E-013",
+        "leave_type": "annual",
+        "start_date": "2024-08-01",
+        "end_date": "2024-08-03",
+        "approved_by": "E-001",
+        "employee_name": "Lisa Hensley"
+      }
+    ]
+  }
+}

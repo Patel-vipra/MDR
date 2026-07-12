@@ -1,0 +1,69 @@
+{
+  "doc_id": "ENG-0022",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "doc_date": "2025-03-23",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "system": {
+      "system_id": "SYS-043",
+      "system_name": "identity-gateway",
+      "owner_project_id": "P-031",
+      "on_call_employee_id": "E-155",
+      "tech_stack": "Kotlin/Ktor/PostgreSQL",
+      "criticality": "medium"
+    },
+    "owning_project": {
+      "project_id": "P-031",
+      "project_name": "Project Drift",
+      "owner_dept_id": "D-09",
+      "lead_employee_id": "E-151",
+      "budget_id": "B-031",
+      "start_date": "2025-02-17",
+      "status": "completed",
+      "vendor_id": "V-006"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-155",
+      "full_name": "Brenda Hall",
+      "role_title": "Legal Counsel",
+      "department_id": "D-05",
+      "manager_id": "E-006",
+      "email": "brenda.hall@orbitalcorp.com.au",
+      "hire_date": "2019-04-30",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "project_lead": {
+      "employee_id": "E-151",
+      "full_name": "David Wright",
+      "role_title": "Procurement Specialist",
+      "department_id": "D-09",
+      "manager_id": "E-010",
+      "email": "david.wright@orbitalcorp.com.au",
+      "hire_date": "2023-02-22",
+      "salary_band": "L4",
+      "location": "Singapore"
+    },
+    "recent_incidents": [
+      {
+        "incident_id": "INC-036",
+        "system_id": "SYS-043",
+        "reported_by": "E-173",
+        "severity": "Sev4",
+        "root_cause_category": "human_error",
+        "resolution_time_hrs": 61.5
+      },
+      {
+        "incident_id": "INC-052",
+        "system_id": "SYS-043",
+        "reported_by": "E-173",
+        "severity": "Sev4",
+        "root_cause_category": "human_error",
+        "resolution_time_hrs": 62.5
+      }
+    ]
+  }
+}

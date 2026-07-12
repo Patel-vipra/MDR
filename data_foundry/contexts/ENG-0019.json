@@ -1,0 +1,61 @@
+{
+  "doc_id": "ENG-0019",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "doc_date": "2025-03-26",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "system": {
+      "system_id": "SYS-049",
+      "system_name": "reporting-worker",
+      "owner_project_id": "P-006",
+      "on_call_employee_id": "E-028",
+      "tech_stack": "Java/Spring/Oracle",
+      "criticality": "mission_critical"
+    },
+    "owning_project": {
+      "project_id": "P-006",
+      "project_name": "Project Ember",
+      "owner_dept_id": "D-07",
+      "lead_employee_id": "E-104",
+      "budget_id": "B-006",
+      "start_date": "2024-10-09",
+      "status": "completed",
+      "vendor_id": "V-016"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-028",
+      "full_name": "Stephanie Ross",
+      "role_title": "Accountant",
+      "department_id": "D-04",
+      "manager_id": "E-005",
+      "email": "stephanie.ross@orbitalcorp.com.au",
+      "hire_date": "2017-08-11",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "project_lead": {
+      "employee_id": "E-104",
+      "full_name": "Christine Wright",
+      "role_title": "Staff Engineer",
+      "department_id": "D-02",
+      "manager_id": "E-003",
+      "email": "christine.wright@orbitalcorp.com.au",
+      "hire_date": "2015-12-12",
+      "salary_band": "L1",
+      "location": "Sydney"
+    },
+    "recent_incidents": [
+      {
+        "incident_id": "INC-009",
+        "system_id": "SYS-049",
+        "reported_by": "E-194",
+        "severity": "Sev4",
+        "root_cause_category": "network_partition",
+        "resolution_time_hrs": 69.5
+      }
+    ]
+  }
+}

@@ -16,6 +16,8 @@ rank-bm25
 ruff
 pytest
 pyyaml
+openai
+python-dotenv
 # dbldatagen 0.4.0 imports these but does not declare them:
 jmespath
 pyparsing

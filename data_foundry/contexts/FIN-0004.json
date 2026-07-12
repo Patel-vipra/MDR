@@ -1,0 +1,96 @@
+{
+  "doc_id": "FIN-0004",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-22",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-016",
+      "project_id": "P-016",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 1457156.0,
+      "spent_amount": 437146.8,
+      "approved_by": "E-145",
+      "status": "under_review"
+    },
+    "project": {
+      "project_id": "P-016",
+      "project_name": "Project Obsidian",
+      "owner_dept_id": "D-09",
+      "lead_employee_id": "E-145",
+      "budget_id": "B-016",
+      "start_date": "2025-01-29",
+      "status": "completed",
+      "vendor_id": "V-023"
+    },
+    "approver": {
+      "employee_id": "E-145",
+      "full_name": "Amber Wright",
+      "role_title": "HR Business Partner",
+      "department_id": "D-04",
+      "manager_id": "E-005",
+      "email": "amber.wright@orbitalcorp.com.au",
+      "hire_date": "2018-03-09",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "project_lead": {
+      "employee_id": "E-145",
+      "full_name": "Amber Wright",
+      "role_title": "HR Business Partner",
+      "department_id": "D-04",
+      "manager_id": "E-005",
+      "email": "amber.wright@orbitalcorp.com.au",
+      "hire_date": "2018-03-09",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "owner_department": {
+      "department_id": "D-09",
+      "dept_name": "Research & Development",
+      "head_employee_id": "E-010",
+      "cost_center_code": "CC-109"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-013",
+        "employee_id": "E-075",
+        "project_id": "P-016",
+        "amount": 1878.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Amy Silva"
+      },
+      {
+        "expense_id": "X-196",
+        "employee_id": "E-076",
+        "project_id": "P-016",
+        "amount": 1908.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Sarah Moore"
+      },
+      {
+        "expense_id": "X-155",
+        "employee_id": "E-080",
+        "project_id": "P-016",
+        "amount": 1991.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Lisa Barnes"
+      },
+      {
+        "expense_id": "X-277",
+        "employee_id": "E-079",
+        "project_id": "P-016",
+        "amount": 1976.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Steve Sanchez"
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0009",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-05"
+    ],
+    "employees": [
+      "E-006",
+      "E-001",
+      "E-100",
+      "E-122",
+      "E-156",
+      "E-178",
+      "E-181",
+      "E-196"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-05",
+      "type": "Department",
+      "name": "IT Operations",
+      "mentions": [
+        "IT Operations"
+      ]
+    },
+    {
+      "id": "E-001",
+      "type": "Employee",
+      "name": "Allison Hill",
+      "mentions": [
+        "Allison Hill"
+      ]
+    },
+    {
+      "id": "E-006",
+      "type": "Employee",
+      "name": "Connie Lawrence",
+      "mentions": [
+        "Connie Lawrence"
+      ]
+    },
+    {
+      "id": "E-100",
+      "type": "Employee",
+      "name": "Stephen Mckee",
+      "mentions": [
+        "Stephen Mckee"
+      ]
+    },
+    {
+      "id": "E-122",
+      "type": "Employee",
+      "name": "Kenneth Scott",
+      "mentions": [
+        "Kenneth Scott"
+      ]
+    },
+    {
+      "id": "E-156",
+      "type": "Employee",
+      "name": "Michelle Brown",
+      "mentions": [
+        "Michelle Brown"
+      ]
+    },
+    {
+      "id": "E-178",
+      "type": "Employee",
+      "name": "Michael Wang",
+      "mentions": [
+        "Michael Wang"
+      ]
+    },
+    {
+      "id": "E-181",
+      "type": "Employee",
+      "name": "Alexander Collins",
+      "mentions": [
+        "Alexander Collins"
+      ]
+    },
+    {
+      "id": "E-196",
+      "type": "Employee",
+      "name": "Allen Rosales",
+      "mentions": [
+        "Allen Rosales"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-001",
+      "rel": "REVIEWED",
+      "dst": "E-006"
+    },
+    {
+      "src": "E-006",
+      "rel": "REVIEWED",
+      "dst": "E-100"
+    },
+    {
+      "src": "E-006",
+      "rel": "REVIEWED",
+      "dst": "E-122"
+    },
+    {
+      "src": "E-006",
+      "rel": "REVIEWED",
+      "dst": "E-156"
+    },
+    {
+      "src": "E-006",
+      "rel": "REVIEWED",
+      "dst": "E-178"
+    },
+    {
+      "src": "E-006",
+      "rel": "REVIEWED",
+      "dst": "E-181"
+    },
+    {
+      "src": "E-006",
+      "rel": "REVIEWED",
+      "dst": "E-196"
+    },
+    {
+      "src": "E-006",
+      "rel": "MANAGES",
+      "dst": "D-05"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Connie Lawrence receive in FY25-Q2?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Connie Lawrence in FY25-Q2?",
+      "answer": "Allison Hill",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Stephen Mckee receive in FY25-Q2?",
+      "answer": "3",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Stephen Mckee in FY25-Q2?",
+      "answer": "Connie Lawrence",
+      "hops": 1
+    }
+  ]
+}

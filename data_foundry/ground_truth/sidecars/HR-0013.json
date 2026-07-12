@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0013",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-08"
+    ],
+    "employees": [
+      "E-009",
+      "E-001",
+      "E-018",
+      "E-053",
+      "E-108",
+      "E-127",
+      "E-146",
+      "E-147"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-08",
+      "type": "Department",
+      "name": "Procurement",
+      "mentions": [
+        "Procurement"
+      ]
+    },
+    {
+      "id": "E-001",
+      "type": "Employee",
+      "name": "Allison Hill",
+      "mentions": [
+        "Allison Hill"
+      ]
+    },
+    {
+      "id": "E-009",
+      "type": "Employee",
+      "name": "Gabrielle Davis",
+      "mentions": [
+        "Gabrielle Davis"
+      ]
+    },
+    {
+      "id": "E-018",
+      "type": "Employee",
+      "name": "Derek Zuniga",
+      "mentions": [
+        "Derek Zuniga"
+      ]
+    },
+    {
+      "id": "E-053",
+      "type": "Employee",
+      "name": "Crystal Robinson",
+      "mentions": [
+        "Crystal Robinson"
+      ]
+    },
+    {
+      "id": "E-108",
+      "type": "Employee",
+      "name": "Sierra Johnson",
+      "mentions": [
+        "Sierra Johnson"
+      ]
+    },
+    {
+      "id": "E-127",
+      "type": "Employee",
+      "name": "Michelle Evans",
+      "mentions": [
+        "Michelle Evans"
+      ]
+    },
+    {
+      "id": "E-146",
+      "type": "Employee",
+      "name": "Joyce Solis",
+      "mentions": [
+        "Joyce Solis"
+      ]
+    },
+    {
+      "id": "E-147",
+      "type": "Employee",
+      "name": "Victoria Larson",
+      "mentions": [
+        "Victoria Larson"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-001",
+      "rel": "REVIEWED",
+      "dst": "E-009"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-018"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-053"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-108"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-127"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-146"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-147"
+    },
+    {
+      "src": "E-009",
+      "rel": "MANAGES",
+      "dst": "D-08"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Gabrielle Davis receive in FY25-Q4?",
+      "answer": "3",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Gabrielle Davis in FY25-Q4?",
+      "answer": "Allison Hill",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Derek Zuniga receive in FY25-Q4?",
+      "answer": "3",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Derek Zuniga in FY25-Q4?",
+      "answer": "Gabrielle Davis",
+      "hops": 1
+    }
+  ]
+}

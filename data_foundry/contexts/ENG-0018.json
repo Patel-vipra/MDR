@@ -1,0 +1,69 @@
+{
+  "doc_id": "ENG-0018",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "doc_date": "2025-03-24",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "system": {
+      "system_id": "SYS-011",
+      "system_name": "ledger-service",
+      "owner_project_id": "P-018",
+      "on_call_employee_id": "E-090",
+      "tech_stack": "Go/gRPC/Redis",
+      "criticality": "high"
+    },
+    "owning_project": {
+      "project_id": "P-018",
+      "project_name": "Project Quasar",
+      "owner_dept_id": "D-08",
+      "lead_employee_id": "E-127",
+      "budget_id": "B-018",
+      "start_date": "2024-12-10",
+      "status": "completed",
+      "vendor_id": "V-022"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-090",
+      "full_name": "Aimee Montoya",
+      "role_title": "HR Business Partner",
+      "department_id": "D-05",
+      "manager_id": "E-006",
+      "email": "aimee.montoya@orbitalcorp.com.au",
+      "hire_date": "2018-07-01",
+      "salary_band": "L2",
+      "location": "Brisbane"
+    },
+    "project_lead": {
+      "employee_id": "E-127",
+      "full_name": "Michelle Evans",
+      "role_title": "QA Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "michelle.evans@orbitalcorp.com.au",
+      "hire_date": "2021-10-07",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "recent_incidents": [
+      {
+        "incident_id": "INC-032",
+        "system_id": "SYS-011",
+        "reported_by": "E-042",
+        "severity": "Sev2",
+        "root_cause_category": "deployment_error",
+        "resolution_time_hrs": 15.5
+      },
+      {
+        "incident_id": "INC-095",
+        "system_id": "SYS-011",
+        "reported_by": "E-042",
+        "severity": "Sev2",
+        "root_cause_category": "deployment_error",
+        "resolution_time_hrs": 15.5
+      }
+    ]
+  }
+}

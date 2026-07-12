@@ -1,0 +1,170 @@
+{
+  "doc_id": "FIN-0025",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "sensitivity": "internal",
+  "source_rows": {
+    "departments": [
+      "D-04"
+    ],
+    "employees": [
+      "E-005",
+      "E-189",
+      "E-174",
+      "E-163",
+      "E-158",
+      "E-145"
+    ],
+    "projects": [
+      "P-038",
+      "P-035",
+      "P-033",
+      "P-032",
+      "P-029"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-04",
+      "type": "Department",
+      "name": "Engineering",
+      "mentions": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "E-005",
+      "type": "Employee",
+      "name": "Cristian Santos",
+      "mentions": [
+        "Cristian Santos"
+      ]
+    },
+    {
+      "id": "E-145",
+      "type": "Employee",
+      "name": "Amber Wright",
+      "mentions": [
+        "Amber Wright"
+      ]
+    },
+    {
+      "id": "E-158",
+      "type": "Employee",
+      "name": "Jason Stein",
+      "mentions": [
+        "Jason Stein"
+      ]
+    },
+    {
+      "id": "E-163",
+      "type": "Employee",
+      "name": "Lindsey Walker",
+      "mentions": [
+        "Lindsey Walker"
+      ]
+    },
+    {
+      "id": "E-174",
+      "type": "Employee",
+      "name": "Matthew Harrington",
+      "mentions": [
+        "Matthew Harrington"
+      ]
+    },
+    {
+      "id": "E-189",
+      "type": "Employee",
+      "name": "Madison Poole",
+      "mentions": [
+        "Madison Poole"
+      ]
+    },
+    {
+      "id": "P-029",
+      "type": "Project",
+      "name": "Project Basalt",
+      "mentions": [
+        "Project Basalt"
+      ]
+    },
+    {
+      "id": "P-032",
+      "type": "Project",
+      "name": "Project Echo",
+      "mentions": [
+        "Project Echo"
+      ]
+    },
+    {
+      "id": "P-033",
+      "type": "Project",
+      "name": "Project Fathom",
+      "mentions": [
+        "Project Fathom"
+      ]
+    },
+    {
+      "id": "P-035",
+      "type": "Project",
+      "name": "Project Harbor",
+      "mentions": [
+        "Project Harbor"
+      ]
+    },
+    {
+      "id": "P-038",
+      "type": "Project",
+      "name": "Project Kestrel",
+      "mentions": [
+        "Project Kestrel"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-189",
+      "rel": "WORKS_ON",
+      "dst": "P-038"
+    },
+    {
+      "src": "E-174",
+      "rel": "WORKS_ON",
+      "dst": "P-035"
+    },
+    {
+      "src": "E-163",
+      "rel": "WORKS_ON",
+      "dst": "P-033"
+    },
+    {
+      "src": "E-158",
+      "rel": "WORKS_ON",
+      "dst": "P-032"
+    },
+    {
+      "src": "E-145",
+      "rel": "WORKS_ON",
+      "dst": "P-029"
+    },
+    {
+      "src": "E-005",
+      "rel": "MANAGES",
+      "dst": "D-04"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who heads the {dept} department?",
+      "question": "Who heads the Engineering department?",
+      "answer": "Cristian Santos",
+      "hops": 1
+    },
+    {
+      "q_template": "Who submitted the largest expense in the {dept} department?",
+      "question": "Who submitted the largest expense in the Engineering department?",
+      "answer": "Madison Poole",
+      "hops": 1
+    }
+  ]
+}

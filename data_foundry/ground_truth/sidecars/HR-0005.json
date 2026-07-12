@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0005",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-04"
+    ],
+    "employees": [
+      "E-005",
+      "E-055",
+      "E-088",
+      "E-096",
+      "E-111",
+      "E-125",
+      "E-158",
+      "E-198"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-04",
+      "type": "Department",
+      "name": "Engineering",
+      "mentions": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "E-005",
+      "type": "Employee",
+      "name": "Cristian Santos",
+      "mentions": [
+        "Cristian Santos"
+      ]
+    },
+    {
+      "id": "E-055",
+      "type": "Employee",
+      "name": "Shannon Jones",
+      "mentions": [
+        "Shannon Jones"
+      ]
+    },
+    {
+      "id": "E-088",
+      "type": "Employee",
+      "name": "Christopher Bass",
+      "mentions": [
+        "Christopher Bass"
+      ]
+    },
+    {
+      "id": "E-096",
+      "type": "Employee",
+      "name": "Anna Henderson",
+      "mentions": [
+        "Anna Henderson"
+      ]
+    },
+    {
+      "id": "E-111",
+      "type": "Employee",
+      "name": "Richard Rodriguez",
+      "mentions": [
+        "Richard Rodriguez"
+      ]
+    },
+    {
+      "id": "E-125",
+      "type": "Employee",
+      "name": "Helen Jones",
+      "mentions": [
+        "Helen Jones"
+      ]
+    },
+    {
+      "id": "E-158",
+      "type": "Employee",
+      "name": "Jason Stein",
+      "mentions": [
+        "Jason Stein"
+      ]
+    },
+    {
+      "id": "E-198",
+      "type": "Employee",
+      "name": "Spencer Haynes",
+      "mentions": [
+        "Spencer Haynes"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-055"
+    },
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-088"
+    },
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-096"
+    },
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-111"
+    },
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-125"
+    },
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-158"
+    },
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-198"
+    },
+    {
+      "src": "E-005",
+      "rel": "MANAGES",
+      "dst": "D-04"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Shannon Jones receive in FY25-Q4?",
+      "answer": "5",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Shannon Jones in FY25-Q4?",
+      "answer": "Cristian Santos",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Christopher Bass receive in FY25-Q4?",
+      "answer": "2",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Christopher Bass in FY25-Q4?",
+      "answer": "Cristian Santos",
+      "hops": 1
+    }
+  ]
+}

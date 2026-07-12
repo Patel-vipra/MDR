@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0001",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-07-12",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-048",
+      "project_id": "P-008",
+      "fiscal_quarter": "FY25-Q4",
+      "allocated_amount": 1992469.0,
+      "spent_amount": 597740.7,
+      "approved_by": "E-199",
+      "status": "closed"
+    },
+    "project": {
+      "project_id": "P-008",
+      "project_name": "Project Granite",
+      "owner_dept_id": "D-02",
+      "lead_employee_id": "E-015",
+      "budget_id": "B-008",
+      "start_date": "2024-02-08",
+      "status": "active",
+      "vendor_id": null
+    },
+    "approver": {
+      "employee_id": "E-199",
+      "full_name": "Adam Vaughan",
+      "role_title": "QA Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "adam.vaughan@orbitalcorp.com.au",
+      "hire_date": "2021-09-01",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "project_lead": {
+      "employee_id": "E-015",
+      "full_name": "Dylan Miller",
+      "role_title": "Procurement Specialist",
+      "department_id": "D-09",
+      "manager_id": "E-010",
+      "email": "dylan.miller@orbitalcorp.com.au",
+      "hire_date": "2023-03-11",
+      "salary_band": "L4",
+      "location": "Singapore"
+    },
+    "owner_department": {
+      "department_id": "D-02",
+      "dept_name": "Human Resources",
+      "head_employee_id": "E-003",
+      "cost_center_code": "CC-102"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-148",
+        "employee_id": "E-037",
+        "project_id": "P-008",
+        "amount": 919.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Sherri Baker"
+      },
+      {
+        "expense_id": "X-066",
+        "employee_id": "E-036",
+        "project_id": "P-008",
+        "amount": 897.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Jeffrey Chavez"
+      },
+      {
+        "expense_id": "X-154",
+        "employee_id": "E-035",
+        "project_id": "P-008",
+        "amount": 876.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Debra Davidson"
+      },
+      {
+        "expense_id": "X-254",
+        "employee_id": "E-038",
+        "project_id": "P-008",
+        "amount": 938.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Cassandra Gaines"
+      },
+      {
+        "expense_id": "X-027",
+        "employee_id": "E-035",
+        "project_id": "P-008",
+        "amount": 887.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Debra Davidson"
+      },
+      {
+        "expense_id": "X-197",
+        "employee_id": "E-039",
+        "project_id": "P-008",
+        "amount": 978.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Elizabeth Fowler"
+      }
+    ]
+  }
+}

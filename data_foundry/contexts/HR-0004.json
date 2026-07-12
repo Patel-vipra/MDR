@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0004",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2025-07-02",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-09",
+      "dept_name": "Research & Development",
+      "head_employee_id": "E-010",
+      "cost_center_code": "CC-109"
+    },
+    "department_head": {
+      "employee_id": "E-010",
+      "full_name": "Ryan Munoz",
+      "role_title": "Head of Research & Development",
+      "department_id": "D-09",
+      "manager_id": "E-001",
+      "email": "ryan.munoz@orbitalcorp.com.au",
+      "hire_date": "2023-09-19",
+      "salary_band": "L5",
+      "location": "Singapore"
+    },
+    "quarter": "FY25-Q4",
+    "reviews": [
+      {
+        "review_id": "R-216",
+        "employee_id": "E-016",
+        "reviewer_id": "E-010",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Brian Ramirez",
+        "reviewer_name": "Ryan Munoz"
+      },
+      {
+        "review_id": "R-222",
+        "employee_id": "E-022",
+        "reviewer_id": "E-010",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Patty Perez",
+        "reviewer_name": "Ryan Munoz"
+      },
+      {
+        "review_id": "R-225",
+        "employee_id": "E-025",
+        "reviewer_id": "E-010",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Matthew Foster",
+        "reviewer_name": "Ryan Munoz"
+      },
+      {
+        "review_id": "R-265",
+        "employee_id": "E-065",
+        "reviewer_id": "E-010",
+        "quarter": "FY25-Q4",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Jessica Callahan",
+        "reviewer_name": "Ryan Munoz"
+      },
+      {
+        "review_id": "R-294",
+        "employee_id": "E-094",
+        "reviewer_id": "E-010",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Christina Walters",
+        "reviewer_name": "Ryan Munoz"
+      },
+      {
+        "review_id": "R-324",
+        "employee_id": "E-124",
+        "reviewer_id": "E-010",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Michelle Harmon",
+        "reviewer_name": "Ryan Munoz"
+      },
+      {
+        "review_id": "R-341",
+        "employee_id": "E-141",
+        "reviewer_id": "E-010",
+        "quarter": "FY25-Q4",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Cheyenne Horton",
+        "reviewer_name": "Ryan Munoz"
+      }
+    ]
+  }
+}

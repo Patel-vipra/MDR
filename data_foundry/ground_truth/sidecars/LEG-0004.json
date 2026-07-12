@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0004",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-014"
+    ],
+    "vendors": [
+      "V-014"
+    ],
+    "projects": [
+      "P-033"
+    ],
+    "employees": [
+      "E-167"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-014",
+      "type": "Contract",
+      "name": "C-014",
+      "mentions": [
+        "C-014"
+      ]
+    },
+    {
+      "id": "E-167",
+      "type": "Employee",
+      "name": "Alyssa Long",
+      "mentions": [
+        "Alyssa Long"
+      ]
+    },
+    {
+      "id": "P-033",
+      "type": "Project",
+      "name": "Project Fathom",
+      "mentions": [
+        "Project Fathom"
+      ]
+    },
+    {
+      "id": "V-014",
+      "type": "Vendor",
+      "name": "Nolan, Rivera and Rice",
+      "mentions": [
+        "Nolan, Rivera and Rice"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-167",
+      "rel": "SIGNED",
+      "dst": "C-014"
+    },
+    {
+      "src": "P-033",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-014"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-014 with Nolan, Rivera and Rice?",
+      "answer": "Alyssa Long",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-014?",
+      "answer": "1,250,588.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-014 end?",
+      "answer": "2027-09-03",
+      "hops": 1
+    }
+  ]
+}

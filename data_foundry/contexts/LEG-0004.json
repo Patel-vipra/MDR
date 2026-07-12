@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0004",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2025-02-03",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-014",
+      "vendor_id": "V-014",
+      "project_id": "P-033",
+      "contract_type": "SOW",
+      "value": 1250588.0,
+      "start_date": "2025-02-03",
+      "end_date": "2027-09-03",
+      "signed_by": "E-167",
+      "renewal_status": "expiring"
+    },
+    "vendor": {
+      "vendor_id": "V-014",
+      "vendor_name": "Nolan, Rivera and Rice",
+      "service_category": "Hardware Supply",
+      "contract_id": "C-014",
+      "contact_email": "accounts@riverarice.com.au"
+    },
+    "project": {
+      "project_id": "P-033",
+      "project_name": "Project Fathom",
+      "owner_dept_id": "D-10",
+      "lead_employee_id": "E-160",
+      "budget_id": "B-033",
+      "start_date": "2025-03-13",
+      "status": "completed",
+      "vendor_id": "V-022"
+    },
+    "signatory": {
+      "employee_id": "E-167",
+      "full_name": "Alyssa Long",
+      "role_title": "Product Manager",
+      "department_id": "D-07",
+      "manager_id": "E-008",
+      "email": "alyssa.long@orbitalcorp.com.au",
+      "hire_date": "2020-07-03",
+      "salary_band": "L3",
+      "location": "Perth"
+    }
+  }
+}

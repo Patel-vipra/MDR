@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0001",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2024-02-03",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-026",
+      "vendor_id": "V-026",
+      "project_id": "P-013",
+      "contract_type": "MSA",
+      "value": 471612.0,
+      "start_date": "2024-02-03",
+      "end_date": "2025-05-11",
+      "signed_by": "E-063",
+      "renewal_status": "auto_renew"
+    },
+    "vendor": {
+      "vendor_id": "V-026",
+      "vendor_name": "Navarro LLC",
+      "service_category": "Facilities Management",
+      "contract_id": "C-026",
+      "contact_email": "accounts@navarrollc.com.au"
+    },
+    "project": {
+      "project_id": "P-013",
+      "project_name": "Project Lumen",
+      "owner_dept_id": "D-05",
+      "lead_employee_id": "E-075",
+      "budget_id": "B-013",
+      "start_date": "2024-07-22",
+      "status": "active",
+      "vendor_id": "V-021"
+    },
+    "signatory": {
+      "employee_id": "E-063",
+      "full_name": "Connor West",
+      "role_title": "Support Engineer",
+      "department_id": "D-11",
+      "manager_id": "E-012",
+      "email": "connor.west@orbitalcorp.com.au",
+      "hire_date": "2024-09-18",
+      "salary_band": "L5",
+      "location": "Singapore"
+    }
+  }
+}

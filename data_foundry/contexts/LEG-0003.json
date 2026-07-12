@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0003",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2024-10-12",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-005",
+      "vendor_id": "V-005",
+      "project_id": "P-027",
+      "contract_type": "SOW",
+      "value": 1008727.0,
+      "start_date": "2024-10-12",
+      "end_date": "2026-12-14",
+      "signed_by": "E-134",
+      "renewal_status": "renegotiate"
+    },
+    "vendor": {
+      "vendor_id": "V-005",
+      "vendor_name": "Tanner, Sampson and Long",
+      "service_category": "Marketing Agency",
+      "contract_id": "C-005",
+      "contact_email": "accounts@sampsonlong.com.au"
+    },
+    "project": {
+      "project_id": "P-027",
+      "project_name": "Project Zephyr",
+      "owner_dept_id": "D-03",
+      "lead_employee_id": "E-035",
+      "budget_id": "B-027",
+      "start_date": "2024-04-05",
+      "status": "active",
+      "vendor_id": null
+    },
+    "signatory": {
+      "employee_id": "E-134",
+      "full_name": "Daniel Kennedy",
+      "role_title": "Legal Counsel",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "daniel.kennedy@orbitalcorp.com.au",
+      "hire_date": "2019-08-30",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    }
+  }
+}

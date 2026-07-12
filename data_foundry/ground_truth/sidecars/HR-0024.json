@@ -1,0 +1,176 @@
+{
+  "doc_id": "HR-0024",
+  "domain": "hr",
+  "doc_type": "promotion_round_summary",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "employees": [
+      "E-041",
+      "E-005",
+      "E-059",
+      "E-003",
+      "E-062",
+      "E-009",
+      "E-067",
+      "E-069",
+      "E-007",
+      "E-089",
+      "E-092",
+      "E-093"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-003",
+      "type": "Employee",
+      "name": "Angie Henderson",
+      "mentions": [
+        "Angie Henderson"
+      ]
+    },
+    {
+      "id": "E-005",
+      "type": "Employee",
+      "name": "Cristian Santos",
+      "mentions": [
+        "Cristian Santos"
+      ]
+    },
+    {
+      "id": "E-007",
+      "type": "Employee",
+      "name": "Abigail Shaffer",
+      "mentions": [
+        "Abigail Shaffer"
+      ]
+    },
+    {
+      "id": "E-009",
+      "type": "Employee",
+      "name": "Gabrielle Davis",
+      "mentions": [
+        "Gabrielle Davis"
+      ]
+    },
+    {
+      "id": "E-041",
+      "type": "Employee",
+      "name": "Paula Moreno",
+      "mentions": [
+        "Paula Moreno"
+      ]
+    },
+    {
+      "id": "E-059",
+      "type": "Employee",
+      "name": "Brent Jordan",
+      "mentions": [
+        "Brent Jordan"
+      ]
+    },
+    {
+      "id": "E-062",
+      "type": "Employee",
+      "name": "Gerald Hensley",
+      "mentions": [
+        "Gerald Hensley"
+      ]
+    },
+    {
+      "id": "E-067",
+      "type": "Employee",
+      "name": "Tracy House",
+      "mentions": [
+        "Tracy House"
+      ]
+    },
+    {
+      "id": "E-069",
+      "type": "Employee",
+      "name": "James Brown",
+      "mentions": [
+        "James Brown"
+      ]
+    },
+    {
+      "id": "E-089",
+      "type": "Employee",
+      "name": "Lisa Archer",
+      "mentions": [
+        "Lisa Archer"
+      ]
+    },
+    {
+      "id": "E-092",
+      "type": "Employee",
+      "name": "Brian Rodriguez",
+      "mentions": [
+        "Brian Rodriguez"
+      ]
+    },
+    {
+      "id": "E-093",
+      "type": "Employee",
+      "name": "Denise Jacobs",
+      "mentions": [
+        "Denise Jacobs"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-005",
+      "rel": "REVIEWED",
+      "dst": "E-041"
+    },
+    {
+      "src": "E-003",
+      "rel": "REVIEWED",
+      "dst": "E-059"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-062"
+    },
+    {
+      "src": "E-003",
+      "rel": "REVIEWED",
+      "dst": "E-067"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-069"
+    },
+    {
+      "src": "E-003",
+      "rel": "REVIEWED",
+      "dst": "E-089"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-092"
+    },
+    {
+      "src": "E-009",
+      "rel": "REVIEWED",
+      "dst": "E-093"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Was {employee} recommended for promotion in {quarter}?",
+      "question": "Was Paula Moreno recommended for promotion in FY25-Q4?",
+      "answer": "Yes",
+      "hops": 1
+    },
+    {
+      "q_template": "Was {employee} recommended for promotion in {quarter}?",
+      "question": "Was Brent Jordan recommended for promotion in FY25-Q4?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

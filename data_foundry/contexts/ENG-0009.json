@@ -1,0 +1,60 @@
+{
+  "doc_id": "ENG-0009",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "doc_date": "2025-04-16",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "incident": {
+      "incident_id": "INC-049",
+      "system_id": "SYS-008",
+      "reported_by": "E-028",
+      "severity": "Sev2",
+      "root_cause_category": "deployment_error",
+      "resolution_time_hrs": 10.5,
+      "incident_date": "2025-04-16"
+    },
+    "system": {
+      "system_id": "SYS-008",
+      "system_name": "billing-gateway",
+      "owner_project_id": "P-004",
+      "on_call_employee_id": "E-015",
+      "tech_stack": "Python/FastAPI/PostgreSQL",
+      "criticality": "mission_critical"
+    },
+    "owning_project": {
+      "project_id": "P-004",
+      "project_name": "Project Cascade",
+      "owner_dept_id": "D-04",
+      "lead_employee_id": "E-053",
+      "budget_id": "B-004",
+      "start_date": "2024-05-24",
+      "status": "active",
+      "vendor_id": "V-009"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-015",
+      "full_name": "Dylan Miller",
+      "role_title": "Procurement Specialist",
+      "department_id": "D-09",
+      "manager_id": "E-010",
+      "email": "dylan.miller@orbitalcorp.com.au",
+      "hire_date": "2023-03-11",
+      "salary_band": "L4",
+      "location": "Singapore"
+    },
+    "reported_by": {
+      "employee_id": "E-028",
+      "full_name": "Stephanie Ross",
+      "role_title": "Accountant",
+      "department_id": "D-04",
+      "manager_id": "E-005",
+      "email": "stephanie.ross@orbitalcorp.com.au",
+      "hire_date": "2017-08-11",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    }
+  }
+}

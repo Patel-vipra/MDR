@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0016",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-02",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-020",
+      "project_id": "P-020",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 1685915.0,
+      "spent_amount": 505774.5,
+      "approved_by": "E-168",
+      "status": "closed"
+    },
+    "project": {
+      "project_id": "P-020",
+      "project_name": "Project Sentinel",
+      "owner_dept_id": "D-10",
+      "lead_employee_id": "E-168",
+      "budget_id": "B-020",
+      "start_date": "2025-04-03",
+      "status": "on_hold",
+      "vendor_id": "V-001"
+    },
+    "approver": {
+      "employee_id": "E-168",
+      "full_name": "Alyssa Day",
+      "role_title": "Staff Engineer",
+      "department_id": "D-02",
+      "manager_id": "E-003",
+      "email": "alyssa.day@orbitalcorp.com.au",
+      "hire_date": "2016-05-14",
+      "salary_band": "L1",
+      "location": "Melbourne"
+    },
+    "project_lead": {
+      "employee_id": "E-168",
+      "full_name": "Alyssa Day",
+      "role_title": "Staff Engineer",
+      "department_id": "D-02",
+      "manager_id": "E-003",
+      "email": "alyssa.day@orbitalcorp.com.au",
+      "hire_date": "2016-05-14",
+      "salary_band": "L1",
+      "location": "Melbourne"
+    },
+    "owner_department": {
+      "department_id": "D-10",
+      "dept_name": "Customer Support",
+      "head_employee_id": "E-011",
+      "cost_center_code": "CC-110"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-149",
+        "employee_id": "E-099",
+        "project_id": "P-020",
+        "amount": 2471.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Jessica Smith"
+      },
+      {
+        "expense_id": "X-042",
+        "employee_id": "E-100",
+        "project_id": "P-020",
+        "amount": 2510.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Stephen Mckee"
+      },
+      {
+        "expense_id": "X-086",
+        "employee_id": "E-099",
+        "project_id": "P-020",
+        "amount": 2476.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Jessica Smith"
+      },
+      {
+        "expense_id": "X-054",
+        "employee_id": "E-097",
+        "project_id": "P-020",
+        "amount": 2437.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Aaron Wise"
+      },
+      {
+        "expense_id": "X-294",
+        "employee_id": "E-098",
+        "project_id": "P-020",
+        "amount": 2459.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Deborah Figueroa"
+      },
+      {
+        "expense_id": "X-200",
+        "employee_id": "E-096",
+        "project_id": "P-020",
+        "amount": 2407.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Anna Henderson"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0003",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-005"
+    ],
+    "vendors": [
+      "V-005"
+    ],
+    "projects": [
+      "P-027"
+    ],
+    "employees": [
+      "E-134"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-005",
+      "type": "Contract",
+      "name": "C-005",
+      "mentions": [
+        "C-005"
+      ]
+    },
+    {
+      "id": "E-134",
+      "type": "Employee",
+      "name": "Daniel Kennedy",
+      "mentions": [
+        "Daniel Kennedy"
+      ]
+    },
+    {
+      "id": "P-027",
+      "type": "Project",
+      "name": "Project Zephyr",
+      "mentions": [
+        "Project Zephyr"
+      ]
+    },
+    {
+      "id": "V-005",
+      "type": "Vendor",
+      "name": "Tanner, Sampson and Long",
+      "mentions": [
+        "Tanner, Sampson and Long"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-134",
+      "rel": "SIGNED",
+      "dst": "C-005"
+    },
+    {
+      "src": "P-027",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-005"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-005 with Tanner, Sampson and Long?",
+      "answer": "Daniel Kennedy",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-005?",
+      "answer": "1,008,727.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-005 end?",
+      "answer": "2026-12-14",
+      "hops": 1
+    }
+  ]
+}

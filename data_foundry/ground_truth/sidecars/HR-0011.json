@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0011",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-06"
+    ],
+    "employees": [
+      "E-007",
+      "E-054",
+      "E-069",
+      "E-086",
+      "E-087",
+      "E-099",
+      "E-137",
+      "E-157"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-06",
+      "type": "Department",
+      "name": "Marketing",
+      "mentions": [
+        "Marketing"
+      ]
+    },
+    {
+      "id": "E-007",
+      "type": "Employee",
+      "name": "Abigail Shaffer",
+      "mentions": [
+        "Abigail Shaffer"
+      ]
+    },
+    {
+      "id": "E-054",
+      "type": "Employee",
+      "name": "Mark Perez",
+      "mentions": [
+        "Mark Perez"
+      ]
+    },
+    {
+      "id": "E-069",
+      "type": "Employee",
+      "name": "James Brown",
+      "mentions": [
+        "James Brown"
+      ]
+    },
+    {
+      "id": "E-086",
+      "type": "Employee",
+      "name": "Daniel Baker",
+      "mentions": [
+        "Daniel Baker"
+      ]
+    },
+    {
+      "id": "E-087",
+      "type": "Employee",
+      "name": "Shirley Suarez",
+      "mentions": [
+        "Shirley Suarez"
+      ]
+    },
+    {
+      "id": "E-099",
+      "type": "Employee",
+      "name": "Jessica Smith",
+      "mentions": [
+        "Jessica Smith"
+      ]
+    },
+    {
+      "id": "E-137",
+      "type": "Employee",
+      "name": "Robert Potter",
+      "mentions": [
+        "Robert Potter"
+      ]
+    },
+    {
+      "id": "E-157",
+      "type": "Employee",
+      "name": "Joshua Perry",
+      "mentions": [
+        "Joshua Perry"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-054"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-069"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-086"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-087"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-099"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-137"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-157"
+    },
+    {
+      "src": "E-007",
+      "rel": "MANAGES",
+      "dst": "D-06"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Mark Perez receive in FY25-Q2?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Mark Perez in FY25-Q2?",
+      "answer": "Abigail Shaffer",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did James Brown receive in FY25-Q2?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed James Brown in FY25-Q2?",
+      "answer": "Abigail Shaffer",
+      "hops": 1
+    }
+  ]
+}

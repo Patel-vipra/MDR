@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0007",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-042"
+    ],
+    "vendors": [
+      "V-012"
+    ],
+    "projects": [
+      "P-020"
+    ],
+    "employees": [
+      "E-100"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-042",
+      "type": "Contract",
+      "name": "C-042",
+      "mentions": [
+        "C-042"
+      ]
+    },
+    {
+      "id": "E-100",
+      "type": "Employee",
+      "name": "Stephen Mckee",
+      "mentions": [
+        "Stephen Mckee"
+      ]
+    },
+    {
+      "id": "P-020",
+      "type": "Project",
+      "name": "Project Sentinel",
+      "mentions": [
+        "Project Sentinel"
+      ]
+    },
+    {
+      "id": "V-012",
+      "type": "Vendor",
+      "name": "Garcia, Foley and Silva",
+      "mentions": [
+        "Garcia, Foley and Silva"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-100",
+      "rel": "SIGNED",
+      "dst": "C-042"
+    },
+    {
+      "src": "P-020",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-012"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-042 with Garcia, Foley and Silva?",
+      "answer": "Stephen Mckee",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-042?",
+      "answer": "754,352.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-042 end?",
+      "answer": "2026-03-14",
+      "hops": 1
+    }
+  ]
+}

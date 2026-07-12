@@ -1,0 +1,55 @@
+{
+  "doc_id": "FIN-0030",
+  "domain": "finance",
+  "doc_type": "vendor_spend_review",
+  "doc_date": "2025-06-14",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "vendor": {
+      "vendor_id": "V-008",
+      "vendor_name": "Anderson-Hughes",
+      "service_category": "Software Licensing",
+      "contract_id": "C-008",
+      "contact_email": "accounts@vendor8.com.au"
+    },
+    "contracts": [
+      {
+        "contract_id": "C-008",
+        "vendor_id": "V-008",
+        "project_id": "P-004",
+        "contract_type": "NDA",
+        "value": 114199.0,
+        "start_date": "2023-08-19",
+        "end_date": "2024-04-19",
+        "signed_by": "E-015",
+        "renewal_status": "auto_renew"
+      },
+      {
+        "contract_id": "C-038",
+        "vendor_id": "V-008",
+        "project_id": "P-019",
+        "contract_type": "MSA",
+        "value": 687974.0,
+        "start_date": "2024-05-15",
+        "end_date": "2026-01-01",
+        "signed_by": "E-092",
+        "renewal_status": "renegotiate"
+      }
+    ],
+    "projects_supplied": [
+      {
+        "project_id": "P-032",
+        "project_name": "Project Echo",
+        "owner_dept_id": "D-03",
+        "lead_employee_id": "E-042",
+        "budget_id": "B-032",
+        "start_date": "2024-04-22",
+        "status": "active",
+        "vendor_id": "V-008",
+        "lead_name": "Fred Smith"
+      }
+    ]
+  }
+}

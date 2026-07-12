@@ -1,0 +1,185 @@
+{
+  "doc_id": "HR-0023",
+  "domain": "hr",
+  "doc_type": "promotion_round_summary",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "employees": [
+      "E-130",
+      "E-012",
+      "E-161",
+      "E-013",
+      "E-169",
+      "E-184",
+      "E-190",
+      "E-005",
+      "E-001",
+      "E-020",
+      "E-011",
+      "E-025",
+      "E-010"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-001",
+      "type": "Employee",
+      "name": "Allison Hill",
+      "mentions": [
+        "Allison Hill"
+      ]
+    },
+    {
+      "id": "E-005",
+      "type": "Employee",
+      "name": "Cristian Santos",
+      "mentions": [
+        "Cristian Santos"
+      ]
+    },
+    {
+      "id": "E-010",
+      "type": "Employee",
+      "name": "Ryan Munoz",
+      "mentions": [
+        "Ryan Munoz"
+      ]
+    },
+    {
+      "id": "E-011",
+      "type": "Employee",
+      "name": "Monica Herrera",
+      "mentions": [
+        "Monica Herrera"
+      ]
+    },
+    {
+      "id": "E-012",
+      "type": "Employee",
+      "name": "Jamie Arnold",
+      "mentions": [
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "id": "E-013",
+      "type": "Employee",
+      "name": "Lisa Hensley",
+      "mentions": [
+        "Lisa Hensley"
+      ]
+    },
+    {
+      "id": "E-020",
+      "type": "Employee",
+      "name": "Carla Gray",
+      "mentions": [
+        "Carla Gray"
+      ]
+    },
+    {
+      "id": "E-025",
+      "type": "Employee",
+      "name": "Matthew Foster",
+      "mentions": [
+        "Matthew Foster"
+      ]
+    },
+    {
+      "id": "E-130",
+      "type": "Employee",
+      "name": "Megan Orr",
+      "mentions": [
+        "Megan Orr"
+      ]
+    },
+    {
+      "id": "E-161",
+      "type": "Employee",
+      "name": "Paul Castaneda",
+      "mentions": [
+        "Paul Castaneda"
+      ]
+    },
+    {
+      "id": "E-169",
+      "type": "Employee",
+      "name": "Joel Williams",
+      "mentions": [
+        "Joel Williams"
+      ]
+    },
+    {
+      "id": "E-184",
+      "type": "Employee",
+      "name": "Ashley Barton",
+      "mentions": [
+        "Ashley Barton"
+      ]
+    },
+    {
+      "id": "E-190",
+      "type": "Employee",
+      "name": "Jessica Gross",
+      "mentions": [
+        "Jessica Gross"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-130"
+    },
+    {
+      "src": "E-013",
+      "rel": "REVIEWED",
+      "dst": "E-161"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-169"
+    },
+    {
+      "src": "E-013",
+      "rel": "REVIEWED",
+      "dst": "E-184"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-190"
+    },
+    {
+      "src": "E-001",
+      "rel": "REVIEWED",
+      "dst": "E-005"
+    },
+    {
+      "src": "E-011",
+      "rel": "REVIEWED",
+      "dst": "E-020"
+    },
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-025"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Was {employee} recommended for promotion in {quarter}?",
+      "question": "Was Megan Orr recommended for promotion in FY25-Q2?",
+      "answer": "Yes",
+      "hops": 1
+    },
+    {
+      "q_template": "Was {employee} recommended for promotion in {quarter}?",
+      "question": "Was Paul Castaneda recommended for promotion in FY25-Q2?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "HR-0010",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2024-10-04",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-12",
+      "dept_name": "Facilities",
+      "head_employee_id": "E-013",
+      "cost_center_code": "CC-112"
+    },
+    "department_head": {
+      "employee_id": "E-013",
+      "full_name": "Lisa Hensley",
+      "role_title": "Head of Facilities",
+      "department_id": "D-12",
+      "manager_id": "E-001",
+      "email": "lisa.hensley@orbitalcorp.com.au",
+      "hire_date": "2019-01-29",
+      "salary_band": "L5",
+      "location": "Brisbane"
+    },
+    "quarter": "FY25-Q2",
+    "reviews": [
+      {
+        "review_id": "R-013",
+        "employee_id": "E-013",
+        "reviewer_id": "E-001",
+        "quarter": "FY25-Q2",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Lisa Hensley",
+        "reviewer_name": "Allison Hill"
+      },
+      {
+        "review_id": "R-048",
+        "employee_id": "E-048",
+        "reviewer_id": "E-013",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Shane Henderson",
+        "reviewer_name": "Lisa Hensley"
+      },
+      {
+        "review_id": "R-161",
+        "employee_id": "E-161",
+        "reviewer_id": "E-013",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Paul Castaneda",
+        "reviewer_name": "Lisa Hensley"
+      },
+      {
+        "review_id": "R-184",
+        "employee_id": "E-184",
+        "reviewer_id": "E-013",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Ashley Barton",
+        "reviewer_name": "Lisa Hensley"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0008",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2023-11-22",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-032",
+      "vendor_id": "V-002",
+      "project_id": "P-009",
+      "contract_type": "NDA",
+      "value": 316849.0,
+      "start_date": "2023-11-22",
+      "end_date": "2024-11-24",
+      "signed_by": "E-042",
+      "renewal_status": "auto_renew"
+    },
+    "vendor": {
+      "vendor_id": "V-002",
+      "vendor_name": "Wood-Hale",
+      "service_category": "Legal Services",
+      "contract_id": "C-002",
+      "contact_email": "accounts@vendor2.com.au"
+    },
+    "project": {
+      "project_id": "P-009",
+      "project_name": "Project Horizon",
+      "owner_dept_id": "D-12",
+      "lead_employee_id": "E-194",
+      "budget_id": "B-009",
+      "start_date": "2025-06-13",
+      "status": "planned",
+      "vendor_id": "V-003"
+    },
+    "signatory": {
+      "employee_id": "E-042",
+      "full_name": "Fred Smith",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "fred.smith@orbitalcorp.com.au",
+      "hire_date": "2020-06-21",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    }
+  }
+}

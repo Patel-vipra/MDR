@@ -1,0 +1,967 @@
+[
+  {
+    "type": "single_hop",
+    "question": "Who was on call for auth-worker during incident INC-073?",
+    "answer": "Crystal Robinson",
+    "source_doc_ids": [
+      "ENG-0015"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0015",
+    "id": "Q-001"
+  },
+  {
+    "type": "single_hop",
+    "question": "Which system caused incident INC-080?",
+    "answer": "auth-gateway",
+    "source_doc_ids": [
+      "ENG-0004"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0004",
+    "id": "Q-002"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who is the project lead for Project Cobalt?",
+    "answer": "Jeffrey Johnson",
+    "source_doc_ids": [
+      "FIN-0017"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0017",
+    "id": "Q-003"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who is the project lead for Project Borealis?",
+    "answer": "Alyssa Long",
+    "source_doc_ids": [
+      "FIN-0012"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0012",
+    "id": "Q-004"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who approved the FY25-Q3 budget for Project Aurora?",
+    "answer": "Shane Henderson",
+    "source_doc_ids": [
+      "FIN-0009"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0009",
+    "id": "Q-005"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who is on call for reporting-worker?",
+    "answer": "Stephanie Ross",
+    "source_doc_ids": [
+      "ENG-0019"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0019",
+    "id": "Q-006"
+  },
+  {
+    "type": "single_hop",
+    "question": "Which system caused incident INC-041?",
+    "answer": "ledger-worker",
+    "source_doc_ids": [
+      "ENG-0014"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0014",
+    "id": "Q-007"
+  },
+  {
+    "type": "single_hop",
+    "question": "When does contract C-010 end?",
+    "answer": "2027-07-05",
+    "source_doc_ids": [
+      "LEG-0011"
+    ],
+    "hops": 1,
+    "persona": "legal_counsel",
+    "notes": "from answerable_facts of LEG-0011",
+    "id": "Q-008"
+  },
+  {
+    "type": "single_hop",
+    "question": "Which system caused incident INC-027?",
+    "answer": "billing-worker",
+    "source_doc_ids": [
+      "ENG-0012"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0012",
+    "id": "Q-009"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who reviewed Margaret Hawkins DDS in FY25-Q4?",
+    "answer": "Abigail Shaffer",
+    "source_doc_ids": [
+      "HR-0012"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0012",
+    "id": "Q-010"
+  },
+  {
+    "type": "single_hop",
+    "question": "Which system caused incident INC-089?",
+    "answer": "auth-worker",
+    "source_doc_ids": [
+      "ENG-0005"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0005",
+    "id": "Q-011"
+  },
+  {
+    "type": "single_hop",
+    "question": "When did incident INC-080 occur?",
+    "answer": "2025-05-04",
+    "source_doc_ids": [
+      "ENG-0004"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0004",
+    "id": "Q-012"
+  },
+  {
+    "type": "single_hop",
+    "question": "When did incident INC-027 occur?",
+    "answer": "2025-02-13",
+    "source_doc_ids": [
+      "ENG-0012"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0012",
+    "id": "Q-013"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who approved the FY25-Q3 budget for Project Ember?",
+    "answer": "Christine Wright",
+    "source_doc_ids": [
+      "FIN-0008"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0008",
+    "id": "Q-014"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who is the project lead for Project Lattice?",
+    "answer": "Tricia Valencia",
+    "source_doc_ids": [
+      "FIN-0010"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0010",
+    "id": "Q-015"
+  },
+  {
+    "type": "single_hop",
+    "question": "When does contract C-014 end?",
+    "answer": "2027-09-03",
+    "source_doc_ids": [
+      "LEG-0004"
+    ],
+    "hops": 1,
+    "persona": "legal_counsel",
+    "notes": "from answerable_facts of LEG-0004",
+    "id": "Q-016"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who was on call for auth-gateway during incident INC-080?",
+    "answer": "Alyssa Long",
+    "source_doc_ids": [
+      "ENG-0004"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0004",
+    "id": "Q-017"
+  },
+  {
+    "type": "single_hop",
+    "question": "What severity was compliance incident CI-018?",
+    "answer": "medium",
+    "source_doc_ids": [
+      "LEG-0015"
+    ],
+    "hops": 1,
+    "persona": "legal_counsel",
+    "notes": "from answerable_facts of LEG-0015",
+    "id": "Q-018"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who is the project lead for Project Obsidian?",
+    "answer": "Amber Wright",
+    "source_doc_ids": [
+      "FIN-0004"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0004",
+    "id": "Q-019"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who reviewed James Brown in FY25-Q2?",
+    "answer": "Abigail Shaffer",
+    "source_doc_ids": [
+      "HR-0011"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0011",
+    "id": "Q-020"
+  },
+  {
+    "type": "single_hop",
+    "question": "What was the allocated budget for Project Ember in FY25-Q3?",
+    "answer": "1,058,790.00",
+    "source_doc_ids": [
+      "FIN-0008"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0008",
+    "id": "Q-021"
+  },
+  {
+    "type": "single_hop",
+    "question": "What type of leave did April Frost take starting 2025-05-02?",
+    "answer": "unpaid",
+    "source_doc_ids": [
+      "HR-0017"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0017",
+    "id": "Q-022"
+  },
+  {
+    "type": "single_hop",
+    "question": "What was the allocated budget for Project Kestrel in FY25-Q3?",
+    "answer": "937,281.00",
+    "source_doc_ids": [
+      "FIN-0018"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0018",
+    "id": "Q-023"
+  },
+  {
+    "type": "single_hop",
+    "question": "When did incident INC-017 occur?",
+    "answer": "2025-02-09",
+    "source_doc_ids": [
+      "ENG-0001"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0001",
+    "id": "Q-024"
+  },
+  {
+    "type": "single_hop",
+    "question": "Which project owns payroll-gateway?",
+    "answer": "Project Yukon",
+    "source_doc_ids": [
+      "ENG-0023"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0023",
+    "id": "Q-025"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who reviewed Michele Williams in FY25-Q4?",
+    "answer": "Monica Herrera",
+    "source_doc_ids": [
+      "HR-0001"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0001",
+    "id": "Q-026"
+  },
+  {
+    "type": "single_hop",
+    "question": "What is the tech stack of identity-gateway?",
+    "answer": "Kotlin/Ktor/PostgreSQL",
+    "source_doc_ids": [
+      "ENG-0022"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0022",
+    "id": "Q-027"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who is the project lead for Project Falcon?",
+    "answer": "Nathan Freeman",
+    "source_doc_ids": [
+      "FIN-0007"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0007",
+    "id": "Q-028"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who reviewed Monica Herrera in FY25-Q4?",
+    "answer": "Allison Hill",
+    "source_doc_ids": [
+      "HR-0001"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0001",
+    "id": "Q-029"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who reviewed Tommy Walter in FY25-Q4?",
+    "answer": "Jamie Arnold",
+    "source_doc_ids": [
+      "HR-0006"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0006",
+    "id": "Q-030"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who was on call for billing-pipeline during incident INC-066?",
+    "answer": "Melissa Gates",
+    "source_doc_ids": [
+      "ENG-0013"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0013",
+    "id": "Q-031"
+  },
+  {
+    "type": "single_hop",
+    "question": "What rating did Brian Ramirez receive in FY25-Q4?",
+    "answer": "4",
+    "source_doc_ids": [
+      "HR-0004"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0004",
+    "id": "Q-032"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who reviewed Jamie Arnold in FY25-Q2?",
+    "answer": "Allison Hill",
+    "source_doc_ids": [
+      "HR-0002"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0002",
+    "id": "Q-033"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who approved the FY25-Q3 budget for Project Sentinel?",
+    "answer": "Alyssa Day",
+    "source_doc_ids": [
+      "FIN-0016"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0016",
+    "id": "Q-034"
+  },
+  {
+    "type": "single_hop",
+    "question": "What was the root cause of incident INC-091?",
+    "answer": "config_change",
+    "source_doc_ids": [
+      "ENG-0006"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0006",
+    "id": "Q-035"
+  },
+  {
+    "type": "single_hop",
+    "question": "What type of leave did Dylan Miller take starting 2024-08-05?",
+    "answer": "annual",
+    "source_doc_ids": [
+      "HR-0020"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0020",
+    "id": "Q-036"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who signed contract C-030 with Johnson, Robbins and Abbott?",
+    "answer": "Jeffrey Johnson",
+    "source_doc_ids": [
+      "LEG-0010"
+    ],
+    "hops": 1,
+    "persona": "legal_counsel",
+    "notes": "from answerable_facts of LEG-0010",
+    "id": "Q-037"
+  },
+  {
+    "type": "single_hop",
+    "question": "Which project owns inventory-worker?",
+    "answer": "Project Ironwood",
+    "source_doc_ids": [
+      "ENG-0017"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0017",
+    "id": "Q-038"
+  },
+  {
+    "type": "single_hop",
+    "question": "What rating did Tommy Walter receive in FY25-Q4?",
+    "answer": "2",
+    "source_doc_ids": [
+      "HR-0006"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0006",
+    "id": "Q-039"
+  },
+  {
+    "type": "single_hop",
+    "question": "Which system caused incident INC-039?",
+    "answer": "billing-worker",
+    "source_doc_ids": [
+      "ENG-0011"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0011",
+    "id": "Q-040"
+  },
+  {
+    "type": "single_hop",
+    "question": "When does contract C-017 end?",
+    "answer": "2024-01-23",
+    "source_doc_ids": [
+      "LEG-0012"
+    ],
+    "hops": 1,
+    "persona": "legal_counsel",
+    "notes": "from answerable_facts of LEG-0012",
+    "id": "Q-041"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who heads the Human Resources department?",
+    "answer": "Angie Henderson",
+    "source_doc_ids": [
+      "FIN-0021"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0021",
+    "id": "Q-042"
+  },
+  {
+    "type": "single_hop",
+    "question": "What rating did Patty Perez receive in FY25-Q4?",
+    "answer": "4",
+    "source_doc_ids": [
+      "HR-0004"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "notes": "from answerable_facts of HR-0004",
+    "id": "Q-043"
+  },
+  {
+    "type": "single_hop",
+    "question": "What severity was compliance incident CI-014?",
+    "answer": "high",
+    "source_doc_ids": [
+      "LEG-0019"
+    ],
+    "hops": 1,
+    "persona": "legal_counsel",
+    "notes": "from answerable_facts of LEG-0019",
+    "id": "Q-044"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who is the project lead for Project Quasar?",
+    "answer": "Michelle Evans",
+    "source_doc_ids": [
+      "FIN-0003"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0003",
+    "id": "Q-045"
+  },
+  {
+    "type": "single_hop",
+    "question": "When did incident INC-049 occur?",
+    "answer": "2025-04-16",
+    "source_doc_ids": [
+      "ENG-0009"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0009",
+    "id": "Q-046"
+  },
+  {
+    "type": "single_hop",
+    "question": "When did incident INC-091 occur?",
+    "answer": "2025-05-27",
+    "source_doc_ids": [
+      "ENG-0006"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0006",
+    "id": "Q-047"
+  },
+  {
+    "type": "single_hop",
+    "question": "Who is the project lead for Project Aurora?",
+    "answer": "Shane Henderson",
+    "source_doc_ids": [
+      "FIN-0009"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0009",
+    "id": "Q-048"
+  },
+  {
+    "type": "single_hop",
+    "question": "What was the allocated budget for Project Titan in FY25-Q4?",
+    "answer": "1,072,529.00",
+    "source_doc_ids": [
+      "FIN-0020"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "notes": "from answerable_facts of FIN-0020",
+    "id": "Q-049"
+  },
+  {
+    "type": "single_hop",
+    "question": "When did incident INC-066 occur?",
+    "answer": "2025-01-13",
+    "source_doc_ids": [
+      "ENG-0013"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "notes": "from answerable_facts of ENG-0013",
+    "id": "Q-050"
+  },
+  {
+    "type": "multi_hop",
+    "answer": "Richard Henson",
+    "source_doc_ids": [
+      "ENG-0001",
+      "ENG-0007",
+      "ENG-0008",
+      "FIN-0020"
+    ],
+    "hops": 4,
+    "persona": "admin",
+    "question": "Who approved the FY25-Q4 budget for the project whose system caused the Sev-1 incident in February?",
+    "notes": "flagship chain: INC-017 -> SYS-002 -> P-021 -> B-061",
+    "id": "Q-051"
+  },
+  {
+    "type": "multi_hop",
+    "answer": "Fred Smith",
+    "source_doc_ids": [
+      "ENG-0013",
+      "FIN-0019"
+    ],
+    "hops": 4,
+    "persona": "admin",
+    "question": "Who approved the FY25-Q3 budget for the project whose system caused incident INC-066?",
+    "notes": "chain: INC-066 -> SYS-010 -> P-032 -> B-032",
+    "id": "Q-052"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Which vendor supplies the project that owns the payroll-gateway system?",
+    "answer": "Costa PLC",
+    "source_doc_ids": [
+      "ENG-0023",
+      "LEG-0002"
+    ],
+    "hops": 2,
+    "persona": "admin",
+    "notes": "chain: SYS-018 -> P-026 -> V-018",
+    "id": "Q-053"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Who approved the FY25-Q3 budget for the project covered by contract C-042?",
+    "answer": "Alyssa Day",
+    "source_doc_ids": [
+      "LEG-0007",
+      "FIN-0016"
+    ],
+    "hops": 3,
+    "persona": "admin",
+    "notes": "chain: C-042 -> P-020 -> B-020",
+    "id": "Q-054"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Which project owns the system that Cameron Parker is on call for?",
+    "answer": "Project Titan",
+    "source_doc_ids": [
+      "ENG-0001",
+      "ENG-0007",
+      "ENG-0008"
+    ],
+    "hops": 2,
+    "persona": "admin",
+    "notes": "chain: E-102 -> SYS-002 -> P-021",
+    "id": "Q-055"
+  },
+  {
+    "type": "multi_hop",
+    "question": "What performance rating did the on-call engineer for the auth-worker system receive in FY25-Q2?",
+    "answer": "4",
+    "source_doc_ids": [
+      "ENG-0002",
+      "ENG-0003",
+      "ENG-0005",
+      "ENG-0015",
+      "HR-0007"
+    ],
+    "hops": 2,
+    "persona": "admin",
+    "notes": "cross-domain chain: SYS-004 -> Crystal Robinson -> rating",
+    "id": "Q-056"
+  },
+  {
+    "type": "multi_hop",
+    "answer": "Michelle Evans",
+    "source_doc_ids": [
+      "ENG-0018",
+      "FIN-0003"
+    ],
+    "hops": 4,
+    "persona": "admin",
+    "question": "Who approved the FY25-Q3 budget for the project whose system caused incident INC-032?",
+    "notes": "chain: INC-032 -> SYS-011 -> P-018 -> B-018",
+    "id": "Q-057"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Which vendor supplies the project that owns the inventory-gateway system?",
+    "answer": "Chavez Group",
+    "source_doc_ids": [
+      "ENG-0020",
+      "FIN-0027"
+    ],
+    "hops": 2,
+    "persona": "admin",
+    "notes": "chain: SYS-023 -> P-022 -> V-003",
+    "id": "Q-058"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Who approved the FY25-Q3 budget for the project covered by contract C-037?",
+    "answer": "Nathan Freeman",
+    "source_doc_ids": [
+      "LEG-0005",
+      "FIN-0007"
+    ],
+    "hops": 3,
+    "persona": "admin",
+    "notes": "chain: C-037 -> P-007 -> B-007",
+    "id": "Q-059"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Which project owns the system that Aimee Montoya is on call for?",
+    "answer": "Project Quasar",
+    "source_doc_ids": [
+      "ENG-0018"
+    ],
+    "hops": 2,
+    "persona": "admin",
+    "notes": "chain: E-090 -> SYS-011 -> P-018",
+    "id": "Q-060"
+  },
+  {
+    "type": "multi_hop",
+    "question": "What performance rating did the on-call engineer for the identity-service system receive in FY25-Q2?",
+    "answer": "4",
+    "source_doc_ids": [
+      "ENG-0016",
+      "HR-0011"
+    ],
+    "hops": 2,
+    "persona": "admin",
+    "notes": "cross-domain chain: SYS-041 -> Mark Perez -> rating",
+    "id": "Q-061"
+  },
+  {
+    "type": "multi_hop",
+    "answer": "Michelle Evans",
+    "source_doc_ids": [
+      "ENG-0018",
+      "FIN-0003"
+    ],
+    "hops": 4,
+    "persona": "admin",
+    "question": "Who approved the FY25-Q3 budget for the project whose system caused incident INC-095?",
+    "notes": "chain: INC-095 -> SYS-011 -> P-018 -> B-018",
+    "id": "Q-062"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Which vendor supplies the project that owns the auth-pipeline system?",
+    "answer": "Tanner, Sampson and Long",
+    "source_doc_ids": [
+      "ENG-0010",
+      "ENG-0025",
+      "LEG-0003"
+    ],
+    "hops": 2,
+    "persona": "admin",
+    "notes": "chain: SYS-005 -> P-027 -> V-005",
+    "id": "Q-063"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Who approved the FY25-Q3 budget for the project covered by contract C-010?",
+    "answer": "Fred Smith",
+    "source_doc_ids": [
+      "LEG-0011",
+      "FIN-0019"
+    ],
+    "hops": 3,
+    "persona": "admin",
+    "notes": "chain: C-010 -> P-032 -> B-032",
+    "id": "Q-064"
+  },
+  {
+    "type": "multi_hop",
+    "question": "Which project owns the system that Brenda Hall is on call for?",
+    "answer": "Project Drift",
+    "source_doc_ids": [
+      "ENG-0022"
+    ],
+    "hops": 2,
+    "persona": "admin",
+    "notes": "chain: E-155 -> SYS-043 -> P-031",
+    "id": "Q-065"
+  },
+  {
+    "type": "unanswerable",
+    "question": "What was the FY24-Q1 allocated budget for Project Falcon?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "corpus only covers FY25 quarters",
+    "id": "Q-066"
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is Tommy Walter's annual salary in dollars?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "only salary bands exist, never dollar amounts",
+    "id": "Q-067"
+  },
+  {
+    "type": "unanswerable",
+    "question": "Which vendor supplies Project Zenith?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "no such project exists",
+    "id": "Q-068"
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is the phone number for Wood-Hale?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "phone numbers are not documented",
+    "id": "Q-069"
+  },
+  {
+    "type": "unanswerable",
+    "question": "Who was the CEO of OrbitalCorp in 2019?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "no historical org data",
+    "id": "Q-070"
+  },
+  {
+    "type": "unanswerable",
+    "question": "In which city is the ledger-service system hosted?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "hosting locations are not documented",
+    "id": "Q-071"
+  },
+  {
+    "type": "unanswerable",
+    "question": "How many sick days did Steve Sanchez take in 2023?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "leave records only cover 2024-2025",
+    "id": "Q-072"
+  },
+  {
+    "type": "unanswerable",
+    "question": "What was the renewal fee for contract C-030?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "contract values exist but renewal fees do not",
+    "id": "Q-073"
+  },
+  {
+    "type": "unanswerable",
+    "question": "Which external auditor reviewed the Engineering department?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "auditors are not in the corpus",
+    "id": "Q-074"
+  },
+  {
+    "type": "unanswerable",
+    "question": "What is the total headcount of the Human Resources department?",
+    "answer": null,
+    "source_doc_ids": [],
+    "hops": 0,
+    "persona": "admin",
+    "notes": "headcounts are never stated in documents",
+    "id": "Q-075"
+  },
+  {
+    "type": "abac_denied",
+    "question": "Who reviewed Shannon Jones in FY25-Q4?",
+    "answer": "Cristian Santos",
+    "source_doc_ids": [
+      "HR-0005"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "denied_domain": "hr",
+    "notes": "engineer has no access to hr; correct behaviour is refusal",
+    "id": "Q-076"
+  },
+  {
+    "type": "abac_denied",
+    "question": "Who signed contract C-021 with Guzman-Miller?",
+    "answer": "Aaron Wise",
+    "source_doc_ids": [
+      "LEG-0006"
+    ],
+    "hops": 1,
+    "persona": "finance_analyst",
+    "denied_domain": "legal",
+    "notes": "finance_analyst has no access to legal; correct behaviour is refusal",
+    "id": "Q-077"
+  },
+  {
+    "type": "abac_denied",
+    "question": "Who submitted the largest expense in the Data & Analytics department?",
+    "answer": "Jessica Gross",
+    "source_doc_ids": [
+      "FIN-0026"
+    ],
+    "hops": 1,
+    "persona": "hr_manager",
+    "denied_domain": "finance",
+    "notes": "hr_manager has no access to finance; correct behaviour is refusal",
+    "id": "Q-078"
+  },
+  {
+    "type": "abac_denied",
+    "question": "Who is on call for ledger-service?",
+    "answer": "Aimee Montoya",
+    "source_doc_ids": [
+      "ENG-0018"
+    ],
+    "hops": 1,
+    "persona": "legal_counsel",
+    "denied_domain": "engineering",
+    "notes": "legal_counsel has no access to engineering; correct behaviour is refusal",
+    "id": "Q-079"
+  },
+  {
+    "type": "abac_denied",
+    "question": "What is the value of contract C-021?",
+    "answer": "727,187.00",
+    "source_doc_ids": [
+      "LEG-0006"
+    ],
+    "hops": 1,
+    "persona": "engineer",
+    "denied_domain": "legal",
+    "notes": "engineer has no access to legal; correct behaviour is refusal",
+    "id": "Q-080"
+  }
+]

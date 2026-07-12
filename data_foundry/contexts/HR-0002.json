@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0002",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2024-10-19",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-11",
+      "dept_name": "Data & Analytics",
+      "head_employee_id": "E-012",
+      "cost_center_code": "CC-111"
+    },
+    "department_head": {
+      "employee_id": "E-012",
+      "full_name": "Jamie Arnold",
+      "role_title": "Head of Data & Analytics",
+      "department_id": "D-11",
+      "manager_id": "E-001",
+      "email": "jamie.arnold@orbitalcorp.com.au",
+      "hire_date": "2022-06-10",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "quarter": "FY25-Q2",
+    "reviews": [
+      {
+        "review_id": "R-012",
+        "employee_id": "E-012",
+        "reviewer_id": "E-001",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Jamie Arnold",
+        "reviewer_name": "Allison Hill"
+      },
+      {
+        "review_id": "R-024",
+        "employee_id": "E-024",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": false,
+        "employee_name": "Tommy Walter",
+        "reviewer_name": "Jamie Arnold"
+      },
+      {
+        "review_id": "R-047",
+        "employee_id": "E-047",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": false,
+        "employee_name": "John Pierce",
+        "reviewer_name": "Jamie Arnold"
+      },
+      {
+        "review_id": "R-056",
+        "employee_id": "E-056",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Michael Lewis",
+        "reviewer_name": "Jamie Arnold"
+      },
+      {
+        "review_id": "R-078",
+        "employee_id": "E-078",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Megan Young",
+        "reviewer_name": "Jamie Arnold"
+      },
+      {
+        "review_id": "R-130",
+        "employee_id": "E-130",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Megan Orr",
+        "reviewer_name": "Jamie Arnold"
+      },
+      {
+        "review_id": "R-169",
+        "employee_id": "E-169",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Joel Williams",
+        "reviewer_name": "Jamie Arnold"
+      }
+    ]
+  }
+}

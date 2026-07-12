@@ -1,0 +1,119 @@
+{
+  "doc_id": "ENG-0018",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-011"
+    ],
+    "projects": [
+      "P-018"
+    ],
+    "employees": [
+      "E-090",
+      "E-127"
+    ],
+    "incidents": [
+      "INC-032",
+      "INC-095"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-090",
+      "type": "Employee",
+      "name": "Aimee Montoya",
+      "mentions": [
+        "Aimee Montoya"
+      ]
+    },
+    {
+      "id": "E-127",
+      "type": "Employee",
+      "name": "Michelle Evans",
+      "mentions": [
+        "Michelle Evans"
+      ]
+    },
+    {
+      "id": "INC-032",
+      "type": "Incident",
+      "name": "INC-032",
+      "mentions": [
+        "INC-032"
+      ]
+    },
+    {
+      "id": "INC-095",
+      "type": "Incident",
+      "name": "INC-095",
+      "mentions": [
+        "INC-095"
+      ]
+    },
+    {
+      "id": "P-018",
+      "type": "Project",
+      "name": "Project Quasar",
+      "mentions": [
+        "Project Quasar"
+      ]
+    },
+    {
+      "id": "SYS-011",
+      "type": "System",
+      "name": "ledger-service",
+      "mentions": [
+        "ledger-service"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-032",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-011"
+    },
+    {
+      "src": "INC-095",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-011"
+    },
+    {
+      "src": "SYS-011",
+      "rel": "OWNED_BY",
+      "dst": "P-018"
+    },
+    {
+      "src": "E-090",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-011"
+    },
+    {
+      "src": "E-127",
+      "rel": "WORKS_ON",
+      "dst": "P-018"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns ledger-service?",
+      "answer": "Project Quasar",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of ledger-service?",
+      "answer": "Go/gRPC/Redis",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for ledger-service?",
+      "answer": "Aimee Montoya",
+      "hops": 1
+    }
+  ]
+}

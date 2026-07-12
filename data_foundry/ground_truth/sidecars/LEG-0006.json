@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0006",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-021"
+    ],
+    "vendors": [
+      "V-021"
+    ],
+    "projects": [
+      "P-020"
+    ],
+    "employees": [
+      "E-097"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-021",
+      "type": "Contract",
+      "name": "C-021",
+      "mentions": [
+        "C-021"
+      ]
+    },
+    {
+      "id": "E-097",
+      "type": "Employee",
+      "name": "Aaron Wise",
+      "mentions": [
+        "Aaron Wise"
+      ]
+    },
+    {
+      "id": "P-020",
+      "type": "Project",
+      "name": "Project Sentinel",
+      "mentions": [
+        "Project Sentinel"
+      ]
+    },
+    {
+      "id": "V-021",
+      "type": "Vendor",
+      "name": "Guzman-Miller",
+      "mentions": [
+        "Guzman-Miller"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-097",
+      "rel": "SIGNED",
+      "dst": "C-021"
+    },
+    {
+      "src": "P-020",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-021"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-021 with Guzman-Miller?",
+      "answer": "Aaron Wise",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-021?",
+      "answer": "727,187.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-021 end?",
+      "answer": "2026-02-12",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "doc_id": "FIN-0005",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-07-04",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-055",
+      "project_id": "P-015",
+      "fiscal_quarter": "FY25-Q4",
+      "allocated_amount": 586004.0,
+      "spent_amount": 175801.2,
+      "approved_by": "E-056",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-015",
+      "project_name": "Project Nimbus",
+      "owner_dept_id": "D-09",
+      "lead_employee_id": "E-150",
+      "budget_id": "B-015",
+      "start_date": "2025-02-12",
+      "status": "completed",
+      "vendor_id": "V-025"
+    },
+    "approver": {
+      "employee_id": "E-056",
+      "full_name": "Michael Lewis",
+      "role_title": "Compliance Officer",
+      "department_id": "D-11",
+      "manager_id": "E-012",
+      "email": "michael.lewis@orbitalcorp.com.au",
+      "hire_date": "2025-03-28",
+      "salary_band": "L5",
+      "location": "Auckland"
+    },
+    "project_lead": {
+      "employee_id": "E-150",
+      "full_name": "Stephanie Manning",
+      "role_title": "DevOps Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "stephanie.manning@orbitalcorp.com.au",
+      "hire_date": "2022-06-17",
+      "salary_band": "L4",
+      "location": "Perth"
+    },
+    "owner_department": {
+      "department_id": "D-09",
+      "dept_name": "Research & Development",
+      "head_employee_id": "E-010",
+      "cost_center_code": "CC-109"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-178",
+        "employee_id": "E-071",
+        "project_id": "P-015",
+        "amount": 1766.0,
+        "category": "hardware",
+        "approval_status": "approved",
+        "employee_name": "Jordan Henderson"
+      },
+      {
+        "expense_id": "X-122",
+        "employee_id": "E-073",
+        "project_id": "P-015",
+        "amount": 1815.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Brittney Phillips"
+      },
+      {
+        "expense_id": "X-098",
+        "employee_id": "E-073",
+        "project_id": "P-015",
+        "amount": 1829.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Brittney Phillips"
+      },
+      {
+        "expense_id": "X-181",
+        "employee_id": "E-072",
+        "project_id": "P-015",
+        "amount": 1812.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Whitney Peters"
+      }
+    ]
+  }
+}

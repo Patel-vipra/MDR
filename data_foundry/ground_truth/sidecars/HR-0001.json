@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0001",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-10"
+    ],
+    "employees": [
+      "E-011",
+      "E-001",
+      "E-014",
+      "E-035",
+      "E-036",
+      "E-113",
+      "E-119",
+      "E-172"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-10",
+      "type": "Department",
+      "name": "Customer Support",
+      "mentions": [
+        "Customer Support"
+      ]
+    },
+    {
+      "id": "E-001",
+      "type": "Employee",
+      "name": "Allison Hill",
+      "mentions": [
+        "Allison Hill"
+      ]
+    },
+    {
+      "id": "E-011",
+      "type": "Employee",
+      "name": "Monica Herrera",
+      "mentions": [
+        "Monica Herrera"
+      ]
+    },
+    {
+      "id": "E-014",
+      "type": "Employee",
+      "name": "Michele Williams",
+      "mentions": [
+        "Michele Williams"
+      ]
+    },
+    {
+      "id": "E-035",
+      "type": "Employee",
+      "name": "Debra Davidson",
+      "mentions": [
+        "Debra Davidson"
+      ]
+    },
+    {
+      "id": "E-036",
+      "type": "Employee",
+      "name": "Jeffrey Chavez",
+      "mentions": [
+        "Jeffrey Chavez"
+      ]
+    },
+    {
+      "id": "E-113",
+      "type": "Employee",
+      "name": "Julia Torres",
+      "mentions": [
+        "Julia Torres"
+      ]
+    },
+    {
+      "id": "E-119",
+      "type": "Employee",
+      "name": "Victor Baker",
+      "mentions": [
+        "Victor Baker"
+      ]
+    },
+    {
+      "id": "E-172",
+      "type": "Employee",
+      "name": "Darlene Miller",
+      "mentions": [
+        "Darlene Miller"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-001",
+      "rel": "REVIEWED",
+      "dst": "E-011"
+    },
+    {
+      "src": "E-011",
+      "rel": "REVIEWED",
+      "dst": "E-014"
+    },
+    {
+      "src": "E-011",
+      "rel": "REVIEWED",
+      "dst": "E-035"
+    },
+    {
+      "src": "E-011",
+      "rel": "REVIEWED",
+      "dst": "E-036"
+    },
+    {
+      "src": "E-011",
+      "rel": "REVIEWED",
+      "dst": "E-113"
+    },
+    {
+      "src": "E-011",
+      "rel": "REVIEWED",
+      "dst": "E-119"
+    },
+    {
+      "src": "E-011",
+      "rel": "REVIEWED",
+      "dst": "E-172"
+    },
+    {
+      "src": "E-011",
+      "rel": "MANAGES",
+      "dst": "D-10"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Monica Herrera receive in FY25-Q4?",
+      "answer": "3",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Monica Herrera in FY25-Q4?",
+      "answer": "Allison Hill",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Michele Williams receive in FY25-Q4?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Michele Williams in FY25-Q4?",
+      "answer": "Monica Herrera",
+      "hops": 1
+    }
+  ]
+}

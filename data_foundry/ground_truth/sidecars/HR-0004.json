@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0004",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-09"
+    ],
+    "employees": [
+      "E-010",
+      "E-016",
+      "E-022",
+      "E-025",
+      "E-065",
+      "E-094",
+      "E-124",
+      "E-141"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-09",
+      "type": "Department",
+      "name": "Research & Development",
+      "mentions": [
+        "Research & Development"
+      ]
+    },
+    {
+      "id": "E-010",
+      "type": "Employee",
+      "name": "Ryan Munoz",
+      "mentions": [
+        "Ryan Munoz"
+      ]
+    },
+    {
+      "id": "E-016",
+      "type": "Employee",
+      "name": "Brian Ramirez",
+      "mentions": [
+        "Brian Ramirez"
+      ]
+    },
+    {
+      "id": "E-022",
+      "type": "Employee",
+      "name": "Patty Perez",
+      "mentions": [
+        "Patty Perez"
+      ]
+    },
+    {
+      "id": "E-025",
+      "type": "Employee",
+      "name": "Matthew Foster",
+      "mentions": [
+        "Matthew Foster"
+      ]
+    },
+    {
+      "id": "E-065",
+      "type": "Employee",
+      "name": "Jessica Callahan",
+      "mentions": [
+        "Jessica Callahan"
+      ]
+    },
+    {
+      "id": "E-094",
+      "type": "Employee",
+      "name": "Christina Walters",
+      "mentions": [
+        "Christina Walters"
+      ]
+    },
+    {
+      "id": "E-124",
+      "type": "Employee",
+      "name": "Michelle Harmon",
+      "mentions": [
+        "Michelle Harmon"
+      ]
+    },
+    {
+      "id": "E-141",
+      "type": "Employee",
+      "name": "Cheyenne Horton",
+      "mentions": [
+        "Cheyenne Horton"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-016"
+    },
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-022"
+    },
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-025"
+    },
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-065"
+    },
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-094"
+    },
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-124"
+    },
+    {
+      "src": "E-010",
+      "rel": "REVIEWED",
+      "dst": "E-141"
+    },
+    {
+      "src": "E-010",
+      "rel": "MANAGES",
+      "dst": "D-09"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Brian Ramirez receive in FY25-Q4?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Brian Ramirez in FY25-Q4?",
+      "answer": "Ryan Munoz",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Patty Perez receive in FY25-Q4?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Patty Perez in FY25-Q4?",
+      "answer": "Ryan Munoz",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0011",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-010"
+    ],
+    "vendors": [
+      "V-010"
+    ],
+    "projects": [
+      "P-032"
+    ],
+    "employees": [
+      "E-159"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-010",
+      "type": "Contract",
+      "name": "C-010",
+      "mentions": [
+        "C-010"
+      ]
+    },
+    {
+      "id": "E-159",
+      "type": "Employee",
+      "name": "Melissa Gates",
+      "mentions": [
+        "Melissa Gates"
+      ]
+    },
+    {
+      "id": "P-032",
+      "type": "Project",
+      "name": "Project Echo",
+      "mentions": [
+        "Project Echo"
+      ]
+    },
+    {
+      "id": "V-010",
+      "type": "Vendor",
+      "name": "Brown, Mcmahon and Combs",
+      "mentions": [
+        "Brown, Mcmahon and Combs"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-159",
+      "rel": "SIGNED",
+      "dst": "C-010"
+    },
+    {
+      "src": "P-032",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-010"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-010 with Brown, Mcmahon and Combs?",
+      "answer": "Melissa Gates",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-010?",
+      "answer": "1,195,977.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-010 end?",
+      "answer": "2027-07-05",
+      "hops": 1
+    }
+  ]
+}

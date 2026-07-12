@@ -1,0 +1,98 @@
+{
+  "doc_id": "HR-0017",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-01"
+    ],
+    "employees": [
+      "E-002",
+      "E-123",
+      "E-091",
+      "E-129",
+      "E-106",
+      "E-186"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-01",
+      "type": "Department",
+      "name": "Finance",
+      "mentions": [
+        "Finance"
+      ]
+    },
+    {
+      "id": "E-002",
+      "type": "Employee",
+      "name": "Noah Rhodes",
+      "mentions": [
+        "Noah Rhodes"
+      ]
+    },
+    {
+      "id": "E-091",
+      "type": "Employee",
+      "name": "Matthew Mcmillan",
+      "mentions": [
+        "Matthew Mcmillan"
+      ]
+    },
+    {
+      "id": "E-106",
+      "type": "Employee",
+      "name": "Marc Moore",
+      "mentions": [
+        "Marc Moore"
+      ]
+    },
+    {
+      "id": "E-123",
+      "type": "Employee",
+      "name": "April Frost",
+      "mentions": [
+        "April Frost"
+      ]
+    },
+    {
+      "id": "E-129",
+      "type": "Employee",
+      "name": "Cameron Fisher",
+      "mentions": [
+        "Cameron Fisher"
+      ]
+    },
+    {
+      "id": "E-186",
+      "type": "Employee",
+      "name": "Dr. Hannah Patterson",
+      "mentions": [
+        "Dr. Hannah Patterson"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-002",
+      "rel": "MANAGES",
+      "dst": "D-01"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did April Frost take starting 2025-05-02?",
+      "answer": "unpaid",
+      "hops": 1
+    },
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Matthew Mcmillan take starting 2025-02-11?",
+      "answer": "parental",
+      "hops": 1
+    }
+  ]
+}

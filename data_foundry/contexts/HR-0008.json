@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0008",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2024-10-03",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-07",
+      "dept_name": "Sales",
+      "head_employee_id": "E-008",
+      "cost_center_code": "CC-107"
+    },
+    "department_head": {
+      "employee_id": "E-008",
+      "full_name": "Gina Moore",
+      "role_title": "Head of Sales",
+      "department_id": "D-07",
+      "manager_id": "E-001",
+      "email": "gina.moore@orbitalcorp.com.au",
+      "hire_date": "2015-10-08",
+      "salary_band": "L5",
+      "location": "Sydney"
+    },
+    "quarter": "FY25-Q2",
+    "reviews": [
+      {
+        "review_id": "R-034",
+        "employee_id": "E-034",
+        "reviewer_id": "E-008",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Nathan Maldonado",
+        "reviewer_name": "Gina Moore"
+      },
+      {
+        "review_id": "R-060",
+        "employee_id": "E-060",
+        "reviewer_id": "E-008",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "John Daniel",
+        "reviewer_name": "Gina Moore"
+      },
+      {
+        "review_id": "R-079",
+        "employee_id": "E-079",
+        "reviewer_id": "E-008",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Steve Sanchez",
+        "reviewer_name": "Gina Moore"
+      },
+      {
+        "review_id": "R-103",
+        "employee_id": "E-103",
+        "reviewer_id": "E-008",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Rebecca Valencia",
+        "reviewer_name": "Gina Moore"
+      },
+      {
+        "review_id": "R-133",
+        "employee_id": "E-133",
+        "reviewer_id": "E-008",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Mary Marshall",
+        "reviewer_name": "Gina Moore"
+      },
+      {
+        "review_id": "R-167",
+        "employee_id": "E-167",
+        "reviewer_id": "E-008",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Alyssa Long",
+        "reviewer_name": "Gina Moore"
+      },
+      {
+        "review_id": "R-191",
+        "employee_id": "E-191",
+        "reviewer_id": "E-008",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Debra Morton",
+        "reviewer_name": "Gina Moore"
+      }
+    ]
+  }
+}

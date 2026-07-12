@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0010",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-030"
+    ],
+    "vendors": [
+      "V-030"
+    ],
+    "projects": [
+      "P-033"
+    ],
+    "employees": [
+      "E-164"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-030",
+      "type": "Contract",
+      "name": "C-030",
+      "mentions": [
+        "C-030"
+      ]
+    },
+    {
+      "id": "E-164",
+      "type": "Employee",
+      "name": "Jeffrey Johnson",
+      "mentions": [
+        "Jeffrey Johnson"
+      ]
+    },
+    {
+      "id": "P-033",
+      "type": "Project",
+      "name": "Project Fathom",
+      "mentions": [
+        "Project Fathom"
+      ]
+    },
+    {
+      "id": "V-030",
+      "type": "Vendor",
+      "name": "Johnson, Robbins and Abbott",
+      "mentions": [
+        "Johnson, Robbins and Abbott"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-164",
+      "rel": "SIGNED",
+      "dst": "C-030"
+    },
+    {
+      "src": "P-033",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-030"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-030 with Johnson, Robbins and Abbott?",
+      "answer": "Jeffrey Johnson",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-030?",
+      "answer": "1,228,148.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-030 end?",
+      "answer": "2027-08-09",
+      "hops": 1
+    }
+  ]
+}

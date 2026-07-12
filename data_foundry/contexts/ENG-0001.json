@@ -1,0 +1,60 @@
+{
+  "doc_id": "ENG-0001",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "doc_date": "2025-02-09",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "incident": {
+      "incident_id": "INC-017",
+      "system_id": "SYS-002",
+      "reported_by": "E-004",
+      "severity": "Sev1",
+      "root_cause_category": "config_change",
+      "resolution_time_hrs": 1.5,
+      "incident_date": "2025-02-09"
+    },
+    "system": {
+      "system_id": "SYS-002",
+      "system_name": "auth-api",
+      "owner_project_id": "P-021",
+      "on_call_employee_id": "E-102",
+      "tech_stack": "Python/Django/MySQL",
+      "criticality": "medium"
+    },
+    "owning_project": {
+      "project_id": "P-021",
+      "project_name": "Project Titan",
+      "owner_dept_id": "D-06",
+      "lead_employee_id": "E-097",
+      "budget_id": "B-021",
+      "start_date": "2024-09-20",
+      "status": "active",
+      "vendor_id": "V-019"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-102",
+      "full_name": "Cameron Parker",
+      "role_title": "Financial Analyst",
+      "department_id": "D-03",
+      "manager_id": "E-004",
+      "email": "cameron.parker@orbitalcorp.com.au",
+      "hire_date": "2017-05-11",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "reported_by": {
+      "employee_id": "E-004",
+      "full_name": "Daniel Wagner",
+      "role_title": "Head of Legal",
+      "department_id": "D-03",
+      "manager_id": "E-001",
+      "email": "daniel.wagner@orbitalcorp.com.au",
+      "hire_date": "2017-11-19",
+      "salary_band": "L5",
+      "location": "Melbourne"
+    }
+  }
+}

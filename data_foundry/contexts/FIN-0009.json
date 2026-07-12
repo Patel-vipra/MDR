@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0009",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-27",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-028",
+      "project_id": "P-028",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 514868.0,
+      "spent_amount": 154460.4,
+      "approved_by": "E-048",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-028",
+      "project_name": "Project Aurora",
+      "owner_dept_id": "D-04",
+      "lead_employee_id": "E-048",
+      "budget_id": "B-028",
+      "start_date": "2024-05-10",
+      "status": "active",
+      "vendor_id": "V-027"
+    },
+    "approver": {
+      "employee_id": "E-048",
+      "full_name": "Shane Henderson",
+      "role_title": "Executive Assistant",
+      "department_id": "D-12",
+      "manager_id": "E-013",
+      "email": "shane.henderson@orbitalcorp.com.au",
+      "hire_date": "2025-11-28",
+      "salary_band": "L6",
+      "location": "Auckland"
+    },
+    "project_lead": {
+      "employee_id": "E-048",
+      "full_name": "Shane Henderson",
+      "role_title": "Executive Assistant",
+      "department_id": "D-12",
+      "manager_id": "E-013",
+      "email": "shane.henderson@orbitalcorp.com.au",
+      "hire_date": "2025-11-28",
+      "salary_band": "L6",
+      "location": "Auckland"
+    },
+    "owner_department": {
+      "department_id": "D-04",
+      "dept_name": "Engineering",
+      "head_employee_id": "E-005",
+      "cost_center_code": "CC-104"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-114",
+        "employee_id": "E-137",
+        "project_id": "P-028",
+        "amount": 3416.0,
+        "category": "conference",
+        "approval_status": "approved",
+        "employee_name": "Robert Potter"
+      },
+      {
+        "expense_id": "X-094",
+        "employee_id": "E-140",
+        "project_id": "P-028",
+        "amount": 3510.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Angel Perry"
+      },
+      {
+        "expense_id": "X-076",
+        "employee_id": "E-140",
+        "project_id": "P-028",
+        "amount": 3509.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Angel Perry"
+      },
+      {
+        "expense_id": "X-295",
+        "employee_id": "E-141",
+        "project_id": "P-028",
+        "amount": 3524.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Cheyenne Horton"
+      },
+      {
+        "expense_id": "X-296",
+        "employee_id": "E-140",
+        "project_id": "P-028",
+        "amount": 3495.0,
+        "category": "conference",
+        "approval_status": "approved",
+        "employee_name": "Angel Perry"
+      },
+      {
+        "expense_id": "X-219",
+        "employee_id": "E-136",
+        "project_id": "P-028",
+        "amount": 3407.0,
+        "category": "conference",
+        "approval_status": "approved",
+        "employee_name": "Jose Schultz"
+      }
+    ]
+  }
+}

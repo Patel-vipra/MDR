@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0012",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2023-07-12",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-017",
+      "vendor_id": "V-017",
+      "project_id": "P-002",
+      "contract_type": "NDA",
+      "value": 33916.0,
+      "start_date": "2023-07-12",
+      "end_date": "2024-01-23",
+      "signed_by": "E-004",
+      "renewal_status": "auto_renew"
+    },
+    "vendor": {
+      "vendor_id": "V-017",
+      "vendor_name": "Chandler-Powers",
+      "service_category": "Cloud Infrastructure",
+      "contract_id": "C-017",
+      "contact_email": "accounts@vendor17.com.au"
+    },
+    "project": {
+      "project_id": "P-002",
+      "project_name": "Project Atlas",
+      "owner_dept_id": "D-07",
+      "lead_employee_id": "E-102",
+      "budget_id": "B-002",
+      "start_date": "2024-10-05",
+      "status": "completed",
+      "vendor_id": "V-016"
+    },
+    "signatory": {
+      "employee_id": "E-004",
+      "full_name": "Daniel Wagner",
+      "role_title": "Head of Legal",
+      "department_id": "D-03",
+      "manager_id": "E-001",
+      "email": "daniel.wagner@orbitalcorp.com.au",
+      "hire_date": "2017-11-19",
+      "salary_band": "L5",
+      "location": "Melbourne"
+    }
+  }
+}

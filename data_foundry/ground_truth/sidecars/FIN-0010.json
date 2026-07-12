@@ -1,0 +1,133 @@
+{
+  "doc_id": "FIN-0010",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-039"
+    ],
+    "projects": [
+      "P-039"
+    ],
+    "employees": [
+      "E-033",
+      "E-196",
+      "E-194",
+      "E-195"
+    ],
+    "departments": [
+      "D-03"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-039",
+      "type": "Budget",
+      "name": "B-039",
+      "mentions": [
+        "B-039"
+      ]
+    },
+    {
+      "id": "D-03",
+      "type": "Department",
+      "name": "Legal",
+      "mentions": [
+        "Legal"
+      ]
+    },
+    {
+      "id": "E-033",
+      "type": "Employee",
+      "name": "Tricia Valencia",
+      "mentions": [
+        "Tricia Valencia"
+      ]
+    },
+    {
+      "id": "E-194",
+      "type": "Employee",
+      "name": "Angelica Keith",
+      "mentions": [
+        "Angelica Keith"
+      ]
+    },
+    {
+      "id": "E-195",
+      "type": "Employee",
+      "name": "John Bishop",
+      "mentions": [
+        "John Bishop"
+      ]
+    },
+    {
+      "id": "E-196",
+      "type": "Employee",
+      "name": "Allen Rosales",
+      "mentions": [
+        "Allen Rosales"
+      ]
+    },
+    {
+      "id": "P-039",
+      "type": "Project",
+      "name": "Project Lattice",
+      "mentions": [
+        "Project Lattice"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-196",
+      "rel": "WORKS_ON",
+      "dst": "P-039"
+    },
+    {
+      "src": "E-194",
+      "rel": "WORKS_ON",
+      "dst": "P-039"
+    },
+    {
+      "src": "E-195",
+      "rel": "WORKS_ON",
+      "dst": "P-039"
+    },
+    {
+      "src": "E-033",
+      "rel": "APPROVED",
+      "dst": "B-039"
+    },
+    {
+      "src": "P-039",
+      "rel": "FUNDED_BY",
+      "dst": "B-039"
+    },
+    {
+      "src": "E-033",
+      "rel": "WORKS_ON",
+      "dst": "P-039"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Lattice?",
+      "answer": "Tricia Valencia",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Lattice in FY25-Q3?",
+      "answer": "365,743.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Lattice?",
+      "answer": "Tricia Valencia",
+      "hops": 1
+    }
+  ]
+}

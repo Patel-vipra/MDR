@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0008",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-032"
+    ],
+    "vendors": [
+      "V-002"
+    ],
+    "projects": [
+      "P-009"
+    ],
+    "employees": [
+      "E-042"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-032",
+      "type": "Contract",
+      "name": "C-032",
+      "mentions": [
+        "C-032"
+      ]
+    },
+    {
+      "id": "E-042",
+      "type": "Employee",
+      "name": "Fred Smith",
+      "mentions": [
+        "Fred Smith"
+      ]
+    },
+    {
+      "id": "P-009",
+      "type": "Project",
+      "name": "Project Horizon",
+      "mentions": [
+        "Project Horizon"
+      ]
+    },
+    {
+      "id": "V-002",
+      "type": "Vendor",
+      "name": "Wood-Hale",
+      "mentions": [
+        "Wood-Hale"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-042",
+      "rel": "SIGNED",
+      "dst": "C-032"
+    },
+    {
+      "src": "P-009",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-002"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-032 with Wood-Hale?",
+      "answer": "Fred Smith",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-032?",
+      "answer": "316,849.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-032 end?",
+      "answer": "2024-11-24",
+      "hops": 1
+    }
+  ]
+}

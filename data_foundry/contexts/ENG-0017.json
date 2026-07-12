@@ -1,0 +1,61 @@
+{
+  "doc_id": "ENG-0017",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "doc_date": "2025-03-23",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "system": {
+      "system_id": "SYS-024",
+      "system_name": "inventory-worker",
+      "owner_project_id": "P-036",
+      "on_call_employee_id": "E-179",
+      "tech_stack": "React/Node.js/DynamoDB",
+      "criticality": "medium"
+    },
+    "owning_project": {
+      "project_id": "P-036",
+      "project_name": "Project Ironwood",
+      "owner_dept_id": "D-10",
+      "lead_employee_id": "E-173",
+      "budget_id": "B-036",
+      "start_date": "2025-04-16",
+      "status": "on_hold",
+      "vendor_id": "V-007"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-179",
+      "full_name": "Lawrence Adkins",
+      "role_title": "Staff Engineer",
+      "department_id": "D-02",
+      "manager_id": "E-003",
+      "email": "lawrence.adkins@orbitalcorp.com.au",
+      "hire_date": "2015-12-16",
+      "salary_band": "L1",
+      "location": "Sydney"
+    },
+    "project_lead": {
+      "employee_id": "E-173",
+      "full_name": "Joshua Cooke",
+      "role_title": "Financial Analyst",
+      "department_id": "D-03",
+      "manager_id": "E-004",
+      "email": "joshua.cooke@orbitalcorp.com.au",
+      "hire_date": "2017-04-20",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "recent_incidents": [
+      {
+        "incident_id": "INC-069",
+        "system_id": "SYS-024",
+        "reported_by": "E-094",
+        "severity": "Sev3",
+        "root_cause_category": "capacity_exhaustion",
+        "resolution_time_hrs": 33.5
+      }
+    ]
+  }
+}

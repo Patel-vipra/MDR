@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0003",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-03",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-018",
+      "project_id": "P-018",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 1279888.0,
+      "spent_amount": 383966.4,
+      "approved_by": "E-127",
+      "status": "under_review"
+    },
+    "project": {
+      "project_id": "P-018",
+      "project_name": "Project Quasar",
+      "owner_dept_id": "D-08",
+      "lead_employee_id": "E-127",
+      "budget_id": "B-018",
+      "start_date": "2024-12-10",
+      "status": "completed",
+      "vendor_id": "V-022"
+    },
+    "approver": {
+      "employee_id": "E-127",
+      "full_name": "Michelle Evans",
+      "role_title": "QA Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "michelle.evans@orbitalcorp.com.au",
+      "hire_date": "2021-10-07",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "project_lead": {
+      "employee_id": "E-127",
+      "full_name": "Michelle Evans",
+      "role_title": "QA Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "michelle.evans@orbitalcorp.com.au",
+      "hire_date": "2021-10-07",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "owner_department": {
+      "department_id": "D-08",
+      "dept_name": "Procurement",
+      "head_employee_id": "E-009",
+      "cost_center_code": "CC-108"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-137",
+        "employee_id": "E-089",
+        "project_id": "P-018",
+        "amount": 2215.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Lisa Archer"
+      },
+      {
+        "expense_id": "X-265",
+        "employee_id": "E-090",
+        "project_id": "P-018",
+        "amount": 2253.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Aimee Montoya"
+      },
+      {
+        "expense_id": "X-187",
+        "employee_id": "E-088",
+        "project_id": "P-018",
+        "amount": 2189.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Christopher Bass"
+      },
+      {
+        "expense_id": "X-134",
+        "employee_id": "E-086",
+        "project_id": "P-018",
+        "amount": 2143.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Daniel Baker"
+      },
+      {
+        "expense_id": "X-228",
+        "employee_id": "E-087",
+        "project_id": "P-018",
+        "amount": 2178.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Shirley Suarez"
+      },
+      {
+        "expense_id": "X-011",
+        "employee_id": "E-090",
+        "project_id": "P-018",
+        "amount": 2256.0,
+        "category": "meals",
+        "approval_status": "approved",
+        "employee_name": "Aimee Montoya"
+      }
+    ]
+  }
+}

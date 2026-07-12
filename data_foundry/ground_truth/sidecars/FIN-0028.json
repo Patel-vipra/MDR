@@ -1,0 +1,50 @@
+{
+  "doc_id": "FIN-0028",
+  "domain": "finance",
+  "doc_type": "vendor_spend_review",
+  "sensitivity": "internal",
+  "source_rows": {
+    "vendors": [
+      "V-002"
+    ],
+    "contracts": [
+      "C-002",
+      "C-032"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-002",
+      "type": "Contract",
+      "name": "C-002",
+      "mentions": [
+        "C-002"
+      ]
+    },
+    {
+      "id": "C-032",
+      "type": "Contract",
+      "name": "C-032",
+      "mentions": [
+        "C-032"
+      ]
+    },
+    {
+      "id": "V-002",
+      "type": "Vendor",
+      "name": "Wood-Hale",
+      "mentions": [
+        "Wood-Hale"
+      ]
+    }
+  ],
+  "relationships": [],
+  "answerable_facts": [
+    {
+      "q_template": "What service category does {vendor} provide?",
+      "question": "What service category does Wood-Hale provide?",
+      "answer": "Legal Services",
+      "hops": 1
+    }
+  ]
+}

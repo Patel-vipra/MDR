@@ -1,0 +1,102 @@
+{
+  "doc_id": "HR-0014",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "doc_date": "2025-06-21",
+  "sensitivity": "confidential",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-04",
+      "dept_name": "Engineering",
+      "head_employee_id": "E-005",
+      "cost_center_code": "CC-104"
+    },
+    "department_head": {
+      "employee_id": "E-005",
+      "full_name": "Cristian Santos",
+      "role_title": "Head of Engineering",
+      "department_id": "D-04",
+      "manager_id": "E-001",
+      "email": "cristian.santos@orbitalcorp.com.au",
+      "hire_date": "2022-05-04",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "leave_records": [
+      {
+        "leave_id": "L-060",
+        "employee_id": "E-111",
+        "leave_type": "unpaid",
+        "start_date": "2025-04-04",
+        "end_date": "2025-04-13",
+        "approved_by": "E-005",
+        "employee_name": "Richard Rodriguez"
+      },
+      {
+        "leave_id": "L-087",
+        "employee_id": "E-083",
+        "leave_type": "parental",
+        "start_date": "2025-01-24",
+        "end_date": "2025-01-31",
+        "approved_by": "E-005",
+        "employee_name": "Michael Evans"
+      },
+      {
+        "leave_id": "L-116",
+        "employee_id": "E-083",
+        "leave_type": "parental",
+        "start_date": "2025-01-22",
+        "end_date": "2025-01-29",
+        "approved_by": "E-005",
+        "employee_name": "Michael Evans"
+      },
+      {
+        "leave_id": "L-128",
+        "employee_id": "E-085",
+        "leave_type": "parental",
+        "start_date": "2025-01-29",
+        "end_date": "2025-02-05",
+        "approved_by": "E-005",
+        "employee_name": "Zachary Ferrell"
+      },
+      {
+        "leave_id": "L-159",
+        "employee_id": "E-026",
+        "leave_type": "sick",
+        "start_date": "2024-09-03",
+        "end_date": "2024-09-06",
+        "approved_by": "E-005",
+        "employee_name": "Judy Baker"
+      },
+      {
+        "leave_id": "L-182",
+        "employee_id": "E-112",
+        "leave_type": "unpaid",
+        "start_date": "2025-04-05",
+        "end_date": "2025-04-14",
+        "approved_by": "E-005",
+        "employee_name": "Shannon Walker"
+      },
+      {
+        "leave_id": "L-187",
+        "employee_id": "E-088",
+        "leave_type": "parental",
+        "start_date": "2025-02-03",
+        "end_date": "2025-02-10",
+        "approved_by": "E-005",
+        "employee_name": "Christopher Bass"
+      },
+      {
+        "leave_id": "L-200",
+        "employee_id": "E-096",
+        "leave_type": "parental",
+        "start_date": "2025-02-25",
+        "end_date": "2025-03-05",
+        "approved_by": "E-005",
+        "employee_name": "Anna Henderson"
+      }
+    ]
+  }
+}

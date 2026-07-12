@@ -1,0 +1,133 @@
+{
+  "doc_id": "FIN-0019",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-032"
+    ],
+    "projects": [
+      "P-032"
+    ],
+    "employees": [
+      "E-042",
+      "E-158",
+      "E-159",
+      "E-160"
+    ],
+    "departments": [
+      "D-03"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-032",
+      "type": "Budget",
+      "name": "B-032",
+      "mentions": [
+        "B-032"
+      ]
+    },
+    {
+      "id": "D-03",
+      "type": "Department",
+      "name": "Legal",
+      "mentions": [
+        "Legal"
+      ]
+    },
+    {
+      "id": "E-042",
+      "type": "Employee",
+      "name": "Fred Smith",
+      "mentions": [
+        "Fred Smith"
+      ]
+    },
+    {
+      "id": "E-158",
+      "type": "Employee",
+      "name": "Jason Stein",
+      "mentions": [
+        "Jason Stein"
+      ]
+    },
+    {
+      "id": "E-159",
+      "type": "Employee",
+      "name": "Melissa Gates",
+      "mentions": [
+        "Melissa Gates"
+      ]
+    },
+    {
+      "id": "E-160",
+      "type": "Employee",
+      "name": "Jamie Smith",
+      "mentions": [
+        "Jamie Smith"
+      ]
+    },
+    {
+      "id": "P-032",
+      "type": "Project",
+      "name": "Project Echo",
+      "mentions": [
+        "Project Echo"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-158",
+      "rel": "WORKS_ON",
+      "dst": "P-032"
+    },
+    {
+      "src": "E-159",
+      "rel": "WORKS_ON",
+      "dst": "P-032"
+    },
+    {
+      "src": "E-160",
+      "rel": "WORKS_ON",
+      "dst": "P-032"
+    },
+    {
+      "src": "E-042",
+      "rel": "APPROVED",
+      "dst": "B-032"
+    },
+    {
+      "src": "P-032",
+      "rel": "FUNDED_BY",
+      "dst": "B-032"
+    },
+    {
+      "src": "E-042",
+      "rel": "WORKS_ON",
+      "dst": "P-032"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Echo?",
+      "answer": "Fred Smith",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Echo in FY25-Q3?",
+      "answer": "451,581.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Echo?",
+      "answer": "Fred Smith",
+      "hops": 1
+    }
+  ]
+}

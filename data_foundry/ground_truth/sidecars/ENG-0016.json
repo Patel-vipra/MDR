@@ -1,0 +1,119 @@
+{
+  "doc_id": "ENG-0016",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-041"
+    ],
+    "projects": [
+      "P-011"
+    ],
+    "employees": [
+      "E-054",
+      "E-090"
+    ],
+    "incidents": [
+      "INC-030",
+      "INC-046"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-054",
+      "type": "Employee",
+      "name": "Mark Perez",
+      "mentions": [
+        "Mark Perez"
+      ]
+    },
+    {
+      "id": "E-090",
+      "type": "Employee",
+      "name": "Aimee Montoya",
+      "mentions": [
+        "Aimee Montoya"
+      ]
+    },
+    {
+      "id": "INC-030",
+      "type": "Incident",
+      "name": "INC-030",
+      "mentions": [
+        "INC-030"
+      ]
+    },
+    {
+      "id": "INC-046",
+      "type": "Incident",
+      "name": "INC-046",
+      "mentions": [
+        "INC-046"
+      ]
+    },
+    {
+      "id": "P-011",
+      "type": "Project",
+      "name": "Project Juniper",
+      "mentions": [
+        "Project Juniper"
+      ]
+    },
+    {
+      "id": "SYS-041",
+      "type": "System",
+      "name": "identity-service",
+      "mentions": [
+        "identity-service"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-030",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-041"
+    },
+    {
+      "src": "INC-046",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-041"
+    },
+    {
+      "src": "SYS-041",
+      "rel": "OWNED_BY",
+      "dst": "P-011"
+    },
+    {
+      "src": "E-054",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-041"
+    },
+    {
+      "src": "E-090",
+      "rel": "WORKS_ON",
+      "dst": "P-011"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns identity-service?",
+      "answer": "Project Juniper",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of identity-service?",
+      "answer": "Node.js/Express/MongoDB",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for identity-service?",
+      "answer": "Mark Perez",
+      "hops": 1
+    }
+  ]
+}

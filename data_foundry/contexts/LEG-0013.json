@@ -1,0 +1,53 @@
+{
+  "doc_id": "LEG-0013",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "doc_date": "2025-03-12",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "incident": {
+      "incident_id": "CI-005",
+      "department_id": "D-08",
+      "related_contract_id": "C-013",
+      "severity": "medium",
+      "resolved_flag": true
+    },
+    "department": {
+      "department_id": "D-08",
+      "dept_name": "Procurement",
+      "head_employee_id": "E-009",
+      "cost_center_code": "CC-108"
+    },
+    "department_head": {
+      "employee_id": "E-009",
+      "full_name": "Gabrielle Davis",
+      "role_title": "Head of Procurement",
+      "department_id": "D-08",
+      "manager_id": "E-001",
+      "email": "gabrielle.davis@orbitalcorp.com.au",
+      "hire_date": "2025-08-14",
+      "salary_band": "L5",
+      "location": "Auckland"
+    },
+    "related_contract": {
+      "contract_id": "C-013",
+      "vendor_id": "V-013",
+      "project_id": "P-016",
+      "contract_type": "MSA",
+      "value": 564893.0,
+      "start_date": "2024-03-18",
+      "end_date": "2025-08-21",
+      "signed_by": "E-075",
+      "renewal_status": "auto_renew"
+    },
+    "contract_vendor": {
+      "vendor_id": "V-013",
+      "vendor_name": "Shelton, Davis and Dean",
+      "service_category": "Facilities Management",
+      "contract_id": "C-013",
+      "contact_email": "accounts@davisdean.com.au"
+    }
+  }
+}

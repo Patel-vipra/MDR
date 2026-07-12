@@ -1,0 +1,147 @@
+{
+  "doc_id": "FIN-0008",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-006"
+    ],
+    "projects": [
+      "P-006"
+    ],
+    "employees": [
+      "E-104",
+      "E-026",
+      "E-028",
+      "E-029",
+      "E-025"
+    ],
+    "departments": [
+      "D-07"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-006",
+      "type": "Budget",
+      "name": "B-006",
+      "mentions": [
+        "B-006"
+      ]
+    },
+    {
+      "id": "D-07",
+      "type": "Department",
+      "name": "Sales",
+      "mentions": [
+        "Sales"
+      ]
+    },
+    {
+      "id": "E-025",
+      "type": "Employee",
+      "name": "Matthew Foster",
+      "mentions": [
+        "Matthew Foster"
+      ]
+    },
+    {
+      "id": "E-026",
+      "type": "Employee",
+      "name": "Judy Baker",
+      "mentions": [
+        "Judy Baker"
+      ]
+    },
+    {
+      "id": "E-028",
+      "type": "Employee",
+      "name": "Stephanie Ross",
+      "mentions": [
+        "Stephanie Ross"
+      ]
+    },
+    {
+      "id": "E-029",
+      "type": "Employee",
+      "name": "Zachary Hicks",
+      "mentions": [
+        "Zachary Hicks"
+      ]
+    },
+    {
+      "id": "E-104",
+      "type": "Employee",
+      "name": "Christine Wright",
+      "mentions": [
+        "Christine Wright"
+      ]
+    },
+    {
+      "id": "P-006",
+      "type": "Project",
+      "name": "Project Ember",
+      "mentions": [
+        "Project Ember"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-026",
+      "rel": "WORKS_ON",
+      "dst": "P-006"
+    },
+    {
+      "src": "E-028",
+      "rel": "WORKS_ON",
+      "dst": "P-006"
+    },
+    {
+      "src": "E-029",
+      "rel": "WORKS_ON",
+      "dst": "P-006"
+    },
+    {
+      "src": "E-025",
+      "rel": "WORKS_ON",
+      "dst": "P-006"
+    },
+    {
+      "src": "E-104",
+      "rel": "APPROVED",
+      "dst": "B-006"
+    },
+    {
+      "src": "P-006",
+      "rel": "FUNDED_BY",
+      "dst": "B-006"
+    },
+    {
+      "src": "E-104",
+      "rel": "WORKS_ON",
+      "dst": "P-006"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Ember?",
+      "answer": "Christine Wright",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Ember in FY25-Q3?",
+      "answer": "1,058,790.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Ember?",
+      "answer": "Christine Wright",
+      "hops": 1
+    }
+  ]
+}

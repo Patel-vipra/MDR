@@ -1,0 +1,133 @@
+{
+  "doc_id": "FIN-0015",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-017"
+    ],
+    "projects": [
+      "P-017"
+    ],
+    "employees": [
+      "E-004",
+      "E-083",
+      "E-081",
+      "E-082"
+    ],
+    "departments": [
+      "D-01"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-017",
+      "type": "Budget",
+      "name": "B-017",
+      "mentions": [
+        "B-017"
+      ]
+    },
+    {
+      "id": "D-01",
+      "type": "Department",
+      "name": "Finance",
+      "mentions": [
+        "Finance"
+      ]
+    },
+    {
+      "id": "E-004",
+      "type": "Employee",
+      "name": "Daniel Wagner",
+      "mentions": [
+        "Daniel Wagner"
+      ]
+    },
+    {
+      "id": "E-081",
+      "type": "Employee",
+      "name": "Kelly Donovan",
+      "mentions": [
+        "Kelly Donovan"
+      ]
+    },
+    {
+      "id": "E-082",
+      "type": "Employee",
+      "name": "Mike Allen",
+      "mentions": [
+        "Mike Allen"
+      ]
+    },
+    {
+      "id": "E-083",
+      "type": "Employee",
+      "name": "Michael Evans",
+      "mentions": [
+        "Michael Evans"
+      ]
+    },
+    {
+      "id": "P-017",
+      "type": "Project",
+      "name": "Project Pinnacle",
+      "mentions": [
+        "Project Pinnacle"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-083",
+      "rel": "WORKS_ON",
+      "dst": "P-017"
+    },
+    {
+      "src": "E-081",
+      "rel": "WORKS_ON",
+      "dst": "P-017"
+    },
+    {
+      "src": "E-082",
+      "rel": "WORKS_ON",
+      "dst": "P-017"
+    },
+    {
+      "src": "E-004",
+      "rel": "APPROVED",
+      "dst": "B-017"
+    },
+    {
+      "src": "P-017",
+      "rel": "FUNDED_BY",
+      "dst": "B-017"
+    },
+    {
+      "src": "E-004",
+      "rel": "WORKS_ON",
+      "dst": "P-017"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Pinnacle?",
+      "answer": "Daniel Wagner",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Pinnacle in FY25-Q3?",
+      "answer": "81,300.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Pinnacle?",
+      "answer": "Daniel Wagner",
+      "hops": 1
+    }
+  ]
+}

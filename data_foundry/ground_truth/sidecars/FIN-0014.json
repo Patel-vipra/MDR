@@ -1,0 +1,119 @@
+{
+  "doc_id": "FIN-0014",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-040"
+    ],
+    "projects": [
+      "P-040"
+    ],
+    "employees": [
+      "E-148",
+      "E-199",
+      "E-200"
+    ],
+    "departments": [
+      "D-09"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-040",
+      "type": "Budget",
+      "name": "B-040",
+      "mentions": [
+        "B-040"
+      ]
+    },
+    {
+      "id": "D-09",
+      "type": "Department",
+      "name": "Research & Development",
+      "mentions": [
+        "Research & Development"
+      ]
+    },
+    {
+      "id": "E-148",
+      "type": "Employee",
+      "name": "Stephanie Salazar",
+      "mentions": [
+        "Stephanie Salazar"
+      ]
+    },
+    {
+      "id": "E-199",
+      "type": "Employee",
+      "name": "Adam Vaughan",
+      "mentions": [
+        "Adam Vaughan"
+      ]
+    },
+    {
+      "id": "E-200",
+      "type": "Employee",
+      "name": "Nathan Freeman",
+      "mentions": [
+        "Nathan Freeman"
+      ]
+    },
+    {
+      "id": "P-040",
+      "type": "Project",
+      "name": "Project Monsoon",
+      "mentions": [
+        "Project Monsoon"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-199",
+      "rel": "WORKS_ON",
+      "dst": "P-040"
+    },
+    {
+      "src": "E-200",
+      "rel": "WORKS_ON",
+      "dst": "P-040"
+    },
+    {
+      "src": "E-148",
+      "rel": "APPROVED",
+      "dst": "B-040"
+    },
+    {
+      "src": "P-040",
+      "rel": "FUNDED_BY",
+      "dst": "B-040"
+    },
+    {
+      "src": "E-148",
+      "rel": "WORKS_ON",
+      "dst": "P-040"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Monsoon?",
+      "answer": "Stephanie Salazar",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Monsoon in FY25-Q3?",
+      "answer": "1,486,447.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Monsoon?",
+      "answer": "Stephanie Salazar",
+      "hops": 1
+    }
+  ]
+}

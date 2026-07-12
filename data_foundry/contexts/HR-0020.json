@@ -1,0 +1,102 @@
+{
+  "doc_id": "HR-0020",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "doc_date": "2025-06-09",
+  "sensitivity": "confidential",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-09",
+      "dept_name": "Research & Development",
+      "head_employee_id": "E-010",
+      "cost_center_code": "CC-109"
+    },
+    "department_head": {
+      "employee_id": "E-010",
+      "full_name": "Ryan Munoz",
+      "role_title": "Head of Research & Development",
+      "department_id": "D-09",
+      "manager_id": "E-001",
+      "email": "ryan.munoz@orbitalcorp.com.au",
+      "hire_date": "2023-09-19",
+      "salary_band": "L5",
+      "location": "Singapore"
+    },
+    "leave_records": [
+      {
+        "leave_id": "L-008",
+        "employee_id": "E-015",
+        "leave_type": "annual",
+        "start_date": "2024-08-05",
+        "end_date": "2024-08-07",
+        "approved_by": "E-010",
+        "employee_name": "Dylan Miller"
+      },
+      {
+        "leave_id": "L-031",
+        "employee_id": "E-151",
+        "leave_type": "carers",
+        "start_date": "2025-07-14",
+        "end_date": "2025-07-26",
+        "approved_by": "E-010",
+        "employee_name": "David Wright"
+      },
+      {
+        "leave_id": "L-069",
+        "employee_id": "E-094",
+        "leave_type": "parental",
+        "start_date": "2025-02-19",
+        "end_date": "2025-02-27",
+        "approved_by": "E-010",
+        "employee_name": "Christina Walters"
+      },
+      {
+        "leave_id": "L-090",
+        "employee_id": "E-065",
+        "leave_type": "parental",
+        "start_date": "2024-12-08",
+        "end_date": "2024-12-13",
+        "approved_by": "E-010",
+        "employee_name": "Jessica Callahan"
+      },
+      {
+        "leave_id": "L-139",
+        "employee_id": "E-016",
+        "leave_type": "annual",
+        "start_date": "2024-08-08",
+        "end_date": "2024-08-10",
+        "approved_by": "E-010",
+        "employee_name": "Brian Ramirez"
+      },
+      {
+        "leave_id": "L-162",
+        "employee_id": "E-029",
+        "leave_type": "sick",
+        "start_date": "2024-09-10",
+        "end_date": "2024-09-13",
+        "approved_by": "E-010",
+        "employee_name": "Zachary Hicks"
+      },
+      {
+        "leave_id": "L-217",
+        "employee_id": "E-141",
+        "leave_type": "carers",
+        "start_date": "2025-06-19",
+        "end_date": "2025-06-30",
+        "approved_by": "E-010",
+        "employee_name": "Cheyenne Horton"
+      },
+      {
+        "leave_id": "L-239",
+        "employee_id": "E-040",
+        "leave_type": "sick",
+        "start_date": "2024-10-08",
+        "end_date": "2024-10-12",
+        "approved_by": "E-010",
+        "employee_name": "Brittany Farmer"
+      }
+    ]
+  }
+}

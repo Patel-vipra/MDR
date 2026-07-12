@@ -1,0 +1,60 @@
+{
+  "doc_id": "ENG-0003",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "doc_date": "2025-01-15",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "incident": {
+      "incident_id": "INC-067",
+      "system_id": "SYS-004",
+      "reported_by": "E-013",
+      "severity": "Sev1",
+      "root_cause_category": "config_change",
+      "resolution_time_hrs": 4.5,
+      "incident_date": "2025-01-15"
+    },
+    "system": {
+      "system_id": "SYS-004",
+      "system_name": "auth-worker",
+      "owner_project_id": "P-011",
+      "on_call_employee_id": "E-053",
+      "tech_stack": "Node.js/Express/MongoDB",
+      "criticality": "high"
+    },
+    "owning_project": {
+      "project_id": "P-011",
+      "project_name": "Project Juniper",
+      "owner_dept_id": "D-06",
+      "lead_employee_id": "E-090",
+      "budget_id": "B-011",
+      "start_date": "2024-09-02",
+      "status": "active",
+      "vendor_id": "V-024"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-053",
+      "full_name": "Crystal Robinson",
+      "role_title": "Project Manager",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "crystal.robinson@orbitalcorp.com.au",
+      "hire_date": "2021-07-25",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "reported_by": {
+      "employee_id": "E-013",
+      "full_name": "Lisa Hensley",
+      "role_title": "Head of Facilities",
+      "department_id": "D-12",
+      "manager_id": "E-001",
+      "email": "lisa.hensley@orbitalcorp.com.au",
+      "hire_date": "2019-01-29",
+      "salary_band": "L5",
+      "location": "Brisbane"
+    }
+  }
+}

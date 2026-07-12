@@ -1,0 +1,147 @@
+{
+  "doc_id": "FIN-0009",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-028"
+    ],
+    "projects": [
+      "P-028"
+    ],
+    "employees": [
+      "E-048",
+      "E-137",
+      "E-140",
+      "E-141",
+      "E-136"
+    ],
+    "departments": [
+      "D-04"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-028",
+      "type": "Budget",
+      "name": "B-028",
+      "mentions": [
+        "B-028"
+      ]
+    },
+    {
+      "id": "D-04",
+      "type": "Department",
+      "name": "Engineering",
+      "mentions": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "E-048",
+      "type": "Employee",
+      "name": "Shane Henderson",
+      "mentions": [
+        "Shane Henderson"
+      ]
+    },
+    {
+      "id": "E-136",
+      "type": "Employee",
+      "name": "Jose Schultz",
+      "mentions": [
+        "Jose Schultz"
+      ]
+    },
+    {
+      "id": "E-137",
+      "type": "Employee",
+      "name": "Robert Potter",
+      "mentions": [
+        "Robert Potter"
+      ]
+    },
+    {
+      "id": "E-140",
+      "type": "Employee",
+      "name": "Angel Perry",
+      "mentions": [
+        "Angel Perry"
+      ]
+    },
+    {
+      "id": "E-141",
+      "type": "Employee",
+      "name": "Cheyenne Horton",
+      "mentions": [
+        "Cheyenne Horton"
+      ]
+    },
+    {
+      "id": "P-028",
+      "type": "Project",
+      "name": "Project Aurora",
+      "mentions": [
+        "Project Aurora"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-137",
+      "rel": "WORKS_ON",
+      "dst": "P-028"
+    },
+    {
+      "src": "E-140",
+      "rel": "WORKS_ON",
+      "dst": "P-028"
+    },
+    {
+      "src": "E-141",
+      "rel": "WORKS_ON",
+      "dst": "P-028"
+    },
+    {
+      "src": "E-136",
+      "rel": "WORKS_ON",
+      "dst": "P-028"
+    },
+    {
+      "src": "E-048",
+      "rel": "APPROVED",
+      "dst": "B-028"
+    },
+    {
+      "src": "P-028",
+      "rel": "FUNDED_BY",
+      "dst": "B-028"
+    },
+    {
+      "src": "E-048",
+      "rel": "WORKS_ON",
+      "dst": "P-028"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Aurora?",
+      "answer": "Shane Henderson",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Aurora in FY25-Q3?",
+      "answer": "514,868.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Aurora?",
+      "answer": "Shane Henderson",
+      "hops": 1
+    }
+  ]
+}

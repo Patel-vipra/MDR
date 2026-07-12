@@ -1,0 +1,87 @@
+{
+  "doc_id": "FIN-0011",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-07-22",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-041",
+      "project_id": "P-001",
+      "fiscal_quarter": "FY25-Q4",
+      "allocated_amount": 564905.0,
+      "spent_amount": 169471.5,
+      "approved_by": "E-054",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-001",
+      "project_name": "Project Helios",
+      "owner_dept_id": "D-08",
+      "lead_employee_id": "E-124",
+      "budget_id": "B-001",
+      "start_date": "2024-12-04",
+      "status": "completed",
+      "vendor_id": "V-019"
+    },
+    "approver": {
+      "employee_id": "E-054",
+      "full_name": "Mark Perez",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "mark.perez@orbitalcorp.com.au",
+      "hire_date": "2020-04-23",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "project_lead": {
+      "employee_id": "E-124",
+      "full_name": "Michelle Harmon",
+      "role_title": "Procurement Specialist",
+      "department_id": "D-09",
+      "manager_id": "E-010",
+      "email": "michelle.harmon@orbitalcorp.com.au",
+      "hire_date": "2023-03-14",
+      "salary_band": "L4",
+      "location": "Singapore"
+    },
+    "owner_department": {
+      "department_id": "D-08",
+      "dept_name": "Procurement",
+      "head_employee_id": "E-009",
+      "cost_center_code": "CC-108"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-186",
+        "employee_id": "E-003",
+        "project_id": "P-001",
+        "amount": 85.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Angie Henderson"
+      },
+      {
+        "expense_id": "X-106",
+        "employee_id": "E-003",
+        "project_id": "P-001",
+        "amount": 81.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Angie Henderson"
+      },
+      {
+        "expense_id": "X-256",
+        "employee_id": "E-001",
+        "project_id": "P-001",
+        "amount": 37.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Allison Hill"
+      }
+    ]
+  }
+}

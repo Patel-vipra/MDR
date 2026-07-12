@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0022",
+  "domain": "hr",
+  "doc_type": "promotion_round_summary",
+  "doc_date": "2025-07-11",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "promotion_candidates": [
+      {
+        "review_id": "R-007",
+        "employee_id": "E-007",
+        "reviewer_id": "E-001",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Abigail Shaffer",
+        "reviewer_name": "Allison Hill",
+        "salary_band": "L5"
+      },
+      {
+        "review_id": "R-009",
+        "employee_id": "E-009",
+        "reviewer_id": "E-001",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Gabrielle Davis",
+        "reviewer_name": "Allison Hill",
+        "salary_band": "L5"
+      },
+      {
+        "review_id": "R-048",
+        "employee_id": "E-048",
+        "reviewer_id": "E-013",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Shane Henderson",
+        "reviewer_name": "Lisa Hensley",
+        "salary_band": "L6"
+      },
+      {
+        "review_id": "R-056",
+        "employee_id": "E-056",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Michael Lewis",
+        "reviewer_name": "Jamie Arnold",
+        "salary_band": "L5"
+      },
+      {
+        "review_id": "R-078",
+        "employee_id": "E-078",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Megan Young",
+        "reviewer_name": "Jamie Arnold",
+        "salary_band": "L5"
+      },
+      {
+        "review_id": "R-101",
+        "employee_id": "E-101",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Sandra Aguilar",
+        "reviewer_name": "Jamie Arnold",
+        "salary_band": "L5"
+      },
+      {
+        "review_id": "R-117",
+        "employee_id": "E-117",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "William Herrera",
+        "reviewer_name": "Jamie Arnold",
+        "salary_band": "L5"
+      },
+      {
+        "review_id": "R-118",
+        "employee_id": "E-118",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q2",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Ashley Waller",
+        "reviewer_name": "Jamie Arnold",
+        "salary_band": "L5"
+      }
+    ]
+  }
+}

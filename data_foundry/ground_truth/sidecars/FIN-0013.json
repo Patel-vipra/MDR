@@ -1,0 +1,133 @@
+{
+  "doc_id": "FIN-0013",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-034"
+    ],
+    "projects": [
+      "P-034"
+    ],
+    "employees": [
+      "E-114",
+      "E-168",
+      "E-170",
+      "E-169"
+    ],
+    "departments": [
+      "D-07"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-034",
+      "type": "Budget",
+      "name": "B-034",
+      "mentions": [
+        "B-034"
+      ]
+    },
+    {
+      "id": "D-07",
+      "type": "Department",
+      "name": "Sales",
+      "mentions": [
+        "Sales"
+      ]
+    },
+    {
+      "id": "E-114",
+      "type": "Employee",
+      "name": "Crystal Johnson",
+      "mentions": [
+        "Crystal Johnson"
+      ]
+    },
+    {
+      "id": "E-168",
+      "type": "Employee",
+      "name": "Alyssa Day",
+      "mentions": [
+        "Alyssa Day"
+      ]
+    },
+    {
+      "id": "E-169",
+      "type": "Employee",
+      "name": "Joel Williams",
+      "mentions": [
+        "Joel Williams"
+      ]
+    },
+    {
+      "id": "E-170",
+      "type": "Employee",
+      "name": "Daniel Murphy",
+      "mentions": [
+        "Daniel Murphy"
+      ]
+    },
+    {
+      "id": "P-034",
+      "type": "Project",
+      "name": "Project Glacier",
+      "mentions": [
+        "Project Glacier"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-168",
+      "rel": "WORKS_ON",
+      "dst": "P-034"
+    },
+    {
+      "src": "E-170",
+      "rel": "WORKS_ON",
+      "dst": "P-034"
+    },
+    {
+      "src": "E-169",
+      "rel": "WORKS_ON",
+      "dst": "P-034"
+    },
+    {
+      "src": "E-114",
+      "rel": "APPROVED",
+      "dst": "B-034"
+    },
+    {
+      "src": "P-034",
+      "rel": "FUNDED_BY",
+      "dst": "B-034"
+    },
+    {
+      "src": "E-114",
+      "rel": "WORKS_ON",
+      "dst": "P-034"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Glacier?",
+      "answer": "Crystal Johnson",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Glacier in FY25-Q3?",
+      "answer": "1,160,958.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Glacier?",
+      "answer": "Crystal Johnson",
+      "hops": 1
+    }
+  ]
+}

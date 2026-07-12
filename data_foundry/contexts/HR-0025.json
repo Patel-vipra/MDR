@@ -1,0 +1,79 @@
+{
+  "doc_id": "HR-0025",
+  "domain": "hr",
+  "doc_type": "promotion_round_summary",
+  "doc_date": "2025-07-03",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "promotion_candidates": [
+      {
+        "review_id": "R-297",
+        "employee_id": "E-097",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Aaron Wise",
+        "reviewer_name": "Cristian Santos",
+        "salary_band": "L2"
+      },
+      {
+        "review_id": "R-311",
+        "employee_id": "E-111",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Richard Rodriguez",
+        "reviewer_name": "Cristian Santos",
+        "salary_band": "L2"
+      },
+      {
+        "review_id": "R-324",
+        "employee_id": "E-124",
+        "reviewer_id": "E-010",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Michelle Harmon",
+        "reviewer_name": "Ryan Munoz",
+        "salary_band": "L4"
+      },
+      {
+        "review_id": "R-336",
+        "employee_id": "E-136",
+        "reviewer_id": "E-004",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Jose Schultz",
+        "reviewer_name": "Daniel Wagner",
+        "salary_band": "L2"
+      },
+      {
+        "review_id": "R-342",
+        "employee_id": "E-142",
+        "reviewer_id": "E-003",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "David Douglas Jr.",
+        "reviewer_name": "Angie Henderson",
+        "salary_band": "L1"
+      },
+      {
+        "review_id": "R-369",
+        "employee_id": "E-169",
+        "reviewer_id": "E-012",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Joel Williams",
+        "reviewer_name": "Jamie Arnold",
+        "salary_band": "L5"
+      }
+    ]
+  }
+}

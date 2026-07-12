@@ -1,0 +1,119 @@
+{
+  "doc_id": "ENG-0024",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-042"
+    ],
+    "projects": [
+      "P-020"
+    ],
+    "employees": [
+      "E-100",
+      "E-168"
+    ],
+    "incidents": [
+      "INC-003",
+      "INC-014"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-100",
+      "type": "Employee",
+      "name": "Stephen Mckee",
+      "mentions": [
+        "Stephen Mckee"
+      ]
+    },
+    {
+      "id": "E-168",
+      "type": "Employee",
+      "name": "Alyssa Day",
+      "mentions": [
+        "Alyssa Day"
+      ]
+    },
+    {
+      "id": "INC-003",
+      "type": "Incident",
+      "name": "INC-003",
+      "mentions": [
+        "INC-003"
+      ]
+    },
+    {
+      "id": "INC-014",
+      "type": "Incident",
+      "name": "INC-014",
+      "mentions": [
+        "INC-014"
+      ]
+    },
+    {
+      "id": "P-020",
+      "type": "Project",
+      "name": "Project Sentinel",
+      "mentions": [
+        "Project Sentinel"
+      ]
+    },
+    {
+      "id": "SYS-042",
+      "type": "System",
+      "name": "identity-api",
+      "mentions": [
+        "identity-api"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-003",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-042"
+    },
+    {
+      "src": "INC-014",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-042"
+    },
+    {
+      "src": "SYS-042",
+      "rel": "OWNED_BY",
+      "dst": "P-020"
+    },
+    {
+      "src": "E-100",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-042"
+    },
+    {
+      "src": "E-168",
+      "rel": "WORKS_ON",
+      "dst": "P-020"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns identity-api?",
+      "answer": "Project Sentinel",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of identity-api?",
+      "answer": "Go/gRPC/Redis",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for identity-api?",
+      "answer": "Stephen Mckee",
+      "hops": 1
+    }
+  ]
+}

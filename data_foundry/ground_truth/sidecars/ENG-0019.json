@@ -1,0 +1,105 @@
+{
+  "doc_id": "ENG-0019",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-049"
+    ],
+    "projects": [
+      "P-006"
+    ],
+    "employees": [
+      "E-028",
+      "E-104"
+    ],
+    "incidents": [
+      "INC-009"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-028",
+      "type": "Employee",
+      "name": "Stephanie Ross",
+      "mentions": [
+        "Stephanie Ross"
+      ]
+    },
+    {
+      "id": "E-104",
+      "type": "Employee",
+      "name": "Christine Wright",
+      "mentions": [
+        "Christine Wright"
+      ]
+    },
+    {
+      "id": "INC-009",
+      "type": "Incident",
+      "name": "INC-009",
+      "mentions": [
+        "INC-009"
+      ]
+    },
+    {
+      "id": "P-006",
+      "type": "Project",
+      "name": "Project Ember",
+      "mentions": [
+        "Project Ember"
+      ]
+    },
+    {
+      "id": "SYS-049",
+      "type": "System",
+      "name": "reporting-worker",
+      "mentions": [
+        "reporting-worker"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-009",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-049"
+    },
+    {
+      "src": "SYS-049",
+      "rel": "OWNED_BY",
+      "dst": "P-006"
+    },
+    {
+      "src": "E-028",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-049"
+    },
+    {
+      "src": "E-104",
+      "rel": "WORKS_ON",
+      "dst": "P-006"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns reporting-worker?",
+      "answer": "Project Ember",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of reporting-worker?",
+      "answer": "Java/Spring/Oracle",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for reporting-worker?",
+      "answer": "Stephanie Ross",
+      "hops": 1
+    }
+  ]
+}

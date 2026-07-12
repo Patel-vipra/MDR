@@ -1,0 +1,147 @@
+{
+  "doc_id": "FIN-0020",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-061"
+    ],
+    "projects": [
+      "P-021"
+    ],
+    "employees": [
+      "E-105",
+      "E-097",
+      "E-104",
+      "E-102",
+      "E-101"
+    ],
+    "departments": [
+      "D-06"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-061",
+      "type": "Budget",
+      "name": "B-061",
+      "mentions": [
+        "B-061"
+      ]
+    },
+    {
+      "id": "D-06",
+      "type": "Department",
+      "name": "Marketing",
+      "mentions": [
+        "Marketing"
+      ]
+    },
+    {
+      "id": "E-097",
+      "type": "Employee",
+      "name": "Aaron Wise",
+      "mentions": [
+        "Aaron Wise"
+      ]
+    },
+    {
+      "id": "E-101",
+      "type": "Employee",
+      "name": "Sandra Aguilar",
+      "mentions": [
+        "Sandra Aguilar"
+      ]
+    },
+    {
+      "id": "E-102",
+      "type": "Employee",
+      "name": "Cameron Parker",
+      "mentions": [
+        "Cameron Parker"
+      ]
+    },
+    {
+      "id": "E-104",
+      "type": "Employee",
+      "name": "Christine Wright",
+      "mentions": [
+        "Christine Wright"
+      ]
+    },
+    {
+      "id": "E-105",
+      "type": "Employee",
+      "name": "Richard Henson",
+      "mentions": [
+        "Richard Henson"
+      ]
+    },
+    {
+      "id": "P-021",
+      "type": "Project",
+      "name": "Project Titan",
+      "mentions": [
+        "Project Titan"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-105",
+      "rel": "WORKS_ON",
+      "dst": "P-021"
+    },
+    {
+      "src": "E-104",
+      "rel": "WORKS_ON",
+      "dst": "P-021"
+    },
+    {
+      "src": "E-102",
+      "rel": "WORKS_ON",
+      "dst": "P-021"
+    },
+    {
+      "src": "E-101",
+      "rel": "WORKS_ON",
+      "dst": "P-021"
+    },
+    {
+      "src": "E-105",
+      "rel": "APPROVED",
+      "dst": "B-061"
+    },
+    {
+      "src": "P-021",
+      "rel": "FUNDED_BY",
+      "dst": "B-061"
+    },
+    {
+      "src": "E-097",
+      "rel": "WORKS_ON",
+      "dst": "P-021"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q4 budget for Project Titan?",
+      "answer": "Richard Henson",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Titan in FY25-Q4?",
+      "answer": "1,072,529.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Titan?",
+      "answer": "Aaron Wise",
+      "hops": 1
+    }
+  ]
+}

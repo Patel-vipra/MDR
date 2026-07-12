@@ -1,0 +1,102 @@
+{
+  "doc_id": "HR-0015",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "doc_date": "2025-06-01",
+  "sensitivity": "confidential",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-11",
+      "dept_name": "Data & Analytics",
+      "head_employee_id": "E-012",
+      "cost_center_code": "CC-111"
+    },
+    "department_head": {
+      "employee_id": "E-012",
+      "full_name": "Jamie Arnold",
+      "role_title": "Head of Data & Analytics",
+      "department_id": "D-11",
+      "manager_id": "E-001",
+      "email": "jamie.arnold@orbitalcorp.com.au",
+      "hire_date": "2022-06-10",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "leave_records": [
+      {
+        "leave_id": "L-055",
+        "employee_id": "E-056",
+        "leave_type": "sick",
+        "start_date": "2024-11-15",
+        "end_date": "2024-11-20",
+        "approved_by": "E-012",
+        "employee_name": "Michael Lewis"
+      },
+      {
+        "leave_id": "L-059",
+        "employee_id": "E-012",
+        "leave_type": "annual",
+        "start_date": "2024-07-29",
+        "end_date": "2024-07-31",
+        "approved_by": "E-001",
+        "employee_name": "Jamie Arnold"
+      },
+      {
+        "leave_id": "L-079",
+        "employee_id": "E-118",
+        "leave_type": "unpaid",
+        "start_date": "2025-04-20",
+        "end_date": "2025-04-29",
+        "approved_by": "E-012",
+        "employee_name": "Ashley Waller"
+      },
+      {
+        "leave_id": "L-089",
+        "employee_id": "E-012",
+        "leave_type": "annual",
+        "start_date": "2024-07-29",
+        "end_date": "2024-07-31",
+        "approved_by": "E-001",
+        "employee_name": "Jamie Arnold"
+      },
+      {
+        "leave_id": "L-125",
+        "employee_id": "E-052",
+        "leave_type": "sick",
+        "start_date": "2024-11-05",
+        "end_date": "2024-11-10",
+        "approved_by": "E-012",
+        "employee_name": "Danny Morgan"
+      },
+      {
+        "leave_id": "L-176",
+        "employee_id": "E-012",
+        "leave_type": "annual",
+        "start_date": "2024-07-28",
+        "end_date": "2024-07-30",
+        "approved_by": "E-001",
+        "employee_name": "Jamie Arnold"
+      },
+      {
+        "leave_id": "L-208",
+        "employee_id": "E-063",
+        "leave_type": "parental",
+        "start_date": "2024-12-03",
+        "end_date": "2024-12-08",
+        "approved_by": "E-012",
+        "employee_name": "Connor West"
+      },
+      {
+        "leave_id": "L-232",
+        "employee_id": "E-130",
+        "leave_type": "unpaid",
+        "start_date": "2025-05-22",
+        "end_date": "2025-06-01",
+        "approved_by": "E-012",
+        "employee_name": "Megan Orr"
+      }
+    ]
+  }
+}

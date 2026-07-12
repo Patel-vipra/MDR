@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0007",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-21",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-007",
+      "project_id": "P-007",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 1998331.0,
+      "spent_amount": 599499.3,
+      "approved_by": "E-200",
+      "status": "closed"
+    },
+    "project": {
+      "project_id": "P-007",
+      "project_name": "Project Falcon",
+      "owner_dept_id": "D-12",
+      "lead_employee_id": "E-200",
+      "budget_id": "B-007",
+      "start_date": "2025-06-30",
+      "status": "planned",
+      "vendor_id": "V-030"
+    },
+    "approver": {
+      "employee_id": "E-200",
+      "full_name": "Nathan Freeman",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "nathan.freeman@orbitalcorp.com.au",
+      "hire_date": "2020-03-30",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "project_lead": {
+      "employee_id": "E-200",
+      "full_name": "Nathan Freeman",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "nathan.freeman@orbitalcorp.com.au",
+      "hire_date": "2020-03-30",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "owner_department": {
+      "department_id": "D-12",
+      "dept_name": "Facilities",
+      "head_employee_id": "E-013",
+      "cost_center_code": "CC-112"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-221",
+        "employee_id": "E-029",
+        "project_id": "P-007",
+        "amount": 733.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Zachary Hicks"
+      },
+      {
+        "expense_id": "X-162",
+        "employee_id": "E-029",
+        "project_id": "P-007",
+        "amount": 733.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Zachary Hicks"
+      },
+      {
+        "expense_id": "X-039",
+        "employee_id": "E-033",
+        "project_id": "P-007",
+        "amount": 831.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Tricia Valencia"
+      },
+      {
+        "expense_id": "X-152",
+        "employee_id": "E-033",
+        "project_id": "P-007",
+        "amount": 813.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Tricia Valencia"
+      },
+      {
+        "expense_id": "X-249",
+        "employee_id": "E-033",
+        "project_id": "P-007",
+        "amount": 817.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Tricia Valencia"
+      },
+      {
+        "expense_id": "X-037",
+        "employee_id": "E-034",
+        "project_id": "P-007",
+        "amount": 853.0,
+        "category": "software",
+        "approval_status": "approved",
+        "employee_name": "Nathan Maldonado"
+      }
+    ]
+  }
+}

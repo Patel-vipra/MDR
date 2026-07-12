@@ -1,0 +1,110 @@
+{
+  "doc_id": "FIN-0023",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "doc_date": "2025-05-04",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "department": {
+      "department_id": "D-05",
+      "dept_name": "IT Operations",
+      "head_employee_id": "E-006",
+      "cost_center_code": "CC-105"
+    },
+    "department_head": {
+      "employee_id": "E-006",
+      "full_name": "Connie Lawrence",
+      "role_title": "Head of IT Operations",
+      "department_id": "D-05",
+      "manager_id": "E-001",
+      "email": "connie.lawrence@orbitalcorp.com.au",
+      "hire_date": "2020-08-31",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "top_expenses": [
+      {
+        "expense_id": "X-293",
+        "employee_id": "E-196",
+        "project_id": "P-039",
+        "amount": 4888.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Allen Rosales",
+        "project_name": "Project Lattice"
+      },
+      {
+        "expense_id": "X-259",
+        "employee_id": "E-181",
+        "project_id": "P-036",
+        "amount": 4527.0,
+        "category": "office_supplies",
+        "approval_status": "rejected",
+        "employee_name": "Alexander Collins",
+        "project_name": "Project Ironwood"
+      },
+      {
+        "expense_id": "X-070",
+        "employee_id": "E-178",
+        "project_id": "P-036",
+        "amount": 4442.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Michael Wang",
+        "project_name": "Project Ironwood"
+      },
+      {
+        "expense_id": "X-063",
+        "employee_id": "E-178",
+        "project_id": "P-036",
+        "amount": 4439.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Michael Wang",
+        "project_name": "Project Ironwood"
+      },
+      {
+        "expense_id": "X-172",
+        "employee_id": "E-166",
+        "project_id": "P-033",
+        "amount": 4139.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "John Anderson",
+        "project_name": "Project Fathom"
+      },
+      {
+        "expense_id": "X-144",
+        "employee_id": "E-156",
+        "project_id": "P-031",
+        "amount": 3911.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Michelle Brown",
+        "project_name": "Project Drift"
+      },
+      {
+        "expense_id": "X-193",
+        "employee_id": "E-155",
+        "project_id": "P-031",
+        "amount": 3886.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Brenda Hall",
+        "project_name": "Project Drift"
+      },
+      {
+        "expense_id": "X-043",
+        "employee_id": "E-155",
+        "project_id": "P-031",
+        "amount": 3874.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Brenda Hall",
+        "project_name": "Project Drift"
+      }
+    ]
+  }
+}

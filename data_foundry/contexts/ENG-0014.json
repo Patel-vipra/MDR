@@ -1,0 +1,60 @@
+{
+  "doc_id": "ENG-0014",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "doc_date": "2025-03-26",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "incident": {
+      "incident_id": "INC-041",
+      "system_id": "SYS-014",
+      "reported_by": "E-054",
+      "severity": "Sev2",
+      "root_cause_category": "hardware_failure",
+      "resolution_time_hrs": 19.5,
+      "incident_date": "2025-03-26"
+    },
+    "system": {
+      "system_id": "SYS-014",
+      "system_name": "ledger-worker",
+      "owner_project_id": "P-033",
+      "on_call_employee_id": "E-167",
+      "tech_stack": "React/Node.js/DynamoDB",
+      "criticality": "medium"
+    },
+    "owning_project": {
+      "project_id": "P-033",
+      "project_name": "Project Fathom",
+      "owner_dept_id": "D-10",
+      "lead_employee_id": "E-160",
+      "budget_id": "B-033",
+      "start_date": "2025-03-13",
+      "status": "completed",
+      "vendor_id": "V-022"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-167",
+      "full_name": "Alyssa Long",
+      "role_title": "Product Manager",
+      "department_id": "D-07",
+      "manager_id": "E-008",
+      "email": "alyssa.long@orbitalcorp.com.au",
+      "hire_date": "2020-07-03",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "reported_by": {
+      "employee_id": "E-054",
+      "full_name": "Mark Perez",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "mark.perez@orbitalcorp.com.au",
+      "hire_date": "2020-04-23",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    }
+  }
+}

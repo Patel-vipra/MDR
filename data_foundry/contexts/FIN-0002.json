@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0002",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-28",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-002",
+      "project_id": "P-002",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 1043724.0,
+      "spent_amount": 313117.2,
+      "approved_by": "E-102",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-002",
+      "project_name": "Project Atlas",
+      "owner_dept_id": "D-07",
+      "lead_employee_id": "E-102",
+      "budget_id": "B-002",
+      "start_date": "2024-10-05",
+      "status": "completed",
+      "vendor_id": "V-016"
+    },
+    "approver": {
+      "employee_id": "E-102",
+      "full_name": "Cameron Parker",
+      "role_title": "Financial Analyst",
+      "department_id": "D-03",
+      "manager_id": "E-004",
+      "email": "cameron.parker@orbitalcorp.com.au",
+      "hire_date": "2017-05-11",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "project_lead": {
+      "employee_id": "E-102",
+      "full_name": "Cameron Parker",
+      "role_title": "Financial Analyst",
+      "department_id": "D-03",
+      "manager_id": "E-004",
+      "email": "cameron.parker@orbitalcorp.com.au",
+      "hire_date": "2017-05-11",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "owner_department": {
+      "department_id": "D-07",
+      "dept_name": "Sales",
+      "head_employee_id": "E-008",
+      "cost_center_code": "CC-107"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-091",
+        "employee_id": "E-008",
+        "project_id": "P-002",
+        "amount": 202.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Gina Moore"
+      },
+      {
+        "expense_id": "X-237",
+        "employee_id": "E-004",
+        "project_id": "P-002",
+        "amount": 95.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Daniel Wagner"
+      },
+      {
+        "expense_id": "X-202",
+        "employee_id": "E-004",
+        "project_id": "P-002",
+        "amount": 89.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Daniel Wagner"
+      },
+      {
+        "expense_id": "X-230",
+        "employee_id": "E-006",
+        "project_id": "P-002",
+        "amount": 147.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Connie Lawrence"
+      },
+      {
+        "expense_id": "X-123",
+        "employee_id": "E-007",
+        "project_id": "P-002",
+        "amount": 187.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Abigail Shaffer"
+      },
+      {
+        "expense_id": "X-110",
+        "employee_id": "E-005",
+        "project_id": "P-002",
+        "amount": 114.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Cristian Santos"
+      }
+    ]
+  }
+}

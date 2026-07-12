@@ -1,0 +1,161 @@
+{
+  "doc_id": "FIN-0022",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "sensitivity": "internal",
+  "source_rows": {
+    "departments": [
+      "D-09"
+    ],
+    "employees": [
+      "E-010",
+      "E-160",
+      "E-151",
+      "E-141",
+      "E-124"
+    ],
+    "projects": [
+      "P-032",
+      "P-030",
+      "P-029",
+      "P-028",
+      "P-025"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-09",
+      "type": "Department",
+      "name": "Research & Development",
+      "mentions": [
+        "Research & Development"
+      ]
+    },
+    {
+      "id": "E-010",
+      "type": "Employee",
+      "name": "Ryan Munoz",
+      "mentions": [
+        "Ryan Munoz"
+      ]
+    },
+    {
+      "id": "E-124",
+      "type": "Employee",
+      "name": "Michelle Harmon",
+      "mentions": [
+        "Michelle Harmon"
+      ]
+    },
+    {
+      "id": "E-141",
+      "type": "Employee",
+      "name": "Cheyenne Horton",
+      "mentions": [
+        "Cheyenne Horton"
+      ]
+    },
+    {
+      "id": "E-151",
+      "type": "Employee",
+      "name": "David Wright",
+      "mentions": [
+        "David Wright"
+      ]
+    },
+    {
+      "id": "E-160",
+      "type": "Employee",
+      "name": "Jamie Smith",
+      "mentions": [
+        "Jamie Smith"
+      ]
+    },
+    {
+      "id": "P-025",
+      "type": "Project",
+      "name": "Project Xenon",
+      "mentions": [
+        "Project Xenon"
+      ]
+    },
+    {
+      "id": "P-028",
+      "type": "Project",
+      "name": "Project Aurora",
+      "mentions": [
+        "Project Aurora"
+      ]
+    },
+    {
+      "id": "P-029",
+      "type": "Project",
+      "name": "Project Basalt",
+      "mentions": [
+        "Project Basalt"
+      ]
+    },
+    {
+      "id": "P-030",
+      "type": "Project",
+      "name": "Project Cobalt",
+      "mentions": [
+        "Project Cobalt"
+      ]
+    },
+    {
+      "id": "P-032",
+      "type": "Project",
+      "name": "Project Echo",
+      "mentions": [
+        "Project Echo"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-160",
+      "rel": "WORKS_ON",
+      "dst": "P-032"
+    },
+    {
+      "src": "E-151",
+      "rel": "WORKS_ON",
+      "dst": "P-030"
+    },
+    {
+      "src": "E-141",
+      "rel": "WORKS_ON",
+      "dst": "P-029"
+    },
+    {
+      "src": "E-141",
+      "rel": "WORKS_ON",
+      "dst": "P-028"
+    },
+    {
+      "src": "E-124",
+      "rel": "WORKS_ON",
+      "dst": "P-025"
+    },
+    {
+      "src": "E-010",
+      "rel": "MANAGES",
+      "dst": "D-09"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who heads the {dept} department?",
+      "question": "Who heads the Research & Development department?",
+      "answer": "Ryan Munoz",
+      "hops": 1
+    },
+    {
+      "q_template": "Who submitted the largest expense in the {dept} department?",
+      "question": "Who submitted the largest expense in the Research & Development department?",
+      "answer": "Jamie Smith",
+      "hops": 1
+    }
+  ]
+}

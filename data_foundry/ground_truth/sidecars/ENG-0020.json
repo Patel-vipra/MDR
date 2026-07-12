@@ -1,0 +1,119 @@
+{
+  "doc_id": "ENG-0020",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-023"
+    ],
+    "projects": [
+      "P-022"
+    ],
+    "employees": [
+      "E-109",
+      "E-146"
+    ],
+    "incidents": [
+      "INC-011",
+      "INC-038"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-109",
+      "type": "Employee",
+      "name": "Evelyn Galvan",
+      "mentions": [
+        "Evelyn Galvan"
+      ]
+    },
+    {
+      "id": "E-146",
+      "type": "Employee",
+      "name": "Joyce Solis",
+      "mentions": [
+        "Joyce Solis"
+      ]
+    },
+    {
+      "id": "INC-011",
+      "type": "Incident",
+      "name": "INC-011",
+      "mentions": [
+        "INC-011"
+      ]
+    },
+    {
+      "id": "INC-038",
+      "type": "Incident",
+      "name": "INC-038",
+      "mentions": [
+        "INC-038"
+      ]
+    },
+    {
+      "id": "P-022",
+      "type": "Project",
+      "name": "Project Umbra",
+      "mentions": [
+        "Project Umbra"
+      ]
+    },
+    {
+      "id": "SYS-023",
+      "type": "System",
+      "name": "inventory-gateway",
+      "mentions": [
+        "inventory-gateway"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-011",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-023"
+    },
+    {
+      "src": "INC-038",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-023"
+    },
+    {
+      "src": "SYS-023",
+      "rel": "OWNED_BY",
+      "dst": "P-022"
+    },
+    {
+      "src": "E-109",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-023"
+    },
+    {
+      "src": "E-146",
+      "rel": "WORKS_ON",
+      "dst": "P-022"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns inventory-gateway?",
+      "answer": "Project Umbra",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of inventory-gateway?",
+      "answer": "Python/Django/MySQL",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for inventory-gateway?",
+      "answer": "Evelyn Galvan",
+      "hops": 1
+    }
+  ]
+}

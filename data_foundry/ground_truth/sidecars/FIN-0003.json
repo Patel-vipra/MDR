@@ -1,0 +1,161 @@
+{
+  "doc_id": "FIN-0003",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-018"
+    ],
+    "projects": [
+      "P-018"
+    ],
+    "employees": [
+      "E-127",
+      "E-089",
+      "E-090",
+      "E-088",
+      "E-086",
+      "E-087"
+    ],
+    "departments": [
+      "D-08"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-018",
+      "type": "Budget",
+      "name": "B-018",
+      "mentions": [
+        "B-018"
+      ]
+    },
+    {
+      "id": "D-08",
+      "type": "Department",
+      "name": "Procurement",
+      "mentions": [
+        "Procurement"
+      ]
+    },
+    {
+      "id": "E-086",
+      "type": "Employee",
+      "name": "Daniel Baker",
+      "mentions": [
+        "Daniel Baker"
+      ]
+    },
+    {
+      "id": "E-087",
+      "type": "Employee",
+      "name": "Shirley Suarez",
+      "mentions": [
+        "Shirley Suarez"
+      ]
+    },
+    {
+      "id": "E-088",
+      "type": "Employee",
+      "name": "Christopher Bass",
+      "mentions": [
+        "Christopher Bass"
+      ]
+    },
+    {
+      "id": "E-089",
+      "type": "Employee",
+      "name": "Lisa Archer",
+      "mentions": [
+        "Lisa Archer"
+      ]
+    },
+    {
+      "id": "E-090",
+      "type": "Employee",
+      "name": "Aimee Montoya",
+      "mentions": [
+        "Aimee Montoya"
+      ]
+    },
+    {
+      "id": "E-127",
+      "type": "Employee",
+      "name": "Michelle Evans",
+      "mentions": [
+        "Michelle Evans"
+      ]
+    },
+    {
+      "id": "P-018",
+      "type": "Project",
+      "name": "Project Quasar",
+      "mentions": [
+        "Project Quasar"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-089",
+      "rel": "WORKS_ON",
+      "dst": "P-018"
+    },
+    {
+      "src": "E-090",
+      "rel": "WORKS_ON",
+      "dst": "P-018"
+    },
+    {
+      "src": "E-088",
+      "rel": "WORKS_ON",
+      "dst": "P-018"
+    },
+    {
+      "src": "E-086",
+      "rel": "WORKS_ON",
+      "dst": "P-018"
+    },
+    {
+      "src": "E-087",
+      "rel": "WORKS_ON",
+      "dst": "P-018"
+    },
+    {
+      "src": "E-127",
+      "rel": "APPROVED",
+      "dst": "B-018"
+    },
+    {
+      "src": "P-018",
+      "rel": "FUNDED_BY",
+      "dst": "B-018"
+    },
+    {
+      "src": "E-127",
+      "rel": "WORKS_ON",
+      "dst": "P-018"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Quasar?",
+      "answer": "Michelle Evans",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Quasar in FY25-Q3?",
+      "answer": "1,279,888.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Quasar?",
+      "answer": "Michelle Evans",
+      "hops": 1
+    }
+  ]
+}

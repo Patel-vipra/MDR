@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0002",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-018"
+    ],
+    "vendors": [
+      "V-018"
+    ],
+    "projects": [
+      "P-026"
+    ],
+    "employees": [
+      "E-127"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-018",
+      "type": "Contract",
+      "name": "C-018",
+      "mentions": [
+        "C-018"
+      ]
+    },
+    {
+      "id": "E-127",
+      "type": "Employee",
+      "name": "Michelle Evans",
+      "mentions": [
+        "Michelle Evans"
+      ]
+    },
+    {
+      "id": "P-026",
+      "type": "Project",
+      "name": "Project Yukon",
+      "mentions": [
+        "Project Yukon"
+      ]
+    },
+    {
+      "id": "V-018",
+      "type": "Vendor",
+      "name": "Costa PLC",
+      "mentions": [
+        "Costa PLC"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-127",
+      "rel": "SIGNED",
+      "dst": "C-018"
+    },
+    {
+      "src": "P-026",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-018"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-018 with Costa PLC?",
+      "answer": "Michelle Evans",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-018?",
+      "answer": "949,761.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-018 end?",
+      "answer": "2026-10-11",
+      "hops": 1
+    }
+  ]
+}

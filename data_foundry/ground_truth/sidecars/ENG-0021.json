@@ -1,0 +1,119 @@
+{
+  "doc_id": "ENG-0021",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-014"
+    ],
+    "projects": [
+      "P-033"
+    ],
+    "employees": [
+      "E-167",
+      "E-160"
+    ],
+    "incidents": [
+      "INC-004",
+      "INC-041"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-160",
+      "type": "Employee",
+      "name": "Jamie Smith",
+      "mentions": [
+        "Jamie Smith"
+      ]
+    },
+    {
+      "id": "E-167",
+      "type": "Employee",
+      "name": "Alyssa Long",
+      "mentions": [
+        "Alyssa Long"
+      ]
+    },
+    {
+      "id": "INC-004",
+      "type": "Incident",
+      "name": "INC-004",
+      "mentions": [
+        "INC-004"
+      ]
+    },
+    {
+      "id": "INC-041",
+      "type": "Incident",
+      "name": "INC-041",
+      "mentions": [
+        "INC-041"
+      ]
+    },
+    {
+      "id": "P-033",
+      "type": "Project",
+      "name": "Project Fathom",
+      "mentions": [
+        "Project Fathom"
+      ]
+    },
+    {
+      "id": "SYS-014",
+      "type": "System",
+      "name": "ledger-worker",
+      "mentions": [
+        "ledger-worker"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-004",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-014"
+    },
+    {
+      "src": "INC-041",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-014"
+    },
+    {
+      "src": "SYS-014",
+      "rel": "OWNED_BY",
+      "dst": "P-033"
+    },
+    {
+      "src": "E-167",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-014"
+    },
+    {
+      "src": "E-160",
+      "rel": "WORKS_ON",
+      "dst": "P-033"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns ledger-worker?",
+      "answer": "Project Fathom",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of ledger-worker?",
+      "answer": "React/Node.js/DynamoDB",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for ledger-worker?",
+      "answer": "Alyssa Long",
+      "hops": 1
+    }
+  ]
+}

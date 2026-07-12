@@ -1,0 +1,53 @@
+{
+  "doc_id": "LEG-0016",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "doc_date": "2025-05-11",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "incident": {
+      "incident_id": "CI-023",
+      "department_id": "D-07",
+      "related_contract_id": "C-004",
+      "severity": "medium",
+      "resolved_flag": true
+    },
+    "department": {
+      "department_id": "D-07",
+      "dept_name": "Sales",
+      "head_employee_id": "E-008",
+      "cost_center_code": "CC-107"
+    },
+    "department_head": {
+      "employee_id": "E-008",
+      "full_name": "Gina Moore",
+      "role_title": "Head of Sales",
+      "department_id": "D-07",
+      "manager_id": "E-001",
+      "email": "gina.moore@orbitalcorp.com.au",
+      "hire_date": "2015-10-08",
+      "salary_band": "L5",
+      "location": "Sydney"
+    },
+    "related_contract": {
+      "contract_id": "C-004",
+      "vendor_id": "V-004",
+      "project_id": "P-011",
+      "contract_type": "MSA",
+      "value": 402210.0,
+      "start_date": "2024-01-01",
+      "end_date": "2025-02-25",
+      "signed_by": "E-053",
+      "renewal_status": "auto_renew"
+    },
+    "contract_vendor": {
+      "vendor_id": "V-004",
+      "vendor_name": "Smith, Reynolds and Watson",
+      "service_category": "Consulting",
+      "contract_id": "C-004",
+      "contact_email": "accounts@reynoldswatson.com.au"
+    }
+  }
+}

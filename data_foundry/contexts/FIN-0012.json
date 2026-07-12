@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0012",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-17",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-003",
+      "project_id": "P-003",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 1673426.0,
+      "spent_amount": 502027.8,
+      "approved_by": "E-167",
+      "status": "closed"
+    },
+    "project": {
+      "project_id": "P-003",
+      "project_name": "Project Borealis",
+      "owner_dept_id": "D-10",
+      "lead_employee_id": "E-167",
+      "budget_id": "B-003",
+      "start_date": "2025-03-31",
+      "status": "on_hold",
+      "vendor_id": "V-025"
+    },
+    "approver": {
+      "employee_id": "E-167",
+      "full_name": "Alyssa Long",
+      "role_title": "Product Manager",
+      "department_id": "D-07",
+      "manager_id": "E-008",
+      "email": "alyssa.long@orbitalcorp.com.au",
+      "hire_date": "2020-07-03",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "project_lead": {
+      "employee_id": "E-167",
+      "full_name": "Alyssa Long",
+      "role_title": "Product Manager",
+      "department_id": "D-07",
+      "manager_id": "E-008",
+      "email": "alyssa.long@orbitalcorp.com.au",
+      "hire_date": "2020-07-03",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "owner_department": {
+      "department_id": "D-10",
+      "dept_name": "Customer Support",
+      "head_employee_id": "E-011",
+      "cost_center_code": "CC-110"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-195",
+        "employee_id": "E-012",
+        "project_id": "P-003",
+        "amount": 305.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Jamie Arnold"
+      },
+      {
+        "expense_id": "X-089",
+        "employee_id": "E-012",
+        "project_id": "P-003",
+        "amount": 307.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Jamie Arnold"
+      },
+      {
+        "expense_id": "X-142",
+        "employee_id": "E-012",
+        "project_id": "P-003",
+        "amount": 295.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Jamie Arnold"
+      },
+      {
+        "expense_id": "X-176",
+        "employee_id": "E-012",
+        "project_id": "P-003",
+        "amount": 293.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Jamie Arnold"
+      },
+      {
+        "expense_id": "X-067",
+        "employee_id": "E-013",
+        "project_id": "P-003",
+        "amount": 337.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Lisa Hensley"
+      },
+      {
+        "expense_id": "X-080",
+        "employee_id": "E-011",
+        "project_id": "P-003",
+        "amount": 274.0,
+        "category": "travel",
+        "approval_status": "approved",
+        "employee_name": "Monica Herrera"
+      }
+    ]
+  }
+}

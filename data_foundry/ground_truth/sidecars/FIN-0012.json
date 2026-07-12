@@ -1,0 +1,133 @@
+{
+  "doc_id": "FIN-0012",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-003"
+    ],
+    "projects": [
+      "P-003"
+    ],
+    "employees": [
+      "E-167",
+      "E-012",
+      "E-013",
+      "E-011"
+    ],
+    "departments": [
+      "D-10"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-003",
+      "type": "Budget",
+      "name": "B-003",
+      "mentions": [
+        "B-003"
+      ]
+    },
+    {
+      "id": "D-10",
+      "type": "Department",
+      "name": "Customer Support",
+      "mentions": [
+        "Customer Support"
+      ]
+    },
+    {
+      "id": "E-011",
+      "type": "Employee",
+      "name": "Monica Herrera",
+      "mentions": [
+        "Monica Herrera"
+      ]
+    },
+    {
+      "id": "E-012",
+      "type": "Employee",
+      "name": "Jamie Arnold",
+      "mentions": [
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "id": "E-013",
+      "type": "Employee",
+      "name": "Lisa Hensley",
+      "mentions": [
+        "Lisa Hensley"
+      ]
+    },
+    {
+      "id": "E-167",
+      "type": "Employee",
+      "name": "Alyssa Long",
+      "mentions": [
+        "Alyssa Long"
+      ]
+    },
+    {
+      "id": "P-003",
+      "type": "Project",
+      "name": "Project Borealis",
+      "mentions": [
+        "Project Borealis"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-012",
+      "rel": "WORKS_ON",
+      "dst": "P-003"
+    },
+    {
+      "src": "E-013",
+      "rel": "WORKS_ON",
+      "dst": "P-003"
+    },
+    {
+      "src": "E-011",
+      "rel": "WORKS_ON",
+      "dst": "P-003"
+    },
+    {
+      "src": "E-167",
+      "rel": "APPROVED",
+      "dst": "B-003"
+    },
+    {
+      "src": "P-003",
+      "rel": "FUNDED_BY",
+      "dst": "B-003"
+    },
+    {
+      "src": "E-167",
+      "rel": "WORKS_ON",
+      "dst": "P-003"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Borealis?",
+      "answer": "Alyssa Long",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Borealis in FY25-Q3?",
+      "answer": "1,673,426.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Borealis?",
+      "answer": "Alyssa Long",
+      "hops": 1
+    }
+  ]
+}

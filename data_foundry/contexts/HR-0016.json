@@ -1,0 +1,102 @@
+{
+  "doc_id": "HR-0016",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "doc_date": "2025-06-19",
+  "sensitivity": "confidential",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-06",
+      "dept_name": "Marketing",
+      "head_employee_id": "E-007",
+      "cost_center_code": "CC-106"
+    },
+    "department_head": {
+      "employee_id": "E-007",
+      "full_name": "Abigail Shaffer",
+      "role_title": "Head of Marketing",
+      "department_id": "D-06",
+      "manager_id": "E-001",
+      "email": "abigail.shaffer@orbitalcorp.com.au",
+      "hire_date": "2025-12-10",
+      "salary_band": "L5",
+      "location": "Auckland"
+    },
+    "leave_records": [
+      {
+        "leave_id": "L-007",
+        "employee_id": "E-200",
+        "leave_type": "long_service",
+        "start_date": "2025-11-13",
+        "end_date": "2025-11-28",
+        "approved_by": "E-007",
+        "employee_name": "Nathan Freeman"
+      },
+      {
+        "leave_id": "L-032",
+        "employee_id": "E-042",
+        "leave_type": "sick",
+        "start_date": "2024-10-12",
+        "end_date": "2024-10-16",
+        "approved_by": "E-007",
+        "employee_name": "Fred Smith"
+      },
+      {
+        "leave_id": "L-064",
+        "employee_id": "E-021",
+        "leave_type": "annual",
+        "start_date": "2024-08-20",
+        "end_date": "2024-08-22",
+        "approved_by": "E-007",
+        "employee_name": "Margaret Hawkins DDS"
+      },
+      {
+        "leave_id": "L-086",
+        "employee_id": "E-099",
+        "leave_type": "parental",
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-12",
+        "approved_by": "E-007",
+        "employee_name": "Jessica Smith"
+      },
+      {
+        "leave_id": "L-108",
+        "employee_id": "E-128",
+        "leave_type": "unpaid",
+        "start_date": "2025-05-15",
+        "end_date": "2025-05-25",
+        "approved_by": "E-007",
+        "employee_name": "Jason Powell"
+      },
+      {
+        "leave_id": "L-149",
+        "employee_id": "E-099",
+        "leave_type": "parental",
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-12",
+        "approved_by": "E-007",
+        "employee_name": "Jessica Smith"
+      },
+      {
+        "leave_id": "L-185",
+        "employee_id": "E-128",
+        "leave_type": "unpaid",
+        "start_date": "2025-05-16",
+        "end_date": "2025-05-26",
+        "approved_by": "E-007",
+        "employee_name": "Jason Powell"
+      },
+      {
+        "leave_id": "L-228",
+        "employee_id": "E-087",
+        "leave_type": "parental",
+        "start_date": "2025-02-02",
+        "end_date": "2025-02-09",
+        "approved_by": "E-007",
+        "employee_name": "Shirley Suarez"
+      }
+    ]
+  }
+}

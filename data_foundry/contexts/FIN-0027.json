@@ -1,0 +1,66 @@
+{
+  "doc_id": "FIN-0027",
+  "domain": "finance",
+  "doc_type": "vendor_spend_review",
+  "doc_date": "2025-06-18",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "vendor": {
+      "vendor_id": "V-003",
+      "vendor_name": "Chavez Group",
+      "service_category": "Hardware Supply",
+      "contract_id": "C-003",
+      "contact_email": "accounts@chavezgroup.com.au"
+    },
+    "contracts": [
+      {
+        "contract_id": "C-003",
+        "vendor_id": "V-003",
+        "project_id": "P-033",
+        "contract_type": "SOW",
+        "value": 1250464.0,
+        "start_date": "2025-02-03",
+        "end_date": "2027-09-03",
+        "signed_by": "E-167",
+        "renewal_status": "expiring"
+      },
+      {
+        "contract_id": "C-033",
+        "vendor_id": "V-003",
+        "project_id": "P-032",
+        "contract_type": "SOW",
+        "value": 1201562.0,
+        "start_date": "2025-01-11",
+        "end_date": "2027-07-12",
+        "signed_by": "E-160",
+        "renewal_status": "expiring"
+      }
+    ],
+    "projects_supplied": [
+      {
+        "project_id": "P-009",
+        "project_name": "Project Horizon",
+        "owner_dept_id": "D-12",
+        "lead_employee_id": "E-194",
+        "budget_id": "B-009",
+        "start_date": "2025-06-13",
+        "status": "planned",
+        "vendor_id": "V-003",
+        "lead_name": "Angelica Keith"
+      },
+      {
+        "project_id": "P-022",
+        "project_name": "Project Umbra",
+        "owner_dept_id": "D-09",
+        "lead_employee_id": "E-146",
+        "budget_id": "B-022",
+        "start_date": "2025-02-03",
+        "status": "completed",
+        "vendor_id": "V-003",
+        "lead_name": "Joyce Solis"
+      }
+    ]
+  }
+}

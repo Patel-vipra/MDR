@@ -1,0 +1,84 @@
+{
+  "doc_id": "HR-0017",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "doc_date": "2025-06-12",
+  "sensitivity": "confidential",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-01",
+      "dept_name": "Finance",
+      "head_employee_id": "E-002",
+      "cost_center_code": "CC-101"
+    },
+    "department_head": {
+      "employee_id": "E-002",
+      "full_name": "Noah Rhodes",
+      "role_title": "Head of Finance",
+      "department_id": "D-01",
+      "manager_id": "E-001",
+      "email": "noah.rhodes@orbitalcorp.com.au",
+      "hire_date": "2020-07-31",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "leave_records": [
+      {
+        "leave_id": "L-075",
+        "employee_id": "E-123",
+        "leave_type": "unpaid",
+        "start_date": "2025-05-02",
+        "end_date": "2025-05-12",
+        "approved_by": "E-002",
+        "employee_name": "April Frost"
+      },
+      {
+        "leave_id": "L-109",
+        "employee_id": "E-091",
+        "leave_type": "parental",
+        "start_date": "2025-02-11",
+        "end_date": "2025-02-18",
+        "approved_by": "E-002",
+        "employee_name": "Matthew Mcmillan"
+      },
+      {
+        "leave_id": "L-170",
+        "employee_id": "E-129",
+        "leave_type": "unpaid",
+        "start_date": "2025-05-17",
+        "end_date": "2025-05-27",
+        "approved_by": "E-002",
+        "employee_name": "Cameron Fisher"
+      },
+      {
+        "leave_id": "L-222",
+        "employee_id": "E-129",
+        "leave_type": "unpaid",
+        "start_date": "2025-05-20",
+        "end_date": "2025-05-30",
+        "approved_by": "E-002",
+        "employee_name": "Cameron Fisher"
+      },
+      {
+        "leave_id": "L-223",
+        "employee_id": "E-106",
+        "leave_type": "unpaid",
+        "start_date": "2025-03-21",
+        "end_date": "2025-03-29",
+        "approved_by": "E-002",
+        "employee_name": "Marc Moore"
+      },
+      {
+        "leave_id": "L-241",
+        "employee_id": "E-186",
+        "leave_type": "long_service",
+        "start_date": "2025-10-09",
+        "end_date": "2025-10-23",
+        "approved_by": "E-002",
+        "employee_name": "Dr. Hannah Patterson"
+      }
+    ]
+  }
+}

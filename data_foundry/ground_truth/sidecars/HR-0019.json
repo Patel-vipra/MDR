@@ -1,0 +1,107 @@
+{
+  "doc_id": "HR-0019",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-07"
+    ],
+    "employees": [
+      "E-008",
+      "E-167",
+      "E-034",
+      "E-182",
+      "E-060",
+      "E-061",
+      "E-133"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-07",
+      "type": "Department",
+      "name": "Sales",
+      "mentions": [
+        "Sales"
+      ]
+    },
+    {
+      "id": "E-008",
+      "type": "Employee",
+      "name": "Gina Moore",
+      "mentions": [
+        "Gina Moore"
+      ]
+    },
+    {
+      "id": "E-034",
+      "type": "Employee",
+      "name": "Nathan Maldonado",
+      "mentions": [
+        "Nathan Maldonado"
+      ]
+    },
+    {
+      "id": "E-060",
+      "type": "Employee",
+      "name": "John Daniel",
+      "mentions": [
+        "John Daniel"
+      ]
+    },
+    {
+      "id": "E-061",
+      "type": "Employee",
+      "name": "Victoria Garcia",
+      "mentions": [
+        "Victoria Garcia"
+      ]
+    },
+    {
+      "id": "E-133",
+      "type": "Employee",
+      "name": "Mary Marshall",
+      "mentions": [
+        "Mary Marshall"
+      ]
+    },
+    {
+      "id": "E-167",
+      "type": "Employee",
+      "name": "Alyssa Long",
+      "mentions": [
+        "Alyssa Long"
+      ]
+    },
+    {
+      "id": "E-182",
+      "type": "Employee",
+      "name": "Tina Sanders",
+      "mentions": [
+        "Tina Sanders"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-008",
+      "rel": "MANAGES",
+      "dst": "D-07"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Alyssa Long take starting 2025-08-21?",
+      "answer": "carers",
+      "hops": 1
+    },
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Nathan Maldonado take starting 2024-09-22?",
+      "answer": "sick",
+      "hops": 1
+    }
+  ]
+}

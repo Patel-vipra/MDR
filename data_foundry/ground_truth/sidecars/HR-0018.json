@@ -1,0 +1,62 @@
+{
+  "doc_id": "HR-0018",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-12"
+    ],
+    "employees": [
+      "E-013",
+      "E-048"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-12",
+      "type": "Department",
+      "name": "Facilities",
+      "mentions": [
+        "Facilities"
+      ]
+    },
+    {
+      "id": "E-013",
+      "type": "Employee",
+      "name": "Lisa Hensley",
+      "mentions": [
+        "Lisa Hensley"
+      ]
+    },
+    {
+      "id": "E-048",
+      "type": "Employee",
+      "name": "Shane Henderson",
+      "mentions": [
+        "Shane Henderson"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-013",
+      "rel": "MANAGES",
+      "dst": "D-12"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Shane Henderson take starting 2024-10-28?",
+      "answer": "sick",
+      "hops": 1
+    },
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Lisa Hensley take starting 2024-08-01?",
+      "answer": "annual",
+      "hops": 1
+    }
+  ]
+}

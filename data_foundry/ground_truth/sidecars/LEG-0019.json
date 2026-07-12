@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0019",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "compliance_incidents": [
+      "CI-014"
+    ],
+    "departments": [
+      "D-10"
+    ],
+    "employees": [
+      "E-011"
+    ],
+    "contracts": [
+      "C-031"
+    ],
+    "vendors": [
+      "V-001"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-031",
+      "type": "Contract",
+      "name": "C-031",
+      "mentions": [
+        "C-031"
+      ]
+    },
+    {
+      "id": "CI-014",
+      "type": "Incident",
+      "name": "CI-014",
+      "mentions": [
+        "CI-014"
+      ]
+    },
+    {
+      "id": "D-10",
+      "type": "Department",
+      "name": "Customer Support",
+      "mentions": [
+        "Customer Support"
+      ]
+    },
+    {
+      "id": "E-011",
+      "type": "Employee",
+      "name": "Monica Herrera",
+      "mentions": [
+        "Monica Herrera"
+      ]
+    },
+    {
+      "id": "V-001",
+      "type": "Vendor",
+      "name": "Mitchell and Sons",
+      "mentions": [
+        "Mitchell and Sons"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-011",
+      "rel": "MANAGES",
+      "dst": "D-10"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What severity was compliance incident {incident}?",
+      "question": "What severity was compliance incident CI-014?",
+      "answer": "high",
+      "hops": 1
+    },
+    {
+      "q_template": "Was compliance incident {incident} resolved?",
+      "question": "Was compliance incident CI-014 resolved?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "doc_id": "ENG-0009",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "sensitivity": "internal",
+  "source_rows": {
+    "incidents": [
+      "INC-049"
+    ],
+    "systems": [
+      "SYS-008"
+    ],
+    "projects": [
+      "P-004"
+    ],
+    "employees": [
+      "E-015",
+      "E-028"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-015",
+      "type": "Employee",
+      "name": "Dylan Miller",
+      "mentions": [
+        "Dylan Miller"
+      ]
+    },
+    {
+      "id": "E-028",
+      "type": "Employee",
+      "name": "Stephanie Ross",
+      "mentions": [
+        "Stephanie Ross"
+      ]
+    },
+    {
+      "id": "INC-049",
+      "type": "Incident",
+      "name": "INC-049",
+      "mentions": [
+        "INC-049"
+      ]
+    },
+    {
+      "id": "P-004",
+      "type": "Project",
+      "name": "Project Cascade",
+      "mentions": [
+        "Project Cascade"
+      ]
+    },
+    {
+      "id": "SYS-008",
+      "type": "System",
+      "name": "billing-gateway",
+      "mentions": [
+        "billing-gateway"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-049",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-008"
+    },
+    {
+      "src": "SYS-008",
+      "rel": "OWNED_BY",
+      "dst": "P-004"
+    },
+    {
+      "src": "E-015",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-008"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which system caused incident {incident}?",
+      "question": "Which system caused incident INC-049?",
+      "answer": "billing-gateway",
+      "hops": 1
+    },
+    {
+      "q_template": "Who was on call for {system} during incident {incident}?",
+      "question": "Who was on call for billing-gateway during incident INC-049?",
+      "answer": "Dylan Miller",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the root cause of incident {incident}?",
+      "question": "What was the root cause of incident INC-049?",
+      "answer": "deployment_error",
+      "hops": 1
+    },
+    {
+      "q_template": "When did incident {incident} occur?",
+      "question": "When did incident INC-049 occur?",
+      "answer": "2025-04-16",
+      "hops": 1
+    }
+  ]
+}

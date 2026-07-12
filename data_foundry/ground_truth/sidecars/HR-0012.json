@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0012",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-06"
+    ],
+    "employees": [
+      "E-007",
+      "E-021",
+      "E-086",
+      "E-134",
+      "E-135",
+      "E-171",
+      "E-183",
+      "E-187"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-06",
+      "type": "Department",
+      "name": "Marketing",
+      "mentions": [
+        "Marketing"
+      ]
+    },
+    {
+      "id": "E-007",
+      "type": "Employee",
+      "name": "Abigail Shaffer",
+      "mentions": [
+        "Abigail Shaffer"
+      ]
+    },
+    {
+      "id": "E-021",
+      "type": "Employee",
+      "name": "Margaret Hawkins DDS",
+      "mentions": [
+        "Margaret Hawkins DDS"
+      ]
+    },
+    {
+      "id": "E-086",
+      "type": "Employee",
+      "name": "Daniel Baker",
+      "mentions": [
+        "Daniel Baker"
+      ]
+    },
+    {
+      "id": "E-134",
+      "type": "Employee",
+      "name": "Daniel Kennedy",
+      "mentions": [
+        "Daniel Kennedy"
+      ]
+    },
+    {
+      "id": "E-135",
+      "type": "Employee",
+      "name": "Rebecca Jackson",
+      "mentions": [
+        "Rebecca Jackson"
+      ]
+    },
+    {
+      "id": "E-171",
+      "type": "Employee",
+      "name": "Jamie Walton",
+      "mentions": [
+        "Jamie Walton"
+      ]
+    },
+    {
+      "id": "E-183",
+      "type": "Employee",
+      "name": "Angela Vaughn",
+      "mentions": [
+        "Angela Vaughn"
+      ]
+    },
+    {
+      "id": "E-187",
+      "type": "Employee",
+      "name": "Jonathan Peterson",
+      "mentions": [
+        "Jonathan Peterson"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-021"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-086"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-134"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-135"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-171"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-183"
+    },
+    {
+      "src": "E-007",
+      "rel": "REVIEWED",
+      "dst": "E-187"
+    },
+    {
+      "src": "E-007",
+      "rel": "MANAGES",
+      "dst": "D-06"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Margaret Hawkins DDS receive in FY25-Q4?",
+      "answer": "2",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Margaret Hawkins DDS in FY25-Q4?",
+      "answer": "Abigail Shaffer",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Daniel Baker receive in FY25-Q4?",
+      "answer": "3",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Daniel Baker in FY25-Q4?",
+      "answer": "Abigail Shaffer",
+      "hops": 1
+    }
+  ]
+}

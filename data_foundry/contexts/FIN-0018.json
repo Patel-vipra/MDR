@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0018",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-08",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-038",
+      "project_id": "P-038",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 937281.0,
+      "spent_amount": 281184.3,
+      "approved_by": "E-092",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-038",
+      "project_name": "Project Kestrel",
+      "owner_dept_id": "D-06",
+      "lead_employee_id": "E-092",
+      "budget_id": "B-038",
+      "start_date": "2024-09-05",
+      "status": "active",
+      "vendor_id": "V-024"
+    },
+    "approver": {
+      "employee_id": "E-092",
+      "full_name": "Brian Rodriguez",
+      "role_title": "DevOps Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "brian.rodriguez@orbitalcorp.com.au",
+      "hire_date": "2022-06-15",
+      "salary_band": "L4",
+      "location": "Perth"
+    },
+    "project_lead": {
+      "employee_id": "E-092",
+      "full_name": "Brian Rodriguez",
+      "role_title": "DevOps Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "brian.rodriguez@orbitalcorp.com.au",
+      "hire_date": "2022-06-15",
+      "salary_band": "L4",
+      "location": "Perth"
+    },
+    "owner_department": {
+      "department_id": "D-06",
+      "dept_name": "Marketing",
+      "head_employee_id": "E-007",
+      "cost_center_code": "CC-106"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-297",
+        "employee_id": "E-188",
+        "project_id": "P-038",
+        "amount": 4699.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Samantha Garcia"
+      },
+      {
+        "expense_id": "X-220",
+        "employee_id": "E-189",
+        "project_id": "P-038",
+        "amount": 4736.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Madison Poole"
+      },
+      {
+        "expense_id": "X-269",
+        "employee_id": "E-190",
+        "project_id": "P-038",
+        "amount": 4748.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Jessica Gross"
+      },
+      {
+        "expense_id": "X-161",
+        "employee_id": "E-192",
+        "project_id": "P-038",
+        "amount": 4797.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Karen Graham"
+      },
+      {
+        "expense_id": "X-118",
+        "employee_id": "E-190",
+        "project_id": "P-038",
+        "amount": 4746.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Jessica Gross"
+      },
+      {
+        "expense_id": "X-169",
+        "employee_id": "E-188",
+        "project_id": "P-038",
+        "amount": 4710.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Samantha Garcia"
+      }
+    ]
+  }
+}

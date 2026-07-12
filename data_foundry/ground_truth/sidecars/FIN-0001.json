@@ -1,0 +1,170 @@
+{
+  "doc_id": "FIN-0001",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-048"
+    ],
+    "projects": [
+      "P-008"
+    ],
+    "employees": [
+      "E-199",
+      "E-015",
+      "E-037",
+      "E-036",
+      "E-035",
+      "E-038",
+      "E-039"
+    ],
+    "departments": [
+      "D-02"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-048",
+      "type": "Budget",
+      "name": "B-048",
+      "mentions": [
+        "B-048"
+      ]
+    },
+    {
+      "id": "D-02",
+      "type": "Department",
+      "name": "Human Resources",
+      "mentions": [
+        "Human Resources"
+      ]
+    },
+    {
+      "id": "E-015",
+      "type": "Employee",
+      "name": "Dylan Miller",
+      "mentions": [
+        "Dylan Miller"
+      ]
+    },
+    {
+      "id": "E-035",
+      "type": "Employee",
+      "name": "Debra Davidson",
+      "mentions": [
+        "Debra Davidson"
+      ]
+    },
+    {
+      "id": "E-036",
+      "type": "Employee",
+      "name": "Jeffrey Chavez",
+      "mentions": [
+        "Jeffrey Chavez"
+      ]
+    },
+    {
+      "id": "E-037",
+      "type": "Employee",
+      "name": "Sherri Baker",
+      "mentions": [
+        "Sherri Baker"
+      ]
+    },
+    {
+      "id": "E-038",
+      "type": "Employee",
+      "name": "Cassandra Gaines",
+      "mentions": [
+        "Cassandra Gaines"
+      ]
+    },
+    {
+      "id": "E-039",
+      "type": "Employee",
+      "name": "Elizabeth Fowler",
+      "mentions": [
+        "Elizabeth Fowler"
+      ]
+    },
+    {
+      "id": "E-199",
+      "type": "Employee",
+      "name": "Adam Vaughan",
+      "mentions": [
+        "Adam Vaughan"
+      ]
+    },
+    {
+      "id": "P-008",
+      "type": "Project",
+      "name": "Project Granite",
+      "mentions": [
+        "Project Granite"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-037",
+      "rel": "WORKS_ON",
+      "dst": "P-008"
+    },
+    {
+      "src": "E-036",
+      "rel": "WORKS_ON",
+      "dst": "P-008"
+    },
+    {
+      "src": "E-035",
+      "rel": "WORKS_ON",
+      "dst": "P-008"
+    },
+    {
+      "src": "E-038",
+      "rel": "WORKS_ON",
+      "dst": "P-008"
+    },
+    {
+      "src": "E-039",
+      "rel": "WORKS_ON",
+      "dst": "P-008"
+    },
+    {
+      "src": "E-199",
+      "rel": "APPROVED",
+      "dst": "B-048"
+    },
+    {
+      "src": "P-008",
+      "rel": "FUNDED_BY",
+      "dst": "B-048"
+    },
+    {
+      "src": "E-015",
+      "rel": "WORKS_ON",
+      "dst": "P-008"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q4 budget for Project Granite?",
+      "answer": "Adam Vaughan",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Granite in FY25-Q4?",
+      "answer": "1,992,469.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Granite?",
+      "answer": "Dylan Miller",
+      "hops": 1
+    }
+  ]
+}

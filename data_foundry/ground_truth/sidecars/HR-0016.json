@@ -1,0 +1,107 @@
+{
+  "doc_id": "HR-0016",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-06"
+    ],
+    "employees": [
+      "E-007",
+      "E-200",
+      "E-042",
+      "E-021",
+      "E-099",
+      "E-128",
+      "E-087"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-06",
+      "type": "Department",
+      "name": "Marketing",
+      "mentions": [
+        "Marketing"
+      ]
+    },
+    {
+      "id": "E-007",
+      "type": "Employee",
+      "name": "Abigail Shaffer",
+      "mentions": [
+        "Abigail Shaffer"
+      ]
+    },
+    {
+      "id": "E-021",
+      "type": "Employee",
+      "name": "Margaret Hawkins DDS",
+      "mentions": [
+        "Margaret Hawkins DDS"
+      ]
+    },
+    {
+      "id": "E-042",
+      "type": "Employee",
+      "name": "Fred Smith",
+      "mentions": [
+        "Fred Smith"
+      ]
+    },
+    {
+      "id": "E-087",
+      "type": "Employee",
+      "name": "Shirley Suarez",
+      "mentions": [
+        "Shirley Suarez"
+      ]
+    },
+    {
+      "id": "E-099",
+      "type": "Employee",
+      "name": "Jessica Smith",
+      "mentions": [
+        "Jessica Smith"
+      ]
+    },
+    {
+      "id": "E-128",
+      "type": "Employee",
+      "name": "Jason Powell",
+      "mentions": [
+        "Jason Powell"
+      ]
+    },
+    {
+      "id": "E-200",
+      "type": "Employee",
+      "name": "Nathan Freeman",
+      "mentions": [
+        "Nathan Freeman"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-007",
+      "rel": "MANAGES",
+      "dst": "D-06"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Nathan Freeman take starting 2025-11-13?",
+      "answer": "long_service",
+      "hops": 1
+    },
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Fred Smith take starting 2024-10-12?",
+      "answer": "sick",
+      "hops": 1
+    }
+  ]
+}

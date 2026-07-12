@@ -1,0 +1,110 @@
+{
+  "doc_id": "FIN-0026",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "doc_date": "2025-05-07",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "department": {
+      "department_id": "D-11",
+      "dept_name": "Data & Analytics",
+      "head_employee_id": "E-012",
+      "cost_center_code": "CC-111"
+    },
+    "department_head": {
+      "employee_id": "E-012",
+      "full_name": "Jamie Arnold",
+      "role_title": "Head of Data & Analytics",
+      "department_id": "D-11",
+      "manager_id": "E-001",
+      "email": "jamie.arnold@orbitalcorp.com.au",
+      "hire_date": "2022-06-10",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "top_expenses": [
+      {
+        "expense_id": "X-269",
+        "employee_id": "E-190",
+        "project_id": "P-038",
+        "amount": 4748.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Jessica Gross",
+        "project_name": "Project Kestrel"
+      },
+      {
+        "expense_id": "X-118",
+        "employee_id": "E-190",
+        "project_id": "P-038",
+        "amount": 4746.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Jessica Gross",
+        "project_name": "Project Kestrel"
+      },
+      {
+        "expense_id": "X-255",
+        "employee_id": "E-169",
+        "project_id": "P-034",
+        "amount": 4233.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Joel Williams",
+        "project_name": "Project Glacier"
+      },
+      {
+        "expense_id": "X-113",
+        "employee_id": "E-169",
+        "project_id": "P-034",
+        "amount": 4222.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Joel Williams",
+        "project_name": "Project Glacier"
+      },
+      {
+        "expense_id": "X-119",
+        "employee_id": "E-165",
+        "project_id": "P-033",
+        "amount": 4127.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Michael Powell",
+        "project_name": "Project Fathom"
+      },
+      {
+        "expense_id": "X-282",
+        "employee_id": "E-153",
+        "project_id": "P-031",
+        "amount": 3813.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Denise Jones",
+        "project_name": "Project Drift"
+      },
+      {
+        "expense_id": "X-232",
+        "employee_id": "E-130",
+        "project_id": "P-026",
+        "amount": 3257.0,
+        "category": "conference",
+        "approval_status": "approved",
+        "employee_name": "Megan Orr",
+        "project_name": "Project Yukon"
+      },
+      {
+        "expense_id": "X-276",
+        "employee_id": "E-130",
+        "project_id": "P-026",
+        "amount": 3253.0,
+        "category": "conference",
+        "approval_status": "approved",
+        "employee_name": "Megan Orr",
+        "project_name": "Project Yukon"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0011",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2025-01-08",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-010",
+      "vendor_id": "V-010",
+      "project_id": "P-032",
+      "contract_type": "SOW",
+      "value": 1195977.0,
+      "start_date": "2025-01-08",
+      "end_date": "2027-07-05",
+      "signed_by": "E-159",
+      "renewal_status": "expiring"
+    },
+    "vendor": {
+      "vendor_id": "V-010",
+      "vendor_name": "Brown, Mcmahon and Combs",
+      "service_category": "Hardware Supply",
+      "contract_id": "C-010",
+      "contact_email": "accounts@mcmahoncombs.com.au"
+    },
+    "project": {
+      "project_id": "P-032",
+      "project_name": "Project Echo",
+      "owner_dept_id": "D-03",
+      "lead_employee_id": "E-042",
+      "budget_id": "B-032",
+      "start_date": "2024-04-22",
+      "status": "active",
+      "vendor_id": "V-008"
+    },
+    "signatory": {
+      "employee_id": "E-159",
+      "full_name": "Melissa Gates",
+      "role_title": "Staff Engineer",
+      "department_id": "D-02",
+      "manager_id": "E-003",
+      "email": "melissa.gates@orbitalcorp.com.au",
+      "hire_date": "2016-05-24",
+      "salary_band": "L1",
+      "location": "Melbourne"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "doc_id": "FIN-0011",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-041"
+    ],
+    "projects": [
+      "P-001"
+    ],
+    "employees": [
+      "E-054",
+      "E-124",
+      "E-003",
+      "E-001"
+    ],
+    "departments": [
+      "D-08"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-041",
+      "type": "Budget",
+      "name": "B-041",
+      "mentions": [
+        "B-041"
+      ]
+    },
+    {
+      "id": "D-08",
+      "type": "Department",
+      "name": "Procurement",
+      "mentions": [
+        "Procurement"
+      ]
+    },
+    {
+      "id": "E-001",
+      "type": "Employee",
+      "name": "Allison Hill",
+      "mentions": [
+        "Allison Hill"
+      ]
+    },
+    {
+      "id": "E-003",
+      "type": "Employee",
+      "name": "Angie Henderson",
+      "mentions": [
+        "Angie Henderson"
+      ]
+    },
+    {
+      "id": "E-054",
+      "type": "Employee",
+      "name": "Mark Perez",
+      "mentions": [
+        "Mark Perez"
+      ]
+    },
+    {
+      "id": "E-124",
+      "type": "Employee",
+      "name": "Michelle Harmon",
+      "mentions": [
+        "Michelle Harmon"
+      ]
+    },
+    {
+      "id": "P-001",
+      "type": "Project",
+      "name": "Project Helios",
+      "mentions": [
+        "Project Helios"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-003",
+      "rel": "WORKS_ON",
+      "dst": "P-001"
+    },
+    {
+      "src": "E-001",
+      "rel": "WORKS_ON",
+      "dst": "P-001"
+    },
+    {
+      "src": "E-054",
+      "rel": "APPROVED",
+      "dst": "B-041"
+    },
+    {
+      "src": "P-001",
+      "rel": "FUNDED_BY",
+      "dst": "B-041"
+    },
+    {
+      "src": "E-124",
+      "rel": "WORKS_ON",
+      "dst": "P-001"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q4 budget for Project Helios?",
+      "answer": "Mark Perez",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Helios in FY25-Q4?",
+      "answer": "564,905.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Helios?",
+      "answer": "Michelle Harmon",
+      "hops": 1
+    }
+  ]
+}

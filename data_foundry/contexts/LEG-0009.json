@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0009",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2024-08-03",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-045",
+      "vendor_id": "V-015",
+      "project_id": "P-023",
+      "contract_type": "MSA",
+      "value": 858771.0,
+      "start_date": "2024-08-03",
+      "end_date": "2026-07-05",
+      "signed_by": "E-114",
+      "renewal_status": "renegotiate"
+    },
+    "vendor": {
+      "vendor_id": "V-015",
+      "vendor_name": "Gonzales, Martinez and Miller",
+      "service_category": "Hardware Supply",
+      "contract_id": "C-015",
+      "contact_email": "accounts@martinezmiller.com.au"
+    },
+    "project": {
+      "project_id": "P-023",
+      "project_name": "Project Vertex",
+      "owner_dept_id": "D-07",
+      "lead_employee_id": "E-109",
+      "budget_id": "B-023",
+      "start_date": "2024-10-23",
+      "status": "completed",
+      "vendor_id": "V-025"
+    },
+    "signatory": {
+      "employee_id": "E-114",
+      "full_name": "Crystal Johnson",
+      "role_title": "DevOps Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "crystal.johnson@orbitalcorp.com.au",
+      "hire_date": "2022-06-19",
+      "salary_band": "L4",
+      "location": "Perth"
+    }
+  }
+}

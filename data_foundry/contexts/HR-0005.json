@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0005",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2025-07-23",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-04",
+      "dept_name": "Engineering",
+      "head_employee_id": "E-005",
+      "cost_center_code": "CC-104"
+    },
+    "department_head": {
+      "employee_id": "E-005",
+      "full_name": "Cristian Santos",
+      "role_title": "Head of Engineering",
+      "department_id": "D-04",
+      "manager_id": "E-001",
+      "email": "cristian.santos@orbitalcorp.com.au",
+      "hire_date": "2022-05-04",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "quarter": "FY25-Q4",
+    "reviews": [
+      {
+        "review_id": "R-255",
+        "employee_id": "E-055",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": false,
+        "employee_name": "Shannon Jones",
+        "reviewer_name": "Cristian Santos"
+      },
+      {
+        "review_id": "R-288",
+        "employee_id": "E-088",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 2,
+        "promotion_flag": false,
+        "employee_name": "Christopher Bass",
+        "reviewer_name": "Cristian Santos"
+      },
+      {
+        "review_id": "R-296",
+        "employee_id": "E-096",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Anna Henderson",
+        "reviewer_name": "Cristian Santos"
+      },
+      {
+        "review_id": "R-311",
+        "employee_id": "E-111",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Richard Rodriguez",
+        "reviewer_name": "Cristian Santos"
+      },
+      {
+        "review_id": "R-325",
+        "employee_id": "E-125",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 1,
+        "promotion_flag": false,
+        "employee_name": "Helen Jones",
+        "reviewer_name": "Cristian Santos"
+      },
+      {
+        "review_id": "R-358",
+        "employee_id": "E-158",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Jason Stein",
+        "reviewer_name": "Cristian Santos"
+      },
+      {
+        "review_id": "R-398",
+        "employee_id": "E-198",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Spencer Haynes",
+        "reviewer_name": "Cristian Santos"
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "doc_id": "HR-0003",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-03"
+    ],
+    "employees": [
+      "E-004",
+      "E-032",
+      "E-037",
+      "E-068",
+      "E-095",
+      "E-148",
+      "E-154",
+      "E-192"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-03",
+      "type": "Department",
+      "name": "Legal",
+      "mentions": [
+        "Legal"
+      ]
+    },
+    {
+      "id": "E-004",
+      "type": "Employee",
+      "name": "Daniel Wagner",
+      "mentions": [
+        "Daniel Wagner"
+      ]
+    },
+    {
+      "id": "E-032",
+      "type": "Employee",
+      "name": "James Ferrell",
+      "mentions": [
+        "James Ferrell"
+      ]
+    },
+    {
+      "id": "E-037",
+      "type": "Employee",
+      "name": "Sherri Baker",
+      "mentions": [
+        "Sherri Baker"
+      ]
+    },
+    {
+      "id": "E-068",
+      "type": "Employee",
+      "name": "Carol Tucker",
+      "mentions": [
+        "Carol Tucker"
+      ]
+    },
+    {
+      "id": "E-095",
+      "type": "Employee",
+      "name": "John Whitehead",
+      "mentions": [
+        "John Whitehead"
+      ]
+    },
+    {
+      "id": "E-148",
+      "type": "Employee",
+      "name": "Stephanie Salazar",
+      "mentions": [
+        "Stephanie Salazar"
+      ]
+    },
+    {
+      "id": "E-154",
+      "type": "Employee",
+      "name": "Devon Flores",
+      "mentions": [
+        "Devon Flores"
+      ]
+    },
+    {
+      "id": "E-192",
+      "type": "Employee",
+      "name": "Karen Graham",
+      "mentions": [
+        "Karen Graham"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-004",
+      "rel": "REVIEWED",
+      "dst": "E-032"
+    },
+    {
+      "src": "E-004",
+      "rel": "REVIEWED",
+      "dst": "E-037"
+    },
+    {
+      "src": "E-004",
+      "rel": "REVIEWED",
+      "dst": "E-068"
+    },
+    {
+      "src": "E-004",
+      "rel": "REVIEWED",
+      "dst": "E-095"
+    },
+    {
+      "src": "E-004",
+      "rel": "REVIEWED",
+      "dst": "E-148"
+    },
+    {
+      "src": "E-004",
+      "rel": "REVIEWED",
+      "dst": "E-154"
+    },
+    {
+      "src": "E-004",
+      "rel": "REVIEWED",
+      "dst": "E-192"
+    },
+    {
+      "src": "E-004",
+      "rel": "MANAGES",
+      "dst": "D-03"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did James Ferrell receive in FY25-Q4?",
+      "answer": "4",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed James Ferrell in FY25-Q4?",
+      "answer": "Daniel Wagner",
+      "hops": 1
+    },
+    {
+      "q_template": "What rating did {employee} receive in {quarter}?",
+      "question": "What rating did Sherri Baker receive in FY25-Q4?",
+      "answer": "1",
+      "hops": 1
+    },
+    {
+      "q_template": "Who reviewed {employee} in {quarter}?",
+      "question": "Who reviewed Sherri Baker in FY25-Q4?",
+      "answer": "Daniel Wagner",
+      "hops": 1
+    }
+  ]
+}

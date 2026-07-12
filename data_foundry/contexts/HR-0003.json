@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0003",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2025-07-20",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-03",
+      "dept_name": "Legal",
+      "head_employee_id": "E-004",
+      "cost_center_code": "CC-103"
+    },
+    "department_head": {
+      "employee_id": "E-004",
+      "full_name": "Daniel Wagner",
+      "role_title": "Head of Legal",
+      "department_id": "D-03",
+      "manager_id": "E-001",
+      "email": "daniel.wagner@orbitalcorp.com.au",
+      "hire_date": "2017-11-19",
+      "salary_band": "L5",
+      "location": "Melbourne"
+    },
+    "quarter": "FY25-Q4",
+    "reviews": [
+      {
+        "review_id": "R-232",
+        "employee_id": "E-032",
+        "reviewer_id": "E-004",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "James Ferrell",
+        "reviewer_name": "Daniel Wagner"
+      },
+      {
+        "review_id": "R-237",
+        "employee_id": "E-037",
+        "reviewer_id": "E-004",
+        "quarter": "FY25-Q4",
+        "rating": 1,
+        "promotion_flag": false,
+        "employee_name": "Sherri Baker",
+        "reviewer_name": "Daniel Wagner"
+      },
+      {
+        "review_id": "R-268",
+        "employee_id": "E-068",
+        "reviewer_id": "E-004",
+        "quarter": "FY25-Q4",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Carol Tucker",
+        "reviewer_name": "Daniel Wagner"
+      },
+      {
+        "review_id": "R-295",
+        "employee_id": "E-095",
+        "reviewer_id": "E-004",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "John Whitehead",
+        "reviewer_name": "Daniel Wagner"
+      },
+      {
+        "review_id": "R-348",
+        "employee_id": "E-148",
+        "reviewer_id": "E-004",
+        "quarter": "FY25-Q4",
+        "rating": 1,
+        "promotion_flag": false,
+        "employee_name": "Stephanie Salazar",
+        "reviewer_name": "Daniel Wagner"
+      },
+      {
+        "review_id": "R-354",
+        "employee_id": "E-154",
+        "reviewer_id": "E-004",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Devon Flores",
+        "reviewer_name": "Daniel Wagner"
+      },
+      {
+        "review_id": "R-392",
+        "employee_id": "E-192",
+        "reviewer_id": "E-004",
+        "quarter": "FY25-Q4",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Karen Graham",
+        "reviewer_name": "Daniel Wagner"
+      }
+    ]
+  }
+}

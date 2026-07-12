@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0006",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2024-06-02",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-021",
+      "vendor_id": "V-021",
+      "project_id": "P-020",
+      "contract_type": "MSA",
+      "value": 727187.0,
+      "start_date": "2024-06-02",
+      "end_date": "2026-02-12",
+      "signed_by": "E-097",
+      "renewal_status": "renegotiate"
+    },
+    "vendor": {
+      "vendor_id": "V-021",
+      "vendor_name": "Guzman-Miller",
+      "service_category": "Recruitment Services",
+      "contract_id": "C-021",
+      "contact_email": "accounts@vendor21.com.au"
+    },
+    "project": {
+      "project_id": "P-020",
+      "project_name": "Project Sentinel",
+      "owner_dept_id": "D-10",
+      "lead_employee_id": "E-168",
+      "budget_id": "B-020",
+      "start_date": "2025-04-03",
+      "status": "on_hold",
+      "vendor_id": "V-001"
+    },
+    "signatory": {
+      "employee_id": "E-097",
+      "full_name": "Aaron Wise",
+      "role_title": "Accountant",
+      "department_id": "D-04",
+      "manager_id": "E-005",
+      "email": "aaron.wise@orbitalcorp.com.au",
+      "hire_date": "2017-08-26",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    }
+  }
+}

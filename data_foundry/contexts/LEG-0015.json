@@ -1,0 +1,53 @@
+{
+  "doc_id": "LEG-0015",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "doc_date": "2025-04-22",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "incident": {
+      "incident_id": "CI-018",
+      "department_id": "D-08",
+      "related_contract_id": "C-034",
+      "severity": "medium",
+      "resolved_flag": true
+    },
+    "department": {
+      "department_id": "D-08",
+      "dept_name": "Procurement",
+      "head_employee_id": "E-009",
+      "cost_center_code": "CC-108"
+    },
+    "department_head": {
+      "employee_id": "E-009",
+      "full_name": "Gabrielle Davis",
+      "role_title": "Head of Procurement",
+      "department_id": "D-08",
+      "manager_id": "E-001",
+      "email": "gabrielle.davis@orbitalcorp.com.au",
+      "hire_date": "2025-08-14",
+      "salary_band": "L5",
+      "location": "Auckland"
+    },
+    "related_contract": {
+      "contract_id": "C-034",
+      "vendor_id": "V-004",
+      "project_id": "P-023",
+      "contract_type": "MSA",
+      "value": 858886.0,
+      "start_date": "2024-08-03",
+      "end_date": "2026-07-05",
+      "signed_by": "E-114",
+      "renewal_status": "renegotiate"
+    },
+    "contract_vendor": {
+      "vendor_id": "V-004",
+      "vendor_name": "Smith, Reynolds and Watson",
+      "service_category": "Consulting",
+      "contract_id": "C-004",
+      "contact_email": "accounts@reynoldswatson.com.au"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "LEG-0010",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "doc_date": "2025-01-23",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "contract": {
+      "contract_id": "C-030",
+      "vendor_id": "V-030",
+      "project_id": "P-033",
+      "contract_type": "SOW",
+      "value": 1228148.0,
+      "start_date": "2025-01-23",
+      "end_date": "2027-08-09",
+      "signed_by": "E-164",
+      "renewal_status": "expiring"
+    },
+    "vendor": {
+      "vendor_id": "V-030",
+      "vendor_name": "Johnson, Robbins and Abbott",
+      "service_category": "Hardware Supply",
+      "contract_id": "C-030",
+      "contact_email": "accounts@robbinsabbott.com.au"
+    },
+    "project": {
+      "project_id": "P-033",
+      "project_name": "Project Fathom",
+      "owner_dept_id": "D-10",
+      "lead_employee_id": "E-160",
+      "budget_id": "B-033",
+      "start_date": "2025-03-13",
+      "status": "completed",
+      "vendor_id": "V-022"
+    },
+    "signatory": {
+      "employee_id": "E-164",
+      "full_name": "Jeffrey Johnson",
+      "role_title": "Product Manager",
+      "department_id": "D-07",
+      "manager_id": "E-008",
+      "email": "jeffrey.johnson@orbitalcorp.com.au",
+      "hire_date": "2021-01-18",
+      "salary_band": "L3",
+      "location": "Perth"
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "doc_id": "FIN-0026",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "sensitivity": "internal",
+  "source_rows": {
+    "departments": [
+      "D-11"
+    ],
+    "employees": [
+      "E-012",
+      "E-190",
+      "E-169",
+      "E-165",
+      "E-153",
+      "E-130"
+    ],
+    "projects": [
+      "P-038",
+      "P-034",
+      "P-033",
+      "P-031",
+      "P-026"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-11",
+      "type": "Department",
+      "name": "Data & Analytics",
+      "mentions": [
+        "Data & Analytics"
+      ]
+    },
+    {
+      "id": "E-012",
+      "type": "Employee",
+      "name": "Jamie Arnold",
+      "mentions": [
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "id": "E-130",
+      "type": "Employee",
+      "name": "Megan Orr",
+      "mentions": [
+        "Megan Orr"
+      ]
+    },
+    {
+      "id": "E-153",
+      "type": "Employee",
+      "name": "Denise Jones",
+      "mentions": [
+        "Denise Jones"
+      ]
+    },
+    {
+      "id": "E-165",
+      "type": "Employee",
+      "name": "Michael Powell",
+      "mentions": [
+        "Michael Powell"
+      ]
+    },
+    {
+      "id": "E-169",
+      "type": "Employee",
+      "name": "Joel Williams",
+      "mentions": [
+        "Joel Williams"
+      ]
+    },
+    {
+      "id": "E-190",
+      "type": "Employee",
+      "name": "Jessica Gross",
+      "mentions": [
+        "Jessica Gross"
+      ]
+    },
+    {
+      "id": "P-026",
+      "type": "Project",
+      "name": "Project Yukon",
+      "mentions": [
+        "Project Yukon"
+      ]
+    },
+    {
+      "id": "P-031",
+      "type": "Project",
+      "name": "Project Drift",
+      "mentions": [
+        "Project Drift"
+      ]
+    },
+    {
+      "id": "P-033",
+      "type": "Project",
+      "name": "Project Fathom",
+      "mentions": [
+        "Project Fathom"
+      ]
+    },
+    {
+      "id": "P-034",
+      "type": "Project",
+      "name": "Project Glacier",
+      "mentions": [
+        "Project Glacier"
+      ]
+    },
+    {
+      "id": "P-038",
+      "type": "Project",
+      "name": "Project Kestrel",
+      "mentions": [
+        "Project Kestrel"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-190",
+      "rel": "WORKS_ON",
+      "dst": "P-038"
+    },
+    {
+      "src": "E-169",
+      "rel": "WORKS_ON",
+      "dst": "P-034"
+    },
+    {
+      "src": "E-165",
+      "rel": "WORKS_ON",
+      "dst": "P-033"
+    },
+    {
+      "src": "E-153",
+      "rel": "WORKS_ON",
+      "dst": "P-031"
+    },
+    {
+      "src": "E-130",
+      "rel": "WORKS_ON",
+      "dst": "P-026"
+    },
+    {
+      "src": "E-012",
+      "rel": "MANAGES",
+      "dst": "D-11"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who heads the {dept} department?",
+      "question": "Who heads the Data & Analytics department?",
+      "answer": "Jamie Arnold",
+      "hops": 1
+    },
+    {
+      "q_template": "Who submitted the largest expense in the {dept} department?",
+      "question": "Who submitted the largest expense in the Data & Analytics department?",
+      "answer": "Jessica Gross",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0001",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2025-07-10",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-10",
+      "dept_name": "Customer Support",
+      "head_employee_id": "E-011",
+      "cost_center_code": "CC-110"
+    },
+    "department_head": {
+      "employee_id": "E-011",
+      "full_name": "Monica Herrera",
+      "role_title": "Head of Customer Support",
+      "department_id": "D-10",
+      "manager_id": "E-001",
+      "email": "monica.herrera@orbitalcorp.com.au",
+      "hire_date": "2019-11-29",
+      "salary_band": "L5",
+      "location": "Brisbane"
+    },
+    "quarter": "FY25-Q4",
+    "reviews": [
+      {
+        "review_id": "R-211",
+        "employee_id": "E-011",
+        "reviewer_id": "E-001",
+        "quarter": "FY25-Q4",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Monica Herrera",
+        "reviewer_name": "Allison Hill"
+      },
+      {
+        "review_id": "R-214",
+        "employee_id": "E-014",
+        "reviewer_id": "E-011",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Michele Williams",
+        "reviewer_name": "Monica Herrera"
+      },
+      {
+        "review_id": "R-235",
+        "employee_id": "E-035",
+        "reviewer_id": "E-011",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Debra Davidson",
+        "reviewer_name": "Monica Herrera"
+      },
+      {
+        "review_id": "R-236",
+        "employee_id": "E-036",
+        "reviewer_id": "E-011",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Jeffrey Chavez",
+        "reviewer_name": "Monica Herrera"
+      },
+      {
+        "review_id": "R-313",
+        "employee_id": "E-113",
+        "reviewer_id": "E-011",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": false,
+        "employee_name": "Julia Torres",
+        "reviewer_name": "Monica Herrera"
+      },
+      {
+        "review_id": "R-319",
+        "employee_id": "E-119",
+        "reviewer_id": "E-011",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Victor Baker",
+        "reviewer_name": "Monica Herrera"
+      },
+      {
+        "review_id": "R-372",
+        "employee_id": "E-172",
+        "reviewer_id": "E-011",
+        "quarter": "FY25-Q4",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Darlene Miller",
+        "reviewer_name": "Monica Herrera"
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "doc_id": "HR-0022",
+  "domain": "hr",
+  "doc_type": "promotion_round_summary",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "employees": [
+      "E-007",
+      "E-001",
+      "E-009",
+      "E-048",
+      "E-013",
+      "E-056",
+      "E-012",
+      "E-078",
+      "E-101",
+      "E-117",
+      "E-118"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-001",
+      "type": "Employee",
+      "name": "Allison Hill",
+      "mentions": [
+        "Allison Hill"
+      ]
+    },
+    {
+      "id": "E-007",
+      "type": "Employee",
+      "name": "Abigail Shaffer",
+      "mentions": [
+        "Abigail Shaffer"
+      ]
+    },
+    {
+      "id": "E-009",
+      "type": "Employee",
+      "name": "Gabrielle Davis",
+      "mentions": [
+        "Gabrielle Davis"
+      ]
+    },
+    {
+      "id": "E-012",
+      "type": "Employee",
+      "name": "Jamie Arnold",
+      "mentions": [
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "id": "E-013",
+      "type": "Employee",
+      "name": "Lisa Hensley",
+      "mentions": [
+        "Lisa Hensley"
+      ]
+    },
+    {
+      "id": "E-048",
+      "type": "Employee",
+      "name": "Shane Henderson",
+      "mentions": [
+        "Shane Henderson"
+      ]
+    },
+    {
+      "id": "E-056",
+      "type": "Employee",
+      "name": "Michael Lewis",
+      "mentions": [
+        "Michael Lewis"
+      ]
+    },
+    {
+      "id": "E-078",
+      "type": "Employee",
+      "name": "Megan Young",
+      "mentions": [
+        "Megan Young"
+      ]
+    },
+    {
+      "id": "E-101",
+      "type": "Employee",
+      "name": "Sandra Aguilar",
+      "mentions": [
+        "Sandra Aguilar"
+      ]
+    },
+    {
+      "id": "E-117",
+      "type": "Employee",
+      "name": "William Herrera",
+      "mentions": [
+        "William Herrera"
+      ]
+    },
+    {
+      "id": "E-118",
+      "type": "Employee",
+      "name": "Ashley Waller",
+      "mentions": [
+        "Ashley Waller"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-001",
+      "rel": "REVIEWED",
+      "dst": "E-007"
+    },
+    {
+      "src": "E-001",
+      "rel": "REVIEWED",
+      "dst": "E-009"
+    },
+    {
+      "src": "E-013",
+      "rel": "REVIEWED",
+      "dst": "E-048"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-056"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-078"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-101"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-117"
+    },
+    {
+      "src": "E-012",
+      "rel": "REVIEWED",
+      "dst": "E-118"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Was {employee} recommended for promotion in {quarter}?",
+      "question": "Was Abigail Shaffer recommended for promotion in FY25-Q2?",
+      "answer": "Yes",
+      "hops": 1
+    },
+    {
+      "q_template": "Was {employee} recommended for promotion in {quarter}?",
+      "question": "Was Gabrielle Davis recommended for promotion in FY25-Q2?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

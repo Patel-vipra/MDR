@@ -1,0 +1,35 @@
+{
+  "doc_id": "LEG-0014",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "doc_date": "2025-06-17",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "clause numbering, defined terms, formal contractual register",
+  "facts": {
+    "incident": {
+      "incident_id": "CI-008",
+      "department_id": "D-02",
+      "related_contract_id": null,
+      "severity": "low",
+      "resolved_flag": false
+    },
+    "department": {
+      "department_id": "D-02",
+      "dept_name": "Human Resources",
+      "head_employee_id": "E-003",
+      "cost_center_code": "CC-102"
+    },
+    "department_head": {
+      "employee_id": "E-003",
+      "full_name": "Angie Henderson",
+      "role_title": "Head of Human Resources",
+      "department_id": "D-02",
+      "manager_id": "E-001",
+      "email": "angie.henderson@orbitalcorp.com.au",
+      "hire_date": "2024-02-12",
+      "salary_band": "L5",
+      "location": "Singapore"
+    }
+  }
+}

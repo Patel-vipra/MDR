@@ -1,0 +1,110 @@
+{
+  "doc_id": "FIN-0025",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "doc_date": "2025-05-07",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "department": {
+      "department_id": "D-04",
+      "dept_name": "Engineering",
+      "head_employee_id": "E-005",
+      "cost_center_code": "CC-104"
+    },
+    "department_head": {
+      "employee_id": "E-005",
+      "full_name": "Cristian Santos",
+      "role_title": "Head of Engineering",
+      "department_id": "D-04",
+      "manager_id": "E-001",
+      "email": "cristian.santos@orbitalcorp.com.au",
+      "hire_date": "2022-05-04",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "top_expenses": [
+      {
+        "expense_id": "X-220",
+        "employee_id": "E-189",
+        "project_id": "P-038",
+        "amount": 4736.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "Madison Poole",
+        "project_name": "Project Kestrel"
+      },
+      {
+        "expense_id": "X-153",
+        "employee_id": "E-174",
+        "project_id": "P-035",
+        "amount": 4361.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Matthew Harrington",
+        "project_name": "Project Harbor"
+      },
+      {
+        "expense_id": "X-165",
+        "employee_id": "E-174",
+        "project_id": "P-035",
+        "amount": 4339.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Matthew Harrington",
+        "project_name": "Project Harbor"
+      },
+      {
+        "expense_id": "X-046",
+        "employee_id": "E-163",
+        "project_id": "P-033",
+        "amount": 4084.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Lindsey Walker",
+        "project_name": "Project Fathom"
+      },
+      {
+        "expense_id": "X-299",
+        "employee_id": "E-163",
+        "project_id": "P-033",
+        "amount": 4072.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Lindsey Walker",
+        "project_name": "Project Fathom"
+      },
+      {
+        "expense_id": "X-071",
+        "employee_id": "E-158",
+        "project_id": "P-032",
+        "amount": 3961.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Jason Stein",
+        "project_name": "Project Echo"
+      },
+      {
+        "expense_id": "X-084",
+        "employee_id": "E-158",
+        "project_id": "P-032",
+        "amount": 3957.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Jason Stein",
+        "project_name": "Project Echo"
+      },
+      {
+        "expense_id": "X-016",
+        "employee_id": "E-145",
+        "project_id": "P-029",
+        "amount": 3615.0,
+        "category": "conference",
+        "approval_status": "pending",
+        "employee_name": "Amber Wright",
+        "project_name": "Project Basalt"
+      }
+    ]
+  }
+}

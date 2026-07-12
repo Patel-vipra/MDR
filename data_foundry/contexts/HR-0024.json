@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0024",
+  "domain": "hr",
+  "doc_type": "promotion_round_summary",
+  "doc_date": "2025-07-28",
+  "sensitivity": "restricted",
+  "pages": 1,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "promotion_candidates": [
+      {
+        "review_id": "R-241",
+        "employee_id": "E-041",
+        "reviewer_id": "E-005",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Paula Moreno",
+        "reviewer_name": "Cristian Santos",
+        "salary_band": "L2"
+      },
+      {
+        "review_id": "R-259",
+        "employee_id": "E-059",
+        "reviewer_id": "E-003",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Brent Jordan",
+        "reviewer_name": "Angie Henderson",
+        "salary_band": "L1"
+      },
+      {
+        "review_id": "R-262",
+        "employee_id": "E-062",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Gerald Hensley",
+        "reviewer_name": "Gabrielle Davis",
+        "salary_band": "L3"
+      },
+      {
+        "review_id": "R-267",
+        "employee_id": "E-067",
+        "reviewer_id": "E-003",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Tracy House",
+        "reviewer_name": "Angie Henderson",
+        "salary_band": "L1"
+      },
+      {
+        "review_id": "R-269",
+        "employee_id": "E-069",
+        "reviewer_id": "E-007",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "James Brown",
+        "reviewer_name": "Abigail Shaffer",
+        "salary_band": "L3"
+      },
+      {
+        "review_id": "R-289",
+        "employee_id": "E-089",
+        "reviewer_id": "E-003",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Lisa Archer",
+        "reviewer_name": "Angie Henderson",
+        "salary_band": "L1"
+      },
+      {
+        "review_id": "R-292",
+        "employee_id": "E-092",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Brian Rodriguez",
+        "reviewer_name": "Gabrielle Davis",
+        "salary_band": "L4"
+      },
+      {
+        "review_id": "R-293",
+        "employee_id": "E-093",
+        "reviewer_id": "E-009",
+        "quarter": "FY25-Q4",
+        "rating": 5,
+        "promotion_flag": true,
+        "employee_name": "Denise Jacobs",
+        "reviewer_name": "Gabrielle Davis",
+        "salary_band": "L3"
+      }
+    ]
+  }
+}

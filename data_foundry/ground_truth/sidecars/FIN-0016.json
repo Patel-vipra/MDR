@@ -1,0 +1,161 @@
+{
+  "doc_id": "FIN-0016",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-020"
+    ],
+    "projects": [
+      "P-020"
+    ],
+    "employees": [
+      "E-168",
+      "E-099",
+      "E-100",
+      "E-097",
+      "E-098",
+      "E-096"
+    ],
+    "departments": [
+      "D-10"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-020",
+      "type": "Budget",
+      "name": "B-020",
+      "mentions": [
+        "B-020"
+      ]
+    },
+    {
+      "id": "D-10",
+      "type": "Department",
+      "name": "Customer Support",
+      "mentions": [
+        "Customer Support"
+      ]
+    },
+    {
+      "id": "E-096",
+      "type": "Employee",
+      "name": "Anna Henderson",
+      "mentions": [
+        "Anna Henderson"
+      ]
+    },
+    {
+      "id": "E-097",
+      "type": "Employee",
+      "name": "Aaron Wise",
+      "mentions": [
+        "Aaron Wise"
+      ]
+    },
+    {
+      "id": "E-098",
+      "type": "Employee",
+      "name": "Deborah Figueroa",
+      "mentions": [
+        "Deborah Figueroa"
+      ]
+    },
+    {
+      "id": "E-099",
+      "type": "Employee",
+      "name": "Jessica Smith",
+      "mentions": [
+        "Jessica Smith"
+      ]
+    },
+    {
+      "id": "E-100",
+      "type": "Employee",
+      "name": "Stephen Mckee",
+      "mentions": [
+        "Stephen Mckee"
+      ]
+    },
+    {
+      "id": "E-168",
+      "type": "Employee",
+      "name": "Alyssa Day",
+      "mentions": [
+        "Alyssa Day"
+      ]
+    },
+    {
+      "id": "P-020",
+      "type": "Project",
+      "name": "Project Sentinel",
+      "mentions": [
+        "Project Sentinel"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-099",
+      "rel": "WORKS_ON",
+      "dst": "P-020"
+    },
+    {
+      "src": "E-100",
+      "rel": "WORKS_ON",
+      "dst": "P-020"
+    },
+    {
+      "src": "E-097",
+      "rel": "WORKS_ON",
+      "dst": "P-020"
+    },
+    {
+      "src": "E-098",
+      "rel": "WORKS_ON",
+      "dst": "P-020"
+    },
+    {
+      "src": "E-096",
+      "rel": "WORKS_ON",
+      "dst": "P-020"
+    },
+    {
+      "src": "E-168",
+      "rel": "APPROVED",
+      "dst": "B-020"
+    },
+    {
+      "src": "P-020",
+      "rel": "FUNDED_BY",
+      "dst": "B-020"
+    },
+    {
+      "src": "E-168",
+      "rel": "WORKS_ON",
+      "dst": "P-020"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Sentinel?",
+      "answer": "Alyssa Day",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Sentinel in FY25-Q3?",
+      "answer": "1,685,915.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Sentinel?",
+      "answer": "Alyssa Day",
+      "hops": 1
+    }
+  ]
+}

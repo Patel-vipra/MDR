@@ -1,0 +1,161 @@
+{
+  "doc_id": "FIN-0024",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "sensitivity": "internal",
+  "source_rows": {
+    "departments": [
+      "D-06"
+    ],
+    "employees": [
+      "E-007",
+      "E-200",
+      "E-194",
+      "E-187",
+      "E-183",
+      "E-157"
+    ],
+    "projects": [
+      "P-040",
+      "P-039",
+      "P-037",
+      "P-031"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-06",
+      "type": "Department",
+      "name": "Marketing",
+      "mentions": [
+        "Marketing"
+      ]
+    },
+    {
+      "id": "E-007",
+      "type": "Employee",
+      "name": "Abigail Shaffer",
+      "mentions": [
+        "Abigail Shaffer"
+      ]
+    },
+    {
+      "id": "E-157",
+      "type": "Employee",
+      "name": "Joshua Perry",
+      "mentions": [
+        "Joshua Perry"
+      ]
+    },
+    {
+      "id": "E-183",
+      "type": "Employee",
+      "name": "Angela Vaughn",
+      "mentions": [
+        "Angela Vaughn"
+      ]
+    },
+    {
+      "id": "E-187",
+      "type": "Employee",
+      "name": "Jonathan Peterson",
+      "mentions": [
+        "Jonathan Peterson"
+      ]
+    },
+    {
+      "id": "E-194",
+      "type": "Employee",
+      "name": "Angelica Keith",
+      "mentions": [
+        "Angelica Keith"
+      ]
+    },
+    {
+      "id": "E-200",
+      "type": "Employee",
+      "name": "Nathan Freeman",
+      "mentions": [
+        "Nathan Freeman"
+      ]
+    },
+    {
+      "id": "P-031",
+      "type": "Project",
+      "name": "Project Drift",
+      "mentions": [
+        "Project Drift"
+      ]
+    },
+    {
+      "id": "P-037",
+      "type": "Project",
+      "name": "Project Jade",
+      "mentions": [
+        "Project Jade"
+      ]
+    },
+    {
+      "id": "P-039",
+      "type": "Project",
+      "name": "Project Lattice",
+      "mentions": [
+        "Project Lattice"
+      ]
+    },
+    {
+      "id": "P-040",
+      "type": "Project",
+      "name": "Project Monsoon",
+      "mentions": [
+        "Project Monsoon"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-200",
+      "rel": "WORKS_ON",
+      "dst": "P-040"
+    },
+    {
+      "src": "E-194",
+      "rel": "WORKS_ON",
+      "dst": "P-039"
+    },
+    {
+      "src": "E-187",
+      "rel": "WORKS_ON",
+      "dst": "P-037"
+    },
+    {
+      "src": "E-183",
+      "rel": "WORKS_ON",
+      "dst": "P-037"
+    },
+    {
+      "src": "E-157",
+      "rel": "WORKS_ON",
+      "dst": "P-031"
+    },
+    {
+      "src": "E-007",
+      "rel": "MANAGES",
+      "dst": "D-06"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who heads the {dept} department?",
+      "question": "Who heads the Marketing department?",
+      "answer": "Abigail Shaffer",
+      "hops": 1
+    },
+    {
+      "q_template": "Who submitted the largest expense in the {dept} department?",
+      "question": "Who submitted the largest expense in the Marketing department?",
+      "answer": "Nathan Freeman",
+      "hops": 1
+    }
+  ]
+}

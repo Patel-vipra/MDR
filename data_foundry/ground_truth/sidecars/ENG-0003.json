@@ -1,0 +1,106 @@
+{
+  "doc_id": "ENG-0003",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "sensitivity": "internal",
+  "source_rows": {
+    "incidents": [
+      "INC-067"
+    ],
+    "systems": [
+      "SYS-004"
+    ],
+    "projects": [
+      "P-011"
+    ],
+    "employees": [
+      "E-053",
+      "E-013"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-013",
+      "type": "Employee",
+      "name": "Lisa Hensley",
+      "mentions": [
+        "Lisa Hensley"
+      ]
+    },
+    {
+      "id": "E-053",
+      "type": "Employee",
+      "name": "Crystal Robinson",
+      "mentions": [
+        "Crystal Robinson"
+      ]
+    },
+    {
+      "id": "INC-067",
+      "type": "Incident",
+      "name": "INC-067",
+      "mentions": [
+        "INC-067"
+      ]
+    },
+    {
+      "id": "P-011",
+      "type": "Project",
+      "name": "Project Juniper",
+      "mentions": [
+        "Project Juniper"
+      ]
+    },
+    {
+      "id": "SYS-004",
+      "type": "System",
+      "name": "auth-worker",
+      "mentions": [
+        "auth-worker"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-067",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-004"
+    },
+    {
+      "src": "SYS-004",
+      "rel": "OWNED_BY",
+      "dst": "P-011"
+    },
+    {
+      "src": "E-053",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-004"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which system caused incident {incident}?",
+      "question": "Which system caused incident INC-067?",
+      "answer": "auth-worker",
+      "hops": 1
+    },
+    {
+      "q_template": "Who was on call for {system} during incident {incident}?",
+      "question": "Who was on call for auth-worker during incident INC-067?",
+      "answer": "Crystal Robinson",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the root cause of incident {incident}?",
+      "question": "What was the root cause of incident INC-067?",
+      "answer": "config_change",
+      "hops": 1
+    },
+    {
+      "q_template": "When did incident {incident} occur?",
+      "question": "When did incident INC-067 occur?",
+      "answer": "2025-01-15",
+      "hops": 1
+    }
+  ]
+}

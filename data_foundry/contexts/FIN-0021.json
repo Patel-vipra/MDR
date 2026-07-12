@@ -1,0 +1,110 @@
+{
+  "doc_id": "FIN-0021",
+  "domain": "finance",
+  "doc_type": "dept_expense_summary",
+  "doc_date": "2025-05-26",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "department": {
+      "department_id": "D-02",
+      "dept_name": "Human Resources",
+      "head_employee_id": "E-003",
+      "cost_center_code": "CC-102"
+    },
+    "department_head": {
+      "employee_id": "E-003",
+      "full_name": "Angie Henderson",
+      "role_title": "Head of Human Resources",
+      "department_id": "D-02",
+      "manager_id": "E-001",
+      "email": "angie.henderson@orbitalcorp.com.au",
+      "hire_date": "2024-02-12",
+      "salary_band": "L5",
+      "location": "Singapore"
+    },
+    "top_expenses": [
+      {
+        "expense_id": "X-292",
+        "employee_id": "E-195",
+        "project_id": "P-039",
+        "amount": 4868.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "John Bishop",
+        "project_name": "Project Lattice"
+      },
+      {
+        "expense_id": "X-184",
+        "employee_id": "E-195",
+        "project_id": "P-039",
+        "amount": 4865.0,
+        "category": "other",
+        "approval_status": "rejected",
+        "employee_name": "John Bishop",
+        "project_name": "Project Lattice"
+      },
+      {
+        "expense_id": "X-050",
+        "employee_id": "E-179",
+        "project_id": "P-036",
+        "amount": 4469.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Lawrence Adkins",
+        "project_name": "Project Ironwood"
+      },
+      {
+        "expense_id": "X-024",
+        "employee_id": "E-179",
+        "project_id": "P-036",
+        "amount": 4468.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Lawrence Adkins",
+        "project_name": "Project Ironwood"
+      },
+      {
+        "expense_id": "X-264",
+        "employee_id": "E-168",
+        "project_id": "P-034",
+        "amount": 4211.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Alyssa Day",
+        "project_name": "Project Glacier"
+      },
+      {
+        "expense_id": "X-020",
+        "employee_id": "E-168",
+        "project_id": "P-034",
+        "amount": 4199.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Alyssa Day",
+        "project_name": "Project Glacier"
+      },
+      {
+        "expense_id": "X-010",
+        "employee_id": "E-159",
+        "project_id": "P-032",
+        "amount": 3985.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Melissa Gates",
+        "project_name": "Project Echo"
+      },
+      {
+        "expense_id": "X-203",
+        "employee_id": "E-159",
+        "project_id": "P-032",
+        "amount": 3985.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Melissa Gates",
+        "project_name": "Project Echo"
+      }
+    ]
+  }
+}

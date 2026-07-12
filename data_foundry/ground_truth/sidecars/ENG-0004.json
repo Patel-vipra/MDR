@@ -1,0 +1,106 @@
+{
+  "doc_id": "ENG-0004",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "sensitivity": "internal",
+  "source_rows": {
+    "incidents": [
+      "INC-080"
+    ],
+    "systems": [
+      "SYS-003"
+    ],
+    "projects": [
+      "P-033"
+    ],
+    "employees": [
+      "E-167",
+      "E-011"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-011",
+      "type": "Employee",
+      "name": "Monica Herrera",
+      "mentions": [
+        "Monica Herrera"
+      ]
+    },
+    {
+      "id": "E-167",
+      "type": "Employee",
+      "name": "Alyssa Long",
+      "mentions": [
+        "Alyssa Long"
+      ]
+    },
+    {
+      "id": "INC-080",
+      "type": "Incident",
+      "name": "INC-080",
+      "mentions": [
+        "INC-080"
+      ]
+    },
+    {
+      "id": "P-033",
+      "type": "Project",
+      "name": "Project Fathom",
+      "mentions": [
+        "Project Fathom"
+      ]
+    },
+    {
+      "id": "SYS-003",
+      "type": "System",
+      "name": "auth-gateway",
+      "mentions": [
+        "auth-gateway"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-080",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-003"
+    },
+    {
+      "src": "SYS-003",
+      "rel": "OWNED_BY",
+      "dst": "P-033"
+    },
+    {
+      "src": "E-167",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-003"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which system caused incident {incident}?",
+      "question": "Which system caused incident INC-080?",
+      "answer": "auth-gateway",
+      "hops": 1
+    },
+    {
+      "q_template": "Who was on call for {system} during incident {incident}?",
+      "question": "Who was on call for auth-gateway during incident INC-080?",
+      "answer": "Alyssa Long",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the root cause of incident {incident}?",
+      "question": "What was the root cause of incident INC-080?",
+      "answer": "config_change",
+      "hops": 1
+    },
+    {
+      "q_template": "When did incident {incident} occur?",
+      "question": "When did incident INC-080 occur?",
+      "answer": "2025-05-04",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0020",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-07-22",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-061",
+      "project_id": "P-021",
+      "fiscal_quarter": "FY25-Q4",
+      "allocated_amount": 1072529.0,
+      "spent_amount": 321758.7,
+      "approved_by": "E-105",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-021",
+      "project_name": "Project Titan",
+      "owner_dept_id": "D-06",
+      "lead_employee_id": "E-097",
+      "budget_id": "B-021",
+      "start_date": "2024-09-20",
+      "status": "active",
+      "vendor_id": "V-019"
+    },
+    "approver": {
+      "employee_id": "E-105",
+      "full_name": "Richard Henson",
+      "role_title": "QA Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "richard.henson@orbitalcorp.com.au",
+      "hire_date": "2021-11-22",
+      "salary_band": "L3",
+      "location": "Perth"
+    },
+    "project_lead": {
+      "employee_id": "E-097",
+      "full_name": "Aaron Wise",
+      "role_title": "Accountant",
+      "department_id": "D-04",
+      "manager_id": "E-005",
+      "email": "aaron.wise@orbitalcorp.com.au",
+      "hire_date": "2017-08-26",
+      "salary_band": "L2",
+      "location": "Melbourne"
+    },
+    "owner_department": {
+      "department_id": "D-06",
+      "dept_name": "Marketing",
+      "head_employee_id": "E-007",
+      "cost_center_code": "CC-106"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-284",
+        "employee_id": "E-105",
+        "project_id": "P-021",
+        "amount": 2632.0,
+        "category": "training",
+        "approval_status": "approved",
+        "employee_name": "Richard Henson"
+      },
+      {
+        "expense_id": "X-006",
+        "employee_id": "E-104",
+        "project_id": "P-021",
+        "amount": 2599.0,
+        "category": "training",
+        "approval_status": "approved",
+        "employee_name": "Christine Wright"
+      },
+      {
+        "expense_id": "X-002",
+        "employee_id": "E-102",
+        "project_id": "P-021",
+        "amount": 2560.0,
+        "category": "training",
+        "approval_status": "approved",
+        "employee_name": "Cameron Parker"
+      },
+      {
+        "expense_id": "X-167",
+        "employee_id": "E-101",
+        "project_id": "P-021",
+        "amount": 2525.0,
+        "category": "training",
+        "approval_status": "approved",
+        "employee_name": "Sandra Aguilar"
+      },
+      {
+        "expense_id": "X-121",
+        "employee_id": "E-102",
+        "project_id": "P-021",
+        "amount": 2548.0,
+        "category": "training",
+        "approval_status": "approved",
+        "employee_name": "Cameron Parker"
+      },
+      {
+        "expense_id": "X-061",
+        "employee_id": "E-105",
+        "project_id": "P-021",
+        "amount": 2634.0,
+        "category": "training",
+        "approval_status": "approved",
+        "employee_name": "Richard Henson"
+      }
+    ]
+  }
+}

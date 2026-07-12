@@ -1,0 +1,60 @@
+{
+  "doc_id": "ENG-0013",
+  "domain": "engineering",
+  "doc_type": "incident_postmortem",
+  "doc_date": "2025-01-13",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "postmortem structure: impact, timeline, root cause, action items",
+  "facts": {
+    "incident": {
+      "incident_id": "INC-066",
+      "system_id": "SYS-010",
+      "reported_by": "E-036",
+      "severity": "Sev2",
+      "root_cause_category": "deployment_error",
+      "resolution_time_hrs": 12.5,
+      "incident_date": "2025-01-13"
+    },
+    "system": {
+      "system_id": "SYS-010",
+      "system_name": "billing-pipeline",
+      "owner_project_id": "P-032",
+      "on_call_employee_id": "E-159",
+      "tech_stack": "React/Node.js/DynamoDB",
+      "criticality": "medium"
+    },
+    "owning_project": {
+      "project_id": "P-032",
+      "project_name": "Project Echo",
+      "owner_dept_id": "D-03",
+      "lead_employee_id": "E-042",
+      "budget_id": "B-032",
+      "start_date": "2024-04-22",
+      "status": "active",
+      "vendor_id": "V-008"
+    },
+    "on_call_engineer": {
+      "employee_id": "E-159",
+      "full_name": "Melissa Gates",
+      "role_title": "Staff Engineer",
+      "department_id": "D-02",
+      "manager_id": "E-003",
+      "email": "melissa.gates@orbitalcorp.com.au",
+      "hire_date": "2016-05-24",
+      "salary_band": "L1",
+      "location": "Melbourne"
+    },
+    "reported_by": {
+      "employee_id": "E-036",
+      "full_name": "Jeffrey Chavez",
+      "role_title": "Marketing Specialist",
+      "department_id": "D-10",
+      "manager_id": "E-011",
+      "email": "jeffrey.chavez@orbitalcorp.com.au",
+      "hire_date": "2024-06-13",
+      "salary_band": "L5",
+      "location": "Singapore"
+    }
+  }
+}

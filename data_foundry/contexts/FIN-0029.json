@@ -1,0 +1,77 @@
+{
+  "doc_id": "FIN-0029",
+  "domain": "finance",
+  "doc_type": "vendor_spend_review",
+  "doc_date": "2025-06-05",
+  "sensitivity": "internal",
+  "pages": 1,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "vendor": {
+      "vendor_id": "V-022",
+      "vendor_name": "Newman Ltd",
+      "service_category": "Hardware Supply",
+      "contract_id": "C-022",
+      "contact_email": "accounts@newmanltd.com.au"
+    },
+    "contracts": [
+      {
+        "contract_id": "C-022",
+        "vendor_id": "V-022",
+        "project_id": "P-030",
+        "contract_type": "SOW",
+        "value": 1099304.0,
+        "start_date": "2024-11-24",
+        "end_date": "2027-03-23",
+        "signed_by": "E-146",
+        "renewal_status": "expiring"
+      }
+    ],
+    "projects_supplied": [
+      {
+        "project_id": "P-018",
+        "project_name": "Project Quasar",
+        "owner_dept_id": "D-08",
+        "lead_employee_id": "E-127",
+        "budget_id": "B-018",
+        "start_date": "2024-12-10",
+        "status": "completed",
+        "vendor_id": "V-022",
+        "lead_name": "Michelle Evans"
+      },
+      {
+        "project_id": "P-025",
+        "project_name": "Project Xenon",
+        "owner_dept_id": "D-09",
+        "lead_employee_id": "E-148",
+        "budget_id": "B-025",
+        "start_date": "2025-02-07",
+        "status": "completed",
+        "vendor_id": "V-022",
+        "lead_name": "Stephanie Salazar"
+      },
+      {
+        "project_id": "P-029",
+        "project_name": "Project Basalt",
+        "owner_dept_id": "D-09",
+        "lead_employee_id": "E-142",
+        "budget_id": "B-029",
+        "start_date": "2025-01-21",
+        "status": "completed",
+        "vendor_id": "V-022",
+        "lead_name": "David Douglas Jr."
+      },
+      {
+        "project_id": "P-033",
+        "project_name": "Project Fathom",
+        "owner_dept_id": "D-10",
+        "lead_employee_id": "E-160",
+        "budget_id": "B-033",
+        "start_date": "2025-03-13",
+        "status": "completed",
+        "vendor_id": "V-022",
+        "lead_name": "Jamie Smith"
+      }
+    ]
+  }
+}

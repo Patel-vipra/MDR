@@ -1,0 +1,101 @@
+{
+  "doc_id": "HR-0009",
+  "domain": "hr",
+  "doc_type": "performance_summary",
+  "doc_date": "2024-10-20",
+  "sensitivity": "confidential",
+  "pages": 2,
+  "style_notes": "policy tone, confidentiality boilerplate, structured summaries",
+  "facts": {
+    "department": {
+      "department_id": "D-05",
+      "dept_name": "IT Operations",
+      "head_employee_id": "E-006",
+      "cost_center_code": "CC-105"
+    },
+    "department_head": {
+      "employee_id": "E-006",
+      "full_name": "Connie Lawrence",
+      "role_title": "Head of IT Operations",
+      "department_id": "D-05",
+      "manager_id": "E-001",
+      "email": "connie.lawrence@orbitalcorp.com.au",
+      "hire_date": "2020-08-31",
+      "salary_band": "L5",
+      "location": "Perth"
+    },
+    "quarter": "FY25-Q2",
+    "reviews": [
+      {
+        "review_id": "R-006",
+        "employee_id": "E-006",
+        "reviewer_id": "E-001",
+        "quarter": "FY25-Q2",
+        "rating": 4,
+        "promotion_flag": false,
+        "employee_name": "Connie Lawrence",
+        "reviewer_name": "Allison Hill"
+      },
+      {
+        "review_id": "R-100",
+        "employee_id": "E-100",
+        "reviewer_id": "E-006",
+        "quarter": "FY25-Q2",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Stephen Mckee",
+        "reviewer_name": "Connie Lawrence"
+      },
+      {
+        "review_id": "R-122",
+        "employee_id": "E-122",
+        "reviewer_id": "E-006",
+        "quarter": "FY25-Q2",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Kenneth Scott",
+        "reviewer_name": "Connie Lawrence"
+      },
+      {
+        "review_id": "R-156",
+        "employee_id": "E-156",
+        "reviewer_id": "E-006",
+        "quarter": "FY25-Q2",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Michelle Brown",
+        "reviewer_name": "Connie Lawrence"
+      },
+      {
+        "review_id": "R-178",
+        "employee_id": "E-178",
+        "reviewer_id": "E-006",
+        "quarter": "FY25-Q2",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Michael Wang",
+        "reviewer_name": "Connie Lawrence"
+      },
+      {
+        "review_id": "R-181",
+        "employee_id": "E-181",
+        "reviewer_id": "E-006",
+        "quarter": "FY25-Q2",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Alexander Collins",
+        "reviewer_name": "Connie Lawrence"
+      },
+      {
+        "review_id": "R-196",
+        "employee_id": "E-196",
+        "reviewer_id": "E-006",
+        "quarter": "FY25-Q2",
+        "rating": 3,
+        "promotion_flag": false,
+        "employee_name": "Allen Rosales",
+        "reviewer_name": "Connie Lawrence"
+      }
+    ]
+  }
+}

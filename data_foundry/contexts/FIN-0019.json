@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0019",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-22",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-032",
+      "project_id": "P-032",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 451581.0,
+      "spent_amount": 135474.3,
+      "approved_by": "E-042",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-032",
+      "project_name": "Project Echo",
+      "owner_dept_id": "D-03",
+      "lead_employee_id": "E-042",
+      "budget_id": "B-032",
+      "start_date": "2024-04-22",
+      "status": "active",
+      "vendor_id": "V-008"
+    },
+    "approver": {
+      "employee_id": "E-042",
+      "full_name": "Fred Smith",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "fred.smith@orbitalcorp.com.au",
+      "hire_date": "2020-06-21",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "project_lead": {
+      "employee_id": "E-042",
+      "full_name": "Fred Smith",
+      "role_title": "Paralegal",
+      "department_id": "D-06",
+      "manager_id": "E-007",
+      "email": "fred.smith@orbitalcorp.com.au",
+      "hire_date": "2020-06-21",
+      "salary_band": "L3",
+      "location": "Brisbane"
+    },
+    "owner_department": {
+      "department_id": "D-03",
+      "dept_name": "Legal",
+      "head_employee_id": "E-004",
+      "cost_center_code": "CC-103"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-084",
+        "employee_id": "E-158",
+        "project_id": "P-032",
+        "amount": 3957.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Jason Stein"
+      },
+      {
+        "expense_id": "X-071",
+        "employee_id": "E-158",
+        "project_id": "P-032",
+        "amount": 3961.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Jason Stein"
+      },
+      {
+        "expense_id": "X-203",
+        "employee_id": "E-159",
+        "project_id": "P-032",
+        "amount": 3985.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Melissa Gates"
+      },
+      {
+        "expense_id": "X-033",
+        "employee_id": "E-160",
+        "project_id": "P-032",
+        "amount": 4004.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Jamie Smith"
+      },
+      {
+        "expense_id": "X-126",
+        "employee_id": "E-160",
+        "project_id": "P-032",
+        "amount": 3988.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Jamie Smith"
+      },
+      {
+        "expense_id": "X-010",
+        "employee_id": "E-159",
+        "project_id": "P-032",
+        "amount": 3985.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Melissa Gates"
+      }
+    ]
+  }
+}

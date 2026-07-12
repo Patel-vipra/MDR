@@ -1,0 +1,116 @@
+{
+  "doc_id": "HR-0014",
+  "domain": "hr",
+  "doc_type": "leave_report",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "departments": [
+      "D-04"
+    ],
+    "employees": [
+      "E-005",
+      "E-111",
+      "E-083",
+      "E-085",
+      "E-026",
+      "E-112",
+      "E-088",
+      "E-096"
+    ]
+  },
+  "entities": [
+    {
+      "id": "D-04",
+      "type": "Department",
+      "name": "Engineering",
+      "mentions": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "E-005",
+      "type": "Employee",
+      "name": "Cristian Santos",
+      "mentions": [
+        "Cristian Santos"
+      ]
+    },
+    {
+      "id": "E-026",
+      "type": "Employee",
+      "name": "Judy Baker",
+      "mentions": [
+        "Judy Baker"
+      ]
+    },
+    {
+      "id": "E-083",
+      "type": "Employee",
+      "name": "Michael Evans",
+      "mentions": [
+        "Michael Evans"
+      ]
+    },
+    {
+      "id": "E-085",
+      "type": "Employee",
+      "name": "Zachary Ferrell",
+      "mentions": [
+        "Zachary Ferrell"
+      ]
+    },
+    {
+      "id": "E-088",
+      "type": "Employee",
+      "name": "Christopher Bass",
+      "mentions": [
+        "Christopher Bass"
+      ]
+    },
+    {
+      "id": "E-096",
+      "type": "Employee",
+      "name": "Anna Henderson",
+      "mentions": [
+        "Anna Henderson"
+      ]
+    },
+    {
+      "id": "E-111",
+      "type": "Employee",
+      "name": "Richard Rodriguez",
+      "mentions": [
+        "Richard Rodriguez"
+      ]
+    },
+    {
+      "id": "E-112",
+      "type": "Employee",
+      "name": "Shannon Walker",
+      "mentions": [
+        "Shannon Walker"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-005",
+      "rel": "MANAGES",
+      "dst": "D-04"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Richard Rodriguez take starting 2025-04-04?",
+      "answer": "unpaid",
+      "hops": 1
+    },
+    {
+      "q_template": "What type of leave did {employee} take starting {date}?",
+      "question": "What type of leave did Michael Evans take starting 2025-01-24?",
+      "answer": "parental",
+      "hops": 1
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0009",
+  "domain": "legal",
+  "doc_type": "contract_summary",
+  "sensitivity": "confidential",
+  "source_rows": {
+    "contracts": [
+      "C-045"
+    ],
+    "vendors": [
+      "V-015"
+    ],
+    "projects": [
+      "P-023"
+    ],
+    "employees": [
+      "E-114"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-045",
+      "type": "Contract",
+      "name": "C-045",
+      "mentions": [
+        "C-045"
+      ]
+    },
+    {
+      "id": "E-114",
+      "type": "Employee",
+      "name": "Crystal Johnson",
+      "mentions": [
+        "Crystal Johnson"
+      ]
+    },
+    {
+      "id": "P-023",
+      "type": "Project",
+      "name": "Project Vertex",
+      "mentions": [
+        "Project Vertex"
+      ]
+    },
+    {
+      "id": "V-015",
+      "type": "Vendor",
+      "name": "Gonzales, Martinez and Miller",
+      "mentions": [
+        "Gonzales, Martinez and Miller"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-114",
+      "rel": "SIGNED",
+      "dst": "C-045"
+    },
+    {
+      "src": "P-023",
+      "rel": "SUPPLIED_BY",
+      "dst": "V-015"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who signed contract {contract} with {vendor}?",
+      "question": "Who signed contract C-045 with Gonzales, Martinez and Miller?",
+      "answer": "Crystal Johnson",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the value of contract {contract}?",
+      "question": "What is the value of contract C-045?",
+      "answer": "858,771.00",
+      "hops": 1
+    },
+    {
+      "q_template": "When does contract {contract} end?",
+      "question": "When does contract C-045 end?",
+      "answer": "2026-07-05",
+      "hops": 1
+    }
+  ]
+}

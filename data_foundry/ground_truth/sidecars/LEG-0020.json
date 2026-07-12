@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0020",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "compliance_incidents": [
+      "CI-013"
+    ],
+    "departments": [
+      "D-05"
+    ],
+    "employees": [
+      "E-006"
+    ],
+    "contracts": [
+      "C-021"
+    ],
+    "vendors": [
+      "V-021"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-021",
+      "type": "Contract",
+      "name": "C-021",
+      "mentions": [
+        "C-021"
+      ]
+    },
+    {
+      "id": "CI-013",
+      "type": "Incident",
+      "name": "CI-013",
+      "mentions": [
+        "CI-013"
+      ]
+    },
+    {
+      "id": "D-05",
+      "type": "Department",
+      "name": "IT Operations",
+      "mentions": [
+        "IT Operations"
+      ]
+    },
+    {
+      "id": "E-006",
+      "type": "Employee",
+      "name": "Connie Lawrence",
+      "mentions": [
+        "Connie Lawrence"
+      ]
+    },
+    {
+      "id": "V-021",
+      "type": "Vendor",
+      "name": "Guzman-Miller",
+      "mentions": [
+        "Guzman-Miller"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-006",
+      "rel": "MANAGES",
+      "dst": "D-05"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What severity was compliance incident {incident}?",
+      "question": "What severity was compliance incident CI-013?",
+      "answer": "low",
+      "hops": 1
+    },
+    {
+      "q_template": "Was compliance incident {incident} resolved?",
+      "question": "Was compliance incident CI-013 resolved?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

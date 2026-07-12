@@ -1,0 +1,114 @@
+{
+  "doc_id": "FIN-0013",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "doc_date": "2025-04-13",
+  "sensitivity": "internal",
+  "pages": 2,
+  "style_notes": "figures with exact amounts, variance commentary, at least one table",
+  "facts": {
+    "budget": {
+      "budget_id": "B-034",
+      "project_id": "P-034",
+      "fiscal_quarter": "FY25-Q3",
+      "allocated_amount": 1160958.0,
+      "spent_amount": 348287.4,
+      "approved_by": "E-114",
+      "status": "approved"
+    },
+    "project": {
+      "project_id": "P-034",
+      "project_name": "Project Glacier",
+      "owner_dept_id": "D-07",
+      "lead_employee_id": "E-114",
+      "budget_id": "B-034",
+      "start_date": "2024-11-07",
+      "status": "completed",
+      "vendor_id": "V-025"
+    },
+    "approver": {
+      "employee_id": "E-114",
+      "full_name": "Crystal Johnson",
+      "role_title": "DevOps Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "crystal.johnson@orbitalcorp.com.au",
+      "hire_date": "2022-06-19",
+      "salary_band": "L4",
+      "location": "Perth"
+    },
+    "project_lead": {
+      "employee_id": "E-114",
+      "full_name": "Crystal Johnson",
+      "role_title": "DevOps Engineer",
+      "department_id": "D-08",
+      "manager_id": "E-009",
+      "email": "crystal.johnson@orbitalcorp.com.au",
+      "hire_date": "2022-06-19",
+      "salary_band": "L4",
+      "location": "Perth"
+    },
+    "owner_department": {
+      "department_id": "D-07",
+      "dept_name": "Sales",
+      "head_employee_id": "E-008",
+      "cost_center_code": "CC-107"
+    },
+    "expense_lines": [
+      {
+        "expense_id": "X-264",
+        "employee_id": "E-168",
+        "project_id": "P-034",
+        "amount": 4211.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Alyssa Day"
+      },
+      {
+        "expense_id": "X-132",
+        "employee_id": "E-170",
+        "project_id": "P-034",
+        "amount": 4244.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Daniel Murphy"
+      },
+      {
+        "expense_id": "X-212",
+        "employee_id": "E-170",
+        "project_id": "P-034",
+        "amount": 4246.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Daniel Murphy"
+      },
+      {
+        "expense_id": "X-255",
+        "employee_id": "E-169",
+        "project_id": "P-034",
+        "amount": 4233.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Joel Williams"
+      },
+      {
+        "expense_id": "X-113",
+        "employee_id": "E-169",
+        "project_id": "P-034",
+        "amount": 4222.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Joel Williams"
+      },
+      {
+        "expense_id": "X-020",
+        "employee_id": "E-168",
+        "project_id": "P-034",
+        "amount": 4199.0,
+        "category": "office_supplies",
+        "approval_status": "pending",
+        "employee_name": "Alyssa Day"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "doc_id": "ENG-0017",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-024"
+    ],
+    "projects": [
+      "P-036"
+    ],
+    "employees": [
+      "E-179",
+      "E-173"
+    ],
+    "incidents": [
+      "INC-069"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-173",
+      "type": "Employee",
+      "name": "Joshua Cooke",
+      "mentions": [
+        "Joshua Cooke"
+      ]
+    },
+    {
+      "id": "E-179",
+      "type": "Employee",
+      "name": "Lawrence Adkins",
+      "mentions": [
+        "Lawrence Adkins"
+      ]
+    },
+    {
+      "id": "INC-069",
+      "type": "Incident",
+      "name": "INC-069",
+      "mentions": [
+        "INC-069"
+      ]
+    },
+    {
+      "id": "P-036",
+      "type": "Project",
+      "name": "Project Ironwood",
+      "mentions": [
+        "Project Ironwood"
+      ]
+    },
+    {
+      "id": "SYS-024",
+      "type": "System",
+      "name": "inventory-worker",
+      "mentions": [
+        "inventory-worker"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-069",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-024"
+    },
+    {
+      "src": "SYS-024",
+      "rel": "OWNED_BY",
+      "dst": "P-036"
+    },
+    {
+      "src": "E-179",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-024"
+    },
+    {
+      "src": "E-173",
+      "rel": "WORKS_ON",
+      "dst": "P-036"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns inventory-worker?",
+      "answer": "Project Ironwood",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of inventory-worker?",
+      "answer": "React/Node.js/DynamoDB",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for inventory-worker?",
+      "answer": "Lawrence Adkins",
+      "hops": 1
+    }
+  ]
+}

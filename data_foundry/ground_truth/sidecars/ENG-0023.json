@@ -1,0 +1,105 @@
+{
+  "doc_id": "ENG-0023",
+  "domain": "engineering",
+  "doc_type": "system_brief",
+  "sensitivity": "internal",
+  "source_rows": {
+    "systems": [
+      "SYS-018"
+    ],
+    "projects": [
+      "P-026"
+    ],
+    "employees": [
+      "E-127",
+      "E-063"
+    ],
+    "incidents": [
+      "INC-100"
+    ]
+  },
+  "entities": [
+    {
+      "id": "E-063",
+      "type": "Employee",
+      "name": "Connor West",
+      "mentions": [
+        "Connor West"
+      ]
+    },
+    {
+      "id": "E-127",
+      "type": "Employee",
+      "name": "Michelle Evans",
+      "mentions": [
+        "Michelle Evans"
+      ]
+    },
+    {
+      "id": "INC-100",
+      "type": "Incident",
+      "name": "INC-100",
+      "mentions": [
+        "INC-100"
+      ]
+    },
+    {
+      "id": "P-026",
+      "type": "Project",
+      "name": "Project Yukon",
+      "mentions": [
+        "Project Yukon"
+      ]
+    },
+    {
+      "id": "SYS-018",
+      "type": "System",
+      "name": "payroll-gateway",
+      "mentions": [
+        "payroll-gateway"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "INC-100",
+      "rel": "CAUSED_BY",
+      "dst": "SYS-018"
+    },
+    {
+      "src": "SYS-018",
+      "rel": "OWNED_BY",
+      "dst": "P-026"
+    },
+    {
+      "src": "E-127",
+      "rel": "ON_CALL_FOR",
+      "dst": "SYS-018"
+    },
+    {
+      "src": "E-063",
+      "rel": "WORKS_ON",
+      "dst": "P-026"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Which project owns {system}?",
+      "question": "Which project owns payroll-gateway?",
+      "answer": "Project Yukon",
+      "hops": 1
+    },
+    {
+      "q_template": "What is the tech stack of {system}?",
+      "question": "What is the tech stack of payroll-gateway?",
+      "answer": "Python/Django/MySQL",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is on call for {system}?",
+      "question": "Who is on call for payroll-gateway?",
+      "answer": "Michelle Evans",
+      "hops": 1
+    }
+  ]
+}

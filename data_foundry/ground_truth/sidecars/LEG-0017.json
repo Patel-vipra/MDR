@@ -1,0 +1,86 @@
+{
+  "doc_id": "LEG-0017",
+  "domain": "legal",
+  "doc_type": "compliance_report",
+  "sensitivity": "restricted",
+  "source_rows": {
+    "compliance_incidents": [
+      "CI-009"
+    ],
+    "departments": [
+      "D-12"
+    ],
+    "employees": [
+      "E-013"
+    ],
+    "contracts": [
+      "C-045"
+    ],
+    "vendors": [
+      "V-015"
+    ]
+  },
+  "entities": [
+    {
+      "id": "C-045",
+      "type": "Contract",
+      "name": "C-045",
+      "mentions": [
+        "C-045"
+      ]
+    },
+    {
+      "id": "CI-009",
+      "type": "Incident",
+      "name": "CI-009",
+      "mentions": [
+        "CI-009"
+      ]
+    },
+    {
+      "id": "D-12",
+      "type": "Department",
+      "name": "Facilities",
+      "mentions": [
+        "Facilities"
+      ]
+    },
+    {
+      "id": "E-013",
+      "type": "Employee",
+      "name": "Lisa Hensley",
+      "mentions": [
+        "Lisa Hensley"
+      ]
+    },
+    {
+      "id": "V-015",
+      "type": "Vendor",
+      "name": "Gonzales, Martinez and Miller",
+      "mentions": [
+        "Gonzales, Martinez and Miller"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-013",
+      "rel": "MANAGES",
+      "dst": "D-12"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "What severity was compliance incident {incident}?",
+      "question": "What severity was compliance incident CI-009?",
+      "answer": "critical",
+      "hops": 1
+    },
+    {
+      "q_template": "Was compliance incident {incident} resolved?",
+      "question": "Was compliance incident CI-009 resolved?",
+      "answer": "Yes",
+      "hops": 1
+    }
+  ]
+}

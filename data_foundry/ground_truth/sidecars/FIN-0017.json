@@ -1,0 +1,147 @@
+{
+  "doc_id": "FIN-0017",
+  "domain": "finance",
+  "doc_type": "quarterly_budget_report",
+  "sensitivity": "internal",
+  "source_rows": {
+    "budgets": [
+      "B-030"
+    ],
+    "projects": [
+      "P-030"
+    ],
+    "employees": [
+      "E-164",
+      "E-148",
+      "E-149",
+      "E-150",
+      "E-151"
+    ],
+    "departments": [
+      "D-10"
+    ]
+  },
+  "entities": [
+    {
+      "id": "B-030",
+      "type": "Budget",
+      "name": "B-030",
+      "mentions": [
+        "B-030"
+      ]
+    },
+    {
+      "id": "D-10",
+      "type": "Department",
+      "name": "Customer Support",
+      "mentions": [
+        "Customer Support"
+      ]
+    },
+    {
+      "id": "E-148",
+      "type": "Employee",
+      "name": "Stephanie Salazar",
+      "mentions": [
+        "Stephanie Salazar"
+      ]
+    },
+    {
+      "id": "E-149",
+      "type": "Employee",
+      "name": "Kathy Rivas",
+      "mentions": [
+        "Kathy Rivas"
+      ]
+    },
+    {
+      "id": "E-150",
+      "type": "Employee",
+      "name": "Stephanie Manning",
+      "mentions": [
+        "Stephanie Manning"
+      ]
+    },
+    {
+      "id": "E-151",
+      "type": "Employee",
+      "name": "David Wright",
+      "mentions": [
+        "David Wright"
+      ]
+    },
+    {
+      "id": "E-164",
+      "type": "Employee",
+      "name": "Jeffrey Johnson",
+      "mentions": [
+        "Jeffrey Johnson"
+      ]
+    },
+    {
+      "id": "P-030",
+      "type": "Project",
+      "name": "Project Cobalt",
+      "mentions": [
+        "Project Cobalt"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "src": "E-148",
+      "rel": "WORKS_ON",
+      "dst": "P-030"
+    },
+    {
+      "src": "E-149",
+      "rel": "WORKS_ON",
+      "dst": "P-030"
+    },
+    {
+      "src": "E-150",
+      "rel": "WORKS_ON",
+      "dst": "P-030"
+    },
+    {
+      "src": "E-151",
+      "rel": "WORKS_ON",
+      "dst": "P-030"
+    },
+    {
+      "src": "E-164",
+      "rel": "APPROVED",
+      "dst": "B-030"
+    },
+    {
+      "src": "P-030",
+      "rel": "FUNDED_BY",
+      "dst": "B-030"
+    },
+    {
+      "src": "E-164",
+      "rel": "WORKS_ON",
+      "dst": "P-030"
+    }
+  ],
+  "answerable_facts": [
+    {
+      "q_template": "Who approved the {quarter} budget for {project}?",
+      "question": "Who approved the FY25-Q3 budget for Project Cobalt?",
+      "answer": "Jeffrey Johnson",
+      "hops": 1
+    },
+    {
+      "q_template": "What was the allocated budget for {project} in {quarter}?",
+      "question": "What was the allocated budget for Project Cobalt in FY25-Q3?",
+      "answer": "1,644,220.00",
+      "hops": 1
+    },
+    {
+      "q_template": "Who is the project lead for {project}?",
+      "question": "Who is the project lead for Project Cobalt?",
+      "answer": "Jeffrey Johnson",
+      "hops": 1
+    }
+  ]
+}
