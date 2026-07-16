@@ -21,3 +21,5 @@ python-dotenv
 # dbldatagen 0.4.0 imports these but does not declare them:
 jmespath
 pyparsing
+# docs tooling (docs/build_brief.py):
+python-docx
