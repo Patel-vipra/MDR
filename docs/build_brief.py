@@ -39,26 +39,34 @@ PROBLEM = (
     "corpora there is no ground truth for whether retrieval surfaced the right passages, "
     "whether a knowledge graph was extracted correctly, how much OCR noise damaged "
     "downstream answers, or whether access controls actually prevented information "
-    "leakage. This project inverts the usual order: a seeded relational backbone "
-    "(12 tables — employees, projects, budgets, contracts, systems) is generated first, "
-    "and 100 realistic corporate documents are derived from it, so the truth is known "
-    "before the system ever runs."
+    "leakage. This project inverts the usual order: the relational world is generated "
+    "first and every document derived from it, so the truth is known before the system "
+    "ever runs."
 )
 
-APPROACH = [
-    ("Data foundry", "seeded synthetic tables (dbldatagen/PySpark) expanded into 100 "
-     "LLM-written corporate documents, each with a machine-readable ground-truth sidecar "
-     "(entities, relationships, answerable facts) and an aggregated true knowledge graph."),
-    ("Realistic ingestion", "40% of the corpus is degraded into scan-like PDFs and "
-     "recovered with GPU OCR; recovery quality is measured (character/word error rate, "
-     "entity-survival rate) against ground truth."),
-    ("Agentic query pipeline", "a nine-node LangGraph agent: domain routing, "
-     "attribute-based access control (ABAC), hybrid dense+BM25 retrieval with "
-     "cross-encoder re-ranking, corrective retrieval (CRAG), knowledge-graph multi-hop "
-     "augmentation (GraphRAG), and grounded generation with confidence-aware abstention."),
-    ("Local inference", "query-time models are open-weight (Qwen3-4B, bge-m3) on "
-     "commodity hardware; paid APIs are used only one-off during ingestion (under A$10 "
-     "total)."),
+WORKFLOW = [
+    ("Data foundry", "a seeded relational backbone (12 linked tables — employees, "
+     "projects, budgets, contracts, systems) is generated with dbldatagen/PySpark; "
+     "joined table contexts are written into 100 realistic corporate documents by an "
+     "LLM, each shipping with a ground-truth sidecar (entities, relationships, "
+     "answerable facts). Sidecars aggregate into the true knowledge graph and an "
+     "80-query test set."),
+    ("Ingestion", "60 documents remain clean digital PDFs; 40 are degraded into "
+     "scan-like documents and recovered with GPU OCR, with recovery measured against "
+     "ground truth (error rates, entity survival). All text is chunked, enriched with "
+     "contextual summaries, embedded (bge-m3), and indexed three ways: vector database "
+     "(Qdrant), BM25 keyword index, and a knowledge graph."),
+    ("Query time", "a nine-node LangGraph agent handles each question: access-control "
+     "filter (ABAC) → domain routing → hybrid dense+keyword retrieval → cross-encoder "
+     "re-ranking → corrective chunk grading (CRAG) with bounded retry → knowledge-graph "
+     "multi-hop augmentation (GraphRAG) → grounded generation on a local open-weight "
+     "model (Qwen3-4B) → hallucination check with honest abstention. Every node is "
+     "timed and traced."),
+    ("Evaluation", "the same 80 queries run across six ablation configurations, "
+     "measuring each component's contribution in isolation (details below)."),
+    ("Serving", "the system deploys with Docker on Oracle Cloud's free tier behind a "
+     "React dashboard exposing the live agent trace, a corpus explorer, the knowledge "
+     "graph, and an evaluation lab — delivered on a 10-week phased plan."),
 ]
 
 EVALUATION = [
@@ -74,21 +82,12 @@ EVALUATION = [
      "on two hardware environments."),
 ]
 
-STATUS = (
-    "Phase 1 of 7 is complete and machine-validated: the seeded data foundry, 100 "
-    "documents with ground-truth sidecars, the true knowledge graph (321 nodes / 358 "
-    "edges), the 80-query evaluation set, and rendered PDFs — all passing an automated "
-    "11-check validation suite that gates progress between phases. The remaining phases "
-    "(OCR ingestion, indexing, the agent pipeline, evaluation, dashboard, and public "
-    "cloud deployment with a live demo) follow a 10-week plan."
-)
-
 ASK = (
     "We are seeking academic mentorship: guidance on the evaluation methodology, "
-    "feedback on framing the work for an academic audience, and periodic review as "
-    "phases complete. The repository — code, validation suite, and all artifacts — and "
-    "a live demo are available on request. We would welcome the opportunity to present "
-    "the project in person."
+    "feedback on framing the work for an academic audience, and periodic review as the "
+    "build progresses. A detailed implementation plan — architecture, decision log, and "
+    "evaluation design — is available on request, and we would welcome the opportunity "
+    "to present it in person."
 )
 
 
@@ -125,8 +124,8 @@ def build() -> Path:
         run.font.size = Pt(10)
         run.font.color.rgb = NAVY
 
-    def bullet(lead: str, rest: str) -> None:
-        p = doc.add_paragraph(style="List Bullet")
+    def item(lead: str, rest: str, style: str) -> None:
+        p = doc.add_paragraph(style=style)
         p.paragraph_format.space_after = Pt(2)
         lead_run = p.add_run(f"{lead} — ")
         lead_run.bold = True
@@ -142,14 +141,12 @@ def build() -> Path:
     doc.add_paragraph(SUMMARY)
     heading("Problem & Motivation")
     doc.add_paragraph(PROBLEM)
-    heading("Approach")
-    for lead, rest in APPROACH:
-        bullet(lead, rest)
+    heading("System Workflow")
+    for lead, rest in WORKFLOW:
+        item(lead, rest, "List Number")
     heading("Evaluation Methodology")
     for lead, rest in EVALUATION:
-        bullet(lead, rest)
-    heading("Current Status & Timeline")
-    doc.add_paragraph(STATUS)
+        item(lead, rest, "List Bullet")
     heading("Mentorship Request")
     doc.add_paragraph(ASK)
 
