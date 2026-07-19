@@ -27,43 +27,39 @@ META = "July 2026  ·  Contact: vipra042@gmail.com"
 
 SUMMARY = (
     "We are building a production-pattern, enterprise-grade Retrieval-Augmented "
-    "Generation (RAG) system that answers questions over a four-domain corporate corpus "
-    "(Finance, HR, Legal, Engineering). The corpus is fully synthetic and fully "
-    "ground-truthed: because we generate the underlying relational world first, every "
-    "document, entity, relationship, and test query has a known correct answer — "
-    "enabling a standard of evaluation rigor that real-world corpora cannot offer."
+    "Generation (RAG) system that delivers accurate, access-governed answers over a "
+    "four-domain corporate corpus (Finance, HR, Legal, Engineering). Because the corpus "
+    "is synthetic and generated from a known relational backbone, every document, "
+    "entity, and relationship has a ground-truth answer — letting us verify that the "
+    "system is accurate and leak-free to a degree real-world deployments cannot."
 )
 
 PROBLEM = (
-    "Enterprise RAG systems are widely deployed but rarely evaluated honestly. On real "
-    "corpora there is no ground truth for whether retrieval surfaced the right passages, "
-    "whether a knowledge graph was extracted correctly, how much OCR noise damaged "
-    "downstream answers, or whether access controls actually prevented information "
-    "leakage. This project inverts the usual order: the relational world is generated "
-    "first and every document derived from it, so the truth is known before the system "
-    "ever runs."
+    "Enterprise knowledge is split across departments — finance, HR, legal, engineering "
+    "— each with its own jargon and strict rules on who may see what, and much of it "
+    "lives in scanned files rather than clean text. A trustworthy answer to a question "
+    "that spans these silos must retrieve the right passages, reason across documents, "
+    "respect every access boundary, and abstain when the evidence is absent. RAG systems "
+    "struggle on all four fronts, and real corpora carry no ground truth to measure "
+    "where they fail. We build a multi-domain agentic RAG system engineered for accuracy "
+    "and governed access, over a corpus we generate ourselves so that every passage, "
+    "relationship, and access decision can be verified against known truth."
 )
 
 WORKFLOW = [
-    ("Data foundry", "a seeded relational backbone (12 linked tables — employees, "
-     "projects, budgets, contracts, systems) is generated with dbldatagen/PySpark; "
-     "joined table contexts are written into 100 realistic corporate documents by an "
-     "LLM, each shipping with a ground-truth sidecar (entities, relationships, "
-     "answerable facts). Sidecars aggregate into the true knowledge graph and an "
-     "80-query test set."),
-    ("Ingestion", "60 documents remain clean digital PDFs; 40 are degraded into "
-     "scan-like documents and recovered with GPU OCR, with recovery measured against "
-     "ground truth (error rates, entity survival). All text is chunked, enriched with "
-     "contextual summaries, embedded (bge-m3), and indexed three ways: vector database "
-     "(Qdrant), BM25 keyword index, and a knowledge graph."),
+    ("Data foundry", "a seeded relational backbone of 12 linked tables is generated "
+     "with dbldatagen; joined table contexts become 100 LLM-written corporate documents, "
+     "each carrying a ground-truth sidecar (entities, relationships, answerable facts). "
+     "Sidecars aggregate into the true knowledge graph and an 80-query test set."),
+    ("Ingestion", "60 documents stay clean digital PDFs; 40 are degraded into scan-like "
+     "images and recovered with GPU OCR, recovery measured against ground truth (error "
+     "rates, entity survival). All text is chunked, contextualized, embedded (bge-m3), "
+     "and indexed three ways — vectors (Qdrant), BM25, and a knowledge graph."),
     ("Query time", "a nine-node LangGraph agent handles each question: access-control "
      "filter (ABAC) → domain routing → hybrid dense+keyword retrieval → cross-encoder "
      "re-ranking → corrective chunk grading (CRAG) with bounded retry → knowledge-graph "
-     "multi-hop augmentation (GraphRAG) → grounded generation on a local open-weight "
-     "model (Qwen3-4B) → hallucination check with honest abstention. Every node is "
-     "timed and traced."),
-    ("Evaluation", "the same 80 queries run across six ablation configurations, "
-     "measuring each component's contribution in isolation (details below)."),
+     "multi-hop augmentation (GraphRAG) → grounded local generation (Qwen3-4B) → "
+     "hallucination check with honest abstention — every node traced."),
     ("Serving", "the system deploys with Docker on Oracle Cloud's free tier behind a "
      "React dashboard exposing the live agent trace, a corpus explorer, the knowledge "
      "graph, and an evaluation lab — delivered on a 10-week phased plan."),
