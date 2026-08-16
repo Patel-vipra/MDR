@@ -1,0 +1,46 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "CI-009",
+        "subject_type": "Incident",
+        "relation": "OWNED_BY",
+        "object": "Facilities",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Facilities",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "D-12",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Lisa Hensley",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Facilities",
+        "object_type": "Department"
+      },
+      {
+        "subject": "C-045",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Gonzales, Martinez and Miller",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "CI-009",
+        "subject_type": "Incident",
+        "relation": "OWNED_BY",
+        "object": "D-12",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  }
+]

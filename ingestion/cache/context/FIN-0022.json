@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal finance report titled \"Department Expense Summary for Research & Development\" (FIN-0022), prepared by the Corporate Finance Department on May 28, 2025. It summarizes the expenses incurred by the R&D department led by Ryan Munoz, covering projects such as Echo, Cobalt, Aurora, Basalt, and Xenon. The section details the department overview, key expense categories (office supplies, conferences, training), and highlights significant pending and approved costs, providing context for the department's current financial activities."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal finance document FIN-0022 details the current expenses of the Research & Development department as of May 28, 2025. It lists specific pending and approved costs associated with employees Jamie Smith, David Wright, Cheyenne Horton, and Michelle Harmon, covering categories such as office supplies, conferences, and training for various projects including Project Echo, Cobalt, Basalt, Aurora, and Xenon. The chunk highlights high-value expenses and their approval statuses within the department's overall budget."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from an internal financial report (FIN-0022) for OrbitalCorp's Research & Development department, dated May 28, 2025. It summarizes the department's total expenses, totaling AUD 36,291.0, highlighting major costs such as office supplies for Jamie Smith, conference activities for Cheyenne Horton, and training for Michelle Harmon. The section discusses pending and approved expenses, emphasizing the department's focus on project development, external engagement, and staff training, under the oversight of department head Ryan Munoz."
+  }
+]

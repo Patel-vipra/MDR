@@ -1,0 +1,56 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-010",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Brown, Mcmahon and Combs",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Melissa Gates",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-010",
+        "object_type": "Contract"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "C-010",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Brown, Mcmahon and Combs",
+        "object_type": "Vendor"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Project Echo",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-03",
+        "object_type": "Department"
+      },
+      {
+        "subject": "E-042",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Echo",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": []
+  }
+]

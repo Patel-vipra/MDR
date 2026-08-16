@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This document is an internal quarterly budget report (FIN-0010) for Project Lattice during FY25-Q3, prepared by OrbitalCorp. The chunk provides an overview of the project's budget allocation, expenditures, and approval details, highlighting that the project remains within its approved budget. It also notes the approval authority, project status, and key financial figures, serving as a summary of fiscal performance for the specified quarter."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from the internal quarterly budget report (FIN-0010) for Project Lattice during FY25-Q3. It details specific expense lines from employees Allen Rosales, Angelica Keith, and John Bishop, whose expenses totaling 19,470.00 have been rejected and not approved for inclusion in the current budget. The section also provides an overview of the project's budget status, project and department details, and concludes that the project remains within its allocated budget, with ongoing monitoring recommended."
+  }
+]

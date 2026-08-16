@@ -1,0 +1,112 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": []
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Obsidian",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Research & Development",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Amy Silva",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Sarah Moore",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Lisa Barnes",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Steve Sanchez",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Amber Wright",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-016",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Project Obsidian",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Research & Development",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Project Obsidian",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-016",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Amy Silva",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Sarah Moore",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Lisa Barnes",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Steve Sanchez",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Amber Wright",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Project Obsidian",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

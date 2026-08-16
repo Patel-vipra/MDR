@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This excerpt is from a confidential legal document titled LEG-0004, which summarizes a contract (C-014) between the organization and vendor Nolan, Rivera and Rice. The chunk includes the introduction and contract details, such as the contract ID, vendor information, contract type, value, start and end dates, and renewal status. It provides essential contractual information related to the Hardware Supply service for Project Fathom."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from a confidential legal contract summary (Document LEG-0004) between OrbitalCorp and the vendor Nolan, Rivera and Rice. It details the vendor's specialization in hardware supply and their role in fulfilling procurement requirements for Project Fathom. Additionally, it provides key project information, including the project ID (P-033), name, owner department (D-10), and project lead (E-160), situating the vendor's involvement within the context of the specific project."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal section of the legal document LEG-0004, a contract summary for agreement C-014 between OrbitalCorp and Nolan, Rivera and Rice. It details the Project Fathom, including its Project Budget ID (B-033), start date (March 13, 2025), and status (completed). Notably, the vendor ID here (V-022) differs from the contract vendor ID, indicating internal project tracking distinctions. This section provides context on the project's financial and status details within the broader contract overview."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This chunk is from a confidential legal document titled \"LEG-0004,\" which summarizes a contract (C-014) between OrbitalCorp and the vendor Nolan, Rivera and Rice for hardware supply related to Project Fathom. Specifically, it details the signatory of the contract, Alyssa Long, who is the Product Manager at OrbitalCorp. The section provides her full name, role, department, manager, hire date, location, and salary band, establishing her authority and responsibilities in relation to the contract."
+  },
+  {
+    "chunk_ix": 4,
+    "context_summary": "This excerpt is from the confidential legal document titled \"LEG-0004,\" which summarizes the contractual agreement C-014 between OrbitalCorp and vendor Nolan, Rivera and Rice for hardware supply related to Project Fathom. This specific section discusses the contract's current status, noting it is expiring on September 3, 2027, and highlights the total contract value and the project's completion. It emphasizes the need for renewal considerations to ensure ongoing hardware services."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is a confidential legal document titled \"LEG-0003,\" providing a detailed summary of Contract C-005 between the organization and the marketing agency Tanner, Sampson and Long. It outlines key contractual details such as scope, value, dates, signatory information, and project context for Project Zephyr. The document serves as an internal reference for contract management and future negotiations."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This document is a confidential legal contract summary (LEG-0003) for Contract ID C-005 between OrbitalCorp and the marketing agency Tanner, Sampson and Long. The provided chunk details the contract's current status, including its active duration from October 12, 2024, to December 14, 2026, and its renewal negotiations. It also summarizes key attributes such as the scope involving Project Zephyr, the signatory (Legal Counsel Daniel Kennedy), and the contractual provisions for future review and potential amendments."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from the confidential legal document titled \"LEG-0003,\" which summarizes a contract (ID: C-005) between OrbitalCorp and the marketing agency Tanner, Sampson and Long for Project Zephyr. It includes internal references indicating the document is for internal use only. The chunk appears at the end of the document, likely serving as internal markers or headers, and emphasizes the document's confidentiality and internal status within OrbitalCorp."
+  }
+]

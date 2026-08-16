@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from the internal finance document FIN-0003, a quarterly budget report for FY25-Q3 concerning Project Quasar. It includes the executive summary and budget overview, detailing the project's financial allocations, expenditures, and remaining funds. The report highlights the project's management by the Procurement department under Michelle Evans, with expenditures primarily on approved meals, and notes that the project is under review to ensure budget adherence."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk from the internal quarterly budget report for FY25-Q3 details Project Quasar's financial performance, noting that approximately 30% of its allocated $1,279,888 budget has been spent. It provides project specifics, including its completion status, management by the Procurement department under Michelle Evans, and a breakdown of expenses primarily related to approved meals totaling $14,143. This information supports ongoing budget monitoring and project review efforts."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt from the internal quarterly budget report for Project Quasar (Document FIN-0003) details expenses incurred by OrbitalCorp during FY25-Q3. It lists three employees\u2014Daniel Baker, Shirley Suarez, and Aimee Montoya\u2014and their approved meal expenses totaling $6,577.00. This section is part of the expense breakdown, specifically focusing on OrbitalCorp\u2019s approved meal costs, which are included in the overall project expenditure and are aligned with the project's controlled budget management."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This chunk is from the internal quarterly budget report (FIN-0003) for Project Quasar during FY25-Q3, managed by the Procurement department under Michelle Evans. It states that all expenses listed earlier have been approved with no discrepancies, and emphasizes the importance of ongoing expense monitoring to ensure budget adherence. The section supports the report\u2019s overall conclusion of prudent financial management and the need for continued oversight to facilitate project completion."
+  }
+]

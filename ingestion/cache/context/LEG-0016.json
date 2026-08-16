@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a legal compliance report (LEG-0016) from OrbitalCorp regarding incident CI-023 within the Sales department. The chunk includes the full report, detailing the incident overview, department and head information, contract and vendor details, incident resolution, and conclusion. It confirms that the medium-severity incident related to contract C-004 has been successfully resolved, with all corrective actions completed and compliance restored, ensuring adherence to internal policies and contractual obligations."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the compliance report titled \"LEG-0016: Compliance Report on Incident CI-023,\" produced by OrbitalCorp's internal team. It includes the closing section of the document, indicating the prepared-by name, position, and the date of preparation (May 11, 2025). This chunk signifies the report's conclusion and author attribution, situating it as the final part of a formal internal review documenting the resolution of incident CI-023 related to contract C-004 within the Sales department."
+  }
+]

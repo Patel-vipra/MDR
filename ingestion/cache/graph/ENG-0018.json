@@ -1,0 +1,40 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "ledger-service",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Quasar",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Aimee Montoya",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "ledger-service",
+        "object_type": "System"
+      },
+      {
+        "subject": "Michelle Evans",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Quasar",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Aimee Montoya",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "ledger-service",
+        "object_type": "System"
+      }
+    ]
+  }
+]

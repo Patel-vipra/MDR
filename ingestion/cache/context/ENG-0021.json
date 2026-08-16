@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This excerpt is from the internal system postmortem report ENG-0021 for the ledger-worker system, part of Project Fathom. It details the impact of two hardware failure incidents (INC-004 and INC-041), their timeline, root causes related to hardware failures, and recommended action items. The report identifies key personnel involved, including on-call engineer Alyssa Long and project manager Jamie Smith, and emphasizes efforts to improve hardware resilience and incident response processes."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal system postmortem report (ENG-0021) details the roles of key personnel involved in incident management for the ledger-worker system within Project Fathom. It specifies that DevOps Engineer Jamie Smith oversees the project, managed by department D-10, and highlights that on-call engineer Alyssa Long was actively involved in resolving recent hardware failure incidents. The section emphasizes ongoing efforts to improve hardware resilience and system stability, serving as part of the document\u2019s broader focus on incident review and future reliability enhancements."
+  }
+]

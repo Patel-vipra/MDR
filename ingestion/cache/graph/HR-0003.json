@@ -1,0 +1,67 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Legal",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "James Ferrell",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Sherri Baker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Carol Tucker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "John Whitehead",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Stephanie Salazar",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Devon Flores",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Karen Graham",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Project Lattice",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-039",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Tricia Valencia",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-039",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Legal",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "Project Lattice",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

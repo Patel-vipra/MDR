@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a quarterly internal financial report (FIN-0014) for OrbitalCorp, focusing on Project Monsoon during FY25-Q3. The chunk details the project's budget overview, including the approved amount of 1,486,447.00 and current expenditure of 445,934.1, with expenses under review. It highlights rejected expense lines submitted by employees Nathan Freeman and Adam Vaughan, totaling 24,967.00, and summarizes the project's financial status and management."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the internal quarterly budget report (FIN-0014) for Project Monsoon at OrbitalCorp, covering FY25-Q3. It details the rejected expenses totaling 24,967.00, which are excluded from the current expenditure of 445,934.1. The section then discusses the project's overall financial status, noting that most of the approved budget remains unspent and emphasizing ongoing review and validation of expenses by project manager Stephanie Salazar."
+  }
+]

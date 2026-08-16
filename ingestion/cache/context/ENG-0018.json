@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from the internal engineering postmortem report titled \"ENG-0018 - Ledger-Service System Postmortem.\" It provides an overview of two recent Sev2 incidents (INC-032 and INC-095) affecting the ledger-service within Project Quasar, highlighting their impact, timeline, root cause (deployment errors), and proposed action items. The document involves entities such as project owner Project Quasar, the deployment team, on-call engineer Aimee Montoya, and project lead Michelle Evans, focusing on system disruptions and improvement strategies."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal postmortem report \"ENG-0018 - Ledger-Service System Postmortem\" provides details about the ledger-service's technical environment and key personnel. It specifies that the system, managed with high criticality within Project Quasar, utilizes a tech stack including Go, gRPC, and Redis. The chunk also identifies Aimee Montoya, an HR Business Partner based in Brisbane, as the on-call engineer responsible for overseeing the system's maintenance and incident response. This information contextualizes the system's technical setup and the personnel involved in its operational management."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This internal finance document, titled \"FIN-0021: Department Expense Summary for Human Resources,\" provides an overview of the department's recent expenses, including categories, approvals, and variances. The specific chunk details the department's overview, including its head Angie Henderson, expense categories (office supplies and miscellaneous costs), and a table summarizing top expenses with their approval statuses, highlighting rejected and pending expenses related to various projects and employees."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This internal expense summary for the Human Resources department at OrbitalCorp details recent financial activities, including significant project-related expenses and pending approvals. The chunk focuses on expense variances and commentary, highlighting rejected expenses associated with John Bishop's Project Lattice totaling 9,733.0, and pending approvals for office supplies for projects like Ironwood, Glacier, and Echo, totaling over 24,000. It emphasizes ongoing procurement activities and recommends continuous monitoring to ensure budget compliance. The document is authored by OrbitalCorp and provides insights into departmental expenditures as of May 26, 2025."
+  }
+]

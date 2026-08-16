@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from the confidential internal performance summary report (HR-0011) for OrbitalCorp's Marketing department during FY25-Q2. It details the department's overview, including leadership under Head of Marketing Abigail Shaffer, and provides her profile information. The chunk sets the organizational context, highlighting leadership structure, departmental identifiers, location, and leadership start date, serving as an introduction to the broader performance review document."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is a performance review summary from a confidential internal HR document (HR-0011) for the FY25-Q2 period. It details the employee evaluations within the Marketing department led by Abigail Shaffer, including review ratings for seven team members and their performance assessments. The chunk specifically summarizes the review process, listing employee names, IDs, review IDs, ratings (ranging from 3 to 4), and confirms that reviews were conducted by department head Shaffer."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is a performance review summary from the internal HR document HR-0011 for OrbitalCorp's FY25-Q2 period. The chunk details employee performance ratings within the Marketing department, specifically listing three employees\u2014Jessica Smith, Robert Potter, and Joshua Perry\u2014who received ratings of 3, with no promotions flagged. All reviews were conducted by Department Head Abigail Shaffer. This section provides insight into individual performance assessments during the review cycle."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This excerpt is from the internal, confidential performance summary report (HR-0011) for OrbitalCorp's Marketing Department during FY25-Q2. It discusses the overall positive employee performance trend, highlighting that most employees received ratings of 4, with a few rated at 3, and notes that no promotions were flagged. The section also summarizes leadership effectiveness, employee performance, development areas, and organizational context, emphasizing the department's consistent evaluation approach under Head of Marketing Abigail Shaffer."
+  }
+]

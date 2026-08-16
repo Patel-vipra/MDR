@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal incident postmortem report (ENG-0010) for incident INC-019, focusing on the auth-pipeline system (SYS-005). It details the impact, timeline, root cause, and action items related to a Severity 2 disruption of authentication services that lasted approximately 5.5 hours. The report involves stakeholders such as Brian Ramirez and Daniel Kennedy, emphasizing the importance of change management and incident response procedures to prevent future occurrences."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is an internal incident postmortem document (ENG-0010) for the auth-pipeline system (SYS-005) related to incident INC-019. The document details the impact, timeline, root cause, and action items following a Sev2 authentication service disruption lasting 5.5 hours. The provided chunk lists specific action items assigned to the Project Zephyr Lead, Change Management Team, and DevOps Team, focusing on reviewing recent configuration changes and implementing stricter change approval protocols to prevent future incidents."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from an internal incident postmortem document (ENG-0010) for OrbitalCorp, detailing action items assigned to various teams following a Sev2 incident involving the auth-pipeline system. It outlines planned improvements such as enhancing monitoring, conducting reviews and training, and sharing lessons learned to prevent future configuration-related disruptions. The section emphasizes ongoing and upcoming efforts by relevant teams to improve system reliability and incident response."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This internal incident postmortem report for OrbitalCorp details the April 7, 2025, authentication system (SYS-005) outage affecting Project Zephyr. The chunk titled \"Additional Notes\" emphasizes the importance of meticulous change management and validation procedures, highlighting the swift response by on-call engineer Daniel Kennedy. It also discusses future protocol reinforcement to prevent similar configuration-related incidents, underscoring the ongoing efforts to maintain system reliability and the document\u2019s focus on lessons learned and continuous improvement within the incident response process."
+  }
+]

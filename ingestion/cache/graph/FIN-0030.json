@@ -1,0 +1,61 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-008",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Anderson-Hughes",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-038",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Anderson-Hughes",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "E-015",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-008",
+        "object_type": "Contract"
+      },
+      {
+        "subject": "E-092",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-038",
+        "object_type": "Contract"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Fred Smith",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Echo",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Echo",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Department D-03",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Project Echo",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-032",
+        "object_type": "Budget"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the confidential legal document LEG-0005, a contract summary for agreement C-037 between the organization and vendor Hernandez-Martin. It details the contract's key attributes, including its type (NDA), value (257,887.00), start and end dates (October 25, 2023, to September 21, 2024), and the signatory, Nathan Maldonado. This section provides essential contractual information relevant to the legal and project context within the overall document."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from a confidential legal document titled \"LEG-0005,\" which summarizes Contract C-037 between OrbitalCorp and vendor Hernandez-Martin. It details the vendor\u2019s specialization in security services, the project context for Project Falcon, and the contract\u2019s signatory, Nathan Maldonado. The section outlines key contractual terms, including the contract value, duration, and renewal status, emphasizing the agreement\u2019s role in safeguarding confidential information and supporting project operations."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Cameron Parker",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Project Atlas",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cameron Parker",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "P-002",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cameron Parker",
+        "subject_type": "Employee",
+        "relation": "OWNED_BY",
+        "object": "Sales",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Atlas",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Atlas",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Atlas",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Atlas",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Atlas",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cameron Parker",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-002",
+        "object_type": "Budget"
+      }
+    ]
+  }
+]

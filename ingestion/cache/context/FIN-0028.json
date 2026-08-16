@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This internal finance report (FIN-0028) analyzes Wood-Hale's legal service contracts, including two key agreements: a Master Service Agreement and a Non-Disclosure Agreement. The chunk details the contract summary, specifying contract IDs, types, values, dates, signatories, and renewal statuses, providing a snapshot of current commitments and renewal considerations for vendor management."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This internal financial analysis report for OrbitalCorp reviews vendor Wood-Hale's legal service contracts. The chunk details the total expenditure of $1,086,156 across two agreements: the Master Service Agreement (C-002) and the Non-Disclosure Agreement (C-032). It highlights the renewal statuses\u2014C-002 pending renegotiation before March 2026 and C-032 set to auto-renew in November 2024\u2014and offers recommendations for managing upcoming contract renewals and monitoring costs."
+  }
+]

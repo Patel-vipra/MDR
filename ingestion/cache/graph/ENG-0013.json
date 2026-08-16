@@ -1,0 +1,52 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "billing-pipeline",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Echo",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Melissa Gates",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "billing-pipeline",
+        "object_type": "System"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Incident Response Team",
+        "subject_type": "Department",
+        "relation": "WORKS_ON",
+        "object": "incident response procedures",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Melissa Gates",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "INC-066",
+        "object_type": "Incident"
+      },
+      {
+        "subject": "billing-pipeline",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Echo",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Human Resources",
+        "object_type": "Department"
+      },
+      {
+        "subject": "John Bishop",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Lattice",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Lawrence Adkins",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Ironwood",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Alyssa Day",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Glacier",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Melissa Gates",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Echo",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "John Bishop",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Lattice",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Lawrence Adkins",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Ironwood",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Alyssa Day",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Glacier",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Melissa Gates",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Echo",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

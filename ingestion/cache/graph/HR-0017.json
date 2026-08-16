@@ -1,0 +1,53 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Noah Rhodes",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "April Frost",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Noah Rhodes",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Cameron Fisher",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Noah Rhodes",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Marc Moore",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Noah Rhodes",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Matthew Mcmillan",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Noah Rhodes",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Dr. Hannah Patterson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Noah Rhodes",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Finance",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  }
+]

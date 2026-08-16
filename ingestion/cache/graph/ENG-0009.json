@@ -1,0 +1,69 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "INC-049",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "billing-gateway",
+        "object_type": "System"
+      },
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Cascade",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Dylan Miller",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "INC-049",
+        "object_type": "Incident"
+      },
+      {
+        "subject": "Project Cascade",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-04",
+        "object_type": "Department"
+      },
+      {
+        "subject": "billing-gateway",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Cascade",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Dylan Miller",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "INC-049",
+        "object_type": "Incident"
+      },
+      {
+        "subject": "billing-gateway",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Cascade",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

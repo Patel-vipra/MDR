@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from the internal quarterly budget report (FIN-0009) for Project Aurora during FY25-Q3, prepared by OrbitalCorp's finance department. It includes the document's title, domain, classification, and the executive summary and budget overview sections. The content details the project's budget allocation, expenditures, approval process overseen by Shane Henderson, and confirms the project's active status during this fiscal quarter."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the internal quarterly budget report (FIN-0009) for Project Aurora at OrbitalCorp, covering FY25-Q3. It details the project's budget utilization, noting that approximately 30% of the allocated 514,868.00 has been spent. The chunk specifically summarizes expenses incurred during the quarter, highlighting approved conference-related costs totaling 3,424.0, with additional pending approvals of 10,034.0. It lists the employees involved in approved expenses, providing context for ongoing budget management."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from the internal quarterly budget report (FIN-0009) for OrbitalCorp's Project Aurora, specifically covering pending expenses. It lists three conference-related expenses for employees Angel Perry and Cheyenne Horton that are awaiting approval. The report, overseen by Shane Henderson, details the project's budget status, expenditures, and pending approvals during FY25-Q3. This section highlights potential future costs and the ongoing review process for expense approval within the project."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This is a quarterly internal finance report titled \"FIN-0009: Quarterly Budget Report for Project Aurora (FY25-Q3).\" The chunk presents the variance analysis and project status, highlighting that expenditures of approximately 154,460.4 are well within the allocated budget of 514,868.00, with potential future expenses of 10,034.0 pending approval. It confirms that Project Aurora remains active under the Engineering department, with Shane Henderson overseeing the budget, and notes the project's ongoing progress and responsible budget management during FY25-Q3."
+  }
+]

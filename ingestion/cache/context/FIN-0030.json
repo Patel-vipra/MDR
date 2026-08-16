@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This internal finance document, titled \"Vendor Spend Review \u2013 FIN-0030,\" evaluates Anderson-Hughes, a software licensing vendor, and details its two main contracts: an NDA (C-008) and an MSA (C-038). The provided chunk summarizes the vendor overview, including contract specifics such as start and end dates, values, and renewal statuses, as well as the associated project (Project Echo). It highlights ongoing negotiations and the importance of monitoring spend and contract terms."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is a vendor spend review document (FIN-0030) focused on Anderson-Hughes, a software licensing vendor. The provided chunk details the specific contracts with Anderson-Hughes, including an NDA (C-008) set to auto-renew and an MSA (C-038) under renegotiation, along with the projects supplied\u2014primarily Project Echo. It also summarizes spend amounts, contract statuses, and recommendations for ongoing monitoring to ensure favorable terms and effective spend management."
+  }
+]

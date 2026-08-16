@@ -1,0 +1,87 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Brian Rodriguez",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-038",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "P-038",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Marketing",
+        "object_type": "Department"
+      },
+      {
+        "subject": "B-038",
+        "subject_type": "Budget",
+        "relation": "FUNDED_BY",
+        "object": "P-038",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Jessica Gross",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-269",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Jessica Gross",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-118",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Karen Graham",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-161",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Madison Poole",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-220",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Samantha Garcia",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-297",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Samantha Garcia",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-169",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Project Kestrel",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Marketing",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

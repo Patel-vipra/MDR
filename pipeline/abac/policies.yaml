@@ -1,0 +1,36 @@
+# ABAC policy — role -> allowed domains + sensitivity ceiling (PLAN.md §7 Node 1).
+#
+# Derived directly from data_foundry/ground_truth/queries.json's real persona/
+# denied_domain pairs (5 personas, 5 abac_denied queries), not guessed from the
+# older master-plan role matrix — simpler than that doc's 5-role x 4-domain grid,
+# because the actual eval set only exercises single-domain access per non-admin
+# persona. Sensitivity ceiling completes the ABAC dimension chunk metadata
+# already carries (data_foundry sidecars use internal/confidential/restricted)
+# even though the current 80-query eval set doesn't specifically test it.
+#
+# cross_domain (PLAN.md §7 Node 2 note): widens the retrieval filter to the
+# persona's full allowed_domains list rather than denying — handled in code,
+# not here.
+
+sensitivity_levels: [internal, confidential, restricted]
+
+personas:
+  admin:
+    allowed_domains: [finance, hr, legal, engineering]
+    max_sensitivity: restricted
+
+  engineer:
+    allowed_domains: [engineering]
+    max_sensitivity: confidential
+
+  finance_analyst:
+    allowed_domains: [finance]
+    max_sensitivity: confidential
+
+  hr_manager:
+    allowed_domains: [hr]
+    max_sensitivity: confidential
+
+  legal_counsel:
+    allowed_domains: [legal]
+    max_sensitivity: confidential

@@ -1,0 +1,63 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Megan Orr",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Paul Castaneda",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Lisa Hensley",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Joel Williams",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ashley Barton",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Lisa Hensley",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jessica Gross",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Allison Hill",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Carla Gray",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Monica Herrera",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Matthew Foster",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Ryan Munoz",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

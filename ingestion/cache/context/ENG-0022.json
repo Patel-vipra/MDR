@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal engineering postmortem report (ENG-0022) analyzing incidents involving the identity-gateway system (SYS-043). It details two specific incidents (INC-036 and INC-052) caused by human error, their impact, timeline, root cause, and recommended corrective actions. The report involves personnel such as Brenda Hall, the system maintainer, and David Wright, project lead for Project Drift, highlighting organizational responses to operational disruptions within the system."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from an internal postmortem report titled \"ENG-0022: Postmortem Analysis of identity-gateway System Incidents.\" It emphasizes the importance of ongoing process improvements to enhance the resilience of the identity-gateway system (SYS-043), which is part of Project Drift. The chunk highlights the need for continued monitoring and proactive measures to prevent future incidents, reflecting on lessons learned from recent human error-related disruptions managed by personnel including Brenda Hall and David Wright."
+  }
+]

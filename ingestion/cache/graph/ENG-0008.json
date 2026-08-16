@@ -1,0 +1,55 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "INC-110",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "auth-api",
+        "object_type": "System"
+      },
+      {
+        "subject": "auth-api",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Titan",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "HR & Training Department",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "OrbitalCorp",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Review",
+        "object_type": "Review"
+      },
+      {
+        "subject": "Cameron Parker",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Review",
+        "object_type": "Review"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": []
+  }
+]

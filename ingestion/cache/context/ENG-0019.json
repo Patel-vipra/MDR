@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This document is an internal engineering postmortem (ENG-0019) analyzing a critical incident (INC-009) affecting the reporting-worker system (SYS-049) within Project Ember. The provided chunk includes the full incident report, detailing the impact of a network partition that caused 69.5 hours of downtime, the timeline of detection and resolution, the root cause linked to network infrastructure failures, and recommended action items. It also offers context about the system\u2019s ownership, technology stack, and personnel involved."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal postmortem report for the reporting-worker system (ENG-0019) provides additional context about the system's ownership, management, and technical environment. It states that the system is part of Project Ember, completed on October 9, 2024, and managed by Staff Engineer Christine Wright in Sydney. The on-call engineer during the incident was Stephanie Ross, based in Melbourne. The system uses a Java/Spring/Oracle tech stack and is mission-critical, highlighting the need for reliable infrastructure and rapid response. This background supports understanding the incident's impact and response efforts."
+  }
+]

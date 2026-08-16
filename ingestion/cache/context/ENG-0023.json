@@ -1,0 +1,6 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal engineering postmortem report (ENG-0023) for the payroll-gateway system, part of OrbitalCorp's Project Yukon. It details a hardware failure incident (INC-100) that caused moderate disruption over 25.5 hours, affecting payroll processing. The report covers the incident's impact, timeline, root cause (hardware failure), and recommended action items to prevent future issues, emphasizing hardware reliability and maintenance. It involves key personnel such as QA Engineer Michelle Evans and project lead Connor West."
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "ledger-worker",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "INC-004",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "ledger-worker",
+        "object_type": "System"
+      },
+      {
+        "subject": "INC-041",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "ledger-worker",
+        "object_type": "System"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "INC-004",
+        "object_type": "Incident"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "INC-041",
+        "object_type": "Incident"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Jamie Smith",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Fathom",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-10",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "ledger-worker",
+        "object_type": "System"
+      }
+    ]
+  }
+]

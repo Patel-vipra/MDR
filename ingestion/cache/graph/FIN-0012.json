@@ -1,0 +1,94 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "B-003",
+        "subject_type": "Budget",
+        "relation": "FUNDED_BY",
+        "object": "P-003",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-003",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Borealis",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Borealis",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "V-025",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Borealis",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Lisa Hensley",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Borealis",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Monica Herrera",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Borealis",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Project Borealis",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Customer Support",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Borealis",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Project Borealis",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Borealis",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "V-025",
+        "object_type": "Vendor"
+      }
+    ]
+  }
+]

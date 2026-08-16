@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a performance summary report (Document HR-0005) for the Engineering department (Department ID: D-04) at OrbitalCorp for FY25-Q4. The provided chunk introduces the document, highlighting its purpose to review departmental leadership and employee performance. It details the department's leadership, specifically Cristian Santos, Head of Engineering, including his role, location, hire date, and contact information. This section sets the context for the overall performance review, emphasizing confidentiality and internal use."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is a performance review summary from a confidential internal HR report (Document HR-0005) for the Engineering Department at OrbitalCorp for FY25-Q4. The chunk details the performance evaluations of seven employees, including their names, IDs, ratings, promotion flags, and comments. It highlights individual performance levels, noting exemplary, satisfactory, and below expectations, and mentions that Cristian Santos conducted all reviews. This section provides an overview of employee performance assessments within the department during the specified quarter."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal confidential performance review document HR-0005 for OrbitalCorp's Engineering Department in FY25-Q4. It summarizes employee performance ratings and promotion flags for four staff members: Richard Rodriguez, Helen Jones, Jason Stein, and Spencer Haynes. Richard Rodriguez received a top rating and a promotion flag, indicating outstanding performance, while Helen Jones's performance was significantly below expectations. The chunk provides specific performance evaluations and notes for these employees within the department's overall review."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This is a performance summary report for the Engineering Department (Department ID: D-04) at OrbitalCorp for FY25-Q4. The chunk presents the department's overall performance observations, highlighting a range of employee performance levels from exemplary (Shannon Jones, Richard Rodriguez) to those needing improvement (Helen Jones). It notes Richard Rodriguez's exceptional review and promotion, as well as potential development needs for others. The section concludes that the department maintains a high standard overall. The document is confidential and intended for internal use only."
+  }
+]

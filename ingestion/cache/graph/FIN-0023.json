@@ -1,0 +1,82 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "IT Operations",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Allen Rosales",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Lattice",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Alexander Collins",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Ironwood",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michael Wang",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Ironwood",
+        "object_type": "Project"
+      },
+      {
+        "subject": "John Anderson",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michelle Brown",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Drift",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Brenda Hall",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Drift",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Michael Wang",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Ironwood",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Brenda Hall",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Drift",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michelle Brown",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Drift",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

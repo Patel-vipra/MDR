@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from Document FIN-0002, an internal quarterly budget report for FY25-Q3 related to Project Atlas. It details the project's budget allocation of 1,043,724 AUD, with expenditures of 313,117.2 AUD by the end of the quarter, leaving approximately 730,606.80 AUD unspent. The report notes that the budget was approved by Cameron Parker, a Financial Analyst in the Sales department, and confirms the project's completion. This section provides a summary of the budget status for the project during this period."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal quarterly budget report (FIN-0002) details the expenditure and budget status for Project Atlas during FY25-Q3. It explains that approximately 30% of the allocated budget has been spent, primarily on approved travel expenses for team members such as Gina Moore, Daniel Wagner, and others. The report confirms the budget was approved by Cameron Parker and that the project was completed, emphasizing ongoing monitoring of remaining funds. This section provides specific expenditure figures and contextualizes the project's financial management within the overall budget overview."
+  }
+]

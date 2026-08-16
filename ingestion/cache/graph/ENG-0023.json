@@ -1,0 +1,28 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "payroll-gateway",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Yukon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michelle Evans",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "payroll-gateway",
+        "object_type": "System"
+      },
+      {
+        "subject": "Connor West",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Yukon",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

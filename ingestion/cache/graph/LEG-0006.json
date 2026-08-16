@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-021",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Guzman-Miller",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-021",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Aaron Wise",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "C-021",
+        "subject_type": "Contract",
+        "relation": "WORKS_ON",
+        "object": "Project Sentinel",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "C-021",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Guzman-Miller",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Aaron Wise",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-021",
+        "object_type": "Contract"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "C-021",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Guzman-Miller",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-021",
+        "subject_type": "Contract",
+        "relation": "OWNED_BY",
+        "object": "Project Sentinel",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": []
+  },
+  {
+    "chunk_ix": 4,
+    "triples": []
+  }
+]

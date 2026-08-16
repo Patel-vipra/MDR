@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This excerpt is a section of the confidential legal document LEG-0009, a contract summary for agreement C-045 between the organization and vendor Gonzales, Martinez and Miller. It details key contract information, including the contract ID, vendor details, project association (Project Vertex), contract type (Master Service Agreement), value, dates, and signatory (Crystal Johnson, DevOps Engineer). This chunk provides the core contractual details necessary for internal reference and situates the agreement within the broader project and vendor framework."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from a confidential legal document titled \"LEG-0009,\" which summarizes contract C-045 between OrbitalCorp and vendor Gonzales, Martinez and Miller. It details the contract signatory, Crystal Johnson, a DevOps Engineer based in Perth, and provides an overview of Project Vertex, including its initiation date, management, and completion status. The chunk also discusses the contract's renewal status, scope, and related project information, situating it within the broader contractual and project framework outlined in the document."
+  }
+]

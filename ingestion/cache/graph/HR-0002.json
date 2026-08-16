@@ -1,0 +1,122 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Department of Data & Analytics",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Tommy Walter",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "John Pierce",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Megan Young",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michael Lewis",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Joel Williams",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Data & Analytics",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Joel Williams",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "John Pierce",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Megan Orr",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Megan Young",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michael Lewis",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Tommy Walter",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

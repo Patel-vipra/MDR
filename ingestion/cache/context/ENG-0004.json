@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an incident postmortem report (ENG-0004) for internal review within the engineering domain at OrbitalCorp. The document details the INC-080 incident affecting the auth-gateway system (SYS-003) as part of Project Fathom. The provided chunk covers the incident's impact, timeline, root cause, and recommended action items, highlighting a 4.5-hour outage caused by a misconfigured change that was insufficiently validated prior to deployment. It emphasizes the importance of rigorous change management and proactive monitoring to prevent future incidents."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is an internal incident response document from OrbitalCorp concerning the auth-gateway system within Project Fathom. The provided chunk outlines the specific action items assigned to various teams\u2014such as conducting a post-incident review, updating monitoring systems, and providing staff training\u2014responsible for improving response procedures and preventing future configuration-related outages. It details responsible parties, due dates, and notes for each action, focusing on enhancing incident handling and system monitoring post-INC-080 incident."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is the summary section of an internal incident postmortem report (ENG-0004) for OrbitalCorp, focusing on the INC-080 incident affecting the auth-gateway system within Project Fathom. The chunk details the cause of the incident\u2014an insufficiently validated configuration change\u2014and the response led by Alyssa Long, which resolved the issue in 4.5 hours. It emphasizes future actions to improve change management, validation, and monitoring to prevent similar incidents, highlighting the importance of rigorous controls in critical systems."
+  }
+]

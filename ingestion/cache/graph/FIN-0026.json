@@ -1,0 +1,92 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Data & Analytics",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Jessica Gross",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Kestrel",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Joel Williams",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Glacier",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michael Powell",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Denise Jones",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Drift",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Megan Orr",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Yukon",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Jessica Gross",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Kestrel",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Joel Williams",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Glacier",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michael Powell",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Megan Orr",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Yukon",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

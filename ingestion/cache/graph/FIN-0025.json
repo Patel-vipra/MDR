@@ -1,0 +1,80 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Engineering",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Madison Poole",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Kestrel",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Matthew Harrington",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Harbor",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Lindsey Walker",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Jason Stein",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Echo",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Jason Stein",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Echo",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Amber Wright",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Basalt",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Madison Poole",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Kestrel",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Amber Wright",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Basalt",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

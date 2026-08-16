@@ -1,0 +1,35 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "INC-069",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "SYS-024",
+        "object_type": "System"
+      },
+      {
+        "subject": "SYS-024",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Ironwood",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Lawrence Adkins",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "SYS-024",
+        "object_type": "System"
+      },
+      {
+        "subject": "Project Ironwood",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "V-007",
+        "object_type": "Vendor"
+      }
+    ]
+  }
+]

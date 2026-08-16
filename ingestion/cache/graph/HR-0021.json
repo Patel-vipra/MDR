@@ -1,0 +1,60 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Legal",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Cameron Parker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Elizabeth Fowler",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Jose Schultz",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Joshua Cooke",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Kelly Donovan",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Nicole Herring",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  }
+]

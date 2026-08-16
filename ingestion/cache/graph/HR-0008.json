@@ -1,0 +1,129 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Sales department",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Nathan Maldonado",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gina Moore",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "John Daniel",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gina Moore",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Steve Sanchez",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gina Moore",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Rebecca Valencia",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gina Moore",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Mary Marshall",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gina Moore",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gina Moore",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Debra Morton",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gina Moore",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Nathan Maldonado",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "John Daniel",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Steve Sanchez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Rebecca Valencia",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Mary Marshall",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Alyssa Long",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Debra Morton",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Sales",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

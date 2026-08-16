@@ -1,0 +1,42 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "INC-011",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "inventory-gateway",
+        "object_type": "System"
+      },
+      {
+        "subject": "INC-038",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "inventory-gateway",
+        "object_type": "System"
+      },
+      {
+        "subject": "inventory-gateway",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Umbra",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Evelyn Galvan",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "inventory-gateway",
+        "object_type": "System"
+      },
+      {
+        "subject": "Joyce Solis",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "inventory-gateway",
+        "object_type": "System"
+      }
+    ]
+  }
+]

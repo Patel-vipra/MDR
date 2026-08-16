@@ -1,0 +1,61 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Sales department",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Alyssa Long",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Nathan Maldonado",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Tina Sanders",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "John Daniel",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Victoria Garcia",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gina Moore",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Mary Marshall",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

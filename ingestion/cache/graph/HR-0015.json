@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Data & Analytics",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  }
+]

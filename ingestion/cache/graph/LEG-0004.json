@@ -1,0 +1,82 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-014",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Nolan, Rivera and Rice",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-014",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Alyssa Long",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Fathom",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-10",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-014",
+        "object_type": "Contract"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "OWNED_BY",
+        "object": "D-07",
+        "object_type": "Department"
+      },
+      {
+        "subject": "E-008",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Alyssa Long",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 4,
+    "triples": [
+      {
+        "subject": "C-014",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Nolan, Rivera and Rice",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-014",
+        "subject_type": "Contract",
+        "relation": "OWNED_BY",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

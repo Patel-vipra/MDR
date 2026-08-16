@@ -1,0 +1,96 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Project Falcon",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Facilities",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Zachary Hicks",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Tricia Valencia",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Nathan Maldonado",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Nathan Freeman",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Nathan Freeman",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Nathan Freeman",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Nathan Freeman",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Zachary Hicks",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Tricia Valencia",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Nathan Maldonado",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Falcon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Falcon",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Facilities",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

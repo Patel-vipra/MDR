@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the \"FIN-0004: Quarterly Budget Report for FY25-Q3,\" an internal financial document from OrbitalCorp. It provides an executive summary and budget overview for Project Obsidian, detailing allocated funds, expenditures, and the current review status. The section highlights that the project, managed by the Research & Development department, has spent $437,146.80 out of $1,457,156.00, with the budget pending final approval by HR Business Partner Amber Wright."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal quarterly budget report for FY25-Q3 details the financial allocation and project status for Project Obsidian, managed by OrbitalCorp's Research & Development department. It specifies that the project, which started on January 29, 2025, has been completed and is currently under financial review. The section also provides a breakdown of expenses incurred during the quarter, primarily for meals for team members Amy Silva, Sarah Moore, Lisa Barnes, and Steve Sanchez, all of which are approved and within the budget."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from the internal financial report \"FIN-0004: Quarterly Budget Report for FY25-Q3\" for OrbitalCorp. It details the total expenses for meals during FY25-Q3, amounting to $7,753, which is within the overall project budget. The report covers the budget status, ongoing review process led by Amber Wright, and project details for Project Obsidian, including financial summaries and project ownership by the Research & Development department."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This excerpt is the conclusion section of the \"FIN-0004: Quarterly Budget Report for FY25-Q3,\" an internal financial document from OrbitalCorp. It summarizes that Project Obsidian's expenses for FY25-Q3 stayed within the allocated budget of $1,457,156.00, primarily covering meals for team members. The project, managed by the Research & Development department and overseen by HR Business Partner Amber Wright, is currently under review, with final approval pending. The conclusion emphasizes the project's financial status and provides contact information for further inquiries."
+  }
+]

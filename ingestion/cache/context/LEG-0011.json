@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from the confidential legal document titled \"LEG-0011,\" which summarizes Contract C-010 between the organization and vendor Brown, Mcmahon and Combs. The document provides key details such as contract type (Statement of Work), value, start and end dates, and the signing authority. It also includes vendor information and the project context for Project Echo. This section introduces the contract's purpose and scope, situating it within the broader legal and contractual framework outlined in the full document."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from the confidential legal document titled \"LEG-0011,\" which summarizes Contract C-010 between the organization and vendor Brown, Mcmahon and Combs. It details the contract's classification as a Statement of Work (SOW), its value of approximately 1.2 million, and its scheduled duration from January 8, 2025, to July 5, 2027, currently in an expiring renewal status. Additionally, it provides vendor information, including the vendor's name, service category (hardware supply), and contact email."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt from the confidential legal document LEG-0011 summarizes Contract C-010 between the organization and vendor Brown, Mcmahon and Combs, who supply hardware. The contract, associated with Project Echo, is active and scheduled to end in July 2027. The chunk details the vendor's role and contact information, situating it within the broader contract overview and project context outlined in the document."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This chunk, titled \"OrbitalCorp \u2014 Internal 2,\" appears within the confidential legal contract summary document LEG-0011, which details Contract C-010 between the organization and vendor Brown, Mcmahon and Combs. The overall document summarizes key contractual terms for the hardware supply services related to Project Echo. This specific chunk likely provides internal or contextual information about OrbitalCorp, the organization involved in the project, helping to situate the contract within the broader organizational and project framework."
+  }
+]

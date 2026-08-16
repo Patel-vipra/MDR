@@ -1,0 +1,55 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Project Quasar",
+        "subject_type": "Project",
+        "relation": "REVIEWED",
+        "object": "Michelle Evans",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Quasar",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Procurement",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Project Quasar",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-018",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Project Quasar",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "V-022",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Michelle Evans",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Quasar",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  },
+  {
+    "chunk_ix": 3,
+    "triples": []
+  }
+]

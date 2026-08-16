@@ -1,0 +1,1453 @@
+{
+  "ENG-0001": {
+    "clean_pdf_sha256": "e3af96ff04b061ac6e6ad2679831a22346a3dcaa800c923e5f155ba7c7e40dd5",
+    "degraded_pdf_sha256": "8c73a6b85d26878d339ed978608e5609bf210b394d320304dd01ea026806025e",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0416,
+        "contrast_delta": 0.0745,
+        "jpeg_quality": 64,
+        "noise_sigma": 9.5828,
+        "page": 0,
+        "page_seed": 101190271,
+        "rotation_deg": 1.0826
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0366,
+        "contrast_delta": 0.0379,
+        "jpeg_quality": 66,
+        "noise_sigma": 4.0337,
+        "page": 1,
+        "page_seed": 2140640505,
+        "rotation_deg": 0.4659
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0002": {
+    "clean_pdf_sha256": "33f60cdd1fa5f3dbf9c727a149c3b23c374ca5173fe6aaefdbc1e8d7e9897f96",
+    "variant": "clean"
+  },
+  "ENG-0003": {
+    "clean_pdf_sha256": "92a48b0d4fe7c6f6aa3d0ef9cbf2c0e71b4470d4df69142986087a3e742473c0",
+    "degraded_pdf_sha256": "456d6615eb1bd094bb5be9463f7d3e9f3b1b008dc6379a1233b2abb2951ca97f",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0331,
+        "contrast_delta": -0.0868,
+        "jpeg_quality": 60,
+        "noise_sigma": 6.6419,
+        "page": 0,
+        "page_seed": 1106242930,
+        "rotation_deg": 1.3029
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.031,
+        "contrast_delta": 0.0922,
+        "jpeg_quality": 70,
+        "noise_sigma": 5.5067,
+        "page": 1,
+        "page_seed": 1298865504,
+        "rotation_deg": -0.5348
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0004": {
+    "clean_pdf_sha256": "eb07a9e1475855b0fe377d855d693726842e66caf149a2fbe3aa95260914d7ab",
+    "degraded_pdf_sha256": "dc50b6dc82704bf130fcf99e89f9daea5447e52a98955b69e1e6de0e33a87687",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0811,
+        "contrast_delta": -0.0717,
+        "jpeg_quality": 56,
+        "noise_sigma": 9.2593,
+        "page": 0,
+        "page_seed": 1749401930,
+        "rotation_deg": -1.3261
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0757,
+        "contrast_delta": 0.0432,
+        "jpeg_quality": 72,
+        "noise_sigma": 4.5176,
+        "page": 1,
+        "page_seed": 66557298,
+        "rotation_deg": -1.1304
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0005": {
+    "clean_pdf_sha256": "47ae226ae23745f67601e1d56bfc1dfb4a0a62a21422101b8e0cd29edfa68357",
+    "degraded_pdf_sha256": "104eee62cdfaeae5b3249fc15f25c43da716b82c476eec0bd35ba9b96f90c62a",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": 0.9493,
+        "blurred": true,
+        "brightness_delta": -0.0977,
+        "contrast_delta": -0.0791,
+        "jpeg_quality": 62,
+        "noise_sigma": 7.7051,
+        "page": 0,
+        "page_seed": 1744341219,
+        "rotation_deg": -0.6104
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0334,
+        "contrast_delta": 0.0054,
+        "jpeg_quality": 73,
+        "noise_sigma": 4.4008,
+        "page": 1,
+        "page_seed": 1150008057,
+        "rotation_deg": -1.195
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0006": {
+    "clean_pdf_sha256": "f9b0a97e298d1a788c32ef60033add437edf5b2d52666e96bdf2e5ae3259bad6",
+    "variant": "clean"
+  },
+  "ENG-0007": {
+    "clean_pdf_sha256": "1bae098132370b76fdc6b26f48e50159af9d6373dd67c9adf1a6f3a4c5f76f77",
+    "variant": "clean"
+  },
+  "ENG-0008": {
+    "clean_pdf_sha256": "5904a6941c3f3d929a4d6dfe6d9d9c1dc9a98fbb3b8f097ef67cc11d42f99768",
+    "degraded_pdf_sha256": "b656320ddea00883e66b971fd46c27274da16996de76dd8ca54b8e3b6b860aef",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0074,
+        "contrast_delta": 0.0921,
+        "jpeg_quality": 62,
+        "noise_sigma": 8.7169,
+        "page": 0,
+        "page_seed": 440087379,
+        "rotation_deg": 1.2878
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.049,
+        "contrast_delta": -0.0167,
+        "jpeg_quality": 57,
+        "noise_sigma": 4.1047,
+        "page": 1,
+        "page_seed": 618685614,
+        "rotation_deg": 1.4916
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0009": {
+    "clean_pdf_sha256": "1cb9f3a0bf61e6b45357a4c4aca02dd2e5cab3e688aed9f6cfe656b03bc2f6c8",
+    "degraded_pdf_sha256": "cbf2e3bd32d23dccc903a6f7e7c9b3b44620f146106027463167be82feb9dcb7",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0035,
+        "contrast_delta": -0.0822,
+        "jpeg_quality": 67,
+        "noise_sigma": 9.4473,
+        "page": 0,
+        "page_seed": 1199111673,
+        "rotation_deg": -0.8312
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0971,
+        "contrast_delta": -0.0515,
+        "jpeg_quality": 69,
+        "noise_sigma": 7.8229,
+        "page": 1,
+        "page_seed": 551973054,
+        "rotation_deg": -0.9582
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0010": {
+    "clean_pdf_sha256": "ca756139e9dcb98818240a3fd8bb9578260165e01fc4ddf06e9e5ea28cc692a4",
+    "variant": "clean"
+  },
+  "ENG-0011": {
+    "clean_pdf_sha256": "be0d96048880d6c24b1f439830b7478b71e73edbd37d0e528a2fc48d507f1b77",
+    "variant": "clean"
+  },
+  "ENG-0012": {
+    "clean_pdf_sha256": "100e380a25f4c946662ca4d302e88e1fb261c2830add2964200c8f0e93f3a3ce",
+    "variant": "clean"
+  },
+  "ENG-0013": {
+    "clean_pdf_sha256": "620aaf5a0db324aff7bf60d37b21cbff4d4730fcc1d16b3a1ca2f453dc42cdc7",
+    "variant": "clean"
+  },
+  "ENG-0014": {
+    "clean_pdf_sha256": "cbed46ec047a16f87e4da0241db61dd09e6cffdba8827d557fc2bb049a160e0c",
+    "degraded_pdf_sha256": "582d4fa7ba0789a84a53e8384acf1c6768ecac229c8da174ec4c244f8423fffc",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0068,
+        "contrast_delta": -0.0488,
+        "jpeg_quality": 60,
+        "noise_sigma": 8.1911,
+        "page": 0,
+        "page_seed": 328658104,
+        "rotation_deg": 0.0831
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0787,
+        "contrast_delta": -0.0275,
+        "jpeg_quality": 58,
+        "noise_sigma": 4.3109,
+        "page": 1,
+        "page_seed": 498343486,
+        "rotation_deg": -0.7757
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0015": {
+    "clean_pdf_sha256": "387c6c88c4d793c23956b9ea99852844cdd1e013deb3b217fab0682df6b9bbf4",
+    "variant": "clean"
+  },
+  "ENG-0016": {
+    "clean_pdf_sha256": "92471167ac71362ecca1a5b08fdf074d0fc4523e7effd01adf850f79bdea30c3",
+    "variant": "clean"
+  },
+  "ENG-0017": {
+    "clean_pdf_sha256": "2e63f21a27fa1a1397f166bba254cfc74cdfdc0075a0a703d3c596253beb230a",
+    "variant": "clean"
+  },
+  "ENG-0018": {
+    "clean_pdf_sha256": "3bad3bea9fd254e58eaf3f42b3fbbc34e6ff07ed5316c6a64ce0486b9d7d4437",
+    "variant": "clean"
+  },
+  "ENG-0019": {
+    "clean_pdf_sha256": "e3d3437ad50c9e98bd2dc3abccfaac4eb9acf43066d7083121064581e17514a6",
+    "variant": "clean"
+  },
+  "ENG-0020": {
+    "clean_pdf_sha256": "51dbf11d8891c6279e47d3ee3913fe0ad0806f691e28690c0ce33c28f3b78cf8",
+    "variant": "clean"
+  },
+  "ENG-0021": {
+    "clean_pdf_sha256": "ad84e764232acccb3d097fa0410f28b0c487ca04e497ac91124944f35f3b356b",
+    "degraded_pdf_sha256": "8266a47ab7414f296bf41306471df869aebb4a8b75f533eb67a1f865288e0bc5",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0715,
+        "contrast_delta": -0.0361,
+        "jpeg_quality": 61,
+        "noise_sigma": 5.0401,
+        "page": 0,
+        "page_seed": 1889185234,
+        "rotation_deg": -1.497
+      },
+      {
+        "blur_radius": 0.6989,
+        "blurred": true,
+        "brightness_delta": 0.017,
+        "contrast_delta": -0.0134,
+        "jpeg_quality": 66,
+        "noise_sigma": 6.0619,
+        "page": 1,
+        "page_seed": 950329143,
+        "rotation_deg": -1.4803
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0022": {
+    "clean_pdf_sha256": "5c92855de590c268fb5d8bbcf048dceef3c44c88c6ffbcc9c1fbc45812fb86ed",
+    "variant": "clean"
+  },
+  "ENG-0023": {
+    "clean_pdf_sha256": "3c8a41e252b8a8d27b77e3889463f0f512711fb81ef9f6397cbd3326d3da69ac",
+    "variant": "clean"
+  },
+  "ENG-0024": {
+    "clean_pdf_sha256": "f17e3f8c380909a776df66c68892c623dcfb9e7eae8a72ec2e76720a9a2b26d8",
+    "degraded_pdf_sha256": "63b5600436b0f430ee7e9bec69771ac415f9c939bd64c5d3d03d9de7c71f07d6",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.018,
+        "contrast_delta": 0.0288,
+        "jpeg_quality": 62,
+        "noise_sigma": 7.7342,
+        "page": 0,
+        "page_seed": 1034373273,
+        "rotation_deg": 0.9446
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0846,
+        "contrast_delta": -0.0943,
+        "jpeg_quality": 72,
+        "noise_sigma": 8.4541,
+        "page": 1,
+        "page_seed": 1472961648,
+        "rotation_deg": -0.1224
+      }
+    ],
+    "variant": "degraded"
+  },
+  "ENG-0025": {
+    "clean_pdf_sha256": "7378f9d0e7fed02bff275a39768b1968386b189ab9f0edb2567c078db285d765",
+    "degraded_pdf_sha256": "81860e39be9456fa4a074549364e66823ef9d911542d94a6a855d827650d9211",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0977,
+        "contrast_delta": 0.0707,
+        "jpeg_quality": 64,
+        "noise_sigma": 4.3487,
+        "page": 0,
+        "page_seed": 249804073,
+        "rotation_deg": -0.6134
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0001": {
+    "clean_pdf_sha256": "62e788f0a05ff8ff3fc0b13b4427e7b9cd7775013eb6644c4f5a73e0d9a1e20b",
+    "degraded_pdf_sha256": "b6eb4c3af13b5aa5c589db01e093b3bdd58675a0cea5cb9a3a5fe12d745716bb",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0933,
+        "contrast_delta": -0.0652,
+        "jpeg_quality": 74,
+        "noise_sigma": 9.1821,
+        "page": 0,
+        "page_seed": 1607500463,
+        "rotation_deg": 1.1627
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0853,
+        "contrast_delta": 0.0208,
+        "jpeg_quality": 72,
+        "noise_sigma": 4.4126,
+        "page": 1,
+        "page_seed": 548430427,
+        "rotation_deg": 1.4087
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0002": {
+    "clean_pdf_sha256": "2b59cbd6e72a4f9dfcd8e4fd50ff061d6b76c437953316194d5b4386b29056d7",
+    "degraded_pdf_sha256": "1bc436b221a4dc220173f85afd7a30dbb54ccdce79c518f707e8fbab6aa7b88e",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0387,
+        "contrast_delta": -0.0065,
+        "jpeg_quality": 64,
+        "noise_sigma": 4.6643,
+        "page": 0,
+        "page_seed": 1323895284,
+        "rotation_deg": 1.404
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0334,
+        "contrast_delta": -0.0725,
+        "jpeg_quality": 73,
+        "noise_sigma": 9.1972,
+        "page": 1,
+        "page_seed": 1928018941,
+        "rotation_deg": -0.6311
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0003": {
+    "clean_pdf_sha256": "c85a8a782c8ceead3c5c246985c228d398717088e97c9e72e7455c7f0b87985f",
+    "degraded_pdf_sha256": "4b0b332a05dda240fc04d73770e74b5c95879c01247660bf2723494f3f7468d3",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0115,
+        "contrast_delta": -0.0904,
+        "jpeg_quality": 70,
+        "noise_sigma": 7.4832,
+        "page": 0,
+        "page_seed": 13679275,
+        "rotation_deg": 0.3731
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0147,
+        "contrast_delta": 0.0048,
+        "jpeg_quality": 69,
+        "noise_sigma": 9.1838,
+        "page": 1,
+        "page_seed": 1691736253,
+        "rotation_deg": 0.7626
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0004": {
+    "clean_pdf_sha256": "d6092a8a56e92796fa8e1590a466220851d1f5484fd20ddc5a4b26c454850cfc",
+    "variant": "clean"
+  },
+  "FIN-0005": {
+    "clean_pdf_sha256": "acab3e471aa6162fc720b87c3f61ea731a2885be2bd50ef623c54380903c86e3",
+    "variant": "clean"
+  },
+  "FIN-0006": {
+    "clean_pdf_sha256": "301b9aacae0d21e2a4b3a855844b925b69ee98b996d46e3453adbe12465e4ea0",
+    "variant": "clean"
+  },
+  "FIN-0007": {
+    "clean_pdf_sha256": "197ef6d93989155b5ee55d507cb8c26f585f403d9b766a70f1fc19efd8bc02a7",
+    "degraded_pdf_sha256": "cc91a6da0e7129bd4ac91def9f9c2271bf743dceb5b3dad02c1be7ceb112a1c3",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0605,
+        "contrast_delta": -0.0132,
+        "jpeg_quality": 63,
+        "noise_sigma": 5.3628,
+        "page": 0,
+        "page_seed": 1031472451,
+        "rotation_deg": 0.6291
+      },
+      {
+        "blur_radius": 0.9497,
+        "blurred": true,
+        "brightness_delta": -0.0093,
+        "contrast_delta": -0.0788,
+        "jpeg_quality": 61,
+        "noise_sigma": 5.974,
+        "page": 1,
+        "page_seed": 1925047130,
+        "rotation_deg": -0.7428
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0008": {
+    "clean_pdf_sha256": "9699bcff88b8989388573f06447064abb63eb7c3a63cce90d163d342987c7afa",
+    "degraded_pdf_sha256": "aa9594721577d2728cab9e2b90b1124e3f130974b165d140358acae631912023",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0578,
+        "contrast_delta": 0.0486,
+        "jpeg_quality": 55,
+        "noise_sigma": 9.6178,
+        "page": 0,
+        "page_seed": 400759342,
+        "rotation_deg": -0.4311
+      },
+      {
+        "blur_radius": 0.739,
+        "blurred": true,
+        "brightness_delta": -0.0585,
+        "contrast_delta": 0.0255,
+        "jpeg_quality": 67,
+        "noise_sigma": 7.5368,
+        "page": 1,
+        "page_seed": 1185597723,
+        "rotation_deg": -0.8564
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0009": {
+    "clean_pdf_sha256": "3cb9b17340f093606a8a8c9283daff70ba08ecf52983e423f33cea6b750598c8",
+    "variant": "clean"
+  },
+  "FIN-0010": {
+    "clean_pdf_sha256": "a88cfe60312154b7a4d59227b6a32fa28a0253a80c302be6f00929055da23743",
+    "variant": "clean"
+  },
+  "FIN-0011": {
+    "clean_pdf_sha256": "b7908a9f0361f2c54a76d4cb3c262665abfae56d2fe3f63c72aa24ed64a6927f",
+    "variant": "clean"
+  },
+  "FIN-0012": {
+    "clean_pdf_sha256": "c3a3625ec684693eb86e05a2281b6b2cd17716a4b16d148b2175bfe2822e9157",
+    "variant": "clean"
+  },
+  "FIN-0013": {
+    "clean_pdf_sha256": "c4951011fcdd925d892e6d2ed63302262b7ee29166a2e45e7269ae1de4630c0a",
+    "variant": "clean"
+  },
+  "FIN-0014": {
+    "clean_pdf_sha256": "797d76aa4aa3d44d0f4899600a602a88025e83574ba738c921ce28d18ab1ae4c",
+    "degraded_pdf_sha256": "a79aa05b7da8127622a06e86b2c0a8c4ce02183ae30349e399e2e0d4eadaec7a",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0402,
+        "contrast_delta": -0.0768,
+        "jpeg_quality": 73,
+        "noise_sigma": 6.0037,
+        "page": 0,
+        "page_seed": 859406725,
+        "rotation_deg": 0.974
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0796,
+        "contrast_delta": 0.0558,
+        "jpeg_quality": 68,
+        "noise_sigma": 8.2341,
+        "page": 1,
+        "page_seed": 169705669,
+        "rotation_deg": -1.1635
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0015": {
+    "clean_pdf_sha256": "2d76992a697189122f08425c2118c1894212694696b9459db039da343ea6b3cc",
+    "variant": "clean"
+  },
+  "FIN-0016": {
+    "clean_pdf_sha256": "c414888dea6fecfa18383de21bfb506738e7a54d533093f3bcef1a6fb47987d3",
+    "variant": "clean"
+  },
+  "FIN-0017": {
+    "clean_pdf_sha256": "a633288eb90199739a0ef88e66a285b03e68d91af7ca2ffe133f255da88cdb63",
+    "degraded_pdf_sha256": "1c014118b2035042f89307d3f7076b4b372d9e7e352ac6ce0103a925215a7e5a",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0873,
+        "contrast_delta": 0.0344,
+        "jpeg_quality": 55,
+        "noise_sigma": 6.7334,
+        "page": 0,
+        "page_seed": 996224330,
+        "rotation_deg": -0.9506
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.047,
+        "contrast_delta": 0.0914,
+        "jpeg_quality": 57,
+        "noise_sigma": 4.1744,
+        "page": 1,
+        "page_seed": 170285832,
+        "rotation_deg": -1.0978
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0018": {
+    "clean_pdf_sha256": "09bcfaa34e7a1afd289053b37f0fe1f6d5919b0d8824d262b4bbce511db429ef",
+    "degraded_pdf_sha256": "49e5730ac4e350ad6eb3b5494dfbae787926c6ae8e45447b663f3b3a2e5d6b86",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0639,
+        "contrast_delta": 0.0114,
+        "jpeg_quality": 60,
+        "noise_sigma": 4.3433,
+        "page": 0,
+        "page_seed": 1005598577,
+        "rotation_deg": -1.1691
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0404,
+        "contrast_delta": -0.0419,
+        "jpeg_quality": 59,
+        "noise_sigma": 5.6937,
+        "page": 1,
+        "page_seed": 265206722,
+        "rotation_deg": -0.1764
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0019": {
+    "clean_pdf_sha256": "9eb4540988dbee1168ceb708ae6ecb50a2c72b8551e366271cf90e0e0a09401d",
+    "variant": "clean"
+  },
+  "FIN-0020": {
+    "clean_pdf_sha256": "620edf7b03e403e733ebb4fec81a4ba7e9ebe44e23a697504c188fb16708d840",
+    "degraded_pdf_sha256": "7c4f390dbd8a4f32979d9c8c5080aa928e4d308d05933e419e86070bca3a9d7e",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0182,
+        "contrast_delta": -0.0736,
+        "jpeg_quality": 75,
+        "noise_sigma": 6.9244,
+        "page": 0,
+        "page_seed": 956605874,
+        "rotation_deg": 0.148
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0244,
+        "contrast_delta": -0.0094,
+        "jpeg_quality": 72,
+        "noise_sigma": 4.6068,
+        "page": 1,
+        "page_seed": 41652003,
+        "rotation_deg": 0.4547
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0021": {
+    "clean_pdf_sha256": "075d1db601283984e68267d551d5727ea25ba5e0197a22af86a256742966a44d",
+    "variant": "clean"
+  },
+  "FIN-0022": {
+    "clean_pdf_sha256": "d83526367f5e0184c931f4b1e5a487e772e2f0bf9a07014c108c553f3e4b5bbc",
+    "degraded_pdf_sha256": "53d6b24c35e9eb584dccf65c30bd58cdd3efcd3809ca886c823e5428e7a3f127",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0661,
+        "contrast_delta": -0.0797,
+        "jpeg_quality": 58,
+        "noise_sigma": 8.1349,
+        "page": 0,
+        "page_seed": 1699508522,
+        "rotation_deg": 1.0646
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0505,
+        "contrast_delta": -0.0894,
+        "jpeg_quality": 69,
+        "noise_sigma": 5.595,
+        "page": 1,
+        "page_seed": 1518629041,
+        "rotation_deg": -1.3649
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0023": {
+    "clean_pdf_sha256": "15951b49d860fbcf10c5138000d016520115f3ae5ab3e191f1167d304bd7250c",
+    "variant": "clean"
+  },
+  "FIN-0024": {
+    "clean_pdf_sha256": "670ad152897c37af268e15ffd1e1f38c1cdf2505d33dc94e9aab92df50e5b15f",
+    "variant": "clean"
+  },
+  "FIN-0025": {
+    "clean_pdf_sha256": "4a771e5e72624cb1821c1e283c459907b5f400ead42cfc4a7fb5aa3a13c4e880",
+    "variant": "clean"
+  },
+  "FIN-0026": {
+    "clean_pdf_sha256": "c79b8f0d984c5516f0dc2281aeb844fc5f74a5e32104ef51ec49194c4756531e",
+    "variant": "clean"
+  },
+  "FIN-0027": {
+    "clean_pdf_sha256": "d21d04223a414e1bbb2eb5b0f73c3ce3638b9ca40ce288e68a9e107df5c037ff",
+    "degraded_pdf_sha256": "fa3dba31e5435b98936519abc2e18600b5b87beadb707dd60521e69fe5614e1a",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0375,
+        "contrast_delta": -0.0612,
+        "jpeg_quality": 68,
+        "noise_sigma": 7.269,
+        "page": 0,
+        "page_seed": 1249617983,
+        "rotation_deg": 0.8539
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0287,
+        "contrast_delta": 0.0005,
+        "jpeg_quality": 64,
+        "noise_sigma": 8.6975,
+        "page": 1,
+        "page_seed": 294769011,
+        "rotation_deg": -0.376
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0028": {
+    "clean_pdf_sha256": "149cbf5e409f0f4edb613a54387fcbf9f5d035d88ec0966eea140aab25be59c3",
+    "variant": "clean"
+  },
+  "FIN-0029": {
+    "clean_pdf_sha256": "544ea56d29102750663b9e1df323d7c32838b4004b4dba85b3eb5bf8ea4df503",
+    "degraded_pdf_sha256": "3ae9fa314c16612b37f66422c4796f8685fea9697cc825decb0295eb25d5ade0",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0236,
+        "contrast_delta": 0.0635,
+        "jpeg_quality": 62,
+        "noise_sigma": 4.4453,
+        "page": 0,
+        "page_seed": 248172759,
+        "rotation_deg": -0.8951
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0997,
+        "contrast_delta": 0.0788,
+        "jpeg_quality": 55,
+        "noise_sigma": 8.0838,
+        "page": 1,
+        "page_seed": 1142768792,
+        "rotation_deg": 0.3264
+      }
+    ],
+    "variant": "degraded"
+  },
+  "FIN-0030": {
+    "clean_pdf_sha256": "6a731bfa8d78aa3662fcf7ecece6d933588d64197a12adf6f9046d62560ff41d",
+    "variant": "clean"
+  },
+  "HR-0001": {
+    "clean_pdf_sha256": "87c3646215984a036623a32ce6da23a9089a0930ca183fb5e0872fec76352e39",
+    "degraded_pdf_sha256": "e51ff45a858b09f0e05904cca6f2b6a39f847e26eb55199bca26e8bbb0d37562",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0425,
+        "contrast_delta": -0.0536,
+        "jpeg_quality": 63,
+        "noise_sigma": 6.9284,
+        "page": 0,
+        "page_seed": 741953361,
+        "rotation_deg": -0.2521
+      },
+      {
+        "blur_radius": 0.5164,
+        "blurred": true,
+        "brightness_delta": 0.0922,
+        "contrast_delta": 0.0887,
+        "jpeg_quality": 59,
+        "noise_sigma": 7.166,
+        "page": 1,
+        "page_seed": 645763183,
+        "rotation_deg": 0.8231
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0002": {
+    "clean_pdf_sha256": "6bc0ddca0c5614f76edf7f121cc572bcf937d460759714a84a0e1eb20c0c0e8c",
+    "variant": "clean"
+  },
+  "HR-0003": {
+    "clean_pdf_sha256": "3e8f96002411ff8756da0484636860b64e470112c1d7420f85764c7cca971016",
+    "variant": "clean"
+  },
+  "HR-0004": {
+    "clean_pdf_sha256": "4774770207712bdc1dccda21b535b2c4aaaeff919c0cc559516e235bb09a93e9",
+    "variant": "clean"
+  },
+  "HR-0005": {
+    "clean_pdf_sha256": "3adda01e69a0d576108f4a0a8f25c89e411102501c0b6fe041cc13503f4cb16a",
+    "degraded_pdf_sha256": "baaee1a147bf29ae1f0a1035e5a2068d1b851c9925764bfe2d3ea19abb0d6741",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0924,
+        "contrast_delta": 0.035,
+        "jpeg_quality": 75,
+        "noise_sigma": 8.0039,
+        "page": 0,
+        "page_seed": 991196056,
+        "rotation_deg": 0.0597
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0177,
+        "contrast_delta": -0.0294,
+        "jpeg_quality": 68,
+        "noise_sigma": 5.3935,
+        "page": 1,
+        "page_seed": 3121938,
+        "rotation_deg": 0.1394
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0006": {
+    "clean_pdf_sha256": "189c23b8335bf0feff1b258ce300d24cf7413937612cb4cb1c403cb08c2f9fd2",
+    "degraded_pdf_sha256": "5cd213639eeacc9bdcf47a9f2e6e9923e977d43a6a054eba8041d96981f6560a",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0344,
+        "contrast_delta": -0.035,
+        "jpeg_quality": 70,
+        "noise_sigma": 5.0934,
+        "page": 0,
+        "page_seed": 566705397,
+        "rotation_deg": -0.6036
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0193,
+        "contrast_delta": -0.0599,
+        "jpeg_quality": 63,
+        "noise_sigma": 7.9426,
+        "page": 1,
+        "page_seed": 1447030453,
+        "rotation_deg": 1.4875
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0007": {
+    "clean_pdf_sha256": "3ef36628fe58aa21798ff132bb037ce6463c9f960f6f71f2b6c495360a4008f5",
+    "variant": "clean"
+  },
+  "HR-0008": {
+    "clean_pdf_sha256": "d5bd8d53a8b983ad696b0da43400fb103b7042ed6172317127b189c33f8b0a45",
+    "degraded_pdf_sha256": "8327a3d31fd918c2ab95571c914eb3f4ee50a1ca41e2ae344368ba28daa5e0aa",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0578,
+        "contrast_delta": 0.0875,
+        "jpeg_quality": 64,
+        "noise_sigma": 8.6096,
+        "page": 0,
+        "page_seed": 1711996695,
+        "rotation_deg": -0.8193
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0626,
+        "contrast_delta": -0.0404,
+        "jpeg_quality": 64,
+        "noise_sigma": 5.2228,
+        "page": 1,
+        "page_seed": 101291688,
+        "rotation_deg": -0.8472
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0009": {
+    "clean_pdf_sha256": "da076fd48d8855d3abe4bd140a580762aa2d0c880eb917035eaf19bb47da7db6",
+    "degraded_pdf_sha256": "05128c77b2e09cb179c9a2f36e800a4339ec2a0b1efd2eec0e52119da3d74975",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0836,
+        "contrast_delta": 0.0128,
+        "jpeg_quality": 58,
+        "noise_sigma": 4.5138,
+        "page": 0,
+        "page_seed": 1437867865,
+        "rotation_deg": -1.0733
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0767,
+        "contrast_delta": 0.0962,
+        "jpeg_quality": 55,
+        "noise_sigma": 4.4949,
+        "page": 1,
+        "page_seed": 1752404813,
+        "rotation_deg": -0.6109
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0010": {
+    "clean_pdf_sha256": "b5c218888ab3c47fb9996ad0a76eb241056b33117993a616d30b21cda1c96451",
+    "variant": "clean"
+  },
+  "HR-0011": {
+    "clean_pdf_sha256": "4210617a3ed1735d96a527ddcc2f0429df9e45b15c9cbc4d1cded6da81243907",
+    "degraded_pdf_sha256": "7988b1272b7028ee7c93e8121e1462b44fa55765c5ee1cbedd27bfa59271d340",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0821,
+        "contrast_delta": 0.0913,
+        "jpeg_quality": 66,
+        "noise_sigma": 7.0992,
+        "page": 0,
+        "page_seed": 2088782883,
+        "rotation_deg": 0.0184
+      },
+      {
+        "blur_radius": 0.7297,
+        "blurred": true,
+        "brightness_delta": -0.0468,
+        "contrast_delta": -0.0882,
+        "jpeg_quality": 62,
+        "noise_sigma": 6.6763,
+        "page": 1,
+        "page_seed": 220747224,
+        "rotation_deg": -0.804
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0012": {
+    "clean_pdf_sha256": "6262d3de7de933becaffc9e93c7b2dafdaca4cab3fd64918c45d8c92764c6391",
+    "variant": "clean"
+  },
+  "HR-0013": {
+    "clean_pdf_sha256": "6e7c1d36f9e0f5c45d68ab26b3dcd08fafa10100d0a0f358ec262a72ba1e39ca",
+    "variant": "clean"
+  },
+  "HR-0014": {
+    "clean_pdf_sha256": "9609dd16995ecb1f5f8e94295fcb43d928d27081c8577cecd360142e6b5f472e",
+    "degraded_pdf_sha256": "7d8d9b8b0e12b0ac63ae600f2909d1f17be8e18b21af393d5eade8d4a10838ac",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0944,
+        "contrast_delta": -0.0775,
+        "jpeg_quality": 55,
+        "noise_sigma": 5.6886,
+        "page": 0,
+        "page_seed": 317216284,
+        "rotation_deg": -0.8087
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0745,
+        "contrast_delta": -0.0456,
+        "jpeg_quality": 59,
+        "noise_sigma": 7.7346,
+        "page": 1,
+        "page_seed": 506501773,
+        "rotation_deg": 0.7758
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0015": {
+    "clean_pdf_sha256": "ff8486946352f737994223b5237e9999a0c7549bc199b3aa1cc4f5e4590c97af",
+    "degraded_pdf_sha256": "ea8f28c53b6b244f86ce2a1c8abcb88123b2887791791a1ca287150759641751",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0085,
+        "contrast_delta": -0.09,
+        "jpeg_quality": 67,
+        "noise_sigma": 4.0473,
+        "page": 0,
+        "page_seed": 837881114,
+        "rotation_deg": 0.915
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0121,
+        "contrast_delta": -0.0129,
+        "jpeg_quality": 60,
+        "noise_sigma": 9.6481,
+        "page": 1,
+        "page_seed": 87197990,
+        "rotation_deg": 0.1926
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0016": {
+    "clean_pdf_sha256": "c659b9d58713ed7a894e1f097036ec00f2230dec5ce51e34c62943b750167431",
+    "variant": "clean"
+  },
+  "HR-0017": {
+    "clean_pdf_sha256": "fd6c1bc347129ee380f492a65f2416f4b3d31c3e6888fceea7c837f2ea29fba0",
+    "variant": "clean"
+  },
+  "HR-0018": {
+    "clean_pdf_sha256": "d6d533ca2927a0f075963e4a513a628d9de3fbb6efd2a0b501697f07e6321fb8",
+    "variant": "clean"
+  },
+  "HR-0019": {
+    "clean_pdf_sha256": "8c3e11ffa6202bd0d403344985aed316bf1a8ea0493b78214957dcdc832aa438",
+    "degraded_pdf_sha256": "71b45475592fcebb792fb61cff2cac6b569d2e5e8a79ab87ab2766fad59bf4b0",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0118,
+        "contrast_delta": 0.0869,
+        "jpeg_quality": 63,
+        "noise_sigma": 6.6735,
+        "page": 0,
+        "page_seed": 1994425589,
+        "rotation_deg": -0.5322
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0354,
+        "contrast_delta": -0.0365,
+        "jpeg_quality": 73,
+        "noise_sigma": 4.029,
+        "page": 1,
+        "page_seed": 913589949,
+        "rotation_deg": -1.0666
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0020": {
+    "clean_pdf_sha256": "957e52e5e5e146693c99b62c31507fb10c9777dbafcc97a3746593cbb26d5e45",
+    "variant": "clean"
+  },
+  "HR-0021": {
+    "clean_pdf_sha256": "a8142bce003c7fa99c37e72352ae95741f3cbaed6d6b7300dfbefd61d4e75354",
+    "variant": "clean"
+  },
+  "HR-0022": {
+    "clean_pdf_sha256": "4aa41154b105755b4c483b8543f5a54c297e2c5192f332bf21c8be4fb3a8353a",
+    "degraded_pdf_sha256": "c0977c69d56af1b570a5a318256eab8c0ae8cf4e6ba04d8b322306b0dc90d9a6",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0917,
+        "contrast_delta": 0.0187,
+        "jpeg_quality": 67,
+        "noise_sigma": 6.9359,
+        "page": 0,
+        "page_seed": 979839956,
+        "rotation_deg": -0.0596
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0556,
+        "contrast_delta": 0.0484,
+        "jpeg_quality": 71,
+        "noise_sigma": 4.0261,
+        "page": 1,
+        "page_seed": 710180720,
+        "rotation_deg": 0.1974
+      }
+    ],
+    "variant": "degraded"
+  },
+  "HR-0023": {
+    "clean_pdf_sha256": "1ed4d0a471c297a056df3015a61381c1e4bf38fbc6802ceee407100f213afc78",
+    "variant": "clean"
+  },
+  "HR-0024": {
+    "clean_pdf_sha256": "0d0b06248ceff19f86cee03059b29d52d212286815d06c393a17386ae9cce840",
+    "variant": "clean"
+  },
+  "HR-0025": {
+    "clean_pdf_sha256": "a3d99845c78c8190df2a77ff0111ff7611dacb8690fb108a6cd47a85e6fb3d7a",
+    "variant": "clean"
+  },
+  "LEG-0001": {
+    "clean_pdf_sha256": "a3dd7f226a8de04ac2a6e7e713a220d58ee9c75b08d50fe5c7850e94d0129e28",
+    "variant": "clean"
+  },
+  "LEG-0002": {
+    "clean_pdf_sha256": "fef47ffc40305d865d3528629de3315d4c6c3944da261d327d1c58b1a6b86dbd",
+    "degraded_pdf_sha256": "1bb556f7a7b260d2b0ef5ccdf36ed390a67d327aab11f0455ab4d3f4f14e8a0f",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": 0.6474,
+        "blurred": true,
+        "brightness_delta": -0.0483,
+        "contrast_delta": 0.0142,
+        "jpeg_quality": 70,
+        "noise_sigma": 4.3078,
+        "page": 0,
+        "page_seed": 1549689608,
+        "rotation_deg": -1.0765
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0184,
+        "contrast_delta": 0.0158,
+        "jpeg_quality": 60,
+        "noise_sigma": 8.5348,
+        "page": 1,
+        "page_seed": 1640071657,
+        "rotation_deg": -0.6901
+      }
+    ],
+    "variant": "degraded"
+  },
+  "LEG-0003": {
+    "clean_pdf_sha256": "978497bccda714269e5429381a830c57092d788ddedf0221bb9c0f5d0b54e85e",
+    "degraded_pdf_sha256": "01d7552d6ca4d89d9e9db64af53a733b945e170ded27028c8d50c05cabc053c1",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0461,
+        "contrast_delta": 0.0588,
+        "jpeg_quality": 66,
+        "noise_sigma": 9.6544,
+        "page": 0,
+        "page_seed": 32328293,
+        "rotation_deg": -0.096
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0394,
+        "contrast_delta": 0.0427,
+        "jpeg_quality": 61,
+        "noise_sigma": 4.9829,
+        "page": 1,
+        "page_seed": 70366403,
+        "rotation_deg": 1.0237
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0999,
+        "contrast_delta": -0.03,
+        "jpeg_quality": 59,
+        "noise_sigma": 4.3511,
+        "page": 2,
+        "page_seed": 1588218727,
+        "rotation_deg": -1.4768
+      }
+    ],
+    "variant": "degraded"
+  },
+  "LEG-0004": {
+    "clean_pdf_sha256": "a314a927f454eb74068c9a7fec055beb4c45e8a880170170f1e6ee1d0f6d4277",
+    "degraded_pdf_sha256": "f5b43a428a08c51eb1182c2a9c4bc8c1a20f32f57bdcac4cf6070c438da5b294",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0091,
+        "contrast_delta": -0.0268,
+        "jpeg_quality": 67,
+        "noise_sigma": 4.8614,
+        "page": 0,
+        "page_seed": 269277989,
+        "rotation_deg": -0.3154
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0947,
+        "contrast_delta": -0.0182,
+        "jpeg_quality": 66,
+        "noise_sigma": 4.6316,
+        "page": 1,
+        "page_seed": 1253962259,
+        "rotation_deg": 0.739
+      }
+    ],
+    "variant": "degraded"
+  },
+  "LEG-0005": {
+    "clean_pdf_sha256": "3e909123f25b46c6e2e2353b617f0fa551d83bf288c1297dad25b6fc1039fefb",
+    "variant": "clean"
+  },
+  "LEG-0006": {
+    "clean_pdf_sha256": "e5c0e6c15860111699238b4f59e4b3cc656b8dafb3fb6e400512ef2b9a3d8293",
+    "degraded_pdf_sha256": "94faf08b390e8318acd66a2407ec0d53caf4cac65d845a3d002ff1b2467920c2",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0177,
+        "contrast_delta": 0.0557,
+        "jpeg_quality": 60,
+        "noise_sigma": 7.9257,
+        "page": 0,
+        "page_seed": 57582367,
+        "rotation_deg": -0.0668
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0746,
+        "contrast_delta": 0.0968,
+        "jpeg_quality": 73,
+        "noise_sigma": 5.6803,
+        "page": 1,
+        "page_seed": 485684669,
+        "rotation_deg": 0.0097
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0119,
+        "contrast_delta": 0.0347,
+        "jpeg_quality": 68,
+        "noise_sigma": 8.5034,
+        "page": 2,
+        "page_seed": 1693874600,
+        "rotation_deg": 1.0954
+      }
+    ],
+    "variant": "degraded"
+  },
+  "LEG-0007": {
+    "clean_pdf_sha256": "bd54062980a21469e8757b83b88af71006a4f5d35900a59a9d452cdd9726dff4",
+    "degraded_pdf_sha256": "d63555b8e6d6050b9e471c29c17f0926ff73d434ca25d766d90d30d338cb6961",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0309,
+        "contrast_delta": 0.0953,
+        "jpeg_quality": 69,
+        "noise_sigma": 9.7958,
+        "page": 0,
+        "page_seed": 2061148145,
+        "rotation_deg": -0.7216
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0482,
+        "contrast_delta": -0.0645,
+        "jpeg_quality": 64,
+        "noise_sigma": 8.3485,
+        "page": 1,
+        "page_seed": 1163985813,
+        "rotation_deg": -0.8666
+      }
+    ],
+    "variant": "degraded"
+  },
+  "LEG-0008": {
+    "clean_pdf_sha256": "6717a1706fe5328e606c999b80a8c3a29a682ffbe2b84d95c165c2036554d253",
+    "variant": "clean"
+  },
+  "LEG-0009": {
+    "clean_pdf_sha256": "adfc6519c38e4211f2b44889065cc1ecca71a3654eba693f2df559362cab4436",
+    "variant": "clean"
+  },
+  "LEG-0010": {
+    "clean_pdf_sha256": "dbb532498e8bb100046e6133cd0a4c80216b54c729fb2acd6623b03d430addcd",
+    "variant": "clean"
+  },
+  "LEG-0011": {
+    "clean_pdf_sha256": "24535a79c0d405caedb7938cf8d2767943057a3fedcc19053a43a759bbd7e649",
+    "degraded_pdf_sha256": "a20fcbd62e8e2ba4501473d301721f6ff0b302a0e17dc0cbe3288c524141e77b",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.09,
+        "contrast_delta": -0.0676,
+        "jpeg_quality": 56,
+        "noise_sigma": 7.9934,
+        "page": 0,
+        "page_seed": 537618381,
+        "rotation_deg": 1.1137
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0033,
+        "contrast_delta": -0.0809,
+        "jpeg_quality": 68,
+        "noise_sigma": 9.6133,
+        "page": 1,
+        "page_seed": 563378902,
+        "rotation_deg": 0.6335
+      }
+    ],
+    "variant": "degraded"
+  },
+  "LEG-0012": {
+    "clean_pdf_sha256": "a38e1c807a49ca166bc16423128b43130c5a7be5c0ccbd08bc47ba2e672b18f2",
+    "variant": "clean"
+  },
+  "LEG-0013": {
+    "clean_pdf_sha256": "e161e6a11385aff65569a7adc74c3dbbccef0dab7a597e43a1d8db613c5a118b",
+    "degraded_pdf_sha256": "ddeaeb17d619536884959e3ceb1bceeaadd60c484909468805eea52a1427159f",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.0095,
+        "contrast_delta": 0.056,
+        "jpeg_quality": 71,
+        "noise_sigma": 6.2604,
+        "page": 0,
+        "page_seed": 1641881443,
+        "rotation_deg": -1.4798
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0825,
+        "contrast_delta": 0.0214,
+        "jpeg_quality": 69,
+        "noise_sigma": 9.5781,
+        "page": 1,
+        "page_seed": 557497540,
+        "rotation_deg": 0.3202
+      }
+    ],
+    "variant": "degraded"
+  },
+  "LEG-0014": {
+    "clean_pdf_sha256": "8ed5caaeb4302a8315079a7d3c46983803927fb99e05f63cfb39b98499b217b9",
+    "degraded_pdf_sha256": "e2a44740df3324090c333d5a716cdeb168965f337030632ce13a768f52903cbd",
+    "dpi": 170,
+    "pages": [
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": 0.08,
+        "contrast_delta": 0.0493,
+        "jpeg_quality": 55,
+        "noise_sigma": 4.6404,
+        "page": 0,
+        "page_seed": 197078907,
+        "rotation_deg": -0.8406
+      },
+      {
+        "blur_radius": null,
+        "blurred": false,
+        "brightness_delta": -0.0137,
+        "contrast_delta": 0.026,
+        "jpeg_quality": 59,
+        "noise_sigma": 6.8831,
+        "page": 1,
+        "page_seed": 1026269151,
+        "rotation_deg": -1.0745
+      }
+    ],
+    "variant": "degraded"
+  },
+  "LEG-0015": {
+    "clean_pdf_sha256": "638c0f77a658a090c6c44a581f7319e83b7d2d4f36ab3a488e2a87dbdd499033",
+    "variant": "clean"
+  },
+  "LEG-0016": {
+    "clean_pdf_sha256": "2c4c038d2ec6a5a8190d8256546717707542501797f3f3d654cc1683bbc3d0f6",
+    "variant": "clean"
+  },
+  "LEG-0017": {
+    "clean_pdf_sha256": "b7c7431f224004f500ef8e50260b1f99872b1dd1977ec9256bb0590844589ff7",
+    "variant": "clean"
+  },
+  "LEG-0018": {
+    "clean_pdf_sha256": "229199fd3bc461e266f15d317572be89fbbb44b85ca4332200e3a946d4c034e9",
+    "variant": "clean"
+  },
+  "LEG-0019": {
+    "clean_pdf_sha256": "2a7a66cfa715ee36e33f3a929b29986ce64508619930ef27b41e4b90c81aa43a",
+    "variant": "clean"
+  },
+  "LEG-0020": {
+    "clean_pdf_sha256": "fd31c47a67b04482c03b06a0b089f099d934d186636817ce20660a7ba056b65f",
+    "variant": "clean"
+  }
+}

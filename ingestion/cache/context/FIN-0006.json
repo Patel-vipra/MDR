@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from the internal financial report titled \"FIN-0006 Quarterly Budget Report for FY25-Q4,\" which details the budget status for Project Horizon managed by the Facilities department at OrbitalCorp. It provides an overview of the project's budget allocation of AUD 319,101, the expenditures incurred during FY25-Q4 totaling AUD 95,730.30, and the remaining budget of AUD 223,370.70. The document includes expenditure breakdowns, variance analysis, and project details, emphasizing budget adherence and financial planning."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal quarterly budget report for FY25-Q4 details the financial status of Project Horizon managed by the Facilities department at OrbitalCorp. It reports that approximately 30% of the allocated 319,101 AUD budget has been spent (95,730.30 AUD), with remaining funds of 223,370.70 AUD. The section also provides a detailed expense breakdown for hardware and software costs approved by Stephanie Ross, listing individual expenses and confirming they are within the budget."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal quarterly budget report (FIN-0006) for Project Horizon during FY25-Q4, managed by OrbitalCorp's Facilities department. It details the total expenses incurred in the period, amounting to 7,258 AUD, which is within the allocated budget of 319,101 AUD. The section also discusses the conservative spending approach, remaining budget availability, and highlights that expenses primarily relate to hardware and software procurement approved by Stephanie Ross. It emphasizes ongoing budget monitoring and project progress."
+  }
+]

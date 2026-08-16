@@ -1,0 +1,58 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-005",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Tanner, Sampson and Long",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-005",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Daniel Kennedy",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "P-027",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-03",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "C-005",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Tanner, Sampson and Long",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-005",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Daniel Kennedy",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "C-005",
+        "subject_type": "Contract",
+        "relation": "OWNED_BY",
+        "object": "Project Zephyr",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  }
+]

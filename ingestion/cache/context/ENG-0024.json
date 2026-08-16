@@ -1,0 +1,6 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an internal engineering postmortem report (ENG-0024) analyzing two recent incidents (INC-003 and INC-014) involving the identity-api system (SYS-042) managed by Project Sentinel. The chunk provides an overview of the incidents' impact, timeline, root causes\u2014both linked to human error\u2014and planned corrective actions. It highlights the system's high criticality, the involvement of personnel such as on-call engineer Stephen Mckee, and the ongoing efforts to improve operational procedures to prevent future disruptions."
+  }
+]

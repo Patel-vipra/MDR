@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a confidential HR leave report for the Marketing department at Orbital Corporation, dated June 19, 2025. The document summarizes approved employee leave records, including long service, sick, annual, parental, and unpaid leave, overseen by Department Head Abigail Shaffer. The provided chunk details the department overview, leave records for specific employees, and observations on leave overlaps and approvals, serving as an internal summary of employee leave statuses within the department."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the confidential HR-0016: Leave Report, which summarizes leave records for the Marketing department at Orbital Corporation. The chunk presents the \"Observations\" section, noting that all leave requests were approved by Department Head Abigail Shaffer. It highlights various leave types, including overlapping parental leaves for Jessica Smith and Shirley Suarez, and two separate unpaid leave periods for Jason Powell. The section emphasizes approval status and specific leave periods within the department."
+  }
+]

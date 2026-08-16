@@ -1,0 +1,6 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a postmortem report (ENG-0020) from OrbitalCorp's internal engineering documentation, analyzing incidents affecting the inventory-gateway system of Project Umbra. The chunk details the impact of two capacity exhaustion incidents (INC-011 and INC-038), both lasting approximately 32.5 hours and classified as Severity 3. It covers the timeline of these events, their root cause\u2014insufficient infrastructure capacity\u2014and outlines action items to prevent future outages. The report also provides context about system ownership, management, and technology stack."
+  }
+]

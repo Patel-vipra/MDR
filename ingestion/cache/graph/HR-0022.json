@@ -1,0 +1,131 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "R-007",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Abigail Shaffer",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-007",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Allison Hill",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-009",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Gabrielle Davis",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-009",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Allison Hill",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-048",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Shane Henderson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-048",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Lisa Hensley",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-056",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Michael Lewis",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-056",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-078",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Megan Young",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-078",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-101",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Sandra Aguilar",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-101",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-117",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "William Herrera",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-117",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-118",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Ashley Waller",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "R-118",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "HR Department",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "OrbitalCorp",
+        "object_type": "Vendor"
+      }
+    ]
+  }
+]

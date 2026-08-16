@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the internal, confidential legal document titled \"LEG-0001 \u2014 Contract Summary for C-026.\" It summarizes the key contractual details between the organization and Navarro LLC for services related to Project Lumen. The section provides an overview of the contract, including its ID (C-026), vendor information, project details, contract value, start and end dates, and renewal status. It establishes the contractual relationship and key parameters for ongoing facilities management support."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from a confidential legal document titled \"LEG-0001 \u2014 Contract Summary for C-026,\" which summarizes a master service agreement between the organization and Navarro LLC. It details the contract's scope, duration from February 3, 2024, to May 11, 2025, and its auto-renewal. The contract supports Project Lumen, an active project managed by department D-05, with Navarro LLC providing facilities management services. The signing authority is Connor West, a Support Engineer."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the confidential legal document titled \"LEG-0001 \u2014 Contract Summary for C-026,\" which summarizes a master service agreement between the organization and Navarro LLC. The chunk details the status of Project Lumen, indicating it is active and managed within department D-05, and notes that the project began before the contract's start date, highlighting the integral role of Navarro LLC's facilities management services in ongoing operations. It also provides vendor information, including the vendor's name, service category, and contact email."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This excerpt is from the confidential legal document titled \"LEG-0001 \u2014 Contract Summary for C-026,\" which summarizes the contractual agreement between the organization and Navarro LLC. The chunk highlights Navarro LLC's specialization in facilities management services and emphasizes that their support is integral to the organization\u2019s operations under Contract C-026. It underscores the vendor's role in providing facilities management for Project Lumen, supporting ongoing project activities and operational requirements."
+  }
+]

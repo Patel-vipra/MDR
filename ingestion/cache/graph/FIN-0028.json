@@ -1,0 +1,54 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-002",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Wood-Hale",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-002",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "E-102",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "C-032",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Wood-Hale",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-032",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "E-042",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "C-002",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Wood-Hale",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-032",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Wood-Hale",
+        "object_type": "Vendor"
+      }
+    ]
+  }
+]

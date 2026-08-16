@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal incident postmortem report (ENG-0001) for OrbitalCorp's engineering domain, specifically analyzing incident INC-017. It details the impact, timeline, root cause, and action items related to a service disruption in the auth-api system of Project Titan, owned by project P-021. The report highlights the cause as a misvalidated configuration change and outlines steps for process improvement, emphasizing rapid resolution and the importance of change management."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from an internal incident postmortem report (ENG-0001) by OrbitalCorp concerning the auth-api system within Project Titan. It details an ongoing action item assigned to the Project Titan Documentation Team to document and communicate best practices for configuration changes across all systems. This initiative aims to promote awareness of change management standards and is part of the broader efforts to prevent future incidents like INC-017, which was caused by a configuration change."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This internal incident postmortem report from OrbitalCorp details the resolution and lessons learned from incident INC-017 affecting the auth-api system within Project Titan. The \"Additional Notes\" section emphasizes the importance of strict change management protocols, highlights the prompt response by on-call engineer Cameron Parker, and outlines future focus areas such as improving change validation and monitoring systems. It also acknowledges Daniel Wagner's role in timely incident reporting. This section provides context on ongoing process improvements and the incident's significance for internal operations."
+  }
+]

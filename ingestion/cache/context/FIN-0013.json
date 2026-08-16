@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an internal finance report titled \"FIN-0013: Quarterly Budget Report for FY25-Q3,\" detailing the budget and expenditures for Project Glacier managed by the Sales department. The provided chunk includes the report's title, domain, classification, and overview, summarizing the project's budget allocation, approval process, expenditure status, and pending expenses as of FY25-Q3. It situates the report within the context of internal financial oversight for the specified fiscal quarter."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk from the internal quarterly budget report (FIN-0013) for FY25-Q3 details the current status of expense approvals for Project Glacier, managed by the Sales department and overseen by Crystal Johnson. It notes that all expense lines are pending approval, which may impact final expenditure figures. The chunk also provides project details, including project ID, start date, and project status, and includes a variance analysis indicating the project remains within budget. It emphasizes the importance of pending approvals for accurate financial reporting."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the internal quarterly budget report (FIN-0012) for FY25-Q3, focusing on Project Borealis managed by OrbitalCorp. It provides a summary of the project's budget allocation, expenditures, and remaining funds for the specified quarter. The section includes a detailed budget overview table indicating the project\u2019s financial status, highlighting that the project is on hold and the budget has been marked as closed after review. This information helps understand the project's financial management during FY25-Q3."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This internal quarterly budget report for FY25-Q3 details the financial management of Project Borealis, managed by Product Manager Alyssa Long. The provided chunk summarizes the project\u2019s budget approval, managed by Alyssa Long, and outlines the approved travel expenses for employees such as Jamie Arnold, Lisa Hensley, and Monica Herrera, totaling 502,027.8. It highlights the project's current on-hold status and confirms all expenses were approved within the allocated budget."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal quarterly budget report (FIN-0012) for FY25-Q3 concerning Project Borealis, managed by OrbitalCorp. The chunk confirms that all expenses incurred during this period were approved and remained within the allocated budget of approximately 1.67 million. It also provides a variance analysis indicating significantly lower actual spending (around 502,028) compared to the budget, primarily due to the project being on hold. The report highlights the project's financial management and ongoing monitoring needs."
+  }
+]

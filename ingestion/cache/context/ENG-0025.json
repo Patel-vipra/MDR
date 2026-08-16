@@ -1,0 +1,6 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from the internal postmortem report ENG-0025 on system incidents affecting the auth-pipeline component of Project Zephyr. It provides an overview of the incidents' impact, timeline, root causes, and recommended action items. The report involves personnel such as Daniel Kennedy, responsible for monitoring, and Debra Davidson, the project lead overseeing improvements. This section summarizes the incidents' details and the steps planned to enhance system stability and prevent future issues."
+  }
+]

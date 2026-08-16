@@ -1,0 +1,63 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "billing-worker",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Lattice",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "HR & Training Department",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "OrbitalCorp",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Monitoring & Ops Teams",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "OrbitalCorp",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Incident Response Team",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "OrbitalCorp",
+        "object_type": "Vendor"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "INC-039",
+        "subject_type": "Incident",
+        "relation": "WORKS_ON",
+        "object": "Project Lattice",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Angelica Keith",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "INC-039",
+        "object_type": "Incident"
+      }
+    ]
+  }
+]

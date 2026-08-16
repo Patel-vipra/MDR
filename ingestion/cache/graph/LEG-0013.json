@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "CI-005",
+        "subject_type": "Incident",
+        "relation": "OWNED_BY",
+        "object": "Procurement",
+        "object_type": "Department"
+      },
+      {
+        "subject": "CI-005",
+        "subject_type": "Incident",
+        "relation": "OWNED_BY",
+        "object": "D-08",
+        "object_type": "Department"
+      },
+      {
+        "subject": "C-013",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Shelton, Davis and Dean",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Procurement",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "LEG-0013",
+        "subject_type": "Review",
+        "relation": "REVIEWED",
+        "object": "CI-005",
+        "object_type": "Incident"
+      }
+    ]
+  }
+]

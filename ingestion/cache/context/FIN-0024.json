@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This internal finance report, titled \"FIN-0024: Department Expense Summary for Marketing,\" provides an overview of the Marketing department's expenditures as of May 8, 2025. The chunk details the department's leadership (Head: Abigail Shaffer), cost center, and key projects. It includes a table summarizing the top expenses, highlighting employee names, project associations, amounts, categories, and approval statuses\u2014primarily rejected or pending\u2014reflecting expenditure patterns and approval issues within the department."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from an internal financial report titled \"FIN-0024: Department Expense Summary for Marketing,\" prepared by OrbitalCorp on May 8, 2025. It analyzes the department's expenses, highlighting a pattern of mostly rejected expenditures, especially those by Nathan Freeman for Project Monsoon, and notes a pending expense for Joshua Perry. The section emphasizes the need for improved approval processes and ongoing monitoring of expenses within the Marketing department led by Abigail Shaffer."
+  }
+]

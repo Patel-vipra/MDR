@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of an internal incident postmortem report (Document ENG-0009) analyzing a system outage in the billing-gateway system (SYS-008) on April 16, 2025. It details the incident's impact, timeline, root cause (a deployment error), and action items for preventing future issues. The report involves entities such as Project Cascade, the engineering teams, and personnel like Stephanie Ross and Dylan Miller, focusing on lessons learned and process improvements following the 10.5-hour service disruption."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is an action plan excerpt from an internal incident postmortem report (ENG-0009) related to a billing-gateway system failure in Project Cascade. The chunk outlines specific responsibilities and deadlines assigned to the DevOps Team, QA and Deployment Teams, and Incident Response Team for reviewing deployment procedures and enhancing pre-deployment testing. It reflects efforts to prevent future deployment errors following a system outage caused by a deployment mistake, emphasizing process improvements within the engineering department."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is an internal incident postmortem report (ENG-0009) from OrbitalCorp's engineering domain, analyzing a Sev2 incident in the billing-gateway system. The chunk titled \"OrbitalCorp \u2014 Internal 1\" outlines action items assigned to various teams, including updating detection and escalation procedures, scheduling deployment training within one month, and reviewing incident response documentation within two weeks. These steps aim to improve incident response, deployment practices, and organizational learning following the April 2025 system disruption."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This excerpt is from an incident postmortem report (ENG-0009) concerning a system failure in the billing-gateway system (SYS-008) within Project Cascade at OrbitalCorp. It highlights the roles of key personnel, including Dylan Miller, who responded to the incident, and Stephanie Ross, who reported it. The notes emphasize the importance of rigorous deployment procedures and incident response improvements to prevent future disruptions, reflecting on lessons learned and future focus areas for the engineering team."
+  }
+]

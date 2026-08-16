@@ -1,0 +1,62 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "INC-027",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "billing-worker",
+        "object_type": "System"
+      },
+      {
+        "subject": "billing-worker",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Lattice",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Angelica Keith",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "billing-worker",
+        "object_type": "System"
+      },
+      {
+        "subject": "Project Lattice",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "E-033",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Project Lattice",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-03",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Angelica Keith",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "billing-worker",
+        "object_type": "System"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": []
+  }
+]

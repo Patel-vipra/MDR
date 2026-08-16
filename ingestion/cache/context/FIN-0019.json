@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the internal financial report titled \"FIN-0019: Quarterly Budget Report for FY25-Q3 \u2013 Project Echo,\" which details the budget status for Project Echo. It covers the executive summary, budget overview, expense details, variance analysis, and conclusion, providing a comprehensive overview of the project's financial performance during the third quarter of FY25. The report involves entities such as Fred Smith (Legal Department), project personnel, and the project owner department D-03."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is the conclusion and budget summary table from the internal quarterly budget report (FIN-0019) for Project Echo during FY25-Q3. It summarizes the project's financial status, confirming that expenditures remain within the approved budget of $451,581.00. The report was approved by Fred Smith of the Legal Department and involves personnel such as Jamie Smith, Melissa Gates, and Jason Stein. The section emphasizes effective budget management and ongoing expense approval processes."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This document is an internal quarterly budget report for Project Echo (Budget ID: B-032) within OrbitalCorp, covering FY25-Q3. The chunk notes that pending expenses, primarily for office supplies involving personnel Jamie Smith, Melissa Gates, and Jason Stein, are awaiting approval. These expenses are included in the overall budget considerations but have not yet been finalized, and final figures may change once approval is granted."
+  }
+]

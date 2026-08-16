@@ -1,0 +1,84 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "INC-089",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "auth-worker",
+        "object_type": "System"
+      },
+      {
+        "subject": "auth-worker",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Juniper",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Crystal Robinson",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "auth-worker",
+        "object_type": "System"
+      },
+      {
+        "subject": "INC-089",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "SYS-004",
+        "object_type": "System"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Incident Response Team",
+        "subject_type": "Department",
+        "relation": "WORKS_ON",
+        "object": "incident response procedures",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Juniper Team",
+        "subject_type": "Department",
+        "relation": "WORKS_ON",
+        "object": "INC-089",
+        "object_type": "Incident"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Crystal Robinson",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "INC-089",
+        "object_type": "Incident"
+      },
+      {
+        "subject": "Crystal Robinson",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "auth-worker",
+        "object_type": "System"
+      },
+      {
+        "subject": "auth-worker",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Juniper",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

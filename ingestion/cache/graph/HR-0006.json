@@ -1,0 +1,110 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Tommy Walter",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "William Baker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "William Herrera",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Megan Orr",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michael Powell",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jessica Gross",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Tommy Walter",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "William Baker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Megan Orr",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michael Powell",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "William Herrera",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jessica Gross",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jamie Arnold",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

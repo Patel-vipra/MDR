@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the internal incident postmortem report titled \"ENG-0015 Incident Postmortem: INC-073,\" which analyzes a significant system disruption affecting the auth-worker system (SYS-004) under Project Juniper. It details the incident's impact, timeline, root cause, and response actions taken on April 10, 2025. The report highlights the importance of change management and includes specific action items to prevent future incidents, emphasizing the role of key personnel such as Project Manager Crystal Robinson."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is an internal incident postmortem report (ENG-0015) for OrbitalCorp, detailing the response to incident INC-073 affecting the auth-worker system under Project Juniper. The chunk outlines an action item assigned to the Configuration Management Team, due by April 15, 2025, to implement enhanced change validation procedures. It emphasizes the need for stricter validation protocols to prevent untested configuration changes from impacting critical systems, reflecting lessons learned from the incident's root cause."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This internal incident postmortem from OrbitalCorp details the action items assigned to review recent configuration changes, reinforce incident response training for on-call engineers including Crystal Robinson, and schedule a post-incident review meeting for Project Juniper stakeholders. These tasks are part of the company's efforts to improve change management, incident response, and stakeholder communication following the Sev2 incident (INC-073) that impacted the auth-worker system on April 10, 2025."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This internal incident postmortem report for OrbitalCorp details the response to incident INC-073 affecting the auth-worker system under Project Juniper. The chunk, from the \"Additional Notes\" section, highlights Project Manager Crystal Robinson's effective response during the incident and emphasizes the importance of rigorous change management and testing for critical systems. It also outlines the team's plans to enhance controls and incident preparedness to prevent future disruptions."
+  }
+]

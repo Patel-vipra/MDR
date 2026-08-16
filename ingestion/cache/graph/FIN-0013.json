@@ -1,0 +1,40 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Project Glacier",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-034",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Crystal Johnson",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-034",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "P-034",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Sales",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Crystal Johnson",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "P-034",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

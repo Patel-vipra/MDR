@@ -1,0 +1,58 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "B-032",
+        "subject_type": "Budget",
+        "relation": "APPROVED",
+        "object": "Fred Smith",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "B-032",
+        "subject_type": "Budget",
+        "relation": "OWNED_BY",
+        "object": "D-03",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Jamie Smith",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "B-032",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Melissa Gates",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "B-032",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Jason Stein",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "B-032",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Fred Smith",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-032",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  }
+]

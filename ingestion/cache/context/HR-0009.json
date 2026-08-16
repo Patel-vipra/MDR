@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from a confidential HR performance summary report (Document HR-0009) for FY25-Q2, focusing on the IT Operations department led by Connie Lawrence. It includes an introduction, department overview, and detailed employee review ratings, highlighting team members' performance assessments and leadership evaluations. The section emphasizes departmental performance, individual ratings, and managerial comments within the internal review process."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is an excerpt from the confidential internal performance review document HR-0009 for the IT Operations department at OrbitalCorp, covering FY25-Q2. The chunk titled \"OrbitalCorp \u2013 Internal 1\" presents the performance evaluation of the department head, Connie Lawrence, including her role as leader and reviewer. It notes her leadership qualities, specifically highlighting her strong leadership and strategic oversight, based on a performance rating of 4 from reviewer Allison Hill. This section emphasizes leadership assessment within the broader departmental review."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt from the confidential FY25-Q2 performance summary for OrbitalCorp's HR department details the leadership evaluation of Connie Lawrence, the Head of IT Operations, who received a top rating of 4 from reviewer Allison Hill. It also summarizes team members' performance ratings of 3, indicating satisfactory contributions, and notes that no promotions occurred during this review cycle. The section emphasizes leadership stability and effective oversight within the department, and concludes with confidentiality instructions."
+  }
+]

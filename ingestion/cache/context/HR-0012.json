@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal, confidential performance summary report (HR-0012) for OrbitalCorp's Marketing department during FY25-Q4. It details departmental leadership, highlighting Abigail Shaffer as Head of Marketing based in Auckland, including her contact information and reporting structure. The document consolidates employee review ratings, departmental overview, and performance analysis for the quarter, providing insights into individual contributions and overall department performance."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the \"Performance Review Summary\" section of the confidential FY25-Q4 Performance Summary report for the Marketing department (Department ID: D-06) at OrbitalCorp. It details the individual performance reviews overseen by department head Abigail Shaffer, listing employee names, IDs, review ratings (ranging from 1 to 5), and promotion flags. The section provides an overview of employee performance ratings for the quarter, highlighting the range of performance levels within the department."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal confidential performance review report (HR-0012) for OrbitalCorp's Marketing department during FY25-Q4. It provides a performance analysis of department employees, highlighting ratings from the review cycle. Angela Vaughn received the highest rating of 5, while Daniel Kennedy and Jonathan Peterson received the lowest of 1, indicating areas for improvement. The section concludes with remarks on overall department performance and confidentiality considerations."
+  }
+]

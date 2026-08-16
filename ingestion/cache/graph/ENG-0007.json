@@ -1,0 +1,51 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "INC-106",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "auth-api",
+        "object_type": "System"
+      },
+      {
+        "subject": "auth-api",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Titan",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cameron Parker",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "auth-api",
+        "object_type": "System"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "INC-106",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "auth-api",
+        "object_type": "System"
+      },
+      {
+        "subject": "Cameron Parker",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "auth-api",
+        "object_type": "System"
+      }
+    ]
+  }
+]

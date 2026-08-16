@@ -1,0 +1,63 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Paula Moreno",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Brent Jordan",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gerald Hensley",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Tracy House",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "James Brown",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Lisa Archer",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Brian Rodriguez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Denise Jacobs",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

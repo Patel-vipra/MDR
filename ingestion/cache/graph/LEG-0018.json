@@ -1,0 +1,28 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "CI-019",
+        "subject_type": "Incident",
+        "relation": "OWNED_BY",
+        "object": "Human Resources",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Human Resources",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "CI-019",
+        "object_type": "Incident"
+      }
+    ]
+  }
+]

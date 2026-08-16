@@ -1,0 +1,21 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "SYS-042",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Sentinel",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Stephen Mckee",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "SYS-042",
+        "object_type": "System"
+      }
+    ]
+  }
+]

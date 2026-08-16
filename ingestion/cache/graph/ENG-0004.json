@@ -1,0 +1,59 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "auth-gateway",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "auth-gateway",
+        "object_type": "System"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "HR and Training Department",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "OrbitalCorp",
+        "object_type": "Vendor"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "INC-080",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "auth-gateway",
+        "object_type": "System"
+      },
+      {
+        "subject": "auth-gateway",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Alyssa Long",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "INC-080",
+        "object_type": "Incident"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Alyssa Day",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-020",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Project Sentinel",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-020",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Sentinel",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Customer Support",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Alyssa Day",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-020",
+        "object_type": "Budget"
+      }
+    ]
+  }
+]

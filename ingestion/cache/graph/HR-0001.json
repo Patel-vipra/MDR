@@ -1,0 +1,65 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Monica Herrera",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michele Williams",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Monica Herrera",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Debra Davidson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Monica Herrera",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jeffrey Chavez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Monica Herrera",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Julia Torres",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Monica Herrera",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Victor Baker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Monica Herrera",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Monica Herrera",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Darlene Miller",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  }
+]

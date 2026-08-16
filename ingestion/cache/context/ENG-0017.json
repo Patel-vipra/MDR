@@ -1,0 +1,6 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal engineering postmortem report (ENG-0017) analyzing a system incident involving the inventory-worker system (system ID SYS-024). It details the incident's impact, timeline, root cause (capacity exhaustion), and action items for future prevention. The report involves entities such as Project Ironwood, project lead Joshua Cooke, on-call engineer Lawrence Adkins, and the system's technology stack (React, Node.js, DynamoDB). It aims to improve system reliability and incident response strategies within OrbitalCorp."
+  }
+]

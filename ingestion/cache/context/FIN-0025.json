@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a financial internal report titled \"FIN-0025: Department Expense Summary for Engineering,\" detailing expenses for OrbitalCorp's Engineering department as of May 7, 2025. The provided chunk includes the document's overview, department profile, and an expense analysis table listing top costs, their approval statuses, and associated projects. It highlights high expenses, pending approvals, and departmental expenditure patterns under the leadership of Cristian Santos in Perth."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal financial report \"FIN-0025: Department Expense Summary for Engineering\" presents two pending expenses related to the Engineering department at OrbitalCorp. It details expenses for Jason Stein and Amber Wright, involving Office Supplies for Project Echo and a Conference for Project Basalt, respectively, each with amounts around AUD 3,957 and AUD 3,615. These entries highlight ongoing procurement and event activities awaiting approval, reflecting operational expenditures within the department as of May 7, 2025."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal financial report titled \"FIN-0025: Department Expense Summary for Engineering,\" prepared by the Corporate Finance Team on May 7, 2025. It summarizes the expense highlights for the Engineering department led by Cristian Santos. The chunk details the department's highest expenses, including a rejected expense by Madison Poole on Project Kestrel and several pending office supply expenses across multiple projects, as well as an expense for Project Basalt. It also discusses observations about procurement and budget management related to these expenses."
+  }
+]

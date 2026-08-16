@@ -1,0 +1,48 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "INC-019",
+        "subject_type": "Incident",
+        "relation": "CAUSED_BY",
+        "object": "auth-pipeline",
+        "object_type": "System"
+      },
+      {
+        "subject": "Daniel Kennedy",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "INC-019",
+        "object_type": "Incident"
+      },
+      {
+        "subject": "Project Zephyr",
+        "subject_type": "Project",
+        "relation": "WORKS_ON",
+        "object": "auth-pipeline",
+        "object_type": "System"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "auth-pipeline",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Zephyr",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

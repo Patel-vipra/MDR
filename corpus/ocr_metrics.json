@@ -1,0 +1,4044 @@
+{
+  "final": {
+    "aggregate": {
+      "cer": 0.0492,
+      "entities_found": 275,
+      "entities_total": 275,
+      "entity_survival": 1.0,
+      "wer": 0.0539
+    },
+    "per_doc": {
+      "ENG-0001": {
+        "cer": 0.0299,
+        "entities": [
+          {
+            "name": "Daniel Wagner",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cameron Parker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-017",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Titan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-api",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.031
+      },
+      "ENG-0003": {
+        "cer": 0.0281,
+        "entities": [
+          {
+            "name": "Lisa Hensley",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Crystal Robinson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-067",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Juniper",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-worker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0295
+      },
+      "ENG-0004": {
+        "cer": 0.0267,
+        "entities": [
+          {
+            "name": "Monica Herrera",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-080",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-gateway",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0282
+      },
+      "ENG-0005": {
+        "cer": 0.0358,
+        "entities": [
+          {
+            "name": "Jamie Arnold",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Crystal Robinson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-089",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Juniper",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-worker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0401
+      },
+      "ENG-0008": {
+        "cer": 0.0506,
+        "entities": [
+          {
+            "name": "Cristian Santos",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cameron Parker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-110",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Titan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-api",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0485
+      },
+      "ENG-0009": {
+        "cer": 0.0374,
+        "entities": [
+          {
+            "name": "Dylan Miller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephanie Ross",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-049",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Cascade",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "billing-gateway",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.045
+      },
+      "ENG-0014": {
+        "cer": 0.2677,
+        "entities": [
+          {
+            "name": "Mark Perez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-041",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "ledger-worker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.2725
+      },
+      "ENG-0021": {
+        "cer": 0.0463,
+        "entities": [
+          {
+            "name": "Jamie Smith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-004",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "INC-041",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "ledger-worker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 6,
+        "entities_total": 6,
+        "entity_survival": 1.0,
+        "wer": 0.0415
+      },
+      "ENG-0024": {
+        "cer": 0.0,
+        "entities": [
+          {
+            "name": "Stephen Mckee",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Day",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-003",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "INC-014",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Sentinel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "identity-api",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 6,
+        "entities_total": 6,
+        "entity_survival": 1.0,
+        "wer": 0.0
+      },
+      "ENG-0025": {
+        "cer": 0.0112,
+        "entities": [
+          {
+            "name": "Debra Davidson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Daniel Kennedy",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-019",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "INC-051",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Zephyr",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-pipeline",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 6,
+        "entities_total": 6,
+        "entity_survival": 1.0,
+        "wer": 0.0101
+      },
+      "FIN-0001": {
+        "cer": 0.0444,
+        "entities": [
+          {
+            "name": "B-048",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Human Resources",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Dylan Miller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Debra Davidson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jeffrey Chavez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Sherri Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cassandra Gaines",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Elizabeth Fowler",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Adam Vaughan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Granite",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 10,
+        "entities_total": 10,
+        "entity_survival": 1.0,
+        "wer": 0.0488
+      },
+      "FIN-0002": {
+        "cer": 0.0596,
+        "entities": [
+          {
+            "name": "B-002",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Sales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Daniel Wagner",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cristian Santos",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Connie Lawrence",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Abigail Shaffer",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Gina Moore",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cameron Parker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Atlas",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0679
+      },
+      "FIN-0003": {
+        "cer": 0.0674,
+        "entities": [
+          {
+            "name": "B-018",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Procurement",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Daniel Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shirley Suarez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christopher Bass",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Lisa Archer",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Aimee Montoya",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michelle Evans",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Quasar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0646
+      },
+      "FIN-0007": {
+        "cer": 0.0179,
+        "entities": [
+          {
+            "name": "B-007",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Facilities",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Zachary Hicks",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Tricia Valencia",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Maldonado",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Freeman",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Falcon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 7,
+        "entities_total": 7,
+        "entity_survival": 1.0,
+        "wer": 0.0167
+      },
+      "FIN-0008": {
+        "cer": 0.0115,
+        "entities": [
+          {
+            "name": "B-006",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Sales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Matthew Foster",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Judy Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephanie Ross",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Zachary Hicks",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christine Wright",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Ember",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0107
+      },
+      "FIN-0014": {
+        "cer": 0.0876,
+        "entities": [
+          {
+            "name": "B-040",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Research & Development",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Stephanie Salazar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Adam Vaughan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Freeman",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Monsoon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 6,
+        "entities_total": 6,
+        "entity_survival": 1.0,
+        "wer": 0.1178
+      },
+      "FIN-0017": {
+        "cer": 0.0103,
+        "entities": [
+          {
+            "name": "B-030",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Customer Support",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Stephanie Salazar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Kathy Rivas",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephanie Manning",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "David Wright",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jeffrey Johnson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Cobalt",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0194
+      },
+      "FIN-0018": {
+        "cer": 0.0207,
+        "entities": [
+          {
+            "name": "B-038",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Marketing",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Brian Rodriguez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Samantha Garcia",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Madison Poole",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jessica Gross",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Karen Graham",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Kestrel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0196
+      },
+      "FIN-0020": {
+        "cer": 0.044,
+        "entities": [
+          {
+            "name": "B-061",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Marketing",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Aaron Wise",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Sandra Aguilar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cameron Parker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christine Wright",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Richard Henson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Titan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0414
+      },
+      "FIN-0022": {
+        "cer": 0.03,
+        "entities": [
+          {
+            "name": "Research & Development",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Ryan Munoz",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michelle Harmon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cheyenne Horton",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "David Wright",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jamie Smith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Xenon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Aurora",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Basalt",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Cobalt",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Echo",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 11,
+        "entities_total": 11,
+        "entity_survival": 1.0,
+        "wer": 0.0308
+      },
+      "FIN-0027": {
+        "cer": 0.0491,
+        "entities": [
+          {
+            "name": "C-003",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "C-033",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Joyce Solis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Angelica Keith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Horizon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Umbra",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Chavez Group",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 7,
+        "entities_total": 7,
+        "entity_survival": 1.0,
+        "wer": 0.0472
+      },
+      "FIN-0029": {
+        "cer": 0.0218,
+        "entities": [
+          {
+            "name": "C-022",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Michelle Evans",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "David Douglas Jr.",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephanie Salazar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jamie Smith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Quasar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Xenon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Basalt",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Newman Ltd",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 10,
+        "entities_total": 10,
+        "entity_survival": 1.0,
+        "wer": 0.041
+      },
+      "HR-0001": {
+        "cer": 0.0565,
+        "entities": [
+          {
+            "name": "Customer Support",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Allison Hill",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Monica Herrera",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michele Williams",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Debra Davidson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jeffrey Chavez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Julia Torres",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Victor Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Darlene Miller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0531
+      },
+      "HR-0005": {
+        "cer": 0.0501,
+        "entities": [
+          {
+            "name": "Engineering",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Cristian Santos",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shannon Jones",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christopher Bass",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Anna Henderson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Richard Rodriguez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Helen Jones",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jason Stein",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Spencer Haynes",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0519
+      },
+      "HR-0006": {
+        "cer": 0.0161,
+        "entities": [
+          {
+            "name": "Data & Analytics",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Allison Hill",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jamie Arnold",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Tommy Walter",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "William Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "William Herrera",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Megan Orr",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Powell",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jessica Gross",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0144
+      },
+      "HR-0008": {
+        "cer": 0.0162,
+        "entities": [
+          {
+            "name": "Sales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Gina Moore",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Maldonado",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "John Daniel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Steve Sanchez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Rebecca Valencia",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Mary Marshall",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Debra Morton",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0289
+      },
+      "HR-0009": {
+        "cer": 0.0854,
+        "entities": [
+          {
+            "name": "IT Operations",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Allison Hill",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Connie Lawrence",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephen Mckee",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Kenneth Scott",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michelle Brown",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Wang",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alexander Collins",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Allen Rosales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0885
+      },
+      "HR-0011": {
+        "cer": 0.0538,
+        "entities": [
+          {
+            "name": "Marketing",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Abigail Shaffer",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Mark Perez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "James Brown",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Daniel Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shirley Suarez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jessica Smith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Robert Potter",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Joshua Perry",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0551
+      },
+      "HR-0014": {
+        "cer": 0.0215,
+        "entities": [
+          {
+            "name": "Engineering",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Cristian Santos",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Judy Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Evans",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Zachary Ferrell",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christopher Bass",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Anna Henderson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Richard Rodriguez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shannon Walker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0779
+      },
+      "HR-0015": {
+        "cer": 0.0397,
+        "entities": [
+          {
+            "name": "Data & Analytics",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Jamie Arnold",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Danny Morgan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Lewis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Connor West",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Ashley Waller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Megan Orr",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 7,
+        "entities_total": 7,
+        "entity_survival": 1.0,
+        "wer": 0.056
+      },
+      "HR-0019": {
+        "cer": 0.023,
+        "entities": [
+          {
+            "name": "Sales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Gina Moore",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Maldonado",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "John Daniel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Victoria Garcia",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Mary Marshall",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Tina Sanders",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0191
+      },
+      "HR-0022": {
+        "cer": 0.0,
+        "entities": [
+          {
+            "name": "Allison Hill",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Abigail Shaffer",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Gabrielle Davis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jamie Arnold",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Lisa Hensley",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shane Henderson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Lewis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Megan Young",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Sandra Aguilar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "William Herrera",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Ashley Waller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 11,
+        "entities_total": 11,
+        "entity_survival": 1.0,
+        "wer": 0.0
+      },
+      "LEG-0002": {
+        "cer": 0.0102,
+        "entities": [
+          {
+            "name": "C-018",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Michelle Evans",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Yukon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Costa PLC",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0227
+      },
+      "LEG-0003": {
+        "cer": 0.0027,
+        "entities": [
+          {
+            "name": "C-005",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Daniel Kennedy",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Zephyr",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Tanner, Sampson and Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0179
+      },
+      "LEG-0004": {
+        "cer": 0.0258,
+        "entities": [
+          {
+            "name": "C-014",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Nolan, Rivera and Rice",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0225
+      },
+      "LEG-0006": {
+        "cer": 0.0322,
+        "entities": [
+          {
+            "name": "C-021",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Aaron Wise",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Sentinel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Guzman-Miller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0307
+      },
+      "LEG-0007": {
+        "cer": 0.0172,
+        "entities": [
+          {
+            "name": "C-042",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Stephen Mckee",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Sentinel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Garcia, Foley and Silva",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0172
+      },
+      "LEG-0011": {
+        "cer": 0.461,
+        "entities": [
+          {
+            "name": "C-010",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Melissa Gates",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Echo",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Brown, Mcmahon and Combs",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.4402
+      },
+      "LEG-0013": {
+        "cer": 0.0311,
+        "entities": [
+          {
+            "name": "C-013",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "CI-005",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Procurement",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Gabrielle Davis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shelton, Davis and Dean",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0681
+      },
+      "LEG-0014": {
+        "cer": 0.016,
+        "entities": [
+          {
+            "name": "CI-008",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Human Resources",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Angie Henderson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 3,
+        "entities_total": 3,
+        "entity_survival": 1.0,
+        "wer": 0.0369
+      }
+    }
+  },
+  "initial": {
+    "aggregate": {
+      "cer": 0.0492,
+      "entities_found": 275,
+      "entities_total": 275,
+      "entity_survival": 1.0,
+      "wer": 0.0539
+    },
+    "per_doc": {
+      "ENG-0001": {
+        "cer": 0.0299,
+        "entities": [
+          {
+            "name": "Daniel Wagner",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cameron Parker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-017",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Titan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-api",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.031
+      },
+      "ENG-0003": {
+        "cer": 0.0281,
+        "entities": [
+          {
+            "name": "Lisa Hensley",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Crystal Robinson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-067",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Juniper",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-worker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0295
+      },
+      "ENG-0004": {
+        "cer": 0.0267,
+        "entities": [
+          {
+            "name": "Monica Herrera",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-080",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-gateway",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0282
+      },
+      "ENG-0005": {
+        "cer": 0.0358,
+        "entities": [
+          {
+            "name": "Jamie Arnold",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Crystal Robinson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-089",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Juniper",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-worker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0401
+      },
+      "ENG-0008": {
+        "cer": 0.0506,
+        "entities": [
+          {
+            "name": "Cristian Santos",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cameron Parker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-110",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Titan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-api",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0485
+      },
+      "ENG-0009": {
+        "cer": 0.0374,
+        "entities": [
+          {
+            "name": "Dylan Miller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephanie Ross",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-049",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Cascade",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "billing-gateway",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.045
+      },
+      "ENG-0014": {
+        "cer": 0.2677,
+        "entities": [
+          {
+            "name": "Mark Perez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-041",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "ledger-worker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.2725
+      },
+      "ENG-0021": {
+        "cer": 0.0463,
+        "entities": [
+          {
+            "name": "Jamie Smith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-004",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "INC-041",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "ledger-worker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 6,
+        "entities_total": 6,
+        "entity_survival": 1.0,
+        "wer": 0.0415
+      },
+      "ENG-0024": {
+        "cer": 0.0,
+        "entities": [
+          {
+            "name": "Stephen Mckee",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Day",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-003",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "INC-014",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Sentinel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "identity-api",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 6,
+        "entities_total": 6,
+        "entity_survival": 1.0,
+        "wer": 0.0
+      },
+      "ENG-0025": {
+        "cer": 0.0112,
+        "entities": [
+          {
+            "name": "Debra Davidson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Daniel Kennedy",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "INC-019",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "INC-051",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Project Zephyr",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "auth-pipeline",
+            "score": 100.0,
+            "status": "exact",
+            "type": "System"
+          }
+        ],
+        "entities_found": 6,
+        "entities_total": 6,
+        "entity_survival": 1.0,
+        "wer": 0.0101
+      },
+      "FIN-0001": {
+        "cer": 0.0444,
+        "entities": [
+          {
+            "name": "B-048",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Human Resources",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Dylan Miller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Debra Davidson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jeffrey Chavez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Sherri Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cassandra Gaines",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Elizabeth Fowler",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Adam Vaughan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Granite",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 10,
+        "entities_total": 10,
+        "entity_survival": 1.0,
+        "wer": 0.0488
+      },
+      "FIN-0002": {
+        "cer": 0.0596,
+        "entities": [
+          {
+            "name": "B-002",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Sales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Daniel Wagner",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cristian Santos",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Connie Lawrence",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Abigail Shaffer",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Gina Moore",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cameron Parker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Atlas",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0679
+      },
+      "FIN-0003": {
+        "cer": 0.0674,
+        "entities": [
+          {
+            "name": "B-018",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Procurement",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Daniel Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shirley Suarez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christopher Bass",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Lisa Archer",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Aimee Montoya",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michelle Evans",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Quasar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0646
+      },
+      "FIN-0007": {
+        "cer": 0.0179,
+        "entities": [
+          {
+            "name": "B-007",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Facilities",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Zachary Hicks",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Tricia Valencia",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Maldonado",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Freeman",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Falcon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 7,
+        "entities_total": 7,
+        "entity_survival": 1.0,
+        "wer": 0.0167
+      },
+      "FIN-0008": {
+        "cer": 0.0115,
+        "entities": [
+          {
+            "name": "B-006",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Sales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Matthew Foster",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Judy Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephanie Ross",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Zachary Hicks",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christine Wright",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Ember",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0107
+      },
+      "FIN-0014": {
+        "cer": 0.0876,
+        "entities": [
+          {
+            "name": "B-040",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Research & Development",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Stephanie Salazar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Adam Vaughan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Freeman",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Monsoon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 6,
+        "entities_total": 6,
+        "entity_survival": 1.0,
+        "wer": 0.1178
+      },
+      "FIN-0017": {
+        "cer": 0.0103,
+        "entities": [
+          {
+            "name": "B-030",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Customer Support",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Stephanie Salazar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Kathy Rivas",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephanie Manning",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "David Wright",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jeffrey Johnson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Cobalt",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0194
+      },
+      "FIN-0018": {
+        "cer": 0.0207,
+        "entities": [
+          {
+            "name": "B-038",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Marketing",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Brian Rodriguez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Samantha Garcia",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Madison Poole",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jessica Gross",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Karen Graham",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Kestrel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0196
+      },
+      "FIN-0020": {
+        "cer": 0.044,
+        "entities": [
+          {
+            "name": "B-061",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Budget"
+          },
+          {
+            "name": "Marketing",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Aaron Wise",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Sandra Aguilar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cameron Parker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christine Wright",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Richard Henson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Titan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0414
+      },
+      "FIN-0022": {
+        "cer": 0.03,
+        "entities": [
+          {
+            "name": "Research & Development",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Ryan Munoz",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michelle Harmon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Cheyenne Horton",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "David Wright",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jamie Smith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Xenon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Aurora",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Basalt",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Cobalt",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Echo",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          }
+        ],
+        "entities_found": 11,
+        "entities_total": 11,
+        "entity_survival": 1.0,
+        "wer": 0.0308
+      },
+      "FIN-0027": {
+        "cer": 0.0491,
+        "entities": [
+          {
+            "name": "C-003",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "C-033",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Joyce Solis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Angelica Keith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Horizon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Umbra",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Chavez Group",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 7,
+        "entities_total": 7,
+        "entity_survival": 1.0,
+        "wer": 0.0472
+      },
+      "FIN-0029": {
+        "cer": 0.0218,
+        "entities": [
+          {
+            "name": "C-022",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Michelle Evans",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "David Douglas Jr.",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephanie Salazar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jamie Smith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Quasar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Xenon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Basalt",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Newman Ltd",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 10,
+        "entities_total": 10,
+        "entity_survival": 1.0,
+        "wer": 0.041
+      },
+      "HR-0001": {
+        "cer": 0.0565,
+        "entities": [
+          {
+            "name": "Customer Support",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Allison Hill",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Monica Herrera",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michele Williams",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Debra Davidson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jeffrey Chavez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Julia Torres",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Victor Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Darlene Miller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0531
+      },
+      "HR-0005": {
+        "cer": 0.0501,
+        "entities": [
+          {
+            "name": "Engineering",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Cristian Santos",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shannon Jones",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christopher Bass",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Anna Henderson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Richard Rodriguez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Helen Jones",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jason Stein",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Spencer Haynes",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0519
+      },
+      "HR-0006": {
+        "cer": 0.0161,
+        "entities": [
+          {
+            "name": "Data & Analytics",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Allison Hill",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jamie Arnold",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Tommy Walter",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "William Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "William Herrera",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Megan Orr",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Powell",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jessica Gross",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0144
+      },
+      "HR-0008": {
+        "cer": 0.0162,
+        "entities": [
+          {
+            "name": "Sales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Gina Moore",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Maldonado",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "John Daniel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Steve Sanchez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Rebecca Valencia",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Mary Marshall",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Debra Morton",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0289
+      },
+      "HR-0009": {
+        "cer": 0.0854,
+        "entities": [
+          {
+            "name": "IT Operations",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Allison Hill",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Connie Lawrence",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Stephen Mckee",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Kenneth Scott",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michelle Brown",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Wang",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alexander Collins",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Allen Rosales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0885
+      },
+      "HR-0011": {
+        "cer": 0.0538,
+        "entities": [
+          {
+            "name": "Marketing",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Abigail Shaffer",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Mark Perez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "James Brown",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Daniel Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shirley Suarez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jessica Smith",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Robert Potter",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Joshua Perry",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0551
+      },
+      "HR-0014": {
+        "cer": 0.0215,
+        "entities": [
+          {
+            "name": "Engineering",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Cristian Santos",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Judy Baker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Evans",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Zachary Ferrell",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Christopher Bass",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Anna Henderson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Richard Rodriguez",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shannon Walker",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 9,
+        "entities_total": 9,
+        "entity_survival": 1.0,
+        "wer": 0.0779
+      },
+      "HR-0015": {
+        "cer": 0.0397,
+        "entities": [
+          {
+            "name": "Data & Analytics",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Jamie Arnold",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Danny Morgan",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Lewis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Connor West",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Ashley Waller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Megan Orr",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 7,
+        "entities_total": 7,
+        "entity_survival": 1.0,
+        "wer": 0.056
+      },
+      "HR-0019": {
+        "cer": 0.023,
+        "entities": [
+          {
+            "name": "Sales",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Gina Moore",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Nathan Maldonado",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "John Daniel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Victoria Garcia",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Mary Marshall",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Tina Sanders",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 8,
+        "entities_total": 8,
+        "entity_survival": 1.0,
+        "wer": 0.0191
+      },
+      "HR-0022": {
+        "cer": 0.0,
+        "entities": [
+          {
+            "name": "Allison Hill",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Abigail Shaffer",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Gabrielle Davis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Jamie Arnold",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Lisa Hensley",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shane Henderson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Michael Lewis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Megan Young",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Sandra Aguilar",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "William Herrera",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Ashley Waller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 11,
+        "entities_total": 11,
+        "entity_survival": 1.0,
+        "wer": 0.0
+      },
+      "LEG-0002": {
+        "cer": 0.0102,
+        "entities": [
+          {
+            "name": "C-018",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Michelle Evans",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Yukon",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Costa PLC",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0227
+      },
+      "LEG-0003": {
+        "cer": 0.0027,
+        "entities": [
+          {
+            "name": "C-005",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Daniel Kennedy",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Zephyr",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Tanner, Sampson and Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0179
+      },
+      "LEG-0004": {
+        "cer": 0.0258,
+        "entities": [
+          {
+            "name": "C-014",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Alyssa Long",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Fathom",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Nolan, Rivera and Rice",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0225
+      },
+      "LEG-0006": {
+        "cer": 0.0322,
+        "entities": [
+          {
+            "name": "C-021",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Aaron Wise",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Sentinel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Guzman-Miller",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0307
+      },
+      "LEG-0007": {
+        "cer": 0.0172,
+        "entities": [
+          {
+            "name": "C-042",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Stephen Mckee",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Sentinel",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Garcia, Foley and Silva",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.0172
+      },
+      "LEG-0011": {
+        "cer": 0.461,
+        "entities": [
+          {
+            "name": "C-010",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "Melissa Gates",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Project Echo",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Project"
+          },
+          {
+            "name": "Brown, Mcmahon and Combs",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 4,
+        "entities_total": 4,
+        "entity_survival": 1.0,
+        "wer": 0.4402
+      },
+      "LEG-0013": {
+        "cer": 0.0311,
+        "entities": [
+          {
+            "name": "C-013",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Contract"
+          },
+          {
+            "name": "CI-005",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Procurement",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Gabrielle Davis",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          },
+          {
+            "name": "Shelton, Davis and Dean",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Vendor"
+          }
+        ],
+        "entities_found": 5,
+        "entities_total": 5,
+        "entity_survival": 1.0,
+        "wer": 0.0681
+      },
+      "LEG-0014": {
+        "cer": 0.016,
+        "entities": [
+          {
+            "name": "CI-008",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Incident"
+          },
+          {
+            "name": "Human Resources",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Department"
+          },
+          {
+            "name": "Angie Henderson",
+            "score": 100.0,
+            "status": "exact",
+            "type": "Employee"
+          }
+        ],
+        "entities_found": 3,
+        "entities_total": 3,
+        "entity_survival": 1.0,
+        "wer": 0.0369
+      }
+    }
+  }
+}

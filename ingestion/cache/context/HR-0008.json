@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from the confidential internal performance summary report (Document HR-0008) for OrbitalCorp's Sales department during FY25-Q2. It provides an overview of the department led by Gina Moore, including leadership details, employee performance reviews of seven team members\u2014all rated 4\u2014and key observations highlighting team cohesion and stability. The section summarizes leadership, individual reviews, and departmental performance, serving as a comprehensive internal evaluation of the Sales team\u2019s performance during this period."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is a performance review summary from an internal HR document (HR-0008) for the FY25-Q2 period within the Sales department of OrbitalCorp. The table details individual employee performance ratings, reviewer (Gina Moore), review quarter, and comments. It highlights that all seven employees received a rating of 4, indicating strong and consistent performance, with no promotions flagged. This chunk provides specific review data for each employee, illustrating the department's overall stable performance under leadership."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is a performance summary report for the FY25-Q2 period of the Sales department at OrbitalCorp, led by Gina Moore. The provided chunk summarizes key observations and conclusions, noting that all reviewed employees received a performance rating of 4, indicating high standards and team cohesion under Gina Moore\u2019s leadership. It highlights the stability of role assignments, the effective team environment, and suggests future focus on growth and leadership development. The document is confidential and intended for internal use."
+  }
+]

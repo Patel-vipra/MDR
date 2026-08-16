@@ -1,0 +1,86 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "IT Operations",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "D-05",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Alexander Collins",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Allen Rosales",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michelle Brown",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michael Wang",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Kenneth Scott",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Connie Lawrence",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Stephen Mckee",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Connie Lawrence",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Connie Lawrence",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from the internal financial report titled \"FIN-0023: Department Expense Summary for IT Operations,\" dated May 4, 2025. It provides detailed information about the IT Operations department led by Connie Lawrence, including department overview, expense categories, and a table summarizing the top expenses, their amounts, associated projects, and approval statuses. The content focuses on high-value expenses and their review process within the department."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from the internal financial report titled \"FIN-0023: Department Expense Summary for IT Operations\" by OrbitalCorp, dated May 4, 2025. It provides a summary of the IT Operations department's pending and rejected expenses, highlighting key expenditures related to projects like Ironwood and Drift, and emphasizing the importance of ongoing review to ensure budget alignment. The section concludes with a recommendation for continued monitoring of expenses."
+  }
+]

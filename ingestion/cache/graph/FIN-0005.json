@@ -1,0 +1,51 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "B-055",
+        "subject_type": "Budget",
+        "relation": "APPROVED",
+        "object": "Michael Lewis",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "B-055",
+        "subject_type": "Budget",
+        "relation": "FUNDED_BY",
+        "object": "Project Nimbus",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michael Lewis",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-055",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Stephanie Manning",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Nimbus",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Nimbus",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Research & Development",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  }
+]

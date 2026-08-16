@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the internal quarterly budget report (FIN-0005) for OrbitalCorp, detailing the FY25-Q4 financial overview for Project Nimbus. It includes the budget allocation of 586,004.00, expenditures of 175,801.20, and approval by Compliance Officer Michael Lewis. The section provides a summary of the budget overview, including project details, expenditure categories, and approval status, situating it within the overall report that assesses project financial management for the specified quarter."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This internal quarterly budget report for FY25-Q4 details OrbitalCorp's Project Nimbus, led by DevOps Engineer Stephanie Manning and approved by Compliance Officer Michael Lewis. The chunk covers the project's approved budget of 586,004.00, its completion status, and the expenses incurred during the quarter, including hardware and meals. It confirms that expenditures of 175,801.20 remained within the allocated budget, with all expenses approved and aligned with the project scope. The report provides an overview of project management and financial oversight."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from the internal quarterly budget report (FIN-0005) for OrbitalCorp, detailing the FY25-Q4 financial management of Project Nimbus. It summarizes that the project\u2019s budget was effectively managed, with expenditures staying within approved limits. The report was prepared on July 4, 2025, and involves key personnel such as Project Lead Stephanie Manning and Approver Michael Lewis. It concludes that the project\u2019s budget was well-controlled during this period."
+  }
+]

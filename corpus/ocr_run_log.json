@@ -1,0 +1,207 @@
+{
+  "model": "baidu/Unlimited-OCR",
+  "gpu": "Tesla T4",
+  "torch_version": "2.11.0+cu128",
+  "docs": {
+    "ENG-0001": {
+      "status": "ok",
+      "seconds": 74.6,
+      "chars": 3494
+    },
+    "ENG-0003": {
+      "status": "ok",
+      "seconds": 59.64,
+      "chars": 3737
+    },
+    "ENG-0004": {
+      "status": "ok",
+      "seconds": 63.07,
+      "chars": 3898
+    },
+    "ENG-0005": {
+      "status": "ok",
+      "seconds": 47.9,
+      "chars": 3878
+    },
+    "ENG-0008": {
+      "status": "ok",
+      "seconds": 42.6,
+      "chars": 3364
+    },
+    "ENG-0009": {
+      "status": "ok",
+      "seconds": 47.71,
+      "chars": 3965
+    },
+    "ENG-0014": {
+      "status": "ok",
+      "seconds": 31.76,
+      "chars": 2303
+    },
+    "ENG-0021": {
+      "status": "ok",
+      "seconds": 38.95,
+      "chars": 2573
+    },
+    "ENG-0024": {
+      "status": "ok",
+      "seconds": 37.54,
+      "chars": 2411
+    },
+    "ENG-0025": {
+      "status": "ok",
+      "seconds": 34.03,
+      "chars": 2161
+    },
+    "FIN-0001": {
+      "status": "ok",
+      "seconds": 57.26,
+      "chars": 3149
+    },
+    "FIN-0002": {
+      "status": "ok",
+      "seconds": 40.36,
+      "chars": 2181
+    },
+    "FIN-0003": {
+      "status": "ok",
+      "seconds": 54.21,
+      "chars": 2966
+    },
+    "FIN-0007": {
+      "status": "ok",
+      "seconds": 45.46,
+      "chars": 3054
+    },
+    "FIN-0008": {
+      "status": "ok",
+      "seconds": 45.96,
+      "chars": 2593
+    },
+    "FIN-0014": {
+      "status": "ok",
+      "seconds": 47.78,
+      "chars": 3233
+    },
+    "FIN-0017": {
+      "status": "ok",
+      "seconds": 55.93,
+      "chars": 3214
+    },
+    "FIN-0018": {
+      "status": "ok",
+      "seconds": 44.4,
+      "chars": 2970
+    },
+    "FIN-0020": {
+      "status": "ok",
+      "seconds": 49.98,
+      "chars": 3297
+    },
+    "FIN-0022": {
+      "status": "ok",
+      "seconds": 57.77,
+      "chars": 4350
+    },
+    "FIN-0027": {
+      "status": "ok",
+      "seconds": 46.76,
+      "chars": 2812
+    },
+    "FIN-0029": {
+      "status": "ok",
+      "seconds": 58.09,
+      "chars": 3139
+    },
+    "HR-0001": {
+      "status": "ok",
+      "seconds": 53.39,
+      "chars": 3741
+    },
+    "HR-0005": {
+      "status": "ok",
+      "seconds": 50.68,
+      "chars": 3634
+    },
+    "HR-0006": {
+      "status": "ok",
+      "seconds": 47.7,
+      "chars": 3350
+    },
+    "HR-0008": {
+      "status": "ok",
+      "seconds": 61.81,
+      "chars": 3996
+    },
+    "HR-0009": {
+      "status": "ok",
+      "seconds": 51.09,
+      "chars": 3553
+    },
+    "HR-0011": {
+      "status": "ok",
+      "seconds": 60.89,
+      "chars": 4364
+    },
+    "HR-0014": {
+      "status": "ok",
+      "seconds": 54.64,
+      "chars": 2219
+    },
+    "HR-0015": {
+      "status": "ok",
+      "seconds": 46.23,
+      "chars": 1811
+    },
+    "HR-0019": {
+      "status": "ok",
+      "seconds": 41.19,
+      "chars": 2127
+    },
+    "HR-0022": {
+      "status": "ok",
+      "seconds": 41.95,
+      "chars": 2513
+    },
+    "LEG-0002": {
+      "status": "ok",
+      "seconds": 67.75,
+      "chars": 3404
+    },
+    "LEG-0003": {
+      "status": "ok",
+      "seconds": 73.1,
+      "chars": 3156
+    },
+    "LEG-0004": {
+      "status": "ok",
+      "seconds": 51.86,
+      "chars": 3391
+    },
+    "LEG-0006": {
+      "status": "ok",
+      "seconds": 65.34,
+      "chars": 3749
+    },
+    "LEG-0007": {
+      "status": "ok",
+      "seconds": 50.12,
+      "chars": 3135
+    },
+    "LEG-0011": {
+      "status": "ok",
+      "seconds": 34.65,
+      "chars": 1847
+    },
+    "LEG-0013": {
+      "status": "ok",
+      "seconds": 57.02,
+      "chars": 2058
+    },
+    "LEG-0014": {
+      "status": "ok",
+      "seconds": 52.24,
+      "chars": 2000
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from a confidential internal performance review report titled \"HR-0003: Departmental Performance Summary \u2013 Legal \u2013 FY25-Q4.\" It provides an overview of the Legal department led by Daniel Wagner, including department details, organizational structure, and a summary of employee performance ratings for the quarter. The section highlights individual employee ratings, identifying high performers and areas needing improvement, and emphasizes the confidential nature of the information."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the confidential internal performance summary report for the Legal department (Department ID: D-03) at OrbitalCorp for FY25-Q4. It details the department\u2019s performance ratings for individual employees, highlighting high performers (James Ferrell, John Whitehead, Devon Flores), moderate performers (Carol Tucker, Karen Graham), and those needing improvement (Sherri Baker, Stephanie Salazar). The section emphasizes the performance spectrum and potential development areas within the department."
+  }
+]

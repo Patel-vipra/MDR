@@ -1,0 +1,117 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Engineering department",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Richard Rodriguez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Michael Evans",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Zachary Ferrell",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Judy Baker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Shannon Walker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Christopher Bass",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Anna Henderson",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Richard Rodriguez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Michael Evans",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Zachary Ferrell",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Judy Baker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Shannon Walker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Christopher Bass",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Anna Henderson",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

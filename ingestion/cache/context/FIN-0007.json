@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from the internal quarterly budget report (FIN-0007) for FY25-Q3, focusing on Project Falcon managed by OrbitalCorp's Facilities department. It provides an executive summary, budget overview, expense breakdown, and analysis of expenditures totaling approximately $599,499.30 against an allocated budget of nearly $2 million. The document details approved software expenses incurred during the quarter, highlights budget management efficiency, and confirms the closure of the budget for this period."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the internal quarterly budget report (FIN-0007) for Project Falcon during FY25-Q3 at OrbitalCorp. It details the project's expenses, primarily software costs contributed by team members Zachary Hicks, Tricia Valencia, and Nathan Maldonado. The section highlights that total spending was significantly below the allocated budget, indicating efficient management. It concludes that the project\u2019s expenses were well within the approved funds, the budget was officially closed, and all expenses received proper approval. The report was prepared on April 21, 2025."
+  }
+]

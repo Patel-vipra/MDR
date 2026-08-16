@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This internal incident postmortem (ENG-0014) details a hardware failure (INC-041) affecting the ledger-worker system (SYS-014) within Project Fathom. The document covers the incident's impact, timeline, root cause, and recommended actions. The chunk specifically includes the incident impact, timeline of events on March 26, 2025, and the root cause analysis, highlighting the hardware failure that caused a 19.5-hour service disruption and outlining steps for hardware audits and monitoring."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk, titled \"OrbitalCorp \u2013 Internal 2,\" is part of an internal incident postmortem report (ENG-0014) related to engineering operations at OrbitalCorp. The full document details a hardware failure incident (INC-041) affecting the ledger-worker system (SYS-014) within Project Fathom. This specific chunk likely contains internal communications or analysis related to OrbitalCorp\u2019s role or response during the incident, contributing to the overall understanding of the hardware failure, its impact, and the subsequent action plan."
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "D-06",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Margaret Hawkins DDS",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Daniel Baker",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Daniel Kennedy",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Rebecca Jackson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jamie Walton",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Angela Vaughn",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jonathan Peterson",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Marketing",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

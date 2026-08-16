@@ -1,0 +1,83 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Project Titan",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-061",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Project Titan",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Marketing",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Richard Henson",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Project Titan",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Aaron Wise",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Titan",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Richard Henson",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-061",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Richard Henson",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Titan",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Christine Wright",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Titan",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cameron Parker",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Titan",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Sandra Aguilar",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Titan",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  },
+  {
+    "chunk_ix": 3,
+    "triples": []
+  }
+]

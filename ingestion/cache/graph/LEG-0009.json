@@ -1,0 +1,61 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-045",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Gonzales, Martinez and Miller",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-045",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Crystal Johnson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "C-045",
+        "subject_type": "Contract",
+        "relation": "OWNED_BY",
+        "object": "Project Vertex",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Crystal Johnson",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-045",
+        "object_type": "Contract"
+      },
+      {
+        "subject": "Crystal Johnson",
+        "subject_type": "Employee",
+        "relation": "OWNED_BY",
+        "object": "D-08",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Project Vertex",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-07",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Project Vertex",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-023",
+        "object_type": "Budget"
+      }
+    ]
+  }
+]

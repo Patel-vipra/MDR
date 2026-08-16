@@ -1,0 +1,54 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-017",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Kelly Donovan",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Pinnacle",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michael Evans",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Pinnacle",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Mike Allen",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Pinnacle",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "FIN-0015",
+        "object_type": "Review"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "FIN-0015",
+        "object_type": "Review"
+      }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "P-028",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-028",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "B-028",
+        "subject_type": "Budget",
+        "relation": "APPROVED",
+        "object": "Shane Henderson",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Jose Schultz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-219",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Angel Perry",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-296",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Robert Potter",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-114",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Project Aurora",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Engineering",
+        "object_type": "Department"
+      },
+      {
+        "subject": "B-028",
+        "subject_type": "Budget",
+        "relation": "APPROVED",
+        "object": "Shane Henderson",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

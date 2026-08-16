@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This excerpt from the internal financial review document FIN-0027 provides an overview of the Chavez Group, a hardware supply vendor with two active contracts nearing renewal. It details contract specifics, including IDs, values, and expiration dates, as well as the projects they support. The document emphasizes the need to review renewal options and assess vendor performance to ensure continued supply and optimize costs."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal finance document FIN-0027 discusses Chavez Group, a hardware supply vendor with two active contracts nearing expiration. It details the contracts' scheduled end dates, emphasizing the need for renewal or alternative sourcing. Additionally, it lists two projects supplied by Chavez Group\u2014Project Umbra, completed in early 2025, and Project Horizon, planned for future procurement\u2014highlighting the vendor's operational involvement and project statuses within the organization."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk from the internal finance document FIN-0027 summarizes the status of Chavez Group's hardware supply projects. It notes that supply for Project Umbra has been completed, while procurement for Project Horizon is upcoming. The section emphasizes the importance of reviewing Chavez Group's performance and contract renewals, highlighting total spend, variance from projections, and recommendations for optimizing future hardware supply arrangements. It supports the document's overall focus on vendor management and contract renewal planning."
+  }
+]

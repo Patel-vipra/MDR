@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Stephanie Salazar",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Monsoon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Stephanie Salazar",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Monsoon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Nathan Freeman",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Monsoon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Adam Vaughan",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Monsoon",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Stephanie Salazar",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "B-040",
+        "object_type": "Budget"
+      }
+    ]
+  }
+]

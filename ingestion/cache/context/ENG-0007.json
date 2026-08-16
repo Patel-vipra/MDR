@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an incident postmortem report (ENG-0007) for a critical system outage (INC-106) within Project Titan. The document details the impact, timeline, root cause, and action items related to a Sev1 disruption of the auth-api system caused by an unvalidated configuration change. The report involves key personnel such as Cameron Parker and Angie Henderson, and emphasizes lessons learned to improve change management and system stability. This chunk provides the full incident overview, including the impact, timeline, root cause, and initial action items."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This internal incident report from OrbitalCorp details action items related to the post-incident review of INC-106, a Sev1 outage of the auth-api system within Project Titan. The chunk lists specific follow-up tasks, including implementing enhanced monitoring, staff re-training, and updating response procedures, with responsible parties and deadlines. These actions aim to improve system stability and prevent future incidents."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is the conclusion section of an internal incident postmortem report (ENG-0007) for incident INC-106 within OrbitalCorp's Project Titan. It summarizes that the auth-api system outage was caused by a configuration change that bypassed validation procedures. The section highlights the quick response that limited downtime to 1.5 hours and outlines future priorities, including improved change management, monitoring, and staff training, to enhance system stability and prevent similar incidents."
+  }
+]

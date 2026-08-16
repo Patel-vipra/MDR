@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an incident postmortem report (ENG-0013) from OrbitalCorp's internal engineering documentation. The chunk details the impact, timeline, root cause, and action items related to Incident INC-066, which affected the billing-pipeline system (SYS-010) within Project Echo. It describes a deployment error during a recent update that caused system disruption, leading to delays in billing processes. The report highlights the response efforts, including investigation and resolution, and outlines steps to prevent future incidents."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from an internal incident postmortem report (ENG-0013) for OrbitalCorp, analyzing incident INC-066 related to the billing-pipeline system. It details action items assigned to the Incident Response Team, including enhancing monitoring and updating response procedures within one month, aimed at improving future incident detection and response coordination. This section emphasizes ongoing efforts to strengthen system reliability following the disruption caused by a deployment error."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from an internal incident postmortem report (ENG-0013) regarding a system disruption in the billing-pipeline system (System ID: SYS-010) owned by Project Echo. It highlights the roles of Melissa Gates, the on-call engineer who diagnosed and resolved the issue, and Jeffrey Chavez, who reported the incident. The chunk emphasizes the importance of cross-departmental communication, ongoing system improvements, and the goal of transparency and continuous process enhancement following the Severity 2 incident."
+  }
+]

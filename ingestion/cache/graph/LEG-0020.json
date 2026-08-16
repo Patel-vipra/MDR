@@ -1,0 +1,35 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "CI-013",
+        "subject_type": "Incident",
+        "relation": "OWNED_BY",
+        "object": "IT Operations",
+        "object_type": "Department"
+      },
+      {
+        "subject": "CI-013",
+        "subject_type": "Incident",
+        "relation": "OWNED_BY",
+        "object": "D-05",
+        "object_type": "Department"
+      },
+      {
+        "subject": "C-021",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Guzman-Miller",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "E-097",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-021",
+        "object_type": "Contract"
+      }
+    ]
+  }
+]

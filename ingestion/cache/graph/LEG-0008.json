@@ -1,0 +1,71 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-032",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Wood-Hale",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-032",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Fred Smith",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Horizon",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-12",
+        "object_type": "Department"
+      },
+      {
+        "subject": "E-194",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Horizon",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "P-009",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-009",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Fred Smith",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-032",
+        "object_type": "Contract"
+      },
+      {
+        "subject": "C-032",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Wood-Hale",
+        "object_type": "Vendor"
+      }
+    ]
+  }
+]

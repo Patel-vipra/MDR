@@ -18,6 +18,21 @@ pytest
 pyyaml
 openai
 python-dotenv
+# Phase 2 corpus degradation (local, CPU-only — OCR itself runs on Colab, see corpus/notebooks/):
+pdf2image
+img2pdf
+Pillow
+numpy
+pymupdf
 # dbldatagen 0.4.0 imports these but does not declare them:
 jmespath
 pyparsing
+# docs tooling (docs/build_brief.py):
+python-docx
+# Phase 3 ingestion & indexing (PLAN.md §6):
+qdrant-client
+sentence-transformers
+tiktoken
+# Phase 4 agentic query pipeline (PLAN.md §7):
+langgraph
+ollama

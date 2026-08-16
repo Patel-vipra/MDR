@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an incident postmortem report (Document ENG-0005) analyzing a critical failure (INC-089) in the auth-worker system (SYS-004) on January 21, 2025. The report details the incident's impact, timeline, root cause, and corrective action items. The chunk specifically covers the incident's impact, including system disruption duration, affected services, and operational consequences, providing context for understanding the severity and significance of the event within the overall analysis."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is an internal incident postmortem report (ENG-0005) for OrbitalCorp's engineering team, analyzing a critical failure in the auth-worker system (SYS-004) on January 21, 2025. The provided chunk details specific action items assigned to responsible teams, including implementing stricter change approval processes and enhancing monitoring and alerting systems, with designated due dates. These tasks aim to prevent future incidents by improving change management and system oversight within the context of the incident review."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is an internal incident management document (ENG-0005) from OrbitalCorp's engineering domain, specifically an incident postmortem for INC-089 involving the auth-worker system. The provided chunk outlines action items assigned to various teams, including the HR & Training Department, Incident Response Team, and Project Juniper Team, with due dates in February 2025. It details initiatives such as training sessions on change management, incident response updates, and lessons learned documentation aimed at preventing future configuration-related failures."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This is an internal incident postmortem report (ENG-0005) from OrbitalCorp's engineering domain, analyzing a critical failure (INC-089) of the auth-worker system on January 21, 2025. The provided chunk, titled \"Additional Notes,\" summarizes key details about the incident's reporting and management, highlighting that Jamie Arnold reported the issue and Crystal Robinson, the on-call engineer, managed the response. It emphasizes the importance of robust change management and monitoring practices for the high-criticality auth-worker system within Project Juniper, aiming to prevent future incidents and improve system resilience."
+  }
+]

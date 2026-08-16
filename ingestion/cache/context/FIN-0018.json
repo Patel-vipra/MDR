@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from the internal quarterly budget report (FIN-0018) for Project Kestrel during FY25-Q3. It provides the executive summary and budget overview, detailing the project's approved budget of $937,281, actual expenditures of $281,184.30, and the approval by Brian Rodriguez of the Marketing department. The chunk highlights the project's active status, budget variance, and the rejection of certain expense claims, illustrating effective financial management within the report."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal quarterly budget report for Project Kestrel (FY25-Q3) details the expenditure during the period, totaling $281,184.30. It highlights that several expense claims submitted by employees Jessica Gross, Karen Graham, Madison Poole, and Samantha Garcia were rejected, indicating a review process that ensured only approved costs contributed to the expenditure. The report is prepared by OrbitalCorp and overseen by Brian Rodriguez, emphasizing budget control and project monitoring."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from the internal quarterly budget report (FIN-0018) for Project Kestrel, managed by OrbitalCorp's Marketing department. It provides analysis and remarks on the project's financial status as of FY25-Q3, noting that the project was initiated on September 5, 2024, remains within budget, and has undergone a stringent expense review process. The section emphasizes ongoing monitoring and internal controls, highlighting effective financial management and the project's active status."
+  }
+]

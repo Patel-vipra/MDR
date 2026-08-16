@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This excerpt is from the internal finance document titled \"FIN-0020,\" a quarterly budget report for FY25-Q4. It details the budget overview for Project Titan, including allocation, expenditures, and approval information. The chunk provides specific project details such as budget ID B-061, project leader Aaron Wise, and approval by Richard Henson. It also summarizes expenditure data and confirms the project remains within its approved financial scope."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the \"Expenditure Details\" section of the internal quarterly budget report (FIN-0020) for Project Titan, managed by OrbitalCorp. It summarizes the training expenses incurred during FY25-Q4 for multiple employees, including Richard Henson, Christine Wright, Cameron Parker, and Sandra Aguilar. The table lists individual expense IDs, employee names, categories, amounts, and approval statuses, illustrating the specific costs contributing to the project's overall expenditure."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal quarterly budget report (FIN-0020) for Project Titan at OrbitalCorp, covering FY25-Q4. It details the total training expenses of $15,998, which are within the overall budget of $1,072,529. The section provides a financial summary, including the total allocated budget, expenditures to date, and remaining funds, highlighting effective budget management during this quarter."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This excerpt is from the internal quarterly budget report (FIN-0020) for Project Titan during FY25-Q4 at OrbitalCorp. It summarizes the project's financial performance, noting that approximately 30% of the allocated budget has been spent, with no significant variances reported. The section emphasizes effective budget management and the project's continued adherence to its financial scope, supporting ongoing monitoring and successful completion."
+  }
+]

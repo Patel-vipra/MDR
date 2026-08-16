@@ -1,0 +1,131 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Research & Development",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Dylan Miller",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "David Wright",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Christina Walters",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Jessica Callahan",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Brian Ramirez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Zachary Hicks",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Cheyenne Horton",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Brittany Farmer",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Dylan Miller",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "David Wright",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Christina Walters",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Jessica Callahan",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Brian Ramirez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Zachary Hicks",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Cheyenne Horton",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Brittany Farmer",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is the introductory section of the confidential legal document titled \"LEG-0012: Contract Summary for NDA with Chandler-Powers.\" It summarizes a non-disclosure agreement (Contract ID: C-017) between Orbital Corp and Chandler-Powers, providing key details such as the contract type, involved vendor (Chandler-Powers), contract value, dates, and signatory (Daniel Wagner, Head of Legal). This section sets the context for the full contract overview and related details."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from a confidential legal document titled \"LEG-0012: Contract Summary for NDA with Chandler-Powers\" related to Orbital Corp. It details vendor information for Chandler-Powers, a cloud infrastructure services provider, including their contact email. It also provides the project context for Project Atlas, managed by department D-07, and notes that the vendor involved in the project (V-016) differs from Chandler-Powers. Additionally, it includes signatory details for Daniel Wagner, Head of Legal, and information about the NDA's duration, renewal, and financial value."
+  }
+]

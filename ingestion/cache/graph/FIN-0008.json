@@ -1,0 +1,129 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Project Ember",
+        "subject_type": "Project",
+        "relation": "APPROVED",
+        "object": "Christine Wright",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Project Ember",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Sales",
+        "object_type": "Department"
+      },
+      {
+        "subject": "B-006",
+        "subject_type": "Budget",
+        "relation": "APPROVED",
+        "object": "Christine Wright",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Judy Baker",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-159",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Judy Baker",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-168",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-049",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Zachary Hicks",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-240",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Matthew Foster",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-131",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Project Ember",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Sales",
+        "object_type": "Department"
+      },
+      {
+        "subject": "B-006",
+        "subject_type": "Budget",
+        "relation": "FUNDED_BY",
+        "object": "Sales",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Christine Wright",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-006",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Christine Wright",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Ember",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Judy Baker",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "software",
+        "object_type": "System"
+      },
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "software",
+        "object_type": "System"
+      },
+      {
+        "subject": "Zachary Hicks",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "software",
+        "object_type": "System"
+      },
+      {
+        "subject": "Matthew Foster",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "software",
+        "object_type": "System"
+      }
+    ]
+  }
+]

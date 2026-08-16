@@ -1,0 +1,94 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "B-030",
+        "subject_type": "Budget",
+        "relation": "FUNDED_BY",
+        "object": "Project Cobalt",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Cobalt",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Customer Support",
+        "object_type": "Department"
+      },
+      {
+        "subject": "B-030",
+        "subject_type": "Budget",
+        "relation": "APPROVED",
+        "object": "Jeffrey Johnson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Project Cobalt",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "V-010",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Stephanie Salazar",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-207",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Stephanie Salazar",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-025",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Kathy Rivas",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-044",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Stephanie Salazar",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-040",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Stephanie Manning",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-124",
+        "object_type": "Project"
+      },
+      {
+        "subject": "David Wright",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "X-031",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Jeffrey Johnson",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "B-030",
+        "object_type": "Budget"
+      }
+    ]
+  }
+]

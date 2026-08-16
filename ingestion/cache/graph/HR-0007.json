@@ -1,0 +1,80 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Procurement",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Crystal Robinson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gerald Hensley",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Brian Rodriguez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Denise Jacobs",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Sierra Johnson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Lindsay Martinez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Samantha Garcia",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Procurement",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

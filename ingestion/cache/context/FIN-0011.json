@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the internal finance document titled \"FIN-0011: Quarterly Budget Report for FY25-Q4 \u2013 Project Helios.\" It provides an overview of the project's budget, including total allocation, expenditures, and approval details. Specifically, it details the budget overview, expenditure breakdown focusing on travel expenses for employees Angie Henderson and Allison Hill, and confirms that the budget was approved by Mark Perez. The document summarizes financial management and expenditure within Project Helios for FY25-Q4."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from the internal quarterly budget report (FIN-0011) for Project Helios during FY25-Q4. It details the project's total travel expenses of 203.00 contributed by employees Angie Henderson and Allison Hill. The section also includes a variance analysis showing the project\u2019s total expenditure of 169,471.50 remains well within the allocated budget of 564,905.00, with a remaining budget of 395,433.50. Additionally, it provides project and approval details, confirming the project's completion, approval authority, and financial management."
+  }
+]

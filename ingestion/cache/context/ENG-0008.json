@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal incident postmortem report (ENG-0008) from OrbitalCorp's engineering domain, analyzing the Sev1 outage of the auth-api system (INC-110). It details the incident's impact, timeline, root cause (unauthorized configuration change), and action items for preventing future occurrences. The report involves key personnel such as Cristian Santos, Head of Engineering, and Cameron Parker, on-call engineer, and emphasizes the importance of strict change management protocols to safeguard critical systems within Project Titan."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is a project management or incident response plan document related to the auth-api system outage (INC-110) at OrbitalCorp. The provided chunk lists action items assigned to various responsible parties, including the Project Lead, Engineering Team Lead, and DevOps Team, with due dates ranging from February 10 to February 20, 2025. It focuses on tasks to review and improve change management procedures, conduct root cause analysis, and implement safeguards to prevent future outages."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from an internal incident review document (ENG-0008) related to OrbitalCorp's engineering operations. It details two action items: providing refresher training on change management policies to relevant personnel, including Cameron Parker, and scheduling a post-incident review meeting with stakeholders such as Cristian Santos and Cameron Parker. The due date for the review meeting is February 12, 2025. This section emphasizes the importance of training and stakeholder discussions to prevent future system outages."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This chunk is from an incident postmortem report (Document ENG-0008) regarding a critical outage (INC-110) of the auth-api system used in Project Titan. It emphasizes the importance of strict change control processes and continuous operational improvements to prevent future outages. The report details the incident's impact, timeline, root cause, and action items, involving entities such as the Head of Engineering, the engineering team, DevOps, HR & Training, and project management. This section underscores the need for rigorous change management to maintain system integrity and availability."
+  }
+]

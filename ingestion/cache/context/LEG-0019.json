@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a compliance report (Document LEG-0019) related to Incident CI-014 involving the Customer Support department (ID: D-10) at OrbitalCorp. The chunk provides the full text of the report, detailing the incident's resolution, departmental information led by Monica Herrera, and contractual details with vendor Mitchell and Sons under contract C-031. It confirms the incident's high severity, resolution status, and ongoing compliance efforts."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is the conclusion section of the internal compliance report titled \"LEG-0019 - Compliance Report for Incident CI-014.\" It summarizes that the high-severity incident CI-014 has been resolved and confirms that all contractual and departmental obligations related to the incident are now in compliance. The department commits to ongoing risk monitoring to prevent future incidents. The report was prepared internally by OrbitalCorp on May 9, 2025."
+  }
+]

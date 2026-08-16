@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from the confidential legal document titled \"LEG-0002,\" which summarizes the contract C-018 between Orbital Corporation and vendor Costa PLC. It details the contract's scope, key terms, signatory authority, vendor information, and project association with Project Yukon. The section provides an overview of the contractual agreement, including dates, value, and renewal status, serving as a comprehensive internal reference for the contractual relationship and project context."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from a confidential legal contract summary (Document LEG-0002) between Orbital Corporation and Costa PLC. It details Costa PLC's engagement to provide marketing services related to Project Yukon, an active internal initiative. The chunk includes project attributes such as ID, name, start date, status, and vendor ID, highlighting that the project is ongoing and associated with a different vendor ID than the current contract. It also references the contract\u2019s terms, including value, duration, and renewal status, and confirms Michelle Evans as the signatory."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is the conclusion section of a confidential legal document summarizing Contract C-018 between Orbital Corporation and vendor Costa PLC. It highlights the key aspects of the agreement related to Project Yukon, including the contract's two-year duration, ongoing renewal discussions, and confirmation that all details are accurate as of September 14, 2024. The section encapsulates the core contractual information and emphasizes its internal, confidential status."
+  }
+]

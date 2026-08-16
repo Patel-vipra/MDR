@@ -1,0 +1,96 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "R-297",
+        "object_type": "Review"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "R-311",
+        "object_type": "Review"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "R-324",
+        "object_type": "Review"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "R-336",
+        "object_type": "Review"
+      },
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "R-342",
+        "object_type": "Review"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "R-369",
+        "object_type": "Review"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Aaron Wise",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Cristian Santos",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Richard Rodriguez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michelle Harmon",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jose Schultz",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "David Douglas Jr.",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Jamie Arnold",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Joel Williams",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

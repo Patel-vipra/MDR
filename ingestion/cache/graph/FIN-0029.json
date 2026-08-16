@@ -1,0 +1,124 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-022",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Newman Ltd",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "E-146",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-022",
+        "object_type": "Contract"
+      },
+      {
+        "subject": "Project Quasar",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-08",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Michelle Evans",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Quasar",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Xenon",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-09",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Stephanie Salazar",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Xenon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Basalt",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-09",
+        "object_type": "Department"
+      },
+      {
+        "subject": "David Douglas Jr.",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Basalt",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Fathom",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-10",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Jamie Smith",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Quasar",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "Newman Ltd",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Project Xenon",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "Newman Ltd",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Project Basalt",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "Newman Ltd",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Project Fathom",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "Newman Ltd",
+        "object_type": "Vendor"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Basalt",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "Newman Ltd",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Project Fathom",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "Newman Ltd",
+        "object_type": "Vendor"
+      }
+    ]
+  }
+]

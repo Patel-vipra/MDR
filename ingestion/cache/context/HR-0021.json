@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from the confidential HR-0021: Leave Report, which summarizes leave approvals within the Legal department overseen by Daniel Wagner. It details department information, including location and department ID, and lists recent leave approvals for employees such as Cameron Parker, Elizabeth Fowler, Jose Schultz, Joshua Cooke, Kelly Donovan, and Nicole Herring. The report specifies leave types and durations, providing an internal overview of approved employee leave within the organization."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from the confidential HR-0021: Leave Report, an internal document summarizing leave approvals within the Legal department overseen by Daniel Wagner. It indicates that the report was prepared by an unspecified individual on June 7, 2025. The chunk signifies the document's authorship and date, situating it as the closing or signature section of the report, which confirms the report's creation details and internal use only."
+  }
+]

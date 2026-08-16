@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This excerpt is a performance summary report (Document HR-0001) for OrbitalCorp's Customer Support department during FY25-Q4. It details the department's leadership under Monica Herrera, including her performance rating of 3/5, and provides evaluations of key team members, most of whom received ratings of 4, with Julia Torres rated 5. The document aims to assess departmental performance, leadership effectiveness, and individual contributions within the specified quarter."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from an internal HR performance review document (HR-0001) for OrbitalCorp's Customer Support department during FY25-Q4. It summarizes individual performance evaluations, specifically highlighting Darlene Miller, an employee with ID E-172, who was reviewed by department head Monica Herrera. Darlene received a rating of 4 with no promotion flagged, and her comments indicate consistent performance. This section provides details on team members' performance assessments within the broader departmental review."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from a confidential performance summary report (Document HR-0001) for OrbitalCorp's Customer Support department during FY25-Q4. It highlights team members' performance ratings, noting Julia Torres's exceptional rating of 5 and others rated at 4, indicating solid performance. The section summarizes departmental stability, leadership effectiveness, and confirms no promotions occurred during the review cycle. It concludes with a confidentiality notice and document metadata, providing context for internal organizational review and evaluation."
+  }
+]

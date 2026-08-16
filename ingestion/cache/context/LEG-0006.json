@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from the confidential legal document LEG-0006, a contract summary for Contract ID C-021 between OrbitalCorp and the vendor Guzman-Miller. It provides an overview of the contract details, including the scope, financial terms, duration, and signatory information. The document pertains to a Master Service Agreement for recruitment services related to Project Sentinel, highlighting key contractual attributes such as start and end dates, value, and renewal status."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is a contract summary document (LEG-0006) for an agreement between OrbitalCorp and vendor Guzman-Miller, focusing on Project Sentinel. The chunk details the Contract Details section, outlining the scope of services (recruitment services under an MSA), financial terms (value of 727,187.00), contract duration (June 2, 2024, to February 12, 2026), and signatory information (signed by Aaron Wise). It also provides context on the project's management, status (on hold), and upcoming renewal negotiations."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from a confidential internal contract summary document (LEG-0006) for OrbitalCorp. It details Contract ID C-021 between OrbitalCorp and vendor Guzman-Miller for Project Sentinel. The chunk provides key contract attributes, including the vendor's name, project association, contract value of 727,187.00, start date of June 2, 2024, and the signature by Aaron Wise. It summarizes essential contractual information, serving as a quick reference within the broader document that outlines the agreement's scope, terms, and context."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This chunk is from the confidential legal document titled \"LEG-0006,\" which summarizes Contract C-021 between OrbitalCorp and vendor Guzman-Miller for Project Sentinel. The chunk specifically highlights the contract's renewal status, indicating that it is set to be renegotiated. It is part of a summary table that provides key contract attributes, including the renewal process, and is intended for internal reference to track contractual terms and upcoming actions."
+  },
+  {
+    "chunk_ix": 4,
+    "context_summary": "This is a confidential internal legal document summarizing Contract C-021 between OrbitalCorp and vendor Guzman-Miller for recruitment services related to Project Sentinel. The chunk states that the document is intended solely for internal use and must be handled according to enterprise confidentiality policies, emphasizing its sensitive nature. It appears at the end of the document, reinforcing the confidentiality and internal handling instructions for the contract summary."
+  }
+]

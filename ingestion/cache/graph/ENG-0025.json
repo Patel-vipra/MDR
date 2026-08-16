@@ -1,0 +1,28 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "auth-pipeline",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Zephyr",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Daniel Kennedy",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "auth-pipeline",
+        "object_type": "System"
+      },
+      {
+        "subject": "Debra Davidson",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Zephyr",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

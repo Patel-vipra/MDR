@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a section from the \"LEG-0015 Compliance Report,\" a legal compliance assessment document. The chunk provides the full text of the report's introduction, incident overview, contract details, department and leadership information, incident resolution, vendor information, and conclusion. It details the resolution of incident CI-018 related to contract C-034 with vendor Smith, Reynolds and Watson, within the Procurement department led by Gabrielle Davis. The report confirms that the incident was resolved in accordance with organizational and contractual standards."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the \"LEG-0015 Compliance Report,\" a restricted internal document assessing incident CI-018 related to contract C-034 within OrbitalCorp's Procurement department. The chunk summarizes that all relevant details about the incident, contract, department, and vendor have been reviewed and documented. It confirms that the incident has been resolved in accordance with organizational and contractual compliance standards, and notes that the report is intended for internal use only. This section appears near the conclusion of the report, affirming the completion of the review process."
+  }
+]

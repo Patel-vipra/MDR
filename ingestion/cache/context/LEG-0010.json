@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from a confidential legal document titled \"LEG-0010: Contract Summary for C-030.\" It provides detailed information about a contractual agreement (C-030) between OrbitalCorp and the vendor Johnson, Robbins and Abbott. The section covers the contract's overview, including its identification as a Statement of Work for hardware supply, its value, duration, signatory details, and its relationship to Project Fathom, which has since been completed."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the confidential legal contract summary (Document LEG-0010) details the relationship between the organization and vendor Johnson, Robbins and Abbott concerning Contract C-030. It explains that although the associated project, Project Fathom, has concluded, the hardware supply contract remains active and is nearing expiration. The section highlights the contract's status, renewal considerations, and key details such as contract ID, dates, vendor information, and project association, providing essential context for ongoing contractual oversight."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is the conclusion section of a confidential legal document summarizing Contract C-030 between OrbitalCorp and vendor Johnson, Robbins and Abbott. The chunk highlights the key contractual details, including scope, financials, personnel, and the contract's expiring status. It emphasizes the need for organizational action regarding renewal or transition, encapsulating the essential information for internal review and decision-making."
+  }
+]

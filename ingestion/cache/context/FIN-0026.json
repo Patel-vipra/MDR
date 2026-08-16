@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an internal finance report titled \"FIN-0026: Department Expense Summary for Data & Analytics,\" dated May 7, 2025. It summarizes the expenses incurred by the Data & Analytics department, led by Jamie Arnold, including project-related costs, approval statuses, and expenditure patterns. The section provides an overview of the department's structure, key expenses, and ongoing procurement activities, highlighting significant rejected and pending expenses associated with various projects."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal financial report \"FIN-0026: Department Expense Summary for Data & Analytics\" presents a table of recent department expenses. It details individual expense entries, including employee names, project associations, amounts, categories, approval statuses, and descriptions. The entities involved are employees Jessica Gross, Joel Williams, Michael Powell, and Denise Jones, with expenses linked to projects Kestrel, Glacier, Fathom, and Drift. The table highlights rejected, pending, and approved expenses, illustrating the department's ongoing expenditure management as of May 7, 2025."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from an internal financial report titled \"FIN-0026: Department Expense Summary for Data & Analytics,\" dated May 7, 2025. It details conference expenses related to Project Yukon, specifically approved expenses incurred by employee Megan Orr, totaling AUD 6,510. The full document provides a comprehensive overview of recent expenses, including project-specific costs, approval statuses, and expenditure patterns within the Data & Analytics department led by Jamie Arnold."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This excerpt is from the internal financial report titled \"FIN-0026: Department Expense Summary for Data & Analytics,\" dated May 7, 2025. It summarizes recent expenses incurred by the Data & Analytics department led by Jamie Arnold at OrbitalCorp. The chunk specifically discusses expense variances and commentary, highlighting the highest costs associated with Jessica Gross's rejected Project Kestrel expenses, pending approvals for Joel Williams and Michael Powell's office supplies, and approved expenses for Megan Orr's Project Yukon. It emphasizes the department's expense management and the need for further review."
+  }
+]

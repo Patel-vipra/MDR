@@ -1,0 +1,54 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-017",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Chandler-Powers",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-017",
+        "object_type": "Contract"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Atlas",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-07",
+        "object_type": "Department"
+      },
+      {
+        "subject": "E-102",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Atlas",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Atlas",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-002",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Daniel Wagner",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-017",
+        "object_type": "Contract"
+      }
+    ]
+  }
+]

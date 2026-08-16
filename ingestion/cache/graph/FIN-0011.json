@@ -1,0 +1,75 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "B-041",
+        "subject_type": "Budget",
+        "relation": "APPROVED",
+        "object": "Mark Perez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Mark Perez",
+        "subject_type": "Employee",
+        "relation": "OWNED_BY",
+        "object": "D-06",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Angie Henderson",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Helios",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Helios",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Helios",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Procurement",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Michelle Harmon",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Helios",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Helios",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-041",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Mark Perez",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-041",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Project Helios",
+        "subject_type": "Project",
+        "relation": "SUPPLIED_BY",
+        "object": "V-019",
+        "object_type": "Vendor"
+      }
+    ]
+  }
+]

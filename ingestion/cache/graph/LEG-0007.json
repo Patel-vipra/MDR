@@ -1,0 +1,40 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-042",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Garcia, Foley and Silva",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Stephen Mckee",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-042",
+        "object_type": "Contract"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Sentinel",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "B-020",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Stephen Mckee",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-042",
+        "object_type": "Contract"
+      }
+    ]
+  }
+]

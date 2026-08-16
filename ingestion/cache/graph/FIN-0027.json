@@ -1,0 +1,58 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-003",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Chavez Group",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-033",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Chavez Group",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "E-167",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-003",
+        "object_type": "Contract"
+      },
+      {
+        "subject": "E-160",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-033",
+        "object_type": "Contract"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Angelica Keith",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Chavez Group",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Joyce Solis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Chavez Group",
+        "object_type": "Vendor"
+      }
+    ]
+  }
+]

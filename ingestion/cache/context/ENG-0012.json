@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an incident postmortem report (ENG-0012) for Incident INC-027, conducted by the engineering department at OrbitalCorp. The chunk details the impact, timeline, root cause, and action items related to a Severity Level 2 incident involving the billing-worker system (SYS-009). It covers the system disruption caused by a deployment error during Project Lattice, the response efforts, and recommendations for improving deployment procedures and incident management to prevent future occurrences."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from an internal incident management document (ENG-0012) detailing the post-incident review for INC-027 related to the billing-worker system (SYS-009). The chunk outlines specific action items assigned to responsible parties, including the Project Lead (E-033), DevOps Team, and HR & Training Department, with respective due dates. These actions focus on reviewing deployment procedures, implementing validation checks, and training deployment teams to prevent future errors, reflecting ongoing efforts to improve deployment practices following a Severity Level 2 incident."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This internal incident management document details actions taken by OrbitalCorp's Incident Management Team and responsible personnel, including Angelica Keith, to improve response protocols following the Sev2 incident involving the billing-worker system (SYS-009). The chunk outlines specific measures such as updating incident response procedures and ongoing system monitoring to prevent future delays in resolving similar incidents, reflecting lessons learned from the February 2025 deployment error incident (INC-027)."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This is an internal incident postmortem report (ENG-0012) for a Severity Level 2 system outage (INC-027) involving the billing-worker system (SYS-009) within Project Lattice. The chunk emphasizes the importance of rigorous deployment validation and proactive incident management, highlighting that ongoing improvements in deployment procedures and incident response are essential to enhance system stability and resilience. It reflects on lessons learned from the incident to prevent future disruptions."
+  }
+]

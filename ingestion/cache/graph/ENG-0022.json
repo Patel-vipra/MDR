@@ -1,0 +1,32 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "identity-gateway",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Drift",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Brenda Hall",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "identity-gateway",
+        "object_type": "System"
+      },
+      {
+        "subject": "David Wright",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Drift",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  }
+]

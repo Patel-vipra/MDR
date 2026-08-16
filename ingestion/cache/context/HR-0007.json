@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is an excerpt from a confidential internal performance report (HR-0007) for Orbital Corporation's Procurement department during FY25-Q2. It introduces the document, providing an overview of the department led by Gabrielle Davis, including her role and hiring date, and details the department's organizational structure and leadership. The section sets the context for the performance review summary and key personnel evaluations contained in the full report."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from the internal performance review report titled \"HR-0007: Procurement Department Performance\" for FY25-Q2. It summarizes the department\u2019s evaluation process, highlighting that all key team members, including Crystal Robinson, Gerald Hensley, Brian Rodriguez, Denise Jacobs, Sierra Johnson, Lindsay Martinez, and Samantha Garcia, received consistent performance ratings of 4. The reviews were conducted by Department Head Gabrielle Davis, reflecting overall team performance during this period."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal performance review document \"HR-0007: Procurement Department Performance\" for Orbital Corporation's Procurement team during FY25-Q2. It summarizes the performance ratings of reviewed employees, all rated 4, indicating consistent performance, and highlights key personnel contributions, including Brian Rodriguez, Crystal Robinson, Denise Jacobs, Sierra Johnson, Lindsay Martinez, and Samantha Garcia. The section concludes that the team is stable and high-performing under leader Gabrielle Davis, with recommendations for ongoing support and development."
+  }
+]

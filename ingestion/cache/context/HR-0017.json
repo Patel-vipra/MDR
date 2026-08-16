@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is a confidential HR leave report from OrbitalCorp, dated June 12, 2025. It summarizes recent leave approvals within the Finance department, led by Noah Rhodes. The chunk details the department overview, including leadership and location, and provides a summary of approved leave records for employees, covering unpaid, parental, and long service leave. It also notes that all leave was approved in accordance with internal policies."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from the \"HR-0017: Leave Report,\" a confidential internal document from OrbitalCorp's HR department. It contains the confidentiality notice, emphasizing that the report includes sensitive employee leave information intended only for authorized personnel. The notice highlights restrictions on sharing or distributing the data and indicates that the document was prepared by an unspecified individual, with placeholders for the preparer's name, position, and date. This section underscores the importance of confidentiality regarding employee leave records within the report."
+  }
+]

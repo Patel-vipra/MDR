@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Research & Development",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "D-09",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Brian Ramirez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Patty Perez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Matthew Foster",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Jessica Callahan",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Christina Walters",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michelle Harmon",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Cheyenne Horton",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  }
+]

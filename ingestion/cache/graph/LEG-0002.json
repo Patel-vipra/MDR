@@ -1,0 +1,73 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-018",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Costa PLC",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Michelle Evans",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-018",
+        "object_type": "Contract"
+      },
+      {
+        "subject": "Michelle Evans",
+        "subject_type": "Employee",
+        "relation": "OWNED_BY",
+        "object": "D-08",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Project Yukon",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-04",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Project Yukon",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-026",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Michelle Evans",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-018",
+        "object_type": "Contract"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "C-018",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Costa PLC",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-018",
+        "subject_type": "Contract",
+        "relation": "OWNED_BY",
+        "object": "Project Yukon",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

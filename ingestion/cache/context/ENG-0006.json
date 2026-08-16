@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an incident postmortem report (ENG-0006) for incident INC-091 within the engineering domain at OrbitalCorp. The document details the impact, timeline, root cause, and corrective actions related to a configuration change that disrupted the auth-gateway system in Project Fathom. The chunk covers the incident's background, including its effects on user authentication, the timeline of detection and resolution, and the identified root cause involving inadequate testing of a configuration update."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from an internal incident postmortem report (ENG-0006) by OrbitalCorp regarding incident INC-091 affecting the auth-gateway system in Project Fathom. It details an action item assigned to the HR and Training Department, due by June 20, 2025, to provide refresher training on change procedures for technical staff. The goal is to reduce human error during deployment, contributing to improved system stability and preventing future incidents."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is the conclusion section of an internal incident postmortem report (ENG-0006) for OrbitalCorp, analyzing incident INC-091 affecting the auth-gateway system within Project Fathom. The chunk emphasizes the importance of strict change management protocols, highlights the swift response by on-call engineer Alyssa Long, and notes that the resolution time was acceptable. It also outlines future actions to prevent recurrence and improve system resilience, reflecting the team's commitment to operational excellence."
+  }
+]

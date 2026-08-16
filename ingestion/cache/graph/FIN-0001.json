@@ -1,0 +1,101 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Project Granite",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Human Resources",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Dylan Miller",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Granite",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Adam Vaughan",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "budget",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Sherri Baker",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-148",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Jeffrey Chavez",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-066",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Debra Davidson",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-154",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Cassandra Gaines",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-254",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Debra Davidson",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-027",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Elizabeth Fowler",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-197",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Adam Vaughan",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "B-048",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Dylan Miller",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "P-008",
+        "object_type": "Project"
+      },
+      {
+        "subject": "P-008",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Human Resources",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

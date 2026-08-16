@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is from the internal finance document FIN-0017, a quarterly budget report for Project Cobalt during FY25-Q3. It summarizes the executive overview, including budget allocation, expenditures, and project status. The chunk details the total budget allocated (1,644,220 AUD), actual spending (493,266 AUD), remaining funds, and notes that the project is on hold and the budget has been closed after review. It provides key financial figures and project context relevant to internal stakeholders."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the FY25-Q3 Quarterly Budget Report for Project Cobalt provides details on the project's financial status, including budget allocation, expenditures, and project status. It highlights that approximately 30% of the allocated budget has been spent, with the project currently on hold and pending approval for conference-related expenses. The section also includes specific project identifiers, approval details, and a summary of pending expenses, situating the financial overview within the broader context of project management and budget control."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from the FY25-Q3 Quarterly Budget Report for Project Cobalt (Document FIN-0017). It details the total pending expenses of 22,337 AUD, which are awaiting approval, and discusses how these pending costs may affect overall expenditure. The section also summarizes the project's financial status, noting that actual spending was significantly below the allocated budget due to the project's on-hold status, and concludes that the budget has been officially closed following review by the Product Manager."
+  }
+]

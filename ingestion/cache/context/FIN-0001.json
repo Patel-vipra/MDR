@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This excerpt is from Document FIN-0001, a quarterly budget report for FY25-Q4 related to Project Granite. It details the project's financial overview, including the total allocated budget of AUD 1,992,469, expenditures of AUD 597,740.7, and the remaining funds. The report highlights project management by Dylan Miller, approval by Adam Vaughan, and confirms the budget's closure after the quarter. This chunk provides key financial figures and project ownership information from the report."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the quarterly budget report for Project Granite (FY25-Q4) details the expenditure as approximately 30% of the total allocated budget of AUD 1,992,469. It includes a breakdown of approved software expenses for multiple employees, totaling AUD 5,495. The report highlights the conservative spending rate during the quarter, emphasizing effective budget management by the project team led by Dylan Miller and overseen by approver Adam Vaughan."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt from the \"Quarterly Budget Report for FY25-Q4\" (Document FIN-0001) summarizes the financial status of Project Granite managed by Dylan Miller and approved by Adam Vaughan. It details the total software expenses of 5,495 AUD, the overall expenditure of approximately 597,741 AUD, and the remaining budget of about 1.39 million AUD. The section also discusses variance analysis, project oversight, and confirms the effective management of the project's budget during the quarter."
+  }
+]

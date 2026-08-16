@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is a section of the confidential HR performance summary report (Document HR-0002) for FY25-Q2, focusing on the Department of Data & Analytics led by Jamie Arnold. It provides an overview of the department, including leadership, performance reviews, and employee ratings. The section highlights managerial evaluation, employee performance ratings, and promotion considerations, summarizing the department\u2019s overall high performance and talent recognition during the quarter."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the confidential internal performance report for OrbitalCorp's Data & Analytics department (FY25-Q2) lists high-performing employees evaluated by Head of Department Jamie Arnold. It highlights Michael Lewis and Joel Williams, both rated 5 and flagged for promotion due to their leadership potential and advancement prospects. The chunk is part of a table summarizing employee performance and promotion considerations within the department."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the confidential internal performance review document titled \"HR-0002: Performance Summary for FY25-Q2,\" which summarizes the second quarter evaluations of the Data & Analytics department at OrbitalCorp. The chunk, titled \"Notable Observations,\" highlights the department\u2019s exemplary performance, with all team members rated highly and several recommended for promotion. It also provides a summary of key personnel involved in the review process, including department head Jamie Arnold, senior reviewer Allison Hill, and evaluated employees such as Joel Williams and Megan Young."
+  }
+]

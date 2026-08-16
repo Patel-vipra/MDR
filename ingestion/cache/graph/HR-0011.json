@@ -1,0 +1,33 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "OWNED_BY",
+        "object": "Marketing department",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Marketing department",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "OrbitalCorp",
+        "object_type": "Vendor"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  },
+  {
+    "chunk_ix": 3,
+    "triples": []
+  }
+]

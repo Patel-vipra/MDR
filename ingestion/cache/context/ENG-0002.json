@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the internal incident postmortem report titled \"ENG-0002 Incident Postmortem: INC-059,\" which analyzes a critical system failure within Project Juniper. It details the incident's impact, timeline, root cause, and action items related to the auth-worker system, owned by Project Juniper. The chunk specifically covers the incident's impact, response timeline, root cause (a configuration change), and proposed corrective actions to prevent future occurrences."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is an internal incident postmortem report (ENG-0002) for Project Juniper, detailing a critical system failure (INC-059) caused by a configuration change in the auth-worker system. The chunk outlines specific action items assigned to responsible parties, including the Project Juniper Lead, DevOps Team, and Management, with deadlines to review and improve change management procedures, implement validation and rollback mechanisms, and identify protocol gaps. These actions aim to prevent future incidents and enhance system stability."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This is an internal incident management document titled \"ENG-0002 Incident Postmortem: INC-059,\" detailing a critical system failure in the auth-worker component of Project Juniper caused by a configuration change. The provided chunk lists action items assigned to various teams, including a post-incident review involving Crystal Robinson, refresher training on change management policies, and ongoing system monitoring. These tasks aim to improve change procedures and system stability following the incident."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This is the conclusion section of an internal incident postmortem report (ENG-0002) by OrbitalCorp regarding incident INC-059, which occurred on April 8, 2025. The report involves the Project Juniper team and highlights the critical impact of a configuration change on the auth-worker system, a core component built on Node.js/Express/MongoDB. The conclusion emphasizes the importance of strict change management protocols, acknowledges Crystal Robinson\u2019s role in resolving the incident within 4.5 hours, and outlines plans to reinforce procedures to prevent future occurrences."
+  }
+]

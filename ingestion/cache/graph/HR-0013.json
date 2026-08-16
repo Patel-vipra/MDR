@@ -1,0 +1,99 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Procurement department",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Procurement department",
+        "subject_type": "Department",
+        "relation": "OWNED_BY",
+        "object": "D-08",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Procurement department",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Allison Hill",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Gabrielle Davis",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Derek Zuniga",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Crystal Robinson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Sierra Johnson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Michelle Evans",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Joyce Solis",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "Victoria Larson",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Gabrielle Davis",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Procurement department",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

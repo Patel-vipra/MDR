@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is a section from the confidential legal document LEG-0007, which summarizes the Master Service Agreement (MSA) contract C-042 between the organization and the vendor Garcia, Foley and Silva. It includes key contract details such as the contract ID, vendor information, contract value, start and end dates, and renewal status. This section provides essential contractual information relevant to the agreement's scope, duration, and parties involved."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from a confidential legal document titled \"LEG-0007,\" which summarizes the Master Service Agreement (MSA) contract ID C-042 between the organization and vendor Garcia, Foley and Silva. It provides detailed information about the vendor, including their categorization as a marketing agency and contact email, as well as the vendor\u2019s multiple contractual relationships. The chunk also covers project details related to Project Sentinel, contract signatory information, contract duration and renewal status, and the financial value of the agreement."
+  }
+]

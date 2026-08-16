@@ -1,0 +1,94 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Research & Development",
+        "object_type": "Department"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Jamie Smith",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Echo",
+        "object_type": "Project"
+      },
+      {
+        "subject": "David Wright",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Cobalt",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cheyenne Horton",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Basalt",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cheyenne Horton",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Aurora",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michelle Harmon",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Xenon",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Jamie Smith",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Echo",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cheyenne Horton",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Basalt",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Cheyenne Horton",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Aurora",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Michelle Harmon",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Xenon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Ryan Munoz",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Research & Development",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

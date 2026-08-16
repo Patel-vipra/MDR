@@ -1,0 +1,82 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Marketing",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Nathan Freeman",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Fred Smith",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Margaret Hawkins DDS",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Jessica Smith",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Shirley Suarez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Jason Powell",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Jessica Smith",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Shirley Suarez",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Jason Powell",
+        "object_type": "Employee"
+      }
+    ]
+  }
+]

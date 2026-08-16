@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This is an incident postmortem report (ENG-0011) for internal engineering review, detailing the incident INC-039. The chunk covers the impact, timeline, root cause, and initial response to a deployment error that affected the low-criticality billing-worker system (SYS-009) within Project Lattice. It describes the operational disruption lasting 11.5 hours, the identification and resolution process, and highlights areas for procedural improvement to prevent future incidents."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt is from an internal incident postmortem report (ENG-0011) analyzing the INC-039 event affecting the billing-worker system in Project Lattice. The table outlines specific action items assigned to responsible teams, such as the Deployment Team and DevOps Team, with pending due dates and notes emphasizing the need to review deployment procedures and add validation checks. This section details the planned steps to prevent future deployment errors following the incident."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from an internal incident action plan related to the ENG-0011 Incident Postmortem: INC-039. It details specific action items assigned to responsible teams\u2014HR & Training Department, Monitoring & Ops Teams, and Incident Response Team\u2014focused on improving deployment training, monitoring systems, and incident documentation. These tasks aim to prevent future deployment errors and enhance incident response, and are part of the broader effort to address the root cause identified in the postmortem of a system disruption affecting the billing-worker system during Project Lattice."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This is the \"Summary\" section of the incident postmortem report titled \"ENG-0011 Incident Postmortem: INC-039.\" The document details an internal investigation by OrbitalCorp into a low-criticality incident affecting the billing-worker system during Project Lattice. This chunk summarizes that the incident was caused by a deployment error, was resolved within 11.5 hours by engineer Angelica Keith, and emphasizes ongoing efforts to improve deployment protocols and monitoring to prevent future occurrences."
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Lisa Hensley",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Facilities department",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Lisa Hensley",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Shane Henderson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "E-001",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "Lisa Hensley",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "HR-0018",
+        "subject_type": "Review",
+        "relation": "OWNED_BY",
+        "object": "Facilities",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

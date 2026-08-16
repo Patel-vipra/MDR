@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This excerpt is a post-incident report (Document ENG-0003) analyzing a Sev1 incident (INC-067) affecting the auth-worker system within Project Juniper. It details the incident's impact, timeline, root cause\u2014specifically a configuration change\u2014and subsequent action items. The report involves key personnel such as Lisa Hensley, who reported the incident, and Crystal Robinson, who led the response. This section covers the incident's impact, timeline, root cause, and recommended follow-up actions to prevent future occurrences."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This is an internal incident management document (ENG-0003) from OrbitalCorp detailing the post-incident review for incident INC-067, which affected the auth-worker system in Project Juniper. The provided chunk outlines specific action items assigned to various responsible parties, including enhancing detection capabilities, conducting a post-incident review and training, and scheduling a system audit. These tasks aim to improve system resilience and prevent future disruptions related to auth-worker configuration issues."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This \"Internal Incident Postmortem\" document for OrbitalCorp details the analysis of incident INC-067 affecting the auth-worker system within Project Juniper. The provided chunk, titled \"Additional Notes,\" emphasizes the importance of meticulous change control and system monitoring. It highlights the roles of key personnel, such as Crystal Robinson, who contributed to resolving the incident reported by Lisa Hensley. The chunk also outlines future focus areas to prevent similar incidents, including improving change validation and monitoring processes. This section summarizes lessons learned and ongoing improvement efforts following the Sev1 incident."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of Document FIN-0008, an internal quarterly budget report for FY25-Q3 related to Project Ember. It details the project's budget allocation of 1,058,790.00, with expenditures of 317,637.00, overseen by Christine Wright, a Staff Engineer in the Sales department. The chunk includes a summary table showing the budget status, highlighting a remaining variance of 741,153.00, and confirms the project was approved and remains within budget at the end of the quarter."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This excerpt from the internal quarterly budget report for FY25-Q3 details the remaining unspent funds\u2014approximately 741,153.00\u2014out of the total allocated budget of 1,058,790.00 for Project Ember, overseen by Christine Wright. It also provides a breakdown of software expenses incurred during the quarter, totaling 3,369.00, approved by various personnel including Judy Baker, Stephanie Ross, Zachary Hicks, and Matthew Foster. The report confirms the project\u2019s budget status and expenditure focus."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This excerpt is from the internal quarterly budget report (FIN-0008) for Project Ember at OrbitalCorp, prepared on April 20, 2025. It details the total software expenditures of 3,369.00 USD during FY25-Q3, highlighting the focus on software resource investments approved by employees Judy Baker, Stephanie Ross, Zachary Hicks, and Matthew Foster. The project, managed by the Sales department and approved by Christine Wright, remains within its overall budget, which was approved by Wright and is now fully allocated."
+  }
+]

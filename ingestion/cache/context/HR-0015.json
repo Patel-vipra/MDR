@@ -1,0 +1,10 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is part of the confidential HR-0015 Leave Report for OrbitalCorp's Data & Analytics department. It details the department's overview, including its head, Jamie Arnold, and summarizes leave activities approved for department members, such as annual, unpaid, sick, and parental leaves, along with their durations and approvers. The section emphasizes compliance with company policies and confidentiality."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is the \"Confidentiality Notice\" section of the HR-0015 Leave Report, a confidential internal document from OrbitalCorp. It emphasizes that the report contains sensitive information intended only for internal use, prohibiting unauthorized sharing. The notice underscores the importance of confidentiality and is signed off with placeholders for the preparer's name, position, and the date of issuance, which is June 1, 2025. This section appears at the end of the report, reinforcing the document's confidential nature."
+  }
+]

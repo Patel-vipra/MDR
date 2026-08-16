@@ -1,0 +1,92 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-026",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Navarro LLC",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-026",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Connor West",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "C-026",
+        "subject_type": "Contract",
+        "relation": "WORKS_ON",
+        "object": "Project Lumen",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "C-026",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Navarro LLC",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Connor West",
+        "subject_type": "Employee",
+        "relation": "OWNED_BY",
+        "object": "D-11",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Project Lumen",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-05",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Project Lumen",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-013",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "C-026",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Connor West",
+        "object_type": "Employee"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "C-026",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Navarro LLC",
+        "object_type": "Vendor"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 3,
+    "triples": [
+      {
+        "subject": "Connor West",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-026",
+        "object_type": "Contract"
+      }
+    ]
+  }
+]

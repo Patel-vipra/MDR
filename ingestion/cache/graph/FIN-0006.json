@@ -1,0 +1,72 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": []
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-271",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-081",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-136",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-251",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-095",
+        "object_type": "Budget"
+      },
+      {
+        "subject": "Stephanie Ross",
+        "subject_type": "Employee",
+        "relation": "APPROVED",
+        "object": "X-192",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "P-009",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "Facilities",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Angelica Keith",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "P-009",
+        "object_type": "Project"
+      }
+    ]
+  }
+]

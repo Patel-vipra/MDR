@@ -1,0 +1,18 @@
+[
+  {
+    "chunk_ix": 0,
+    "context_summary": "This chunk is a confidential legal contract summary (Document LEG-0008) between the organization and vendor Wood-Hale, related to legal services for Project Horizon. It details the contract C-032, including key information such as contract dates (Nov 2023 to Nov 2024), value (over 316,000), signing by Fred Smith, and auto-renewal status. The document provides an overview of contractual terms, vendor details, and project context, serving as an internal reference for legal and project management purposes."
+  },
+  {
+    "chunk_ix": 1,
+    "context_summary": "This chunk is from the confidential legal contract summary document titled \"LEG-0008,\" which details an agreement between OrbitalCorp and the vendor Wood-Hale. It includes vendor information such as the vendor's name, service category (Legal Services), contact email, and related contract ID (C-002). Additionally, it provides an overview of the associated project, Project Horizon, including its project ID (P-009), owner department (D-12), and project lead employee (E-194). This section situates the vendor and project details within the broader contractual context."
+  },
+  {
+    "chunk_ix": 2,
+    "context_summary": "This chunk is from the internal legal document titled \"LEG-0008,\" which summarizes the contract C-032 between OrbitalCorp and vendor Wood-Hale. It details the project \"Project Horizon,\" including its budget (B-009), start date (June 13, 2025), current status (Planned), and the associated vendor ID (V-003). This information situates the project\u2019s financial and operational context within the broader contract summary, highlighting key attributes relevant to internal tracking and project management."
+  },
+  {
+    "chunk_ix": 3,
+    "context_summary": "This chunk is from a confidential legal contract summary (Document LEG-0008) for Contract C-032 between OrbitalCorp and vendor Wood-Hale. It details the signatory, Fred Smith, a Brisbane-based Paralegal, who signed the NDA supporting Project Horizon. The chunk also covers the contract's duration from November 2023 to November 2024, its value of $316,849, and notes its automatic renewal. It emphasizes the NDA's role in ensuring legal compliance and confidentiality for the project."
+  }
+]

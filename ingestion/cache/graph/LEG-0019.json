@@ -1,0 +1,39 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "CI-014",
+        "subject_type": "Incident",
+        "relation": "OWNED_BY",
+        "object": "Customer Support",
+        "object_type": "Department"
+      },
+      {
+        "subject": "C-031",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "E-151",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "C-031",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Mitchell and Sons",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Mitchell and Sons",
+        "subject_type": "Vendor",
+        "relation": "OWNED_BY",
+        "object": "P-030",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": []
+  }
+]

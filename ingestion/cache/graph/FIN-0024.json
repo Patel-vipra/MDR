@@ -1,0 +1,75 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Marketing",
+        "object_type": "Department"
+      },
+      {
+        "subject": "Nathan Freeman",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Monsoon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Angelica Keith",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Lattice",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Jonathan Peterson",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Jade",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Angela Vaughn",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Jade",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Joshua Perry",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Drift",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Joshua Perry",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Drift",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Nathan Freeman",
+        "subject_type": "Employee",
+        "relation": "WORKS_ON",
+        "object": "Project Monsoon",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Abigail Shaffer",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Marketing",
+        "object_type": "Department"
+      }
+    ]
+  }
+]

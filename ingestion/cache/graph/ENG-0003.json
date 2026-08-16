@@ -1,0 +1,45 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "auth-worker",
+        "subject_type": "System",
+        "relation": "OWNED_BY",
+        "object": "Project Juniper",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Crystal Robinson",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "auth-worker",
+        "object_type": "System"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "Crystal Robinson",
+        "subject_type": "Employee",
+        "relation": "REVIEWED",
+        "object": "INC-067",
+        "object_type": "Incident"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": [
+      {
+        "subject": "Crystal Robinson",
+        "subject_type": "Employee",
+        "relation": "ON_CALL_FOR",
+        "object": "INC-067",
+        "object_type": "Incident"
+      }
+    ]
+  }
+]

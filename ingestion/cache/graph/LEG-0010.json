@@ -1,0 +1,79 @@
+[
+  {
+    "chunk_ix": 0,
+    "triples": [
+      {
+        "subject": "C-030",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Johnson, Robbins and Abbott",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "Jeffrey Johnson",
+        "subject_type": "Employee",
+        "relation": "SIGNED",
+        "object": "C-030",
+        "object_type": "Contract"
+      },
+      {
+        "subject": "Project Fathom",
+        "subject_type": "Project",
+        "relation": "OWNED_BY",
+        "object": "D-10",
+        "object_type": "Department"
+      },
+      {
+        "subject": "E-160",
+        "subject_type": "Employee",
+        "relation": "MANAGES",
+        "object": "Project Fathom",
+        "object_type": "Project"
+      },
+      {
+        "subject": "Project Fathom",
+        "subject_type": "Project",
+        "relation": "FUNDED_BY",
+        "object": "B-033",
+        "object_type": "Budget"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 1,
+    "triples": [
+      {
+        "subject": "C-030",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "Johnson, Robbins and Abbott",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-030",
+        "subject_type": "Contract",
+        "relation": "SUPPLIED_BY",
+        "object": "V-030",
+        "object_type": "Vendor"
+      },
+      {
+        "subject": "C-030",
+        "subject_type": "Contract",
+        "relation": "SIGNED",
+        "object": "Jeffrey Johnson",
+        "object_type": "Employee"
+      },
+      {
+        "subject": "C-030",
+        "subject_type": "Contract",
+        "relation": "OWNED_BY",
+        "object": "P-033",
+        "object_type": "Project"
+      }
+    ]
+  },
+  {
+    "chunk_ix": 2,
+    "triples": []
+  }
+]
