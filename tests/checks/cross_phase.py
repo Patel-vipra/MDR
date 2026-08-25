@@ -173,6 +173,40 @@ def check_retrieved_chunks_exist_in_qdrant(config: dict) -> CheckResult:
     return CheckResult("pass", desired, current)
 
 
+def check_multihop_answers_in_graph(config: dict) -> CheckResult:
+    """P5←P1: every multi-hop query's ground-truth answer that names an entity
+    (a person, project, system...) is a real node in the ground-truth graph --
+    otherwise a multi-hop accuracy number would be scored against an
+    unverifiable target. Answers that are attribute *values* rather than
+    entities (e.g. a numeric performance rating) are reported separately, not
+    folded into "unverifiable": a rating like "4" was never going to be a
+    graph node (this project's graph only has Employee/Project/Incident/
+    Budget/Contract/System-type nodes), so requiring it to match one would be
+    testing the wrong thing, not a real gap. Found by checking real data, not
+    assumed — see docs/open-items.md."""
+    desired = "every entity-type multi-hop answer is a verifiable node in graph.json (value-type answers reported separately)"
+    queries = common.load_json(common.QUERIES_JSON)
+    if queries is None:
+        return common.no_data(desired, f"{common.QUERIES_JSON} missing")
+    graph = common.load_json(common.GRAPH_JSON)
+    if graph is None:
+        return common.no_data(desired, f"{common.GRAPH_JSON} missing")
+
+    graph_names = {n.get("name") for n in graph.get("nodes", [])} | {n.get("id") for n in graph.get("nodes", [])}
+    multi_hop = [q for q in queries if q["type"] == "multi_hop"]
+    entity_answers = [q for q in multi_hop if q["answer"] not in ("", None) and not q["answer"].strip().isdigit()]
+    value_answers = [q for q in multi_hop if q not in entity_answers]
+    unverifiable = [q["id"] for q in entity_answers if q["answer"] not in graph_names]
+
+    current = (
+        f"{len(entity_answers) - len(unverifiable)}/{len(entity_answers)} entity-answers verified, "
+        f"{len(value_answers)} value-type answer(s) not applicable ({[q['id'] for q in value_answers]})"
+    )
+    if unverifiable:
+        return CheckResult("fail", desired, current, f"not found in graph: {unverifiable}")
+    return CheckResult("pass", desired, current)
+
+
 CHECKS: list[Check] = [
     Check(
         "P1→P3",
@@ -209,5 +243,11 @@ CHECKS: list[Check] = [
         "Backward: retrieved chunk IDs exist in Qdrant",
         check_retrieved_chunks_exist_in_qdrant,
         requires_phases=[3, 4],
+    ),
+    Check(
+        "P5←P1",
+        "Backward: multi-hop answers verifiable in ground-truth graph",
+        check_multihop_answers_in_graph,
+        requires_phases=[1, 5],
     ),
 ]

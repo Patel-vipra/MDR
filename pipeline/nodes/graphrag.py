@@ -27,6 +27,20 @@ constrained lookup, not open-ended reasoning. Separately, the fuzzy-match
 fallback was silently resolving near-miss numeric IDs (INC-032 -> INC-039) to
 the wrong real node -- fixed by excluding ID-pattern mentions from fuzzy
 matching entirely (see `_ID_PATTERN`).
+
+**ABAC gap found and fixed after the fact.** The traversal originally walked the
+shared graph with no domain awareness at all -- a legitimate query in one
+domain could reach a connected fact in a domain the persona isn't allowed to
+see, one hop away (found by reading the code, not observed live; the graph
+itself carries no domain field on nodes/edges, unlike Qdrant chunk payloads,
+which do -- see `_chunk_domain`/`_edge_allowed`). Fixed by resolving each
+edge's domain from its `source_chunk_ids` via the same chunk-payload lookup
+`retrieval.py` already uses, and only collecting an edge into `graph_context`
+if every one of its source chunks resolves to a domain in `state["allowed_
+domains"]` (fails closed: no/unresolvable provenance -> dropped). Node
+*expansion* stays unconditional -- only which facts get surfaced is
+domain-gated, not graph connectivity itself. See `docs/open-items.md` and
+`P4.11` for the concrete before/after proof (Q-052, `admin` vs `engineer`).
 """
 
 from __future__ import annotations
@@ -39,6 +53,7 @@ from ingestion.chunking import load_canonical_map
 from ingestion.graph_build import load_graph
 from pipeline.graph import State, timed_node
 from pipeline.llm_client import LLMClient
+from pipeline.nodes.retrieval import _all_chunk_payloads
 
 GRAPH_HOPS = 2
 MAX_EDGES = 30
@@ -112,7 +127,36 @@ def _resolve_to_graph_nodes(mentions: list[str], graph, canonical_map: dict[str,
     return list(dict.fromkeys(resolved))  # de-dup, preserve order
 
 
-def _khop_edges(graph, seeds: list[str], k: int, cap: int) -> list[dict]:
+def _chunk_domain(chunk_id: str, chunk_payloads: dict) -> str | None:
+    doc_id, sep, chunk_ix = chunk_id.partition(":")
+    if not sep:
+        return None
+    try:
+        payload = chunk_payloads.get((doc_id, int(chunk_ix)))
+    except ValueError:
+        return None
+    return payload.get("domain") if payload else None
+
+
+def _edge_allowed(source_chunk_ids: list[str], allowed_domains: set[str], chunk_payloads: dict) -> bool:
+    """Fails closed: an edge is only shown if it has provenance AND every one of
+    its source chunks resolves to a domain the persona is allowed to see. No
+    provenance, unresolvable provenance, or provenance touching even one
+    disallowed domain -> drop the edge. A citation from a disallowed document
+    would itself leak which document holds the fact, so this is stricter than
+    "any chunk allowed" -- matches the zero-tolerance posture the rest of the
+    pipeline's ABAC enforcement already holds to."""
+    if not source_chunk_ids:
+        return False
+    domains = {_chunk_domain(cid, chunk_payloads) for cid in source_chunk_ids}
+    if None in domains:
+        return False
+    return domains <= allowed_domains
+
+
+def _khop_edges(
+    graph, seeds: list[str], k: int, cap: int, allowed_domains: set[str], chunk_payloads: dict
+) -> list[dict]:
     visited = set(seeds)
     frontier = set(seeds)
     collected: list[dict] = []
@@ -125,23 +169,30 @@ def _khop_edges(graph, seeds: list[str], k: int, cap: int) -> list[dict]:
         for node in frontier:
             if node not in graph:
                 continue
+            # Node expansion is unconditional -- graph *structure* (who connects
+            # to whom) is shared backbone, not domain-owned; only the *facts*
+            # (edges) collected below are domain-gated. Blocking expansion
+            # through a node would also hide legitimately-allowed facts one
+            # more hop past it.
             for _, v, data in graph.out_edges(node, data=True):
                 key = (node, data.get("rel"), v)
-                if key not in seen_keys:
+                source_chunk_ids = data.get("source_chunk_ids", [])
+                if key not in seen_keys and _edge_allowed(source_chunk_ids, allowed_domains, chunk_payloads):
                     seen_keys.add(key)
                     collected.append(
                         {"src": node, "rel": data.get("rel"), "dst": v,
-                         "source_chunk_ids": data.get("source_chunk_ids", [])}
+                         "source_chunk_ids": source_chunk_ids}
                     )
                 if v not in visited:
                     next_frontier.add(v)
             for u, _, data in graph.in_edges(node, data=True):
                 key = (u, data.get("rel"), node)
-                if key not in seen_keys:
+                source_chunk_ids = data.get("source_chunk_ids", [])
+                if key not in seen_keys and _edge_allowed(source_chunk_ids, allowed_domains, chunk_payloads):
                     seen_keys.add(key)
                     collected.append(
                         {"src": u, "rel": data.get("rel"), "dst": node,
-                         "source_chunk_ids": data.get("source_chunk_ids", [])}
+                         "source_chunk_ids": source_chunk_ids}
                     )
                 if u not in visited:
                     next_frontier.add(u)
@@ -202,7 +253,12 @@ def graphrag_augmenter(state: State) -> State:
     graph = _cached_graph()
     canonical_map = _cached_canonical_map()
     seeds = _resolve_to_graph_nodes(mentions, graph, canonical_map)
-    edges = _khop_edges(graph, seeds, GRAPH_HOPS, MAX_EDGES) if seeds else []
+    allowed_domains = set(state.get("allowed_domains", []))
+    chunk_payloads = _all_chunk_payloads()
+    edges = (
+        _khop_edges(graph, seeds, GRAPH_HOPS, MAX_EDGES, allowed_domains, chunk_payloads)
+        if seeds else []
+    )
 
     state["graph_context"] = _serialize_context(edges) if edges else None
     return state

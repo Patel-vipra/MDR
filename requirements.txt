@@ -36,3 +36,20 @@ tiktoken
 # Phase 4 agentic query pipeline (PLAN.md §7):
 langgraph
 ollama
+# Phase 5 evaluation framework (PLAN.md §8): RAGAS faithfulness/answer_relevancy,
+# judged by GPT-4.1 Mini (ingestion-style one-off API use, per CLAUDE.md).
+# Both pinned: ragas (any recent version) unconditionally imports ChatVertexAI
+# from langchain_community.chat_models.vertexai, a module langchain-community
+# removed in its 0.4.x "sunset" -- 0.3.31 is the last release that still has it.
+ragas==0.2.15
+langchain-community==0.3.31
+matplotlib
+# Explicitly-approved, scoped substitution for the Phase 5 ablation run only
+# (docs/open-items.md #7) -- swaps LLM_PROVIDER=mistral/gemini in for
+# Qwen3-4B/Ollama to use a free-tier hosted quota instead of hours of local
+# GPU time. Does not change the deployed system's locked default
+# (pipeline/llm_client.py). Mistral is the primary choice (finishes the full
+# run in ~1 hour vs. days of daily-quota pausing on Gemini); google-genai
+# kept as a working fallback provider.
+google-genai
+mistralai

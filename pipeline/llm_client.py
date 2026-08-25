@@ -3,7 +3,13 @@
 Qwen3-4B via Ollama is the default query-time model for every node that needs one
 (Domain Router, Query Rewriter, CRAG Grader, Generator, Hallucination Check) —
 swappable to OpenAI via LLM_PROVIDER/LLM_MODEL env vars (P4.10 requires both to
-work). `anthropic` is accepted as a config value for future-proofing per D4 but
+work). `gemini` (Google's google-genai SDK, GEMINI_API_KEY) and `mistral`
+(Mistral's mistralai SDK, MISTRAL_API_KEY) are two more working providers,
+added as an explicitly-approved, scoped substitution for Phase 5's evaluation
+run only — see docs/open-items.md #7. Neither changes the deployed system's
+locked default (still Qwen3-4B/Ollama); they only activate when
+LLM_PROVIDER=gemini or LLM_PROVIDER=mistral is set for that run. `anthropic`
+is accepted as a config value for future-proofing per D4 but
 raises NotImplementedError if actually selected — no validator check exercises
 it, and PLAN.md's own stated preference is GPT over Claude for orchestration;
 adding an untested, unexercised dependency would contradict this project's
@@ -85,6 +91,36 @@ def reset_ollama_client() -> None:
     _ollama_client = None
 
 
+_gemini_keys: list[str] | None = None
+_gemini_key_idx = 0
+
+
+def _gemini_key_pool() -> list[str]:
+    """Every GEMINI_API_KEY* env var found (GEMINI_API_KEY, GEMINI_API_KEY_2,
+    GEMINI_API_KEY_3, ...) -- lets two (or more) free-tier accounts' separate
+    daily/per-minute quotas be pooled instead of one account's 500 RPD limiting
+    the whole eval run."""
+    global _gemini_keys
+    if _gemini_keys is None:
+        keys = [os.environ["GEMINI_API_KEY"]] if os.getenv("GEMINI_API_KEY") else []
+        i = 2
+        while os.getenv(f"GEMINI_API_KEY_{i}"):
+            keys.append(os.environ[f"GEMINI_API_KEY_{i}"])
+            i += 1
+        _gemini_keys = keys
+    return _gemini_keys
+
+
+def advance_gemini_key() -> None:
+    """Round-robins to the next configured Gemini key -- called after every
+    call (even split of usage across every pooled account) and by the eval
+    harness's retry loop on error, so a call that hit one account's cap
+    immediately retries against a different account rather than waiting out a
+    same-account backoff (same idea as `reset_ollama_client` above)."""
+    global _gemini_key_idx
+    _gemini_key_idx += 1
+
+
 class LLMClient:
     """One `chat()` method, same signature regardless of provider."""
 
@@ -116,6 +152,10 @@ class LLMClient:
             return self._chat_ollama(system, user, temperature, max_tokens, json_mode, json_schema, think)
         if self.provider == "openai":
             return self._chat_openai(system, user, temperature, max_tokens, json_mode, json_schema)
+        if self.provider == "gemini":
+            return self._chat_gemini(system, user, temperature, max_tokens, json_mode, json_schema)
+        if self.provider == "mistral":
+            return self._chat_mistral(system, user, temperature, max_tokens, json_mode, json_schema)
         if self.provider == "anthropic":
             raise NotImplementedError(
                 "LLM_PROVIDER=anthropic is accepted for future-proofing (D4) but not "
@@ -182,6 +222,90 @@ class LLMClient:
             **kwargs,
         )
         return response.choices[0].message.content or ""
+
+    def _chat_mistral(
+        self,
+        system: str,
+        user: str,
+        temperature: float,
+        max_tokens: int,
+        json_mode: bool,
+        json_schema: dict | None,
+    ) -> str:
+        """Explicitly-approved, scoped substitution for Phase 5's evaluation run
+        only (docs/open-items.md #7) -- CLAUDE.md's locked model choice for the
+        deployed system remains Qwen3-4B via Ollama; this path only activates
+        when LLM_PROVIDER=mistral is set for that run. Chosen over Gemini as the
+        primary judge: Mistral's free tier (~1B tokens/month) finishes the full
+        ablation run in about an hour instead of several days of daily-quota
+        pauses, and Mistral Small sits closer to Qwen3-4B's size class than a
+        larger model would, keeping the eval's numbers representative of what
+        the actual (smaller) production model would deliver rather than
+        flattering it.
+
+        response_format's exact shape was read directly from the installed
+        `mistralai` SDK's model classes (`models/jsonschema.py`), not
+        guessed from docs -- note the schema key is `schema_definition`,
+        not OpenAI's `schema`.
+        """
+        from mistralai.client import Mistral
+
+        client = Mistral(api_key=os.environ["MISTRAL_API_KEY"], timeout_ms=60_000)
+        response_format = None
+        if json_schema is not None:
+            response_format = {
+                "type": "json_schema",
+                "json_schema": {"name": "response", "schema_definition": json_schema, "strict": True},
+            }
+        elif json_mode:
+            response_format = {"type": "json_object"}
+
+        kwargs = {"response_format": response_format} if response_format else {}
+        response = client.chat.complete(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+            temperature=temperature,
+            max_tokens=max_tokens,
+            **kwargs,
+        )
+        return response.choices[0].message.content or ""
+
+    def _chat_gemini(
+        self,
+        system: str,
+        user: str,
+        temperature: float,
+        max_tokens: int,
+        json_mode: bool,
+        json_schema: dict | None,
+    ) -> str:
+        """Explicitly-approved, scoped substitution for Phase 5's evaluation run
+        only (docs/open-items.md) -- CLAUDE.md's locked model choice for the
+        deployed system remains Qwen3-4B via Ollama; this path only activates
+        when LLM_PROVIDER=gemini is set for that run."""
+        from google import genai
+        from google.genai import types
+
+        keys = _gemini_key_pool()
+        key = keys[_gemini_key_idx % len(keys)]
+        client = genai.Client(api_key=key)
+        config = types.GenerateContentConfig(
+            system_instruction=system,
+            temperature=temperature,
+            max_output_tokens=max_tokens,
+        )
+        if json_schema is not None:
+            config.response_mime_type = "application/json"
+            config.response_json_schema = json_schema
+        elif json_mode:
+            config.response_mime_type = "application/json"
+
+        response = client.models.generate_content(model=self.model, contents=user, config=config)
+        advance_gemini_key()
+        return response.text or ""
 
 
 def main() -> int:

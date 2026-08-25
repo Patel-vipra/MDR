@@ -236,6 +236,37 @@ def check_provider_agnostic(config: dict) -> CheckResult:
     return CheckResult("fail", desired, current)
 
 
+def check_graphrag_domain_filter(config: dict) -> CheckResult:
+    """Live check (same pattern as P4.10): GraphRAG's k-hop traversal must only
+    surface facts from domains the persona is allowed to see. Uses a known real
+    case -- Q-052's seed (INC-066, Engineering) sits one hop from a Finance
+    budget/project and a Legal contract via a shared employee node, verified
+    directly against the `admin` persona (which must still see them)."""
+    desired = "GraphRAG traversal only surfaces facts from domains the persona is allowed to see"
+    from pipeline.graph import initial_state
+    from pipeline.nodes.abac import abac_gate
+    from pipeline.nodes.graphrag import graphrag_augmenter
+
+    query = "Who approved the FY25-Q3 budget for the project whose system caused incident INC-066?"
+    state = initial_state(query, "engineer")
+    state = abac_gate(state)
+    state["multi_hop"] = True
+    try:
+        state = graphrag_augmenter(state)
+    except Exception as exc:
+        return CheckResult("fail", desired, f"graphrag_augmenter raised {type(exc).__name__}: {exc}")
+
+    lines = [l for l in (state.get("graph_context") or "").splitlines() if l.strip()]
+    leaked = [l for l in lines if "B-032" in l or "C-010" in l or "Project Echo" in l]
+    engineering_present = any("INC-066" in l for l in lines)
+
+    current = f"{len(lines)} edge(s) surfaced to 'engineer', {len(leaked)} cross-domain leak(s)"
+    if leaked or not engineering_present:
+        details = "\n".join(leaked) if leaked else "expected in-domain edge (INC-066) missing"
+        return CheckResult("fail", desired, current, details)
+    return CheckResult("pass", desired, current)
+
+
 CHECKS: list[Check] = [
     Check("P4.01", "All queries execute", check_all_queries_execute),
     Check("P4.02", "Node timings logged", check_node_timings_logged),
@@ -247,4 +278,5 @@ CHECKS: list[Check] = [
     Check("P4.08", "Citations present", check_citations_present),
     Check("P4.09", "Confidence scored", check_confidence_scored),
     Check("P4.10", "Generator provider-agnostic", check_provider_agnostic),
+    Check("P4.11", "GraphRAG domain filter", check_graphrag_domain_filter),
 ]
