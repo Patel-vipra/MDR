@@ -51,4 +51,15 @@ phase5:
   multi_hop_query_count: 15
   crag_crosscheck_sample: 25
 
+phase6:
+  base_url: http://localhost:8000
+  expected_documents: 100
+  expected_configs: [A0, A1, A2, A3, A4, A5]
+  # P6.02 streams a real query. An ABAC-denied one short-circuits at the domain
+  # router (~2s) instead of paying the ~54s p50 of a full retrieval+generation
+  # pass, while still exercising the entire SSE path end to end.
+  probe_query: "Who reviewed Shannon Jones in FY25-Q4?"
+  probe_persona: engineer
+  query_timeout_seconds: 180
+
 seed: 42

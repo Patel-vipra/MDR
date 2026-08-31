@@ -53,3 +53,7 @@ matplotlib
 # kept as a working fallback provider.
 google-genai
 mistralai
+# Phase 6 dashboard (PLAN.md §9): FastAPI serving the LangGraph pipeline + static React build.
+fastapi
+uvicorn[standard]
+psutil

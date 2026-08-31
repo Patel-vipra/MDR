@@ -45,6 +45,7 @@ class State(TypedDict):
     # Bookkeeping needed by node contracts but not named in §7's literal list:
     abac_filter: dict
     allowed_domains: list[str]
+    allowed_sensitivity: list[str]
     refused: bool
     refusal_reason: Optional[str]
     multi_hop: bool
@@ -72,6 +73,7 @@ def initial_state(query: str, persona: str) -> State:
         node_timings={},
         abac_filter={},
         allowed_domains=[],
+        allowed_sensitivity=[],
         refused=False,
         refusal_reason=None,
         multi_hop=False,
@@ -111,6 +113,16 @@ def timed_node(name: str) -> Callable[[Callable[[State], State]], Callable[[Stat
 
 
 def route_after_domain_classification(state: State) -> str:
+    if not state.get("allowed_domains"):
+        # An empty allow-list means Node 1 never recognised the persona and failed
+        # closed. This test MUST come before the cross_domain branch below: a
+        # cross_domain classification returns "continue", so without this an
+        # unknown persona reached retrieval with `abac_filter == {}` — which
+        # retrieval.py's `Filter.model_validate(f) if f else None` reads as "no
+        # filter at all", i.e. an unfiltered search across every domain. Found by
+        # code reading while writing the system's own documentation; see
+        # docs/open-items.md #9.
+        return "refuse"
     domain = state.get("domain")
     if domain == "cross_domain":
         return "continue"

@@ -48,6 +48,7 @@ CONFIGS = ["A0", "A1", "A2", "A3", "A4", "A5"]
 # 15 multi-hop queries.
 EXTRA_CONFIGS = ["A5_always_on"]
 ALL_DOMAINS = ["finance", "hr", "legal", "engineering"]
+ALL_SENSITIVITY = ["internal", "confidential", "restricted"]
 
 CONTEXTUAL_COLLECTION = "chunks"
 NO_CONTEXT_COLLECTION = "chunks_no_context"
@@ -105,9 +106,16 @@ def _mark_all_correct(state: State) -> State:
 def _unrestricted_access(state: State) -> State:
     """A0-A3's stand-in for Node 1: no governance active yet, so every domain
     is allowed -- the query's real ground-truth persona is deliberately
-    ignored at these rungs (see module docstring)."""
+    ignored at these rungs (see module docstring).
+
+    `allowed_sensitivity` is set to every level for the same reason, and it
+    keeps these rungs' behaviour byte-identical to the pre-fix runs: the sparse
+    arm now also filters on sensitivity (docs/open-items.md #9), so leaving this
+    empty would silently start dropping BM25 candidates here and change the
+    A0-A3 baseline the whole ladder is measured against."""
     state = dict(state)
     state["allowed_domains"] = list(ALL_DOMAINS)
+    state["allowed_sensitivity"] = list(ALL_SENSITIVITY)
     state["abac_filter"] = {}
     return state
 

@@ -267,6 +267,115 @@ def check_graphrag_domain_filter(config: dict) -> CheckResult:
     return CheckResult("pass", desired, current)
 
 
+def check_unknown_persona_fails_closed(config: dict) -> CheckResult:
+    """Live check: an unrecognised persona must be denied before retrieval, and
+    must retrieve nothing even if something routes past the gate.
+
+    Regression test for docs/open-items.md #9 (gap 1). `abac_gate` fails closed
+    on an unknown persona by setting `allowed_domains = []` -- but it also set
+    `abac_filter = {}`, and `route_after_domain_classification` tested the
+    `cross_domain` case BEFORE the membership test, so a cross_domain
+    classification returned "continue". `_dense_search` then read the falsy
+    filter as "no filter" and searched every domain unrestricted. Asserts both
+    layers now hold: the router refuses, and retrieval returns nothing even when
+    called directly. No LLM needed -- these are pure functions plus the indexes."""
+    desired = "unknown persona is refused, and retrieval returns nothing even if called directly"
+    from pipeline.graph import initial_state, route_after_domain_classification
+    from pipeline.nodes.abac import abac_gate
+    from pipeline.nodes.retrieval import hybrid_retrieval
+
+    state = initial_state("Who approved the FY25-Q3 budget for Project Borealis?", "not_a_real_persona")
+    state = abac_gate(state)
+
+    problems = []
+    if state.get("allowed_domains"):
+        problems.append(f"- abac_gate granted domains to an unknown persona: {state['allowed_domains']}")
+
+    # The exact path that leaked: router says cross_domain, so the membership test
+    # never runs unless the empty allow-list is checked first.
+    for domain in ("cross_domain", "finance", None):
+        probe = {**state, "domain": domain}
+        if route_after_domain_classification(probe) != "refuse":
+            problems.append(f"- router returned 'continue' for unknown persona with domain={domain!r}")
+
+    try:
+        retrieved = hybrid_retrieval({**state, "domain": "cross_domain"})
+    except Exception as exc:
+        return CheckResult("fail", desired, f"hybrid_retrieval raised {type(exc).__name__}: {exc}")
+    n_hits = sum(len(retrieved.get(k) or []) for k in ("dense_hits", "sparse_hits", "fused"))
+    if n_hits:
+        problems.append(f"- retrieval returned {n_hits} chunk(s) for an unknown persona")
+
+    current = f"3 routing probes + direct retrieval checked, {len(problems)} failure(s)"
+    if problems:
+        return CheckResult("fail", desired, current, "\n".join(problems))
+    return CheckResult("pass", desired, current)
+
+
+def check_sensitivity_ceiling_enforced(config: dict) -> CheckResult:
+    """Live check: no retrieval arm may surface a chunk above the persona's
+    sensitivity ceiling.
+
+    Regression test for docs/open-items.md #9 (gap 2), the one that was actually
+    leaking. The dense arm pushes both `domain` and `sensitivity` into Qdrant as a
+    filter; the sparse arm re-applies ABAC post-hoc in Python because BM25 can't
+    filter natively -- and it checked domain only. Measured before the fix on the
+    committed A4/A5 results: 115 over-ceiling chunks reached the fused set (all
+    from the sparse arm), 106 survived reranking, 18 entered the generator's
+    context, 4 were cited in returned answers.
+
+    Probes the two personas that were actually leaked to, with queries whose
+    wording pulls hard toward `restricted` documents on the BM25 arm."""
+    desired = "0 retrieved chunks above the persona's sensitivity ceiling, on either retrieval arm"
+    from pipeline.graph import initial_state
+    from pipeline.nodes.abac import abac_gate
+    from pipeline.nodes.retrieval import hybrid_retrieval
+
+    order = ["internal", "confidential", "restricted"]
+    probes = [
+        ("hr_manager", "Which employees were promoted in the FY25-Q4 promotion round?"),
+        ("hr_manager", "What performance ratings were awarded this quarter?"),
+        ("legal_counsel", "What compliance incidents were reported and how were they remediated?"),
+        ("legal_counsel", "Summarise the compliance report findings and any breaches."),
+    ]
+
+    payloads = None
+    violations = []
+    checked = 0
+    for persona, query in probes:
+        state = abac_gate(initial_state(query, persona))
+        allowed = set(state.get("allowed_sensitivity") or [])
+        if not allowed:
+            return CheckResult("fail", desired, f"abac_gate exposed no allowed_sensitivity for {persona!r}")
+        try:
+            state = hybrid_retrieval(state)
+        except Exception as exc:
+            return CheckResult("fail", desired, f"hybrid_retrieval raised {type(exc).__name__}: {exc}")
+
+        if payloads is None:
+            from pipeline.nodes.retrieval import _all_chunk_payloads
+
+            payloads = _all_chunk_payloads()
+
+        # Check every arm, not just the fused output — a leak on one arm that RRF
+        # happens to rank out is still a leak, and would resurface on another query.
+        for arm in ("dense_hits", "sparse_hits", "fused"):
+            for c in state.get(arm) or []:
+                key = (c.get("doc_id"), c.get("chunk_ix"))
+                sensitivity = c.get("sensitivity") or payloads.get(key, {}).get("sensitivity")
+                checked += 1
+                if sensitivity and sensitivity not in allowed:
+                    violations.append(
+                        f"- {persona} (ceiling {order[len(allowed) - 1]}): {arm} surfaced "
+                        f"{key[0]}:{key[1]} classified {sensitivity!r}"
+                    )
+
+    current = f"{len(probes)} persona/query probes, {checked} retrieved chunk(s) checked, {len(violations)} violation(s)"
+    if violations:
+        return CheckResult("fail", desired, current, "\n".join(violations[:10]))
+    return CheckResult("pass", desired, current)
+
+
 CHECKS: list[Check] = [
     Check("P4.01", "All queries execute", check_all_queries_execute),
     Check("P4.02", "Node timings logged", check_node_timings_logged),
@@ -279,4 +388,6 @@ CHECKS: list[Check] = [
     Check("P4.09", "Confidence scored", check_confidence_scored),
     Check("P4.10", "Generator provider-agnostic", check_provider_agnostic),
     Check("P4.11", "GraphRAG domain filter", check_graphrag_domain_filter),
+    Check("P4.12", "Unknown persona fails closed", check_unknown_persona_fails_closed),
+    Check("P4.13", "Sensitivity ceiling enforced", check_sensitivity_ceiling_enforced),
 ]

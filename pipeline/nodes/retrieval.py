@@ -58,13 +58,30 @@ def _dense_search(query: str, abac_filter: dict) -> list[tuple[tuple[str, int], 
     return [((h.payload["doc_id"], h.payload["chunk_ix"]), h.score) for h in hits]
 
 
-def _sparse_search(query: str, allowed_domains: list[str]) -> list[tuple[tuple[str, int], float]]:
+def _sparse_search(
+    query: str, allowed_domains: list[str], allowed_sensitivity: list[str]
+) -> list[tuple[tuple[str, int], float]]:
+    """BM25 has no native filtering, so ABAC is re-applied here post-hoc — and it
+    must mirror BOTH conditions the dense arm's Qdrant filter enforces, not just
+    domain.
+
+    This previously filtered on domain alone, which let the sparse arm surface
+    chunks above the persona's sensitivity ceiling while the dense arm correctly
+    blocked them. Measured on the committed A4/A5 results before the fix: 115
+    over-ceiling chunks entered the fused set (all 115 from this arm, 0 from
+    dense), 106 survived into the reranked top-5, 18 reached the generator's
+    context, and 4 were cited in returned answers — `restricted` HR/Legal
+    material shown to `confidential`-ceiling personas. See docs/open-items.md #9.
+    """
     payloads = _all_chunk_payloads()
     # Over-fetch since post-hoc filtering removes some candidates — still cheap
     # at this corpus size, and guarantees up to SPARSE_LIMIT survive filtering.
     raw_hits = search_bm25(query, limit=SPARSE_LIMIT * 3)
     filtered = [
-        (key, score) for key, score in raw_hits if payloads.get(key, {}).get("domain") in allowed_domains
+        (key, score)
+        for key, score in raw_hits
+        if payloads.get(key, {}).get("domain") in allowed_domains
+        and payloads.get(key, {}).get("sensitivity") in allowed_sensitivity
     ]
     return filtered[:SPARSE_LIMIT]
 
@@ -87,8 +104,21 @@ def hybrid_retrieval(state: State) -> State:
     query = state.get("rewritten_query") or state["query"]
     payloads = _all_chunk_payloads()
 
+    allowed_domains = state.get("allowed_domains", [])
+    if not allowed_domains:
+        # Defense in depth behind graph.py's routing guard: an empty allow-list is
+        # an unrecognised persona, and `abac_filter` is then {} — which _dense_search
+        # would read as "no filter" and run unrestricted. Never search on behalf of a
+        # persona we couldn't resolve. Note this is keyed on allowed_domains, not on
+        # the filter being empty: the ablation harness legitimately sets an empty
+        # filter WITH all four domains allowed to run the ungoverned A0-A3 rungs.
+        state["dense_hits"] = []
+        state["sparse_hits"] = []
+        state["fused"] = []
+        return state
+
     dense = _dense_search(query, state.get("abac_filter", {}))
-    sparse = _sparse_search(query, state.get("allowed_domains", []))
+    sparse = _sparse_search(query, allowed_domains, state.get("allowed_sensitivity", []))
     fused_keys = _reciprocal_rank_fusion(dense, sparse)
 
     state["dense_hits"] = [{"doc_id": k[0], "chunk_ix": k[1]} for k, _ in dense]

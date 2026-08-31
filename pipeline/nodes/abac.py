@@ -42,6 +42,7 @@ def abac_gate(state: State) -> State:
     persona_cfg = policies.get(state["persona"])
     if persona_cfg is None:
         state["allowed_domains"] = []  # unknown persona: fail closed, not open
+        state["allowed_sensitivity"] = []
         state["abac_filter"] = {}
         return state
 
@@ -49,6 +50,12 @@ def abac_gate(state: State) -> State:
     allowed_sensitivity = _sensitivity_at_or_below(persona_cfg["max_sensitivity"])
 
     state["allowed_domains"] = allowed_domains
+    # Exposed separately, not just baked into the Qdrant filter below: BM25 has no
+    # native filtering, so retrieval.py has to re-apply BOTH attributes post-hoc on
+    # the sparse arm. It previously only had `allowed_domains` to work with and so
+    # filtered on domain alone — the sensitivity ceiling silently went unenforced
+    # on that arm. See docs/open-items.md #9.
+    state["allowed_sensitivity"] = allowed_sensitivity
     state["abac_filter"] = Filter(
         must=[
             FieldCondition(key="domain", match=MatchAny(any=allowed_domains)),

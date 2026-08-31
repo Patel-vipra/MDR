@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root { height: 100%; margin: 0; }
+  body { @apply bg-[#F1F3F6] text-ink font-sans text-[15px] antialiased overflow-hidden; }
+  ::selection { @apply bg-acc-soft; }
+}
+
+@layer components {
+  .card  { @apply bg-panel border border-line rounded-lg shadow-[0_1px_2px_rgba(14,20,32,.05)]; }
+  .ch    { @apply px-3.5 py-2.5 border-b border-line flex items-center gap-2; }
+  .ct    { @apply text-xs font-semibold text-ink-2; }
+  .pane  { @apply overflow-y-auto p-4; }
+  .meta  { @apply font-mono text-[11.5px] text-ink-3; }
+  .tag   { @apply inline-flex items-center gap-1 font-mono text-[10.5px] px-1.5 py-0.5 rounded border whitespace-nowrap; }
+  .t-ok  { @apply text-ok bg-ok-bg border-ok/25; }
+  .t-wa  { @apply text-warn bg-warn-bg border-warn/25; }
+  .t-ba  { @apply text-bad bg-bad-bg border-bad/25; }
+  .t-nu  { @apply text-ink-3 bg-panel-3 border-line; }
+  .t-ac  { @apply text-acc bg-acc-soft border-acc-line; }
+  .kpi   { @apply px-4 py-2.5 border-r border-line; }
+  .kpiN  { @apply block text-[19px] font-bold tracking-tight tabular-nums leading-tight; }
+  .kpiL  { @apply font-mono text-[10.5px] text-ink-3; }
+  .fb    { @apply border border-line bg-panel text-ink-2 rounded px-2.5 py-1 text-xs font-mono cursor-pointer hover:border-line-2 hover:text-ink transition-colors; }
+  .fb-on { @apply bg-ink text-white border-ink hover:text-white; }
+  .blank { @apply text-ink-3 text-[13.5px] py-6 text-center; }
+}
