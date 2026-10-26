@@ -1,0 +1,128 @@
+{
+  "A0": {
+    "matched_queries": 80,
+    "qwen3_4b": {
+      "single_hop": {
+        "correct": 36,
+        "n": 50,
+        "accuracy": 0.72
+      },
+      "multi_hop": {
+        "correct": 2,
+        "n": 15,
+        "accuracy": 0.133
+      },
+      "unanswerable_abstention": 1.0,
+      "n_unanswerable": 10,
+      "hit_at_5": 0.871,
+      "p50_latency_seconds": 45.3
+    },
+    "mistral_small": {
+      "single_hop": {
+        "correct": 40,
+        "n": 50,
+        "accuracy": 0.8
+      },
+      "multi_hop": {
+        "correct": 1,
+        "n": 15,
+        "accuracy": 0.067
+      },
+      "unanswerable_abstention": 1.0,
+      "n_unanswerable": 10,
+      "hit_at_5": 0.871,
+      "p50_latency_seconds": 2.2
+    },
+    "paired_answerable": {
+      "n": 65,
+      "both_correct": 37,
+      "only_mistral_correct": 4,
+      "only_qwen_correct": 1,
+      "both_wrong": 23
+    }
+  },
+  "A1": {
+    "matched_queries": 80,
+    "qwen3_4b": {
+      "single_hop": {
+        "correct": 37,
+        "n": 50,
+        "accuracy": 0.74
+      },
+      "multi_hop": {
+        "correct": 0,
+        "n": 15,
+        "accuracy": 0.0
+      },
+      "unanswerable_abstention": 1.0,
+      "n_unanswerable": 10,
+      "hit_at_5": 0.843,
+      "p50_latency_seconds": 39.7
+    },
+    "mistral_small": {
+      "single_hop": {
+        "correct": 38,
+        "n": 50,
+        "accuracy": 0.76
+      },
+      "multi_hop": {
+        "correct": 3,
+        "n": 15,
+        "accuracy": 0.2
+      },
+      "unanswerable_abstention": 0.9,
+      "n_unanswerable": 10,
+      "hit_at_5": 0.843,
+      "p50_latency_seconds": 2.2
+    },
+    "paired_answerable": {
+      "n": 65,
+      "both_correct": 35,
+      "only_mistral_correct": 6,
+      "only_qwen_correct": 2,
+      "both_wrong": 22
+    }
+  },
+  "A2": {
+    "matched_queries": 64,
+    "qwen3_4b": {
+      "single_hop": {
+        "correct": 39,
+        "n": 50,
+        "accuracy": 0.78
+      },
+      "multi_hop": {
+        "correct": 2,
+        "n": 14,
+        "accuracy": 0.143
+      },
+      "unanswerable_abstention": null,
+      "n_unanswerable": 0,
+      "hit_at_5": 0.953,
+      "p50_latency_seconds": 36.3
+    },
+    "mistral_small": {
+      "single_hop": {
+        "correct": 39,
+        "n": 50,
+        "accuracy": 0.78
+      },
+      "multi_hop": {
+        "correct": 4,
+        "n": 14,
+        "accuracy": 0.286
+      },
+      "unanswerable_abstention": null,
+      "n_unanswerable": 0,
+      "hit_at_5": 0.953,
+      "p50_latency_seconds": 2.7
+    },
+    "paired_answerable": {
+      "n": 64,
+      "both_correct": 39,
+      "only_mistral_correct": 4,
+      "only_qwen_correct": 2,
+      "both_wrong": 19
+    }
+  }
+}

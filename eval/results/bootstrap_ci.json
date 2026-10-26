@@ -1,0 +1,210 @@
+{
+  "seed": 42,
+  "n_boot": 10000,
+  "configs": {
+    "A0": {
+      "single_hop_accuracy": {
+        "mean": 0.793,
+        "ci95": [
+          0.68,
+          0.893
+        ],
+        "n_queries": 50
+      },
+      "multi_hop_accuracy": {
+        "mean": 0.044,
+        "ci95": [
+          0.0,
+          0.133
+        ],
+        "n_queries": 15
+      },
+      "hit_at_5_all_records": {
+        "mean": 0.871,
+        "ci95": [
+          0.786,
+          0.943
+        ],
+        "n_queries": 70
+      },
+      "hit_at_5_answerable_not_refused": {
+        "mean": 0.862,
+        "ci95": [
+          0.769,
+          0.938
+        ],
+        "n_queries": 65
+      }
+    },
+    "A1": {
+      "single_hop_accuracy": {
+        "mean": 0.767,
+        "ci95": [
+          0.647,
+          0.88
+        ],
+        "n_queries": 50
+      },
+      "multi_hop_accuracy": {
+        "mean": 0.178,
+        "ci95": [
+          0.0,
+          0.378
+        ],
+        "n_queries": 15
+      },
+      "hit_at_5_all_records": {
+        "mean": 0.843,
+        "ci95": [
+          0.757,
+          0.929
+        ],
+        "n_queries": 70
+      },
+      "hit_at_5_answerable_not_refused": {
+        "mean": 0.831,
+        "ci95": [
+          0.738,
+          0.923
+        ],
+        "n_queries": 65
+      }
+    },
+    "A2": {
+      "single_hop_accuracy": {
+        "mean": 0.793,
+        "ci95": [
+          0.68,
+          0.9
+        ],
+        "n_queries": 50
+      },
+      "multi_hop_accuracy": {
+        "mean": 0.333,
+        "ci95": [
+          0.133,
+          0.6
+        ],
+        "n_queries": 15
+      },
+      "hit_at_5_all_records": {
+        "mean": 0.957,
+        "ci95": [
+          0.9,
+          1.0
+        ],
+        "n_queries": 70
+      },
+      "hit_at_5_answerable_not_refused": {
+        "mean": 0.954,
+        "ci95": [
+          0.892,
+          1.0
+        ],
+        "n_queries": 65
+      }
+    },
+    "A3": {
+      "single_hop_accuracy": {
+        "mean": 0.767,
+        "ci95": [
+          0.66,
+          0.867
+        ],
+        "n_queries": 50
+      },
+      "multi_hop_accuracy": {
+        "mean": 0.222,
+        "ci95": [
+          0.044,
+          0.444
+        ],
+        "n_queries": 15
+      },
+      "hit_at_5_all_records": {
+        "mean": 0.957,
+        "ci95": [
+          0.91,
+          0.995
+        ],
+        "n_queries": 70
+      },
+      "hit_at_5_answerable_not_refused": {
+        "mean": 0.954,
+        "ci95": [
+          0.903,
+          0.995
+        ],
+        "n_queries": 65
+      }
+    },
+    "A4": {
+      "single_hop_accuracy": {
+        "mean": 0.713,
+        "ci95": [
+          0.6,
+          0.82
+        ],
+        "n_queries": 50
+      },
+      "multi_hop_accuracy": {
+        "mean": 0.2,
+        "ci95": [
+          0.0,
+          0.4
+        ],
+        "n_queries": 15
+      },
+      "hit_at_5_all_records": {
+        "mean": 0.848,
+        "ci95": [
+          0.762,
+          0.924
+        ],
+        "n_queries": 70
+      },
+      "hit_at_5_answerable_not_refused": {
+        "mean": 0.927,
+        "ci95": [
+          0.859,
+          0.979
+        ],
+        "n_queries": 64
+      }
+    },
+    "A5": {
+      "single_hop_accuracy": {
+        "mean": 0.74,
+        "ci95": [
+          0.62,
+          0.853
+        ],
+        "n_queries": 50
+      },
+      "multi_hop_accuracy": {
+        "mean": 0.222,
+        "ci95": [
+          0.044,
+          0.444
+        ],
+        "n_queries": 15
+      },
+      "hit_at_5_all_records": {
+        "mean": 0.852,
+        "ci95": [
+          0.767,
+          0.929
+        ],
+        "n_queries": 70
+      },
+      "hit_at_5_answerable_not_refused": {
+        "mean": 0.932,
+        "ci95": [
+          0.87,
+          0.984
+        ],
+        "n_queries": 64
+      }
+    }
+  }
+}

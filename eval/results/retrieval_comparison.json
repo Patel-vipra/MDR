@@ -1,0 +1,48 @@
+{
+  "seed": 42,
+  "top_k": 5,
+  "systems": {
+    "BM25 only": {
+      "hit_at_5": 1.0,
+      "mrr": 0.937,
+      "all_gold_top5_multi_hop": 0.267,
+      "n_queries": 70,
+      "n_multi_hop": 15
+    },
+    "MiniLM-L6 dense (contextual)": {
+      "hit_at_5": 0.657,
+      "mrr": 0.523,
+      "all_gold_top5_multi_hop": 0.067,
+      "n_queries": 70,
+      "n_multi_hop": 15
+    },
+    "BGE-M3 dense (plain chunks)": {
+      "hit_at_5": 0.871,
+      "mrr": 0.807,
+      "all_gold_top5_multi_hop": 0.133,
+      "n_queries": 70,
+      "n_multi_hop": 15
+    },
+    "BGE-M3 dense (contextual chunks)": {
+      "hit_at_5": 0.843,
+      "mrr": 0.798,
+      "all_gold_top5_multi_hop": 0.133,
+      "n_queries": 70,
+      "n_multi_hop": 15
+    },
+    "Hybrid: BM25 + BGE-M3, RRF": {
+      "hit_at_5": 0.957,
+      "mrr": 0.883,
+      "all_gold_top5_multi_hop": 0.2,
+      "n_queries": 70,
+      "n_multi_hop": 15
+    },
+    "Hybrid + BGE-reranker-base": {
+      "hit_at_5": 0.957,
+      "mrr": 0.838,
+      "all_gold_top5_multi_hop": 0.267,
+      "n_queries": 70,
+      "n_multi_hop": 15
+    }
+  }
+}
