@@ -1,4 +1,4 @@
-"""Nodes 4-5: Hybrid Retrieval (RRF) + Re-ranker (PLAN.md §7).
+"""Nodes 4-5: Hybrid Retrieval (RRF) + Re-ranker.
 
 Node 4: dense top-20 (Qdrant, ABAC-filtered natively) + BM25 top-20 (unfiltered
 at search time, then ABAC-filtered post-hoc using an in-memory payload lookup —
@@ -71,7 +71,7 @@ def _sparse_search(
     over-ceiling chunks entered the fused set (all 115 from this arm, 0 from
     dense), 106 survived into the reranked top-5, 18 reached the generator's
     context, and 4 were cited in returned answers — `restricted` HR/Legal
-    material shown to `confidential`-ceiling personas. See docs/open-items.md #9.
+    material shown to `confidential`-ceiling personas.
     """
     payloads = _all_chunk_payloads()
     # Over-fetch since post-hoc filtering removes some candidates — still cheap

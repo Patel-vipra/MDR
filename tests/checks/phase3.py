@@ -1,4 +1,4 @@
-"""Phase 3 — Ingestion & Indexing checks P3.01-P3.10 (PLAN.md section 14.4)."""
+"""Phase 3 — Ingestion & Indexing checks P3.01-P3.10."""
 
 from __future__ import annotations
 

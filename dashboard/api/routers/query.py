@@ -1,4 +1,4 @@
-"""POST /api/query and GET /api/traces/{id} (PLAN.md §9.2).
+"""POST /api/query and GET /api/traces/{id}.
 
 Streams **node-level** events, not tokens. Two reasons, both measured rather than
 assumed:

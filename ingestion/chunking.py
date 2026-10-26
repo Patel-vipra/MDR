@@ -1,4 +1,4 @@
-"""Phase 3 parsing & chunking (PLAN.md §6.1).
+"""Phase 3 parsing & chunking.
 
 Parses each document into an ordered list of typed blocks (heading/text/table),
 then greedily packs blocks into ~450-token chunks (60-token overlap) that never

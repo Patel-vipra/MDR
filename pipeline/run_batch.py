@@ -1,6 +1,5 @@
 """Increment 7: run all 80 ground-truth queries through the compiled StateGraph
-and log one JSON trace per query to a single JSONL file (CLAUDE.md: "Traces ->
-JSONL"). Sequential, not parallel: Ollama's llama-server here runs with -np 1
+and log one JSON trace per query to a single JSONL file. Sequential, not parallel: Ollama's llama-server here runs with -np 1
 (one in-flight request), so parallel callers would just queue at the model
 server, not actually get more throughput.
 

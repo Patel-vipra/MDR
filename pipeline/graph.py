@@ -1,7 +1,7 @@
-"""Phase 4 Agentic Query Pipeline — state schema + LangGraph wiring (PLAN.md §7).
+"""Phase 4 Agentic Query Pipeline — state schema + LangGraph wiring.
 
-State fields are exactly PLAN.md §7's list, plus a handful of bookkeeping fields
-the spec's node contracts require but doesn't name explicitly (abac_filter,
+State fields follow the node contracts, plus a handful of bookkeeping fields
+the contracts require but don't name explicitly (abac_filter,
 allowed_domains, refused/refusal_reason for the ABAC short-circuit, multi_hop,
 graph_fired/trigger_reason for GraphRAG).
 
@@ -120,8 +120,7 @@ def route_after_domain_classification(state: State) -> str:
         # unknown persona reached retrieval with `abac_filter == {}` — which
         # retrieval.py's `Filter.model_validate(f) if f else None` reads as "no
         # filter at all", i.e. an unfiltered search across every domain. Found by
-        # code reading while writing the system's own documentation; see
-        # docs/open-items.md #9.
+        # code review.
         return "refuse"
     domain = state.get("domain")
     if domain == "cross_domain":

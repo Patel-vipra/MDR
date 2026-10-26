@@ -1,4 +1,4 @@
-"""Phase 1 — Data Foundry checks P1.01-P1.10 (PLAN.md section 14.2)."""
+"""Phase 1 — Data Foundry checks P1.01-P1.10."""
 
 from __future__ import annotations
 

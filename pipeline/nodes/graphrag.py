@@ -1,4 +1,4 @@
-"""Node 7: GraphRAG Augmenter (PLAN.md §7, conditional).
+"""Node 7: GraphRAG Augmenter.
 
 Entity extraction from the query (Qwen3-4B, JSON out) -> resolve each mention to
 a real graph node (OCR-noise canonical map first, then exact match, then fuzzy
@@ -16,9 +16,8 @@ chunks retrieved). Recomputed here from state rather than passed in, since
 
 Measured on the real 15 multi-hop queries against the actual extracted graph
 (`ingestion/index/graph.pickle`, not the ground-truth one): 6 of the 10 queries
-where the graph could in principle answer them need more than k=2 hops (see
-docs/open-items.md #2 -- left at k=2 per that item, a Phase 5 ablation decision,
-not decided here). Two bugs were found and fixed during that measurement, both
+where the graph could in principle answer them need more than k=2 hops (left at
+k=2 here; depth is a Phase 5 ablation decision, not decided in this node). Two bugs were found and fixed during that measurement, both
 targeted fixes matching the same reliability issue seen in crag.py's grader:
 `think=True` (Qwen3's default reasoning mode) intermittently spent its entire
 token budget on hidden thinking on this prompt and never emitted content --
@@ -39,7 +38,7 @@ edge's domain from its `source_chunk_ids` via the same chunk-payload lookup
 if every one of its source chunks resolves to a domain in `state["allowed_
 domains"]` (fails closed: no/unresolvable provenance -> dropped). Node
 *expansion* stays unconditional -- only which facts get surfaced is
-domain-gated, not graph connectivity itself. See `docs/open-items.md` and
+domain-gated, not graph connectivity itself. See
 `P4.11` for the concrete before/after proof (Q-052, `admin` vs `engineer`).
 """
 

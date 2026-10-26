@@ -1,4 +1,4 @@
-"""Scores a raw ablation-run JSONL file with RAGAS (PLAN.md §8.2), writing a
+"""Scores a raw ablation-run JSONL file with RAGAS, writing a
 separate `*_scored.jsonl` alongside it rather than overwriting the raw run --
 raw pipeline output and derived judge scores stay independently re-runnable
 (a scoring bug or a RAGAS version bump shouldn't require re-running the whole

@@ -1,4 +1,4 @@
-"""Shared check contract for the phase validator (PLAN.md section 14.11)."""
+"""Shared check contract for the phase validator."""
 
 from __future__ import annotations
 

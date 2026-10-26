@@ -1,4 +1,4 @@
-# Ingestion/offline-plane dependencies (PLAN.md bootstrap list).
+# Ingestion/offline-plane dependencies.
 dbldatagen
 pyspark
 faker
@@ -29,15 +29,15 @@ jmespath
 pyparsing
 # docs tooling (docs/build_brief.py):
 python-docx
-# Phase 3 ingestion & indexing (PLAN.md §6):
+# Phase 3 ingestion & indexing:
 qdrant-client
 sentence-transformers
 tiktoken
-# Phase 4 agentic query pipeline (PLAN.md §7):
+# Phase 4 agentic query pipeline:
 langgraph
 ollama
-# Phase 5 evaluation framework (PLAN.md §8): RAGAS faithfulness/answer_relevancy,
-# judged by GPT-4.1 Mini (ingestion-style one-off API use, per CLAUDE.md).
+# Phase 5 evaluation framework: RAGAS faithfulness/answer_relevancy,
+# judged by GPT-4.1 Mini (ingestion-style one-off API use).
 # Both pinned: ragas (any recent version) unconditionally imports ChatVertexAI
 # from langchain_community.chat_models.vertexai, a module langchain-community
 # removed in its 0.4.x "sunset" -- 0.3.31 is the last release that still has it.
@@ -45,7 +45,7 @@ ragas==0.2.15
 langchain-community==0.3.31
 matplotlib
 # Explicitly-approved, scoped substitution for the Phase 5 ablation run only
-# (docs/open-items.md #7) -- swaps LLM_PROVIDER=mistral/gemini in for
+# -- swaps LLM_PROVIDER=mistral/gemini in for
 # Qwen3-4B/Ollama to use a free-tier hosted quota instead of hours of local
 # GPU time. Does not change the deployed system's locked default
 # (pipeline/llm_client.py). Mistral is the primary choice (finishes the full
@@ -53,7 +53,7 @@ matplotlib
 # kept as a working fallback provider.
 google-genai
 mistralai
-# Phase 6 dashboard (PLAN.md §9): FastAPI serving the LangGraph pipeline + static React build.
+# Phase 6 dashboard: FastAPI serving the LangGraph pipeline + static React build.
 fastapi
 uvicorn[standard]
 psutil

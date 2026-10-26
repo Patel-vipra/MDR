@@ -1,4 +1,4 @@
-"""Read-only artifact endpoints: corpus, graph, eval, personas (PLAN.md §9.2).
+"""Read-only artifact endpoints: corpus, graph, eval, personas.
 
 Every one of these serves a file an earlier phase committed. Nothing here
 recomputes a metric -- `/api/eval/results` reuses `eval.report._config_summary`

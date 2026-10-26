@@ -1,4 +1,4 @@
-"""Phase 5 latency methodology (PLAN.md §8.3, locked per D14).
+"""Phase 5 latency methodology.
 
 Warm-start: 3 discard queries run first (pays for model load / OS page-cache
 warmup, not counted), then the real timed set. p50/p95 computed end-to-end
@@ -10,7 +10,7 @@ this session already showed is real (the CRAG-retry path, natural "thinking"-
 mode variance).
 
 Only the local (M4, MPS) environment is reported here -- the Oracle A1 (ARM
-CPU) comparison PLAN.md §8.3 also calls for depends on Phase 7's deployment
+CPU) comparison also planned depends on Phase 7's deployment
 existing, which it doesn't yet; noted as a gap, not silently dropped.
 """
 

@@ -1,4 +1,4 @@
-"""Node 3: Query Analyzer / Rewriter (PLAN.md §7).
+"""Node 3: Query Analyzer / Rewriter.
 
 First pass (retry_count=0): classifies whether the query needs multi-hop
 reasoning (combining facts from more than one lookup) — sets multi_hop, used

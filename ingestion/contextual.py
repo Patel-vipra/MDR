@@ -1,4 +1,4 @@
-"""Phase 3 Contextual Retrieval (PLAN.md §6.2, Anthropic-style).
+"""Phase 3 Contextual Retrieval (Anthropic-style).
 
 For each chunk, GPT-4.1 Nano writes a 50-100 word situating summary. The "document
 synopsis" given as context is the full text reconstructed from the SAME parsed

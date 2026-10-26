@@ -1,7 +1,6 @@
-"""Phase 5 metric suite (PLAN.md §8.2).
+"""Phase 5 metric suite.
 
-RAGAS (judge = GPT-4.1 Mini, per CLAUDE.md's model list -- ingestion-style
-one-off API use, not a query-time dependency) covers generation and retrieval
+RAGAS (judge = GPT-4.1 Mini, ingestion-style one-off API use, not a query-time dependency) covers generation and retrieval
 quality. Everything else is custom, computed directly against the ground-truth
 `queries.json`/`graph.json` this project owns -- the thing a real-world eval
 can't do. OCR CER/WER reuses Phase 2's already-computed `corpus/ocr_metrics.json`

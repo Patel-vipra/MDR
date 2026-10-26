@@ -1,4 +1,4 @@
-"""Generate the 100 corpus documents with GPT-4.1 Nano (PLAN.md 4.5, risk R4).
+"""Generate the 100 corpus documents with GPT-4.1 Nano.
 
 Reads data_foundry/contexts/{doc_id}.json, writes documents/{doc_id}.md.
 Every draft is fact-checked against its ground-truth sidecar: all entity

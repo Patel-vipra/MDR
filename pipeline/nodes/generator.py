@@ -1,4 +1,4 @@
-"""Nodes 8-9: Generator + Hallucination Check/Abstention (PLAN.md §7).
+"""Nodes 8-9: Generator + Hallucination Check/Abstention.
 
 Node 8 grounds an answer in only the "correct"-graded reranked chunks plus any
 GraphRAG context, with inline `[doc_id:chunk_ix]` citation markers -- never the

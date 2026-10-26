@@ -1,7 +1,6 @@
-"""Runs the 80-query ground-truth set through each of the 6 ablation configs
-(PLAN.md §8.1), `repetitions` times each, writing one JSONL file per
-(config, repetition) to `eval/results/` -- CLAUDE.md: "Eval -> JSONL + markdown
-report." Sequential per query, same reasoning as `pipeline/run_batch.py`:
+"""Runs the 80-query ground-truth set through each of the 6 ablation configs,
+`repetitions` times each, writing one JSONL file per (config, repetition) to
+`eval/results/` (evals are stored as JSONL + a markdown report). Sequential per query, same reasoning as `pipeline/run_batch.py`:
 Ollama's local server has one in-flight slot, so parallel callers would only
 queue, not add throughput.
 

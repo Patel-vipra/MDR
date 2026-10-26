@@ -1,4 +1,4 @@
-"""Phase 4 — Agentic Query Pipeline checks P4.01-P4.10 (PLAN.md section 14.5).
+"""Phase 4 — Agentic Query Pipeline checks P4.01-P4.10.
 
 Most checks read the committed trace file (`pipeline/traces/phase4_run.jsonl`,
 one JSON object per query from `python -m pipeline.run_batch`) rather than
@@ -271,7 +271,7 @@ def check_unknown_persona_fails_closed(config: dict) -> CheckResult:
     """Live check: an unrecognised persona must be denied before retrieval, and
     must retrieve nothing even if something routes past the gate.
 
-    Regression test for docs/open-items.md #9 (gap 1). `abac_gate` fails closed
+    Regression test for the ABAC unknown-persona gap (gap 1). `abac_gate` fails closed
     on an unknown persona by setting `allowed_domains = []` -- but it also set
     `abac_filter = {}`, and `route_after_domain_classification` tested the
     `cross_domain` case BEFORE the membership test, so a cross_domain
@@ -316,7 +316,7 @@ def check_sensitivity_ceiling_enforced(config: dict) -> CheckResult:
     """Live check: no retrieval arm may surface a chunk above the persona's
     sensitivity ceiling.
 
-    Regression test for docs/open-items.md #9 (gap 2), the one that was actually
+    Regression test for the ABAC sensitivity-ceiling gap (gap 2), the one that was actually
     leaking. The dense arm pushes both `domain` and `sensitivity` into Qdrant as a
     filter; the sparse arm re-applies ABAC post-hoc in Python because BM25 can't
     filter natively -- and it checked domain only. Measured before the fix on the

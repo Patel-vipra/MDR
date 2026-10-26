@@ -1,4 +1,4 @@
-"""dbldatagen specs and relational schema for the 12 foundry tables (PLAN.md 4.2-4.3).
+"""dbldatagen specs and relational schema for the 12 foundry tables.
 
 Pure data, no Spark imports: row counts, ID formats, PK/FK map, required
 fields, categorical vocabularies, and per-table dbldatagen column specs.

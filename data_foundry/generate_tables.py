@@ -1,4 +1,4 @@
-"""Seeded generation of the 12 foundry tables (PLAN.md sections 4.2-4.3).
+"""Seeded generation of the 12 foundry tables.
 
 dbldatagen (Spark local) drives distributions and FK index sampling; a pandas
 post-join step adds Faker names, wires the manager/department hierarchy and

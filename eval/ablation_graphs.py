@@ -1,4 +1,4 @@
-"""Builds the 6 ablation-ladder StateGraphs (PLAN.md §8.1). Every rung reuses
+"""Builds the 6 ablation-ladder StateGraphs. Every rung reuses
 the exact same node functions Phase 4 built, validated, and pushed through 13
 validator checks -- an ablation only measures something real if the components
 that ARE active are byte-identical to the production system, not a
@@ -16,8 +16,8 @@ them together.
 
 A0-A3 deliberately run with NO governance: unfiltered retrieval, the query's
 real persona ignored. That is the point of the ladder, not an oversight --
-A4's whole job is to measure what ABAC actually *costs* in recall (PLAN.md
-§8.1's "honest trade-off"), which only means something if A0-A3 could see
+A4's whole job is to measure what ABAC actually *costs* in recall (the ladder's
+"honest trade-off"), which only means something if A0-A3 could see
 everything a real user's role wouldn't let them. Every rung still runs the
 hallucination-check/abstention node (Node 9) -- abstention rate is a metric
 tracked *across* the ladder (§8.2), not a component being ablated in.
@@ -43,8 +43,8 @@ from pipeline.nodes.rewriter import query_analyzer
 from pipeline.nodes.router import domain_router
 
 CONFIGS = ["A0", "A1", "A2", "A3", "A4", "A5"]
-# Not part of the 6-rung ladder itself -- a second A5 variant PLAN.md §8.1/P5.06
-# requires specifically to compare heuristic-gated vs always-on GraphRAG on the
+# Not part of the 6-rung ladder itself -- a second A5 variant that check P5.06
+# requires, to compare heuristic-gated vs always-on GraphRAG on the
 # 15 multi-hop queries.
 EXTRA_CONFIGS = ["A5_always_on"]
 ALL_DOMAINS = ["finance", "hr", "legal", "engineering"]
@@ -110,7 +110,7 @@ def _unrestricted_access(state: State) -> State:
 
     `allowed_sensitivity` is set to every level for the same reason, and it
     keeps these rungs' behaviour byte-identical to the pre-fix runs: the sparse
-    arm now also filters on sensitivity (docs/open-items.md #9), so leaving this
+    arm now also filters on sensitivity (the ABAC sensitivity-leak fix), so leaving this
     empty would silently start dropping BM25 candidates here and change the
     A0-A3 baseline the whole ladder is measured against."""
     state = dict(state)

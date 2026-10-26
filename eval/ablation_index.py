@@ -1,6 +1,6 @@
 """Builds the one piece of infrastructure the ablation ladder needs that Phase 3
-didn't: a *non*-contextual Qdrant collection, for A0 (PLAN.md §8.1 -- "A1 + Contextual
-Retrieval: A0 + contextual chunk summaries" implies A0 must NOT have them).
+didn't: a *non*-contextual Qdrant collection, for A0 (A1 is defined as A0 plus contextual
+chunk summaries, so A0 must NOT have them).
 
 Phase 3's existing `chunks` collection already embeds `context_summary + "\n\n" +
 chunk_text` for every point (see `ingestion.ingest.build_indexable_chunks`) --

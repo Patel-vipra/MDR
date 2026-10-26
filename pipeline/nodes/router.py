@@ -1,4 +1,4 @@
-"""Node 2: Domain Router (PLAN.md §7).
+"""Node 2: Domain Router.
 
 Classifies which domain a query is primarily about. cross_domain widens the
 ABAC filter to the persona's full allowed set (conditional edge, pipeline/

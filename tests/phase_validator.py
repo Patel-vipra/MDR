@@ -1,4 +1,4 @@
-"""Phase validator — current-vs-desired checks per phase (PLAN.md section 14).
+"""Phase validator — current-vs-desired checks per phase.
 
 Usage:
     python -m tests.phase_validator --phase 1

@@ -1,4 +1,4 @@
-"""Phase 7 checks — implemented when Phase 7 begins (PLAN.md section 14)."""
+"""Phase 7 checks — implemented when Phase 7 begins."""
 
 from __future__ import annotations
 

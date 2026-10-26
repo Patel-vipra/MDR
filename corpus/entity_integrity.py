@@ -1,4 +1,4 @@
-"""Phase 2 OCR evaluation: CER/WER + entity survival gate (PLAN.md §5.4-5.5).
+"""Phase 2 OCR evaluation: CER/WER + entity survival gate.
 
 For every degraded document: measure how well Unlimited-OCR recovered the text
 (character/word error rate against the known-correct source) and whether every
@@ -189,7 +189,7 @@ def main() -> int:
         print(f"\nAll {len(degraded_ids)} docs meet the {SURVIVAL_THRESHOLD:.0%} entity survival threshold.")
 
     # No doc needed remediation this run, so "final" == "initial" — still two distinct
-    # recorded passes (PLAN.md §14.3 P2.05), just identical because nothing needed tuning.
+    # recorded passes, just identical because nothing needed tuning.
     final = initial
 
     METRICS_PATH.write_text(json.dumps({"initial": initial, "final": final}, indent=2, sort_keys=True))

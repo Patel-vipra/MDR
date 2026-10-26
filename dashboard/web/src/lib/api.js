@@ -1,4 +1,4 @@
-// Relative base: Vite proxies /api in dev, Caddy proxies it in prod (PLAN.md §10.2).
+// Relative base: Vite proxies /api in dev, Caddy proxies it in prod.
 const BASE = '/api'
 
 async function get(path) {

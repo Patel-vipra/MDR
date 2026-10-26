@@ -1,4 +1,4 @@
-# Local dev Qdrant for Phase 3 ingestion + later query-time retrieval (PLAN.md §6.3).
+# Local dev Qdrant for Phase 3 ingestion + later query-time retrieval.
 # Separate from deploy/docker-compose.yml, which is the Phase 7 Oracle Cloud production stack.
 services:
   qdrant:

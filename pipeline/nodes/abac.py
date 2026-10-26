@@ -1,4 +1,4 @@
-"""Node 1: ABAC Gate (PLAN.md §7).
+"""Node 1: ABAC Gate.
 
 Loads the persona's allowed domains + sensitivity ceiling from policies.yaml,
 builds a Qdrant payload filter, and stores both in state. The actual hard-deny
@@ -54,7 +54,7 @@ def abac_gate(state: State) -> State:
     # native filtering, so retrieval.py has to re-apply BOTH attributes post-hoc on
     # the sparse arm. It previously only had `allowed_domains` to work with and so
     # filtered on domain alone — the sensitivity ceiling silently went unenforced
-    # on that arm. See docs/open-items.md #9.
+    # on that arm.
     state["allowed_sensitivity"] = allowed_sensitivity
     state["abac_filter"] = Filter(
         must=[

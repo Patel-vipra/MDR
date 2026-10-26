@@ -1,4 +1,4 @@
-"""Phase 2 corpus degradation: seeded split + degradation recipe (PLAN.md §5.2).
+"""Phase 2 corpus degradation: seeded split + degradation recipe.
 
 Selects 40/100 clean PDFs for degradation (stratified 12 FIN / 10 ENG / 10 HR / 8 LEG,
 seeded on SEED=42), degrades each into a scanned-looking, image-only PDF, and writes
@@ -84,7 +84,7 @@ def build_manifest_skeleton() -> dict:
 
 
 def _degrade_page(img: Image.Image, rng: random.Random) -> tuple[bytes, dict]:
-    """Apply one page's degradation recipe (PLAN.md §5.2); return JPEG bytes + params used."""
+    """Apply one page's degradation recipe; return JPEG bytes + params used."""
     page_seed = rng.randrange(2**31)
     np_rng = np.random.default_rng(page_seed)
 

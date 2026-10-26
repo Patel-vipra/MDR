@@ -1,4 +1,4 @@
-"""FastAPI app for the Phase 6 dashboard (PLAN.md §9).
+"""FastAPI app for the Phase 6 dashboard.
 
 Run locally:   uvicorn dashboard.api.main:app --reload --port 8000
 Run for demo:  uvicorn dashboard.api.main:app --port 8000     (serves web/dist too)

@@ -1,4 +1,4 @@
-# ABAC policy — role -> allowed domains + sensitivity ceiling (PLAN.md §7 Node 1).
+# ABAC policy — role -> allowed domains + sensitivity ceiling.
 #
 # Derived directly from data_foundry/ground_truth/queries.json's real persona/
 # denied_domain pairs (5 personas, 5 abac_denied queries), not guessed from the
@@ -8,7 +8,7 @@
 # already carries (data_foundry sidecars use internal/confidential/restricted)
 # even though the current 80-query eval set doesn't specifically test it.
 #
-# cross_domain (PLAN.md §7 Node 2 note): widens the retrieval filter to the
+# cross_domain: widens the retrieval filter to the
 # persona's full allowed_domains list rather than denying — handled in code,
 # not here.
 

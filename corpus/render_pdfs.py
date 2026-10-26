@@ -1,4 +1,4 @@
-"""Render the generated markdown documents to clean 'digitally born' PDFs (PLAN.md 4.5).
+"""Render the generated markdown documents to clean 'digitally born' PDFs.
 
 markdown -> HTML (tables extension) -> WeasyPrint -> corpus/clean/{doc_id}.pdf.
 These clean PDFs are the Phase 2 input: 60 stay clean (PyMuPDF parse), 40 get

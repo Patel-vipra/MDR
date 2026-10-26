@@ -1,4 +1,4 @@
-"""Emit the 80-query test set with per-query ground truth (PLAN.md 4.6).
+"""Emit the 80-query test set with per-query ground truth.
 
 Deterministic (SEED=42), no LLM. Queries derive from the sidecars and
 graph.json so every answer is verifiable against documents that exist:

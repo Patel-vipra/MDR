@@ -1,4 +1,4 @@
-"""Node 6: CRAG Grader (PLAN.md §7).
+"""Node 6: CRAG Grader.
 
 Grades each of the top-5 reranked chunks Correct/Incorrect/Ambiguous using the
 exact prompt from §7. `crag_route` (the conditional edge after this node)

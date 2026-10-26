@@ -25,13 +25,13 @@ phase2:
   fuzzy_match_threshold: 90
 
 phase3:
-  # Corrected from an original 1300-1600 estimate (PLAN.md §6.2) — the actual 100-doc
+  # Corrected from an original 1300-1600 estimate — the actual 100-doc
   # corpus totals ~61K tokens, which caps out far below that at the 450-token chunk
-  # target. See docs/open-items.md for the measurement. Doesn't reopen D11.
+  # target. Doesn't reopen D11.
   chunk_count_min: 200
   chunk_count_max: 350
   embedding_dim: 1024
-  # History (docs/open-items.md #4): GPT-4.1 Nano's zero-shot recall topped out at
+  # History: GPT-4.1 Nano's zero-shot recall topped out at
   # ~67%, so this was lowered from the original 0.80 to 0.60. Switching extraction
   # to GPT-4.1 (full) then measured 94.1% node recall — clearing the *original*
   # target, not just the lowered one — so this is raised back up to 0.85 (margin

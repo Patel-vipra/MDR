@@ -1,4 +1,4 @@
-"""Phase 5/3/2 artifacts, loaded once and cached (PLAN.md §9.2).
+"""Phase 5/3/2 artifacts, loaded once and cached.
 
 Everything the read-only endpoints serve is a static file produced by an earlier
 phase -- the deployment target never runs ingestion (§10.2), so the API's job is

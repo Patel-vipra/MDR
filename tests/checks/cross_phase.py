@@ -1,4 +1,4 @@
-"""Cross-phase checks (PLAN.md section 14.11 note 3).
+"""Cross-phase checks.
 
 Each check declares requires_phases; the runner skips it until every listed
 phase has validated clean, and includes it in the run of its latest phase.
@@ -183,7 +183,7 @@ def check_multihop_answers_in_graph(config: dict) -> CheckResult:
     graph node (this project's graph only has Employee/Project/Incident/
     Budget/Contract/System-type nodes), so requiring it to match one would be
     testing the wrong thing, not a real gap. Found by checking real data, not
-    assumed — see docs/open-items.md."""
+    assumed."""
     desired = "every entity-type multi-hop answer is a verifiable node in graph.json (value-type answers reported separately)"
     queries = common.load_json(common.QUERIES_JSON)
     if queries is None:

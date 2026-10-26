@@ -1,4 +1,4 @@
-"""Phase 2 — OCR & Degradation checks P2.01-P2.08 (PLAN.md section 14.3)."""
+"""Phase 2 — OCR & Degradation checks P2.01-P2.08."""
 
 from __future__ import annotations
 

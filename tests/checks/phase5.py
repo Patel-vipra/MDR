@@ -1,4 +1,4 @@
-"""Phase 5 — Evaluation Framework checks P5.01-P5.10 (PLAN.md section 14.6).
+"""Phase 5 — Evaluation Framework checks P5.01-P5.10.
 
 Reads the committed `eval/results/*.jsonl` files and `eval/report.md` rather
 than re-running anything live, matching every prior phase's validator
@@ -108,7 +108,7 @@ def check_ragas_metrics(config: dict) -> CheckResult:
                 # based on what it can see, and a refused query has no
                 # retrieved content for RAGAS to score faithfulness against.
                 # Not a bug -- exactly the recall cost A4's rung exists to
-                # measure. See docs/open-items.md #8.
+                # measure.
                 continue
             checked += 1
             if r.get("faithfulness") is None or r.get("answer_relevancy") is None:

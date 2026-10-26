@@ -1,9 +1,9 @@
-"""Phase 3 Knowledge Graph Build (PLAN.md §6.4).
+"""Phase 3 Knowledge Graph Build.
 
 Per chunk: extract candidate triples 3x (self-consistency voting), keep only
 those >=2/3 passes agree on, then one batched verify call drops any that aren't
 actually supported by the document. Restricted to the ontology (9 node types, 10
-edge types incl. OWNED_BY — see docs/open-items.md #1). Names pass through
+edge types incl. OWNED_BY). Names pass through
 entity_canonical_map.json before node creation (OCR-noise defense). Builds a
 networkx.MultiDiGraph with source_chunk_ids provenance per edge; pickled +
 exported to JSON. Precision/recall computed against
@@ -13,9 +13,9 @@ Model: GPT-4.1 (full) via OpenAI. Single-pass measured 94.1% node recall / 67.0%
 node precision / 59.5% edge recall / 32.3% edge precision; adding multi-pass
 voting + verify (this file's current form) measured 91.3% / 71.5% / 65.1% / 41.0%
 — precision up on both nodes and edges, edge recall also up, small (2.8pt) node
-recall trade-off, still well clear of the 85% floor. See docs/open-items.md #4
-for the full history, including why GPT-4.1 Nano and a Groq detour (Kimi K2, then
-gpt-oss-120b) were tried and dropped first. Uses OpenAI's strict JSON Schema mode
+recall trade-off, still well clear of the 85% floor. Earlier
+attempts used GPT-4.1 Nano and a Groq detour (Kimi K2, then
+gpt-oss-120b), both dropped. Uses OpenAI's strict JSON Schema mode
 (enum-constrained subject_type/relation/object_type) — this makes an invalid
 type/relation structurally impossible to emit, not just discouraged by prompt
 wording; the verify pass uses the same strict-schema approach for its

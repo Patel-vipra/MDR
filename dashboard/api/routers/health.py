@@ -1,4 +1,4 @@
-"""GET /api/health (PLAN.md §9.2, checked by P6.01).
+"""GET /api/health.
 
 Polled by the dashboard, so every probe is defensive: a dead Qdrant or Ollama
 must produce a `down` status field, never a 500. The endpoint's job is to report

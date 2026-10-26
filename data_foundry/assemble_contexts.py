@@ -1,4 +1,4 @@
-"""Assemble per-document context JSONs and ground-truth sidecars (PLAN.md 4.4-4.5).
+"""Assemble per-document context JSONs and ground-truth sidecars.
 
 Deterministic (SEED=42), no LLM: joins the 12 foundry tables into one context
 JSON per document (consumed by generate_documents.py) and writes the sidecar
@@ -6,7 +6,7 @@ ground truth at the same time — entities, relationships, and answerable facts
 derive from table rows, never from generated text. Also aggregates all
 sidecars into ground_truth/graph.json, the TRUE knowledge graph.
 
-Note on the edge ontology: PLAN.md 6.4 lists no system->project edge type, but
+Note on the edge ontology: The original edge ontology lists no system->project edge type, but
 the flagship multi-hop chain (incident -> system -> project -> budget ->
 approver) requires one. OWNED_BY is added here and must be added to the
 Phase 3 extraction ontology as well.
@@ -465,7 +465,7 @@ def build_compliance_report(b: DocBuilder, ci_id: str, rng: random.Random) -> No
 
 
 def allocate_documents(tables: dict[str, pd.DataFrame], rng: random.Random) -> list[dict]:
-    """Deterministic doc plan: 30 FIN / 25 ENG / 25 HR / 20 LEG (PLAN.md 4.5)."""
+    """Deterministic doc plan: 30 FIN / 25 ENG / 25 HR / 20 LEG."""
     plan: list[dict] = []
 
     # Finance: 20 budget reports (distinct projects), 6 expense summaries, 4 vendor reviews.

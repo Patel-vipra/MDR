@@ -1,4 +1,4 @@
-"""Generates `eval/report.md` (PLAN.md §8.4): the ablation table, latency
+"""Generates `eval/report.md`: the ablation table, latency
 summary + histograms (matplotlib), graph P/R, and OCR dual CER/WER. Reads
 whatever `eval/results/*_scored.jsonl` (or unscored `*.jsonl`, falling back
 gracefully) files currently exist -- designed to run against a partial result
@@ -148,7 +148,7 @@ def generate_report() -> Path:
              "Reads `eval/results/*.jsonl` -- safe to regenerate at any point, including "
              "while an ablation run is still in progress (partial results are labeled as such).", ""]
 
-    lines.append("## Ablation Ladder (PLAN.md §8.1)")
+    lines.append("## Ablation Ladder")
     lines.append("")
     header = ["Config", "n", "Faithfulness", "Ans. Relevancy", "Ctx Precision", "Ctx Recall",
               "hit@5", "MRR", "Multi-hop Acc.", "Abstain (unans.)", "Abstain (ans.)", "p50 (s)", "p95 (s)"]
@@ -173,7 +173,7 @@ def generate_report() -> Path:
                           f"leakage rate {_fmt(s['abac_leakage_rate'])} (must be 0)")
     lines.append("")
 
-    lines.append("## Latency (PLAN.md §8.3, warm-start; local M4/MPS only — Oracle A1 comparison")
+    lines.append("## Latency (warm-start; local M4/MPS only — Oracle A1 comparison")
     lines.append("pending Phase 7 deployment)")
     lines.append("")
     img = _plot_latency_histograms(summaries)

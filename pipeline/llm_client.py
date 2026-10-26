@@ -1,4 +1,4 @@
-"""Provider-agnostic LLM client for Phase 4's query-time nodes (PLAN.md §7, D4).
+"""Provider-agnostic LLM client for Phase 4's query-time nodes.
 
 Qwen3-4B via Ollama is the default query-time model for every node that needs one
 (Domain Router, Query Rewriter, CRAG Grader, Generator, Hallucination Check) —
@@ -6,14 +6,13 @@ swappable to OpenAI via LLM_PROVIDER/LLM_MODEL env vars (P4.10 requires both to
 work). `gemini` (Google's google-genai SDK, GEMINI_API_KEY) and `mistral`
 (Mistral's mistralai SDK, MISTRAL_API_KEY) are two more working providers,
 added as an explicitly-approved, scoped substitution for Phase 5's evaluation
-run only — see docs/open-items.md #7. Neither changes the deployed system's
+run only. Neither changes the deployed system's
 locked default (still Qwen3-4B/Ollama); they only activate when
 LLM_PROVIDER=gemini or LLM_PROVIDER=mistral is set for that run. `anthropic`
 is accepted as a config value for future-proofing per D4 but
 raises NotImplementedError if actually selected — no validator check exercises
-it, and PLAN.md's own stated preference is GPT over Claude for orchestration;
-adding an untested, unexercised dependency would contradict this project's
-lean-tooling principle (add it for real only when a real need appears).
+it, and adding an untested, unexercised dependency would contradict this
+project's lean-tooling principle (add it for real only when a real need appears).
 
 Qwen3 is a "thinking" model, and the right default reversed twice as evidence
 accumulated. First pass: `think=False` let reasoning-like preamble leak into
@@ -159,8 +158,7 @@ class LLMClient:
         if self.provider == "anthropic":
             raise NotImplementedError(
                 "LLM_PROVIDER=anthropic is accepted for future-proofing (D4) but not "
-                "implemented — no Phase 4 check requires it, and PLAN.md's own stated "
-                "preference is GPT over Claude for orchestration. Add a real "
+                "implemented — no Phase 4 check requires it. Add a real "
                 "implementation here if a real need appears."
             )
         raise ValueError(f"Unknown LLM_PROVIDER: {self.provider!r}")
@@ -233,7 +231,7 @@ class LLMClient:
         json_schema: dict | None,
     ) -> str:
         """Explicitly-approved, scoped substitution for Phase 5's evaluation run
-        only (docs/open-items.md #7) -- CLAUDE.md's locked model choice for the
+        only -- the locked model choice for the
         deployed system remains Qwen3-4B via Ollama; this path only activates
         when LLM_PROVIDER=mistral is set for that run. Chosen over Gemini as the
         primary judge: Mistral's free tier (~1B tokens/month) finishes the full
@@ -283,7 +281,7 @@ class LLMClient:
         json_schema: dict | None,
     ) -> str:
         """Explicitly-approved, scoped substitution for Phase 5's evaluation run
-        only (docs/open-items.md) -- CLAUDE.md's locked model choice for the
+        only -- the locked model choice for the
         deployed system remains Qwen3-4B via Ollama; this path only activates
         when LLM_PROVIDER=gemini is set for that run."""
         from google import genai

@@ -1,4 +1,4 @@
-"""Phase 6 — Dashboard checks P6.01-P6.07 (PLAN.md §14.7).
+"""Phase 6 — Dashboard checks P6.01-P6.07.
 
 Unlike every earlier phase, most of these need a **running server** — an HTTP
 endpoint's contract can't be read off a committed artifact. That's a new pattern
@@ -68,7 +68,7 @@ def check_query_streams(config: dict) -> CheckResult:
     """Streams a real query and asserts node events arrive **before** the terminal
     event. A response that only emits `done` would technically satisfy "returns a
     trace" while completely defeating the point: a ~54s p50 query has to render
-    progress as it happens (PLAN.md §9.1's trace panel)."""
+    progress as it happens."""
     cfg = config.get("phase6") or {}
     desired = "POST /api/query streams node events incrementally, then a full trace"
     import httpx

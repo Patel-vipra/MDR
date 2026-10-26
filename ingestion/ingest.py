@@ -1,4 +1,4 @@
-"""Phase 3 ingestion CLI: parse -> chunk -> context -> embed -> index (PLAN.md §6).
+"""Phase 3 ingestion CLI: parse -> chunk -> context -> embed -> index.
 
 Orchestrates chunking.py + contextual.py + graph_build.py into the three
 query-time artifacts: a Qdrant collection (`chunks`), a BM25 index, and the
